@@ -1,0 +1,7 @@
+n=6: 15 pairs; 932677 edge vectors pass E2/E3/E6 (5.3 s); 82712 labelled diagrams pass all rules (22.6 s)
+191 classes under S_6 x colour exchange (144.7 s)
+wrote /tmp/eref_enum/n6_ref.json
+
+real	2m52.854s
+user	2m52.400s
+sys	0m0.424s

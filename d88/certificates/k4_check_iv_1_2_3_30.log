@@ -1,0 +1,5 @@
+{"n": 20316, "krawczyk_ok": 20316, "x34_nonzero": 20316, "T_test_ok": 20316, "r_max": 5.854514351786052e-47, "pairs_not_separated": 0, "min_sup_distance_of_midpoints_among_near_pairs": 1.0185814186137565}
+
+real	0m16.278s
+user	0m1.178s
+sys	0m0.260s

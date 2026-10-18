@@ -1,0 +1,5 @@
+muA ['1', '2', '7'] muB ['1', '2', '8']
+roots (with mult) A 34 B 34, distinct shapes A 32 B 32
+min rho_A >= [0.76410794 +/- 1.46e-9], min rho_B >= [0.79903584 +/- 4.53e-9], margin 2 rhoA rhoB - 1 >= [0.22109926 +/- 3.97e-9] : dominant test PASS
+direct test: 1024 pairs x 256 sign matrices, all exclude 0: PASS; min |sum|/sum|c| >= [0.49464348 +/- 4.18e-9]
+time 1.2 s

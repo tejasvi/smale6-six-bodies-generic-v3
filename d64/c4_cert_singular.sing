@@ -1,0 +1,66 @@
+// Certificate (checker 1, independent of the Python code) for Lemma C of DERIVATION.md.
+// The compact model Z(mu0) of C4 on the P^6-bundle X over P^1 is empty: on each of the 14 affine charts
+// (s = 1 or t = 1; one of p12, p13, p14, p23, p24, p34, c equal to 1) the ideal is the unit ideal over F_p.
+// mu0 = (3,5,7,11), body 4 = centre; xi = (mu3 s, mu3 t, -(mu1 s + mu2 t), 0).
+// (I)   sum_{l != k} mu_l p_kl^3 (xi_k - xi_l)                                   k = 1..4
+// (II)  sum_{l != k} mu_l p_kl prod_{j != k,l} (xi_k - xi_j) - c prod_{l != k} (xi_k - xi_l)   k = 1..3
+// (III) a_ln a_nk + a_kl a_nk + a_kl a_ln, a_kl = p_kl^2 (xi_k - xi_l)               4 triangles
+// Usage: Singular -q c4_cert_singular.sing      (characteristic set below; 0 = exact over Q, slow)
+int CHAR = 32003;
+ring R0 = CHAR, (s,t,p12,p13,p14,p23,p24,p34,c), dp;
+list mu = 3,5,7,11;
+list xi = mu[3]*s, mu[3]*t, -(mu[1]*s + mu[2]*t), poly(0);
+if (size(xi) != 4) { "ERROR: xi list"; quit; }
+matrix Pm[4][4];
+Pm[1,2]=p12; Pm[1,3]=p13; Pm[1,4]=p14; Pm[2,3]=p23; Pm[2,4]=p24; Pm[3,4]=p34;
+int k; int l; int j; int n;
+for (k=1; k<=4; k++) { for (l=1; l<k; l++) { Pm[k,l] = Pm[l,k]; } }
+ideal I;
+int cnt = 0;
+for (k=1; k<=4; k++) {
+  poly f = 0;
+  for (l=1; l<=4; l++) { if (l != k) { f = f + mu[l]*Pm[k,l]^3*(xi[k]-xi[l]); } }
+  cnt++; I[cnt] = f; kill f;
+}
+for (k=1; k<=3; k++) {
+  poly f = 0;
+  for (l=1; l<=4; l++) {
+    if (l != k) {
+      poly tm = mu[l]*Pm[k,l];
+      for (j=1; j<=4; j++) { if ((j != k) && (j != l)) { tm = tm*(xi[k]-xi[j]); } }
+      f = f + tm; kill tm;
+    }
+  }
+  poly pr = 1;
+  for (l=1; l<=4; l++) { if (l != k) { pr = pr*(xi[k]-xi[l]); } }
+  f = f - c*pr;
+  cnt++; I[cnt] = f; kill f; kill pr;
+}
+proc aa(int k, int l, list xi, matrix Pm) { return(Pm[k,l]^2*(xi[k]-xi[l])); }
+list tri = list(1,2,3), list(1,2,4), list(1,3,4), list(2,3,4);
+for (n=1; n<=4; n++) {
+  int a1 = tri[n][1]; int a2 = tri[n][2]; int a3 = tri[n][3];
+  poly A12 = aa(a1,a2,xi,Pm); poly A23 = aa(a2,a3,xi,Pm); poly A31 = aa(a3,a1,xi,Pm);
+  cnt++; I[cnt] = A23*A31 + A12*A31 + A12*A23;
+  kill a1; kill a2; kill a3; kill A12; kill A23; kill A31;
+}
+"number of equations:", cnt;
+// the 14 charts
+option(redSB);
+int nfail = 0;
+list xv = s, t;
+list pv = p12, p13, p14, p23, p24, p34, c;
+int ix; int ip;
+for (ix=1; ix<=2; ix++) {
+  for (ip=1; ip<=7; ip++) {
+    ideal Ich = subst(I, xv[ix], 1);
+    Ich = subst(Ich, pv[ip], 1);
+    ideal G = std(Ich);
+    if ((size(G) == 1) && (deg(G[1]) == 0)) { "chart", string(xv[ix]), "=1,", string(pv[ip]), "=1: unit ideal"; }
+    else { nfail++; "chart", string(xv[ix]), "=1,", string(pv[ip]), "=1: NOT the unit ideal"; }
+    kill Ich; kill G;
+  }
+}
+"characteristic:", CHAR, " failures:", nfail;
+if (nfail == 0) { "VERDICT: PASS"; } else { "VERDICT: FAIL"; }
+quit;

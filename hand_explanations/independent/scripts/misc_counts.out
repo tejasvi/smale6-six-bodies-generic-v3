@@ -1,0 +1,6 @@
+B cells 184 B not in T or C: 0
+R5 beyond E,E1,R1,R6: 0
+R5 beyond E,E1: 0
+residue classes: 16 [0, 4, 10, 14, 15, 16, 23, 25, 28, 30, 53, 56, 62, 63, 64, 116]
+E1 cells with a triangle balanced at all three vertices in both colours: 74920
+E1 cells whose FIRST witness triangle is balanced at all three vertices in both colours: 65920

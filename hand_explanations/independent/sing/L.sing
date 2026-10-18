@@ -1,0 +1,31 @@
+// Referee check of Lemma L (RESIDUAL.md 3): y: a,b,s in three non-O children of v (coordinates Xa,Xb,Xs rel. to
+// the O-child); x: s in the O-child of vbar (coordinate 0), a,b in children with coordinates Ya,Yb.
+LIB "elim.lib";
+proc Lsys(def ma, def mb, def ms) {
+  ideal I =
+   Xa - mb*Pab^3*(Xa-Xb) - ms*Pas^3*(Xa-Xs),          // y-equation of a: pos + forces from b, s
+   Xb - ma*Pab^3*(Xb-Xa) - ms*Pbs^3*(Xb-Xs),
+   Xs - ma*Pas^3*(Xs-Xa) - mb*Pbs^3*(Xs-Xb),
+   ma*Pas^3*(0-Ya) + mb*Pbs^3*(0-Yb),                  // x-equation of s: forces only (pos not minimal)
+   Ya - ms*Pas^3*(Ya-0) - mb*Pab^3*(Ya-Yb),            // x-equation of a: pos + forces from s, b
+   Yb - ms*Pbs^3*(Yb-0) - ma*Pab^3*(Yb-Ya),
+   Pab^2*(Xa-Xb)*(Ya-Yb)-1, Pas^2*(Xa-Xs)*Ya-1, Pbs^2*(Xb-Xs)*Yb-1;
+  return(I);
+}
+ring R = 0, (Pab,Pas,Pbs,Xa,Xb,Xs,Ya,Yb), dp;
+poly nz = Pab*Pas*Pbs*Xa*Xb*Xs*(Xa-Xb)*(Xa-Xs)*(Xb-Xs)*Ya*Yb*(Ya-Yb);
+list ms = list(1,1,1), list(2,3,5), list(7,2,3), list(1,5,11), list(13,4,9), list(3,3,1), list(1,1,7);
+int i;
+for (i = 1; i <= size(ms); i++) {
+  ideal I = Lsys(ms[i][1], ms[i][2], ms[i][3]);
+  ideal G = std(I);
+  ideal S = sat(I, ideal(nz));
+  print("masses " + string(ms[i][1]) + "," + string(ms[i][2]) + "," + string(ms[i][3]) + ": std(I)==1: " + string(G[1]==1) + "; sat==1: " + string(std(S)[1]==1));
+}
+// complex masses with ma^2+ma*mb+mb^2 = 0 : take ma = 1, mb = w (w^2+w+1=0): expect a solution may exist
+ring Rw = (0,w), (Pab,Pas,Pbs,Xa,Xb,Xs,Ya,Yb), dp; minpoly = w^2+w+1;
+poly nz = Pab*Pas*Pbs*Xa*Xb*Xs*(Xa-Xb)*(Xa-Xs)*(Xb-Xs)*Ya*Yb*(Ya-Yb);
+ideal I = Lsys(1, w, 3);
+ideal S = sat(I, ideal(nz));
+print("ma=1, mb=w, ms=3: dim of saturated ideal: " + string(dim(std(S))) + " (-1 means empty)");
+quit;

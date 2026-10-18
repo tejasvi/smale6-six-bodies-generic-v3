@@ -1,0 +1,3 @@
+support check {'terms': 354, 'coefficients_vanishing_at_m0_mod_p': 0}
+n4 polys 30 vars 17
+{"tag": "n4_all", "n_rays": 262, "n_cones": 2149, "tested": 2148, "all_empty": true, "lineality": []}

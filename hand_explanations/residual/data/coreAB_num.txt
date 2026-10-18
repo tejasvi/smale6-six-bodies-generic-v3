@@ -1,0 +1,12 @@
+96674494358ac0b5 (class 133 cell 15, family A): random [29, 29, 3, 4, 4, 13]: dim -1; random [28, 7, 25, 27, 23, 29]: dim -1; m_a=m_b [11, 10, 21, 10, 21, 3]: dim -1
+7c60897cf0a47385 (class 133 cell 25, family A): random [20, 23, 7, 15, 22, 14]: dim -1; random [27, 25, 29, 18, 13, 19]: dim -1; m_a=m_b [16, 18, 10, 18, 3, 29]: dim -1
+6fd2e5810bbf2a5f (class 132 cell 135, family A): random [2, 13, 16, 12, 14, 15]: dim -1; random [30, 30, 18, 7, 19, 7]: dim -1; m_a=m_b [9, 9, 2, 7, 12, 9]: dim -1
+9a753c1a541ced1d (class 132 cell 74, family A): random [6, 18, 18, 13, 18, 23]: dim -1; random [19, 7, 30, 16, 27, 15]: dim -1; m_a=m_b [25, 18, 26, 13, 27, 25]: dim -1
+ba6b8555b3facbb0 (class 16 cell 12, family A): random [13, 13, 29, 16, 7, 26]: dim -1; random [14, 24, 25, 16, 22, 18]: dim -1; m_a=m_b [9, 17, 10, 17, 10, 18]: dim -1
+1e2248294818e876 (class 16 cell 26, family A): random [28, 27, 13, 23, 30, 16]: dim -1; random [30, 30, 16, 13, 20, 25]: dim -1; m_a=m_b [19, 25, 16, 16, 23, 9]: dim -1
+d3b647872447c0ef (class 10 cell 4, family B): random [12, 28, 24, 28, 7, 30]: dim -1; random [21, 10, 26, 17, 11, 11]: dim -1
+ea7e65c885fdd88f (class 56 cell 33, family B): random [27, 24, 28, 18, 19, 18]: dim -1; random [18, 22, 21, 20, 15, 11]: dim -1
+30705e67c1c7941d (class 25 cell 59, family B): random [25, 8, 17, 18, 13, 23]: dim -1; random [21, 30, 4, 27, 28, 12]: dim -1
+647a7fee9b065071 (class 25 cell 57, family B): random [25, 2, 28, 8, 25, 5]: dim -1; random [3, 20, 22, 3, 10, 20]: dim -1
+42bfa6378df9869d (class 25 cell 58, family B): random [9, 23, 30, 5, 26, 18]: dim -1; random [6, 29, 10, 9, 28, 8]: dim -1
+3ad43983ec3bb804 (class 25 cell 56, family B): random [30, 3, 15, 30, 24, 26]: dim -1; random [3, 3, 13, 13, 7, 9]: dim -1

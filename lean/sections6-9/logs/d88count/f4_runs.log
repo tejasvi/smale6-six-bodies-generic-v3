@@ -1,0 +1,32 @@
+Lemma 6.19(b): the runs of the F4 engine (Lean6.Special.Comp.D88.Count.F4) on the engine inputs kcInputs and
+s12Inputs (Comp.D88.Count.Sys), measured 2026-10-17 on a 384-core box, toolchain leanprover/lean4:v4.35.0-rc3.
+
+Trusted runs (`lake build <module>`; native_decide evaluates the engine and Comp.Count.dimCheck in compiled code):
+  Comp.D88.Count.RunKC   kc_f4_ok  : dimCheck 65521 11 (f4Basis kcCfg kcInputs) 4788 = true
+      kcCfg: 11 unknowns, p = 65521, 32 parallel chunks
+      lake: Built (32s); wall 0:33.32, user 314 s, max RSS 1,766,736 kB
+  Comp.D88.Count.RunS12  s12_f4_ok : dimCheck 65521 11 (f4Basis s12Cfg s12Inputs) 20316 = true
+      s12Cfg: 11 unknowns, p = 65521, 64 parallel chunks
+      lake: Built (608s); wall 10:08.52, user 11,792 s, max RSS 15,243,004 kB
+  Lean6.Special.D88.Count.F4Sound (the soundness theorem f4_good): Built (2.7s)
+
+Development runs of the same engine on the same inputs (Comp.D88.Count.RunDevKC, RunDevS12: a step-by-step driver
+with phase timings, not part of the proof; it writes the leading monomials of the active basis elements):
+  KC':  53 steps, 31.7 s (32 chunks), max RSS 1,874,580 kB; 4,506 elements added, 2,144 active, 3,249,455 terms;
+        largest matrix 56,801 rows x 58,918 columns; 29,071 rows reduced to zero.
+  S12:  58 steps, 554.7 s (64 chunks), max RSS 11,947,700 kB; 10,839 elements added, 7,579 active, 43,710,092
+        terms; largest matrix 298,465 rows x 309,168 columns; 82,068 rows reduced to zero.
+Comparison with msolve 0.9.4 (gen/d88count/f4_cmp_lead.py against the .lead files kc/kc_full_1_2_3_30_p65521.lead
+and count/full_1_2_3_30_p65521.lead of rung3/d88/certificates): the minimal leading monomials of the active elements
+are exactly msolve's, 2,074 for KC' and 7,411 for S12, and they leave 4,788 and 20,316 standard monomials. The other
+active elements (70 and 168) are further elements of the ideal whose leading monomials are multiples of minimal ones;
+the dimension check does not need a reduced basis.
+For scale: msolve 0.9.4 with 32 threads takes 9.9 s on KC' and 195 s on S12 (logs/d88count/kc_gb_size.log).
+
+The first version of the engine (commit da913f3: the same kinds of trusted operations, with every update of the dense
+accumulator reduced modulo p, and a sequential echelon form) gave the same minimal leading monomials in 140 s on KC'
+(32 chunks) and 2,403 s on S12 (64 chunks), and its trusted runs passed as well: RunKC built in 140 s (max RSS
+1,709,376 kB), RunS12 in 2,474 s (wall 41:14.52, max RSS 16,370,412 kB).
+
+Note (release): the step-by-step development driver used for the development runs and for the comparison of
+the leading monomials is not included in the release; the trusted runs above are the modules RunKC and RunS12.

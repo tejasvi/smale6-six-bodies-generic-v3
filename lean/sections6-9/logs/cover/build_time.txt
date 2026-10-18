@@ -1,0 +1,1 @@
+Fresh build of Cover/ (lake build, default target) after the libraries of lean6 were built: wall 177.50 s, cpu 229.93 s, maxrss 1228500 KB (one 384-core machine; -j4 per lean process, nice 10).

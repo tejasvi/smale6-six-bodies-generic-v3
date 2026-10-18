@@ -1,0 +1,105 @@
+== stage libs 2026-10-18T11:36:23Z
+✔ [10580/10582] Built Lean6.Special.D88.Trop (1.6s)
+✔ [10581/10582] Built Lean6.Special (3.1s)
+Build completed successfully (10582 jobs).
+== stage libs done 2026-10-18T11:49:29Z
+== stage boxes 2026-10-18T11:49:29Z
+reproduced by the generator: L6CheckKSpec/N4 L6CheckKSpec/KC
+failures 0
+failures 0
+failures 0
+failures 0
+'Lean6.Special.D88.BoxesK.lemma_6_19_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.lemma_6_19_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.sec_6_7_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage boxes done 2026-10-18T12:00:40Z
+== stage d98 2026-10-18T12:00:40Z
+failures 0
+'Lean6.Special.Comp.D98K.sqf_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.sqf_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.sqf_2_3_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_2_3_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.bez93' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.roots_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.roots_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.upper_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage d98 done 2026-10-18T12:00:46Z
+== stage e4 2026-10-18T12:00:46Z
+reproduced by the generator: L6CheckKSpec/E4
+failures 0
+failures 0
+'Lean6.Special.K4.E4K.lemma_7_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4K.check_3_5_7_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage e4 done 2026-10-18T12:14:46Z
+== stage c4gen 2026-10-18T12:14:46Z
+certificates ok: data/kern/SHA256SUMS (16 files)
+hashes ok: data/c4k/SHA256SUMS (674 files)
+== stage c4gen done 2026-10-18T12:15:10Z
+== stage c4 2026-10-18T12:15:10Z
+hashes ok: data/c4k/SHA256SUMS (674 files)
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+'L6CheckC4.lemma_7_9_32003' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage c4 done 2026-10-18T13:27:35Z
+== stage tropgen 2026-10-18T13:27:35Z
+certificates ok: data/kern/SHA256SUMS (16 files)
+hashes ok: data/tropk/SHA256SUMS (1011 files)
+== stage tropgen done 2026-10-18T13:28:57Z
+== stage trop 2026-10-18T13:28:57Z
+hashes ok: data/tropk/SHA256SUMS (1011 files)
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+failures 0
+'Lean6.Special.D88.TropK.kc_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage trop done 2026-10-18T13:55:37Z
+== stage tropmem 2026-10-18T13:55:37Z
+failures 0
+failures 0
+'Lean6.Special.Comp.D88.TropK.n4_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D88.TropK.kc_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.kc_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage tropmem done 2026-10-18T13:57:11Z
+== stage axioms 2026-10-18T13:57:11Z
+'Lean6.Special.D88.BoxesK.lemma_6_19_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.lemma_6_19_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.sec_6_7_counts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.sqf_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.sqf_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.sqf_2_3_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.deg_2_3_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.bez93' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.roots_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.roots_1_2_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D98K.upper_1_2_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4K.lemma_7_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4K.check_3_5_7_11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'L6CheckC4.lemma_7_9_32003' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.kc_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D88.TropK.n4_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D88.TropK.kc_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.kc_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage axioms done 2026-10-18T13:57:15Z
+
+real	140m52.399s
+user	2647m51.791s
+sys	53m12.167s
+EXIT=0

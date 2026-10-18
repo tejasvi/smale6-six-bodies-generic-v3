@@ -1,0 +1,7 @@
+noncollinear (729 patterns over Q(w)): pass 729 fail 0
+collinear (64 patterns over Q): pass 64 fail 0
+VERDICT: PASS
+
+real	0m1.299s
+user	0m1.294s
+sys	0m0.005s

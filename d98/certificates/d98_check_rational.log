@@ -1,0 +1,10 @@
+masses A ['1', '2', '7'] B ['1', '2', '7']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.7641079385 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0
+masses A ['1', '2', '7'] B ['1', '2', '8']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.7990358445 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0

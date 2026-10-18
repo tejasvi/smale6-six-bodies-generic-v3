@@ -1,0 +1,11 @@
+# Negative controls of the F3/F4 checker (scripts/f34/negctl.sh, L6Check/F34/NegCtl.lean), box build 2026-10-17.
+# Line 1: the original inputs (must pass); NC1-NC4: corrupted inputs (must print ERROR).
+info: L6Check/F34/NegCtl.lean:9:0: class 14 cells [0,2): { single := 1, core1 := 1, core2 := 0, opn := 0 } in 31 ms (1 certificates)
+info: L6Check/F34/NegCtl.lean:11:0: class 14 cells [0,1): ERROR cell 0: single term not certified (or listed twice) (10 ms)
+info: L6Check/F34/NegCtl.lean:13:0: class 14 cells [1,2): ERROR cell 1: generator 0 ((U,)) differs or is not certified (25 ms)
+info: L6Check/F34/NegCtl.lean:15:0: class 14 cells [0,40): ERROR cell 0: cell, rows or interior point (237 ms)
+info: L6Check/F34/NegCtl.lean:17:0: class 14 cells [1,2): ERROR cell 1: generator 0 ((D,2,3)) differs or is not certified (25 ms)
+# NC1: single-term claim with the term (SP,w,2) instead of (SP,w,0) -> rejected.
+# NC2: certificate f49e989c4ec0f718 with the first coefficient of generator 0 tripled -> rejected.
+# NC3: the cells of class 14 checked against the diagram of class 15 -> rejected (the encoded cell is empty).
+# NC4: the first two core names of cell 1 exchanged -> rejected.

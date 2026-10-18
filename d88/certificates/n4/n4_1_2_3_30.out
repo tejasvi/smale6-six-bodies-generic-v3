@@ -1,0 +1,81 @@
+char 65521 | A z{12} w{34} | unit ideal: 1 | dim -1
+char 65521 | A z{13} w{24} | unit ideal: 1 | dim -1
+char 65521 | A z{14} w{23} | unit ideal: 1 | dim -1
+char 65521 | A z{23} w{14} | unit ideal: 1 | dim -1
+char 65521 | A z{24} w{13} | unit ideal: 1 | dim -1
+char 65521 | A z{34} w{12} | unit ideal: 1 | dim -1
+char 65521 | B tri{123} | unit ideal: 1 | dim -1
+char 65521 | B tri{124} | unit ideal: 1 | dim -1
+char 65521 | B tri{134} | unit ideal: 1 | dim -1
+char 65521 | B tri{234} | unit ideal: 1 | dim -1
+char 65521 | C tri{123} stroke 1-4 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{123} stroke 1-4 | unit ideal: 1 | dim -1
+char 65521 | C tri{123} stroke 2-4 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{123} stroke 2-4 | unit ideal: 1 | dim -1
+char 65521 | C tri{123} stroke 3-4 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{123} stroke 3-4 | unit ideal: 1 | dim -1
+char 65521 | C tri{124} stroke 1-3 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{124} stroke 1-3 | unit ideal: 1 | dim -1
+char 65521 | C tri{124} stroke 2-3 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{124} stroke 2-3 | unit ideal: 1 | dim -1
+char 65521 | C tri{124} stroke 4-3 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{124} stroke 4-3 | unit ideal: 1 | dim -1
+char 65521 | C tri{134} stroke 1-2 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{134} stroke 1-2 | unit ideal: 1 | dim -1
+char 65521 | C tri{134} stroke 3-2 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{134} stroke 3-2 | unit ideal: 1 | dim -1
+char 65521 | C tri{134} stroke 4-2 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{134} stroke 4-2 | unit ideal: 1 | dim -1
+char 65521 | C tri{234} stroke 2-1 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{234} stroke 2-1 | unit ideal: 1 | dim -1
+char 65521 | C tri{234} stroke 3-1 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{234} stroke 3-1 | unit ideal: 1 | dim -1
+char 65521 | C tri{234} stroke 4-1 | unit ideal: 1 | dim -1
+char 65521 | C' (no K1) tri{234} stroke 4-1 | unit ideal: 1 | dim -1
+char 65521 | D z{13,24} w{23,14} | unit ideal: 1 | dim -1
+char 65521 | D z{14,23} w{24,13} | unit ideal: 1 | dim -1
+char 65521 | D z{12,34} w{32,14} | unit ideal: 1 | dim -1
+char 65521 | D z{14,32} w{34,12} | unit ideal: 1 | dim -1
+char 65521 | D z{12,43} w{42,13} | unit ideal: 1 | dim -1
+char 65521 | D z{13,42} w{43,12} | unit ideal: 1 | dim -1
+char 65521 | E full | unit ideal: 1 | dim -1
+char 0 | A z{12} w{34} | unit ideal: 1 | dim -1
+char 0 | A z{13} w{24} | unit ideal: 1 | dim -1
+char 0 | A z{14} w{23} | unit ideal: 1 | dim -1
+char 0 | A z{23} w{14} | unit ideal: 1 | dim -1
+char 0 | A z{24} w{13} | unit ideal: 1 | dim -1
+char 0 | A z{34} w{12} | unit ideal: 1 | dim -1
+char 0 | B tri{123} | unit ideal: 1 | dim -1
+char 0 | B tri{124} | unit ideal: 1 | dim -1
+char 0 | B tri{134} | unit ideal: 1 | dim -1
+char 0 | B tri{234} | unit ideal: 1 | dim -1
+char 0 | C tri{123} stroke 1-4 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{123} stroke 1-4 | unit ideal: 1 | dim -1
+char 0 | C tri{123} stroke 2-4 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{123} stroke 2-4 | unit ideal: 1 | dim -1
+char 0 | C tri{123} stroke 3-4 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{123} stroke 3-4 | unit ideal: 1 | dim -1
+char 0 | C tri{124} stroke 1-3 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{124} stroke 1-3 | unit ideal: 1 | dim -1
+char 0 | C tri{124} stroke 2-3 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{124} stroke 2-3 | unit ideal: 1 | dim -1
+char 0 | C tri{124} stroke 4-3 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{124} stroke 4-3 | unit ideal: 1 | dim -1
+char 0 | C tri{134} stroke 1-2 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{134} stroke 1-2 | unit ideal: 1 | dim -1
+char 0 | C tri{134} stroke 3-2 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{134} stroke 3-2 | unit ideal: 1 | dim -1
+char 0 | C tri{134} stroke 4-2 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{134} stroke 4-2 | unit ideal: 1 | dim -1
+char 0 | C tri{234} stroke 2-1 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{234} stroke 2-1 | unit ideal: 1 | dim -1
+char 0 | C tri{234} stroke 3-1 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{234} stroke 3-1 | unit ideal: 1 | dim -1
+char 0 | C tri{234} stroke 4-1 | unit ideal: 1 | dim -1
+char 0 | C' (no K1) tri{234} stroke 4-1 | unit ideal: 1 | dim -1
+char 0 | D z{13,24} w{23,14} | unit ideal: 1 | dim -1
+char 0 | D z{14,23} w{24,13} | unit ideal: 1 | dim -1
+char 0 | D z{12,34} w{32,14} | unit ideal: 1 | dim -1
+char 0 | D z{14,32} w{34,12} | unit ideal: 1 | dim -1
+char 0 | D z{12,43} w{42,13} | unit ideal: 1 | dim -1
+char 0 | D z{13,42} w{43,12} | unit ideal: 1 | dim -1

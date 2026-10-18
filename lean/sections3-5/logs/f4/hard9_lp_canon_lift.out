@@ -1,0 +1,4 @@
+nice 10; 9 cores, 1838 certificates exist, 9 to do; jobs 9, timeout 3600, order lp, varorder canon, method lift
+watchdog: killed 13175 (16410 MB) in b2d7aa02be49da10_3js3mu37
+1 5a4228c851228eb8 memkill 469.11
+2 3fb29ae96b879aab memkill 700.18

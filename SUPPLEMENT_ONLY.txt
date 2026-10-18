@@ -1,0 +1,18 @@
+# Files of the supplement that are not in this repository: those larger than 5 MB, besides
+# results/exact6/ (the stored runs of the engine). SHA256SUMS of the supplement covers them.
+d88/certificates/k4_cert_1_2_3_30.jsonl
+d88/certificates/k4_sols_1_2_3_30.txt
+d88/certificates/kc/kc_cert_1_2_3_30.jsonl
+engine/independent/cells5_c4.jsonl
+hand_explanations/independent/final_classification.jsonl
+hand_explanations/independent/scripts/ref_cover.jsonl
+hand_explanations/independent/scripts/ref_lp.jsonl
+hand_explanations/independent/scripts/ref_resid_cover.jsonl
+hand_explanations/mechanisms/data/core_pat_ids.jsonl
+hand_explanations/mechanisms/data/cores.jsonl
+hand_explanations/mechanisms/data/cores_h.jsonl
+hand_explanations/mechanisms/data/coverage.jsonl
+hand_explanations/mechanisms/data/single.jsonl
+hand_explanations/mechanisms/data/uniq_interior.jsonl
+hand_explanations/residual/data/global_cover.jsonl
+hand_explanations/residual/data/tiers_v2.jsonl

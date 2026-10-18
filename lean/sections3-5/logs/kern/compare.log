@@ -1,0 +1,23 @@
+# Reproducibility checks of the kernel-only checks on this branch (2026-10-18, one machine with 384 cores)
+
+## F1 modules
+kf1_modules.py data/f1k/shards_L10.txt data/f1k/reps.txt OUT 4500 8 10: 326 modules (266 shards, 24 representatives,
+Reps/All, All, Global, 32 code intervals, Codes/All), byte-identical to the committed L6CheckK/F1 (Main.lean is written
+by hand).
+
+## F4 generator (kf4_gen.py)
+Two runs, PYTHONHASHSEED=1 and PYTHONHASHSEED=2, into different output directories: 4,687 files each (830 modules,
+modules.txt and the 3,856 data files .bin/.idx); the two lists of SHA-256 are identical (data/f4k/SHA256SUMS). A third
+run, by `scripts/kern/build.sh f4gen`, matched the list as well (logs/kern/f4_gen.log).
+
+## F4Link modules
+kf4_link_gen.py over the generated F4 sources writes the 32 committed files of L6CheckK/F4Link unchanged (stage f4link).
+
+## Fused F2-F4 run, against the lists of the kernel run of the track (2026-10-17), whose modules were compiled
+exporter (f34kexport, 7,147 runs, 489,151 files, 6.8 GB): the per-class list (SHA-256 of the sorted SHA-256 of the files
+of each class, number of files, bytes) is identical to the run's for all 184 classes (data/f34k/EXPORT.sha256).
+generated modules with the run's absolute table directory (KF34K_TBL_DIR): all 31,324 byte-identical to the compiled
+sources of the run.
+generated modules as committed (KF34K_TBL_DIR=data/f34k/c<k>): against the run form, 16,401 files identical (15,847
+modules and the 554 dependency and group lists), 15,477 differing only in the table directory (the groups of kernel
+checks NG<g>), 0 otherwise; data/f34k/SHA256SUMS lists these 31,878 files with classinfo.txt and certnames.txt.

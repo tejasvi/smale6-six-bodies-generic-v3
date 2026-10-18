@@ -1,0 +1,7 @@
+R5 (balance at a):
+ma^5*mb^5-ma^8*ms^2-3*ma^7*mb*ms^2-3*ma^6*mb^2*ms^2-ma^5*mb^3*ms^2-ma^3*mb^5*ms^2-3*ma^2*mb^6*ms^2-3*ma*mb^7*ms^2-mb^8*ms^2
+[1]:
+   _[1]=-1
+   _[2]=-ma^5*mb^5+ma^8*ms^2+3*ma^7*mb*ms^2+3*ma^6*mb^2*ms^2+ma^5*mb^3*ms^2+ma^3*mb^5*ms^2+3*ma^2*mb^6*ms^2+3*ma*mb^7*ms^2+mb^8*ms^2
+[2]:
+   1,1

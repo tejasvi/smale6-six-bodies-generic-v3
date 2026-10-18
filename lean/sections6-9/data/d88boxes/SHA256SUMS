@@ -1,0 +1,4 @@
+# Inputs of the d88boxes checks (paths relative to the certificate directory of diagrams 88 and 94)
+5102ec13256766147d059a8bea92c68391351bdbfe574dcab8a9212840e228b1  k4_cert_1_2_3_30.jsonl
+6c3097edba88df50c774503e4dd5343264469ba9e84b82882b4c280531bf7ffb  kc/kc_cert_1_2_3_30.jsonl
+86c049a46272052a8ab73ed45dac5322dececd686f4767b1a91207c55a25a6f2  count/full_1_2_3_30_p65521.ms

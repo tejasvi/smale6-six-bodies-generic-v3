@@ -1,0 +1,3 @@
+# start 2026-10-18T12:00:41Z jobs 1 budget_gb 300.0 maxjobs 1
+L6CheckKSpec/D98.lean exit 0 wall_s 4.61 user_s 4.51 sys_s 0.09 maxrss_kb 813976 est_gb 4.0
+# end 2026-10-18T12:00:46Z wall_s 5.0 failures 0

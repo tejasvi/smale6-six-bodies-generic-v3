@@ -1,0 +1,27 @@
+Native test of Comp.Count.dimCheck on msolve's reduced Groebner bases (test only, not part of the proof).
+Bases: msolve 0.7.5, option -g 2 (reduced basis), graded reverse lexicographic order, p = 65521, on the inputs listed in
+data/d88count/SHA256SUMS_br. Each basis was converted by gen/d88count/br_msolve2lst.py into term lists sorted in
+grevGtStd order (coefficients in [1, p)) and read by gen/d88count/br_testdim.lean, built as a module of the
+precompiled checker library, so that dimCheck runs as compiled code.
+
+KC' (rung3/d88/certificates/kc/kc_full_1_2_3_30_p65521.ms; msolve -t 16 -g 2)
+msolve output sha256 21a3fa5cc99efd6e507f39729552cb43d9a26877dec8a9969ee8a36bbc21df7f (83,490,602 bytes)
+converted list sha256 2ebc0a66f57f64aa689a3acb445469c57502891914c8c7b4cefb5bcc4631fdde
+polys 2074 terms 3059205
+polyOK all: true
+staircase size 4788
+dimCheck N=4788: true
+dimCheck N-1=4787: false
+dimCheck without the last polynomial: false
+(12.8 s wall for the build of the test module, including parsing)
+
+S12 (rung3/d88/certificates/count/full_1_2_3_30_p65521.ms; msolve -t 32 -g 2, 3 min 19 s wall)
+msolve output sha256 fb59b46c661e7a3eb53482848ea14e3abb07d50c2089d8d55573368ea8a4ad10 (1,276,503,931 bytes)
+converted list sha256 f98b2324ac045023871cbb0562a051ab24011017894e6df63f97e5eae9f7577c
+polys 7411 terms 42346010
+polyOK all: true
+staircase size 20316
+dimCheck N=20316: true
+dimCheck N-1=20315: false
+dimCheck without the last polynomial: false
+(2 min 43 s wall for the build of the test module, including parsing; maximum resident set 13.6 GB)

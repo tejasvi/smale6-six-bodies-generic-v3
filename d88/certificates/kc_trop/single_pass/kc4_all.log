@@ -1,0 +1,3 @@
+support check {'terms': 1133, 'coefficients_vanishing_at_m0_mod_p': 0}
+kc polys 101 vars 17
+{"tag": "kc_all", "n_rays": 46, "n_cones": 224, "tested": 223, "all_empty": true, "lineality": []}

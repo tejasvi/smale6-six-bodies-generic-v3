@@ -1,0 +1,29 @@
+// Lemma L (Lagrange triangle): colour z: three-body CC equations at a, b, s (positions and the two internal forces),
+// coordinates Xa, Xb, Xs (O's child at 0); colour w: s at O's coordinate 0, a, b with positions; w-equations of a, b
+// with positions, s balanced. Role variables.
+LIB "elim.lib";
+ring R = 0, (Pab,Pas,Pbs,Xa,Xb,Xs,Ya,Yb, ma,mb,ms), dp;
+ideal I =
+  Pab^2*(Xa-Xb)*(Ya-Yb)-1,
+  Pas^2*(Xa-Xs)*Ya-1,
+  Pbs^2*(Xb-Xs)*Yb-1,
+  Xa - mb*Pab^3*(Xa-Xb) - ms*Pas^3*(Xa-Xs),
+  Xb - ma*Pab^3*(Xb-Xa) - ms*Pbs^3*(Xb-Xs),
+  Xs - ma*Pas^3*(Xs-Xa) - mb*Pbs^3*(Xs-Xb),
+  Ya - mb*Pab^3*(Ya-Yb) - ms*Pas^3*Ya,
+  Yb - ma*Pab^3*(Yb-Ya) - ms*Pbs^3*Yb,
+  ma*Pas^3*(0-Ya) + mb*Pbs^3*(0-Yb);
+I = sat(I, ideal(Xa*Xb*Xs*(Xa-Xb)*(Xa-Xs)*(Xb-Xs)*Ya*Yb*(Ya-Yb)));
+ideal E = eliminate(I, Pab*Pas*Pbs*Xa*Xb*Xs*Ya*Yb);
+print("L elimination ideal: " + string(size(E)) + " generator(s)");
+print(E);
+// hand: P^3 = 1/M on all pairs and closure  ma*mb*z1 - mb*(ma+mb)*z2 - ma*(ma+mb)*z3 = 0 (z_i cube roots of 1);
+// the norm over the cube roots: with A = ma*mb, B = mb*(ma+mb), C = ma*(ma+mb):
+//   prod_{z2,z3} (A - B z2 - C z3) = A^9-... = (A^3 - B^3 - C^3)^3 - 27*A^3*B^3*C^3  (norm of a sum of 3 cube roots)
+poly A = ma*mb; poly B = -mb*(ma+mb); poly C = -ma*(ma+mb);
+poly H = (A^3 + B^3 + C^3)^3 - 27*A^3*B^3*C^3;
+print("factors of H:"); print(factorize(H));
+ideal ES = std(E);
+print("H in E: " + string(reduce(H, ES) == 0));
+int i; for (i = 1; i <= size(E); i++) { print("E[" + string(i) + "] in <H>: " + string(reduce(E[i], std(ideal(H))) == 0)); }
+quit;

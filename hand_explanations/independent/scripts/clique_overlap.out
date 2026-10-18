@@ -1,0 +1,2 @@
+{('clique', True, 'E/E1', True): 84155, ('clique', True, 'E/E1', False): 2783, ('clique', False, 'E/E1', False): 1615, ('clique', False, 'E/E1', True): 2720}
+clique: 86938  E/E1: 86875  union: 89658

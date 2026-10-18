@@ -1,0 +1,28 @@
+lake build Lean6.Special.D88.Count.Final
+Build completed successfully (3143 jobs).
+lake env lean gen/d88count/br_axioms.lean
+'Lean6.Special.D88.Count.DegRevLex.wellFoundedLT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.DegRevLex.toDegRevLex_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.degRevLex_lt_iff'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.degRevLex_single_lt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.grevGtStd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_toMv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.mem_span_of_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.lead_toMv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.std_subset_of_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_std' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.finrank_le_of_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.dimCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_s12InputsZ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_kcInputsZ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_reduceMod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.toMv_s12Input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.toMv_kcInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_s12Inputs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_kcInputs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.count_KC_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.count_S12_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m1.635s
+user	0m1.074s
+sys	0m1.266s

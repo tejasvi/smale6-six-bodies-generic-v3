@@ -1,0 +1,5 @@
+n4 0 30 polynomials: SINGULAR unit 1 size 1 seconds 13 (12.7s)
+n4 0 msolve reduced basis: [1]: (0.5s)
+kc 0 101 polynomials: SINGULAR unit 1 size 1 seconds 5 (4.6s)
+kc 0 msolve reduced basis: [1]: (0.9s)
+LINT_OK

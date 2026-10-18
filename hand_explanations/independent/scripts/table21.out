@@ -1,0 +1,9 @@
+torque |J|=3 d3 w_k z_l      cells=25689 T=25646 P=7056 C=15962 B=0 TPCB=25649 gen=25620 res=1
+subset |J|=3 SC              cells=5784 T=0 P=0 C=5280 B=0 TPCB=5280 gen=5784 res=0
+torque |J|=3 d3 z_k w_l      cells=5638 T=5596 P=882 C=1995 B=0 TPCB=5602 gen=5630 res=0
+Ip E0                        cells=5355 T=0 P=5355 C=0 B=0 TPCB=5355 gen=5355 res=0
+torque |J|=1 d3 w_k z_l      cells=2795 T=2471 P=0 C=1606 B=94 TPCB=2705 gen=2505 res=30
+torque |J|=1 d3 z_k w_l      cells=2547 T=2267 P=0 C=1376 B=0 TPCB=2483 gen=2497 res=4
+torque |J|=2 d3 w_k z_l      cells=2316 T=2144 P=0 C=1608 B=0 TPCB=2224 gen=2222 res=8
+torque |J|=2 d3 z_k w_l      cells=2116 T=1960 P=0 C=1480 B=0 TPCB=2032 gen=2100 res=0
+subset |J|=2 SP              cells=192 T=0 P=0 C=0 B=0 TPCB=0 gen=192 res=0

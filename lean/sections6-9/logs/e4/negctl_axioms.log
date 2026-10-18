@@ -1,0 +1,122 @@
+✔ [14/14] Built Lean6.Special.Comp.K4.E4.NegCtl (195ms)
+Build completed successfully (14 jobs).
+real	0m0.592s
+===AXIOMS
+'Lean6.Special.K4.E4.macCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.lemma_7_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ K4.E4.mem_patsF_aux._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.check_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ K4.E4.mem_patsF_aux._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.no_zero_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.no_zero_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.no_zero_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T1_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T2_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T3_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.resR_T1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT1_low._native.native_decide.ax_1_1,
+ K4.E4.LUT1._native.native_decide.ax_1_1,
+ K4.E4.UT1_diag._native.native_decide.ax_1_1,
+ K4.E4.UT1_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.resR_T2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT2_low._native.native_decide.ax_1_1,
+ K4.E4.LUT2._native.native_decide.ax_1_1,
+ K4.E4.UT2_diag._native.native_decide.ax_1_1,
+ K4.E4.UT2_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.resR_T3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT3_low._native.native_decide.ax_1_1,
+ K4.E4.LUT3._native.native_decide.ax_1_1,
+ K4.E4.UT3_diag._native.native_decide.ax_1_1,
+ K4.E4.UT3_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.Alg.caseI_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseI_three_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseI_two_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_diff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.cube_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_b_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_c_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_lambda' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_cubes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_21' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_w24' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_46' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.E4.free' depends on axioms: [propext, Comp.E4.free._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.orbit_size' depends on axioms: [propext, Comp.E4.orbit_size._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.inv_invariant' depends on axioms: [propext, Comp.E4.inv_invariant._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.inv_separates' depends on axioms: [propext, Comp.E4.inv_separates._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.nine_values' depends on axioms: [propext, Comp.E4.nine_values._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.perms_count' depends on axioms: [Comp.E4.perms_count._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.relabel_triple' depends on axioms: [propext, Comp.E4.relabel_triple._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.conj_triple' depends on axioms: [propext, Comp.E4.conj_triple._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rep_triples' depends on axioms: [propext]
+'Lean6.Special.Comp.E4.reduction' depends on axioms: [propext, Comp.E4.reduction._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.score_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.score_counts._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.score_determines' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.score_determines._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.reduce_tournaments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.reduce_tournaments._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rep_scores' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rep_scores._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rE_root' does not depend on any axioms
+'Lean6.Special.Comp.E4.sE_sq' does not depend on any axioms
+'Lean6.Special.K4.E4.remark_7_14_1112' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_1112._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_5_2_11_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_5_2_11_3._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_1234' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_1234._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_2357' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_2357._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]

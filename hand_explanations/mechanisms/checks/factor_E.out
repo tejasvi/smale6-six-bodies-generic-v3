@@ -1,0 +1,10 @@
+[1]:
+   _[1]=1
+   _[2]=ma^2*mb^2-2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[3]=ma^2*mb^2+2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[4]=ma^2*mb^2+2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+   _[5]=ma^2*mb^2-2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+[2]:
+   1,1,1,1,1
+E(T) quartic divides g?
+1

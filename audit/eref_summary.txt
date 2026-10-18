@@ -1,0 +1,43 @@
+recert: stored-certified distinct cores 1423 ; Singular -1 and Macaulay2 unit: 1423 ; cells covered 37808
+recert_alt: cores 990 ; subset of cell system 990 ; Singular (one mass 1) -1: 990 ; Macaulay2 all six masses {'unit': 971, 'timeout': 19}
+m2_fix1 (Macaulay2, one mass 1, for the all-six timeouts): records 19 {'unit': 5, 'timeout': 14}
+lift sample: 40 {'ok': 40} max cert bytes 1630293
+--- test_terms.txt
+value test: 3 complex solutions at masses [0.821, 1.748, 2.004, 0.572, 0.87, 2.821]
+  largest |sum of all terms| by identity type: {'D': '4.0e-14', 'Ip': '4.8e-15', 'S2': '5.8e-14', 'T': '4.4e-15', 'UI': '4.8e-15', 'V': '4.7e-15', 'tinit_Dkl': '9.7e-16', 'tinit_I': '3.8e-14', 'tinit_Ip': '4.8e-15', 'tinit_S1': '3.8e-14', 'tinit_Sw': '1.3e-15', 'tinit_Sz': '5.8e-14', 'tinit_U': '2.8e-15'}
+exponent test: 784228 terms on 300 random tree pairs, mismatches 0
+RESULT PASS
+--- roberts.txt
+cell 884: 176 equations (103 secondary), single-term exclusion: None, certifier counts {'lp': 1124, 'kept': 2, 'pruned': 1122, 'st_opt': 500, 'st_inf': 622, 'rat_dual': 500, 'rat_ray': 622}
+(a) Roberts masses (1/2,1/2,1/2,1/2,-1/8), char 0: dim 3
+(c) random rational masses ['17/39', '36/10', '25/40', '32/42', '39/6'], char 0: dim -1
+(c) random rational masses ['40/2', '32/18', '37/16', '14/47', '32/36'], char 0: dim -1
+(b) over Q(m1..m4), m0 = 1: dim -1
+--- negctl_c63.txt
+class 63: sampled 68 kept and 400 pruned LPs
+(a) kept LPs with a certificate (must be 0): 0
+(b) eps=0.0: kept 0, pruned 68, failures 0 (expected: eps=0 -> 0 failures; eps=1e-12 -> failures = 68)
+(b) eps=1e-12: kept 0, pruned 68, failures 68 (expected: eps=0 -> 0 failures; eps=1e-12 -> failures = 68)
+(c) {'valid': 400, 'neg_rejected': 400, 'pert_rejected': 393, 'drop_rejected': 400, 'double_ok': 400, 'pert_valid_rows_without_heights': 7}
+(d) injected false prunes: 15; certifier failures: 15 (must be >= injected: the fake status is re-queried without presolve, so a re-run may hide some)
+RESULT PASS
+--- certtotals.txt
+replay files 73344 {'lp': 133538490, 'kept': 57450756, 'pruned': 76087734, 'st_opt': 26563313, 'st_inf': 49524421, 'st_other': 0, 'resolve': 384, 'rat_dual': 26563313, 'rat_ray': 49524037, 'supp': 0, 'full': 384, 'fail': 0, 'border': 0}
+least kept slack (replay) 0.005494505494505591  largest optimal value among replay prunes 1.354472090042691e-14
+sec cert files 6768 {'lp': 185609091, 'kept': 611153, 'pruned': 184997938, 'st_opt': 73870530, 'st_inf': 111127408, 'st_other': 0, 'resolve': 0, 'rat_dual': 73870530, 'rat_ray': 111127408, 'supp': 0, 'full': 0, 'fail': 0, 'border': 0}
+inconsistent files 0 []
+--- single_check.txt
+{"pool": 52432, "sample": 1500, "unique_min_at_stored_point": 1500, "recertified_single": 1500, "bad": []}
+--- test_enum.txt
+trees: generated 55720, distinct 55720, with a body at O 16512, expected 55720 = 39208 + 6*2752
+class 63: 4 stored tree pairs examined, cumulative instances 16
+class 124: 4 stored tree pairs examined, cumulative instances 48
+class 171: 4 stored tree pairs examined, cumulative instances 56
+class 30: 4 stored tree pairs examined, cumulative instances 88
+class 128: 4 stored tree pairs examined, cumulative instances 120
+class 131: 4 stored tree pairs examined, cumulative instances 152
+exact argmins vs brute force: 152 identity instances, mismatches 0
+RESULT PASS
+--- split_check.txt (last line)
+TOTAL {"kept": 3987, "kept_exact": 3987, "pruned": 1969, "classes": 191} unverified kept: []
+--- cmp_rerun.jsonl: classes [30, 63, 108, 124, 128, 131, 171]

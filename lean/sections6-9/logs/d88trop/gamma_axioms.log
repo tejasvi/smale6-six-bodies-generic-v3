@@ -1,0 +1,58 @@
+== CoverG messages
+
+real	0m2.456s
+user	0m2.759s
+sys	0m0.671s
+== Gamma messages
+== axioms
+'Lean6.Special.D88.Trop.n4_torus_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.cover_soundG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.chk_soundG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.initialFormG_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.torusEmptyG_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.n4_torus_all_of_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus_all_of_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+@n4_torus_gamma : ∀ {Γ : Type u_1} [inst : AddCommGroup Γ] [inst_1 : LinearOrder Γ] [IsOrderedAddMonoid Γ] (w : ℕ → Γ),
+  (∃ i < 17, w i < 0) → TorusEmptyG 65521 Lean6.Special.Comp.D88.Trop.GbN4 w
+@kc_torus_gamma : ∀ {Γ : Type u_1} [inst : AddCommGroup Γ] [inst_1 : LinearOrder Γ] [IsOrderedAddMonoid Γ] (w : ℕ → Γ),
+  (∃ i < 17, w i < 0) → TorusEmptyG 65521 Lean6.Special.Comp.D88.Trop.GbKC w
+def Lean6.Special.D88.Trop.TorusEmptyG.{u_1} : {Γ : Type u_1} →
+  [AddCommGroup Γ] → [LinearOrder Γ] → (p : ℕ) → [NeZero p] → List (Lean6.Special.Comp.Poly ℕ) → (ℕ → Γ) → Prop :=
+fun {Γ} [AddCommGroup Γ] [LinearOrder Γ] p [NeZero p] Gb w =>
+  ∀ (K : Type) [inst_3 : Field K] [inst_4 : CharP K p] (x : ℕ → K),
+    (∀ i < 17, x i ≠ 0) → ∃ g ∈ Gb, Lean6.Special.Poly.eval (modHomK p K) x (initialFormG w g) ≠ 0
+def Lean6.Special.D88.Trop.initialFormG.{u_1} : {Γ : Type u_1} →
+  [AddCommGroup Γ] → [LinearOrder Γ] → (ℕ → Γ) → Lean6.Special.Comp.Poly ℕ → Lean6.Special.Comp.Poly ℕ :=
+fun {Γ} [AddCommGroup Γ] [LinearOrder Γ] w g =>
+  List.map (term g)
+    (List.filter (fun i => decide (∀ j < List.length g, wtG w (term g i).2 ≤ wtG w (term g j).2))
+      (List.range (List.length g)))
+def Lean6.Special.D88.Trop.wtG.{u_1} : {Γ : Type u_1} → [AddCommGroup Γ] → (ℕ → Γ) → Lean6.Special.Comp.Mono → Γ :=
+fun {Γ} [AddCommGroup Γ] w m => dotG w (Lean6.Special.Comp.D88.Trop.toZ m) 0
+def Lean6.Special.D88.Trop.dotG.{u_1} : {Γ : Type u_1} → [AddCommGroup Γ] → (ℕ → Γ) → List ℤ → ℕ → Γ :=
+fun {Γ} [AddCommGroup Γ] w x x_1 => List.brecOn (motive := fun x => ℕ → Γ) x (dotG._f w) x_1
+
+real	0m1.651s
+user	0m1.143s
+sys	0m0.856s

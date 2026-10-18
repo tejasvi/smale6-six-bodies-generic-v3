@@ -1,0 +1,26 @@
+nice 10; 1935 cores, 0 certificates exist, 1935 to do; jobs 200, timeout 1800, order dp, varorder canon, method lift
+100 b10c73f618cc4a07 ok 0.17
+200 8cba0e029fe08de8 ok 0.04
+300 43a064782550865d ok 0.45
+400 a8bacf945bd691ad ok 0.22
+500 5437d1ed83271756 ok 0.41
+600 cadf219bc12a0123 ok 0.02
+700 af70e1b959f45691 ok 0.18
+800 a08f576dc3181d08 ok 0.04
+900 3070a790268f073d ok 0.87
+1000 ab140b54680ace8a ok 0.13
+1100 4c0b9182bad49321 ok 0.15
+1200 c36787aebb4c42a0 ok 0.24
+1300 890f5cb1991f3bc1 ok 0.06
+1400 a4190cae18a41461 ok 0.39
+1500 dfb1b2e94c6eef8c ok 0.14
+1600 92768774509e30cb ok 0.02
+1700 34060abcf4ebf91b ok 0.99
+1800 becb8ae0ffae3b77 ok 61.53
+1864 b2d7aa02be49da10 memkill 614.17
+watchdog: killed 8496 (10357 MB) in 5b002379685d4787_nn6wsmwr
+1874 5b002379685d4787 memkill 680.17
+1876 e1dcf7d3509e5f00 memkill 708.15
+watchdog: killed 13250 (9746 MB) in 31a1929c3604b3e1_2_djjgmk
+watchdog: killed 13238 (10110 MB) in 27f49c33642245f5_pumc45iv
+watchdog: killed 13284 (11397 MB) in 42955a12632fff8e_3v_pkxps

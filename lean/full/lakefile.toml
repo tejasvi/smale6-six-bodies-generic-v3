@@ -1,0 +1,19 @@
+name = "CC6Full"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["CC6Full"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.style.header = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+[[lean_lib]]
+name = "CC6Full"
+# At most four threads per lean process (without -j, lean starts one worker per hardware thread).
+weakLeanArgs = ["-j4"]

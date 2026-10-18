@@ -1,0 +1,19 @@
+// R6: w-centre at s (Y_s = 0, m_a Y_a + m_b Y_b = 0), w-balance at s, z-balance at a; three distances
+LIB "elim.lib";
+ring R = 0, (Xa, Xb, Ya, Yb, Pab, Pbs, Psa, ma, mb, ms), dp;
+poly xab = Xa - Xb; poly xbs = Xb; poly xsa = -Xa;
+poly yab = Ya - Yb; poly ybs = Yb; poly ysa = -Ya;
+ideal I = Pab^2*xab*yab - 1, Pbs^2*xbs*ybs - 1, Psa^2*xsa*ysa - 1,
+  // w-balance at s: m_a W_sa + m_b W_sb = 0
+  ma*Psa^3*ysa - mb*Pbs^3*ybs,
+  // z-balance at a: m_b Z_ab + m_s Z_as = 0
+  mb*Pab^3*xab - ms*Psa^3*xsa,
+  ma*Ya + mb*Yb;
+ideal S = I;
+list vv = Xa, Xb, Ya, Yb, Pab, Pbs, Psa, ma, mb, ms, xab, yab;
+int i;
+for (i = 1; i <= size(vv); i++) { S = sat(S, ideal(vv[i])); }
+ideal J = eliminate(S, Xa*Xb*Ya*Yb*Pab*Pbs*Psa);
+print("R6 (w-centre at s, w-balance at s, z-balance at a):"); print(J);
+for (i = 1; i <= size(J); i++) { print(factorize(J[i])); }
+quit;

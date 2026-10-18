@@ -1,0 +1,4 @@
+mu=(1, 2, 7): deg g 36, deg S 34, lead S 81, deg g0 32, k_g 3, k_S 2, Bezout constant digits 171, max cofactor digits 182
+mu=(1, 2, 8): deg g 36, deg S 34, lead S 81, deg g0 32, k_g 3, k_S 2, Bezout constant digits 178, max cofactor digits 189
+mu=(2, 3, 11): deg g 36, deg S 34, lead S 625, deg g0 32, k_g 3, k_S 2, Bezout constant digits 210, max cofactor digits 220
+P93 at (1, 2, 7): deg S 34, deg Phi3 4, lead Phi3 6272980, Bezout constant digits 191, deg U 3, deg V 33, max cofactor digits 189

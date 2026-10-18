@@ -1,0 +1,20 @@
+// Lemma W3: triangle {a,b,c} balanced at a and b in colour w, whose w-coordinates are t*(ea,eb,ec) (fixed up to
+// scale by centre relations); other colour z with coordinates Xa, Xb, Xc = 0 (translation). Role variables.
+LIB "elim.lib";
+ring R = 0, (Pab,Pbc,Pca,Xa,Xb,t, ma,mb,mc,ea,eb,ec), dp;
+ideal I =
+  Pab^2*(Xa-Xb)*t*(ea-eb)-1,
+  Pbc^2*Xb*t*(eb-ec)-1,
+  Pca^2*(-Xa)*t*(ec-ea)-1,
+  mb*Pab^3*(ea-eb) + mc*Pca^3*(ea-ec),     // w-balance at a
+  ma*Pab^3*(eb-ea) + mc*Pbc^3*(eb-ec);     // w-balance at b
+I = sat(I, ideal(Xa*Xb*(Xa-Xb)*t*(ea-eb)*(eb-ec)*(ec-ea)));
+ideal E = eliminate(I, Pab*Pbc*Pca*Xa*Xb*t);
+print("W3 elimination ideal: " + string(size(E)) + " generator(s)");
+poly uab = mc^2*(ea-eb); poly ubc = ma^2*(eb-ec); poly uca = mb^2*(ec-ea);
+poly H = (uab*ubc + ubc*uca + uca*uab)^3 - 27*(uab*ubc*uca)^2;
+print("factors of E[1]:"); print(factorize(E[1]));
+print("factors of H:"); print(factorize(H));
+print("H in E: " + string(reduce(H, std(E)) == 0));
+print("E[1] in <H>: " + string(reduce(E[1], std(ideal(H))) == 0));
+quit;

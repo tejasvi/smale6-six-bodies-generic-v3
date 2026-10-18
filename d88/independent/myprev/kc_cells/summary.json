@@ -1,0 +1,1 @@
+{"n_face_vectors": 224, "zero_cells": 1, "tested": 223, "verdicts": {"EMPTY": 223}, "not_empty": [], "gfan_cones": 224, "gfan_distinct_initial_signatures": 224, "my_distinct_initial_signatures": 224, "mine_minus_gfan": 0, "gfan_minus_mine": 0}

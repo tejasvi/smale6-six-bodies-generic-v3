@@ -1,0 +1,22 @@
+{
+ "allmass_gain": 1910,
+ "allmass_gain_B0": 254,
+ "allmass_gain_K": 76,
+ "allmass_gain_L": 1579,
+ "allmass_gain_TD": 43,
+ "allmass_gain_kind_core": 1579,
+ "allmass_gain_kind_single": 331,
+ "allmass_new": 70406,
+ "allmass_old": 68496,
+ "applies_B0": 7722,
+ "applies_EQ2": 2654,
+ "applies_K": 532,
+ "applies_L": 2111,
+ "applies_R1*": 79321,
+ "applies_TD": 43,
+ "applies_TQ": 1,
+ "applies_W3": 650,
+ "cells": 91273,
+ "generic_new": 91273,
+ "generic_old": 91158
+}

@@ -1,0 +1,103 @@
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Build completed successfully (2319 jobs).
+wall 13.40 s, user 39.41 s, maxrss 2696100 KB
+'Lean6.Special.K4.E4.macCheck_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macFpoly_map_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macF_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.F_eq_zero_of_macF_det' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macF_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macF_det_ne_zero_1111' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.exists_macF_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macFpoly_det_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macGpoly_map_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macG_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.G_eq_zero_of_macG_det' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macG_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macG_det_ne_zero_1111' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.exists_macG_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macGpoly_det_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.omega0_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.lemma_7_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.check_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]

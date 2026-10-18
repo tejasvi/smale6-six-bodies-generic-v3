@@ -1,0 +1,14 @@
+{"class": 149, "cell": 115, "fixed": "m0", "neq": 10, "nvars": 13, "m2_unsat_fix1": "unit", "seconds": 7050.2, "input": "tmpkp_zfbg1.m2"}
+{"class": 3, "cell": 41091, "fixed": "m0", "neq": 8, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.0, "input": "tmpqm9a48bs.m2"}
+{"class": 3, "cell": 42626, "fixed": "m3", "neq": 7, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.1, "input": "tmpphxmi7zj.m2"}
+{"class": 14, "cell": 218, "fixed": "m0", "neq": 10, "nvars": 12, "m2_unsat_fix1": "timeout", "seconds": 7200.1, "input": "tmpe7ws3ht1.m2"}
+{"class": 3, "cell": 31349, "fixed": "m3", "neq": 7, "nvars": 10, "m2_unsat_fix1": "timeout", "seconds": 7200.1, "input": "tmppoms_zwu.m2"}
+{"class": 149, "cell": 487, "fixed": "m0", "neq": 13, "nvars": 18, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmppy7dp600.m2"}
+{"class": 3, "cell": 41143, "fixed": "m3", "neq": 7, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpas5ekuhp.m2"}
+{"class": 3, "cell": 39672, "fixed": "m3", "neq": 6, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpvfl91ayj.m2"}
+{"class": 3, "cell": 41569, "fixed": "m0", "neq": 8, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpz5qzbm2o.m2"}
+{"class": 3, "cell": 8722, "fixed": "m2", "neq": 10, "nvars": 15, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpb_dunfyw.m2"}
+{"class": 3, "cell": 13414, "fixed": "m0", "neq": 8, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmp_mhzhb6v.m2"}
+{"class": 30, "cell": 122, "fixed": "m2", "neq": 7, "nvars": 8, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpvhr03rr7.m2"}
+{"class": 3, "cell": 17222, "fixed": "m1", "neq": 10, "nvars": 12, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpad_3ouxo.m2"}
+{"class": 3, "cell": 24695, "fixed": "m3", "neq": 7, "nvars": 10, "m2_unsat_fix1": "timeout", "seconds": 7200.2, "input": "tmpqlipx2oo.m2"}

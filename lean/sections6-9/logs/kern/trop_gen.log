@@ -1,0 +1,14 @@
+The leaf of `.hyp 180` of `KC` (`sys180`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 5142 products 5142 codes 38 intervals 1 bucket_modules 1 data_bytes 45371
+The leaf of `.hyp 189` of `KC` (`sys189`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 15757 products 15757 codes 38 intervals 1 bucket_modules 1 data_bytes 136911
+The leaf of `.hyp 210` of `KC` (`sys210`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 8383 products 8383 codes 35 intervals 1 bucket_modules 1 data_bytes 66667
+The leaf of `.hyp 211` of `KC` (`sys211`) with the Rabinowitsch polynomial: split [4] buckets 3 max_bucket 54325 products 134192 codes 208 intervals 1 bucket_modules 1 data_bytes 1110310
+The leaf of `.hyp 212` of `KC` (`sys212`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 13757 products 13757 codes 41 intervals 1 bucket_modules 1 data_bytes 104983
+The leaf of `.hyp 213` of `KC` (`sys213`) with the Rabinowitsch polynomial: split [12, 11] buckets 16 max_bucket 59773 products 722591 codes 2390 intervals 1 bucket_modules 2 data_bytes 5100714
+The leaf of `.hyp 235` of `KC` (`sys235`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 8379 products 8379 codes 38 intervals 1 bucket_modules 1 data_bytes 73251
+The leaf of `.hyp 240` of `KC` (`sys240`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 8029 products 8029 codes 35 intervals 1 bucket_modules 1 data_bytes 66527
+The escape-ray system of `KC` (`sys0`): split [16, 10, 9, 4] buckets 118 max_bucket 59995 products 6393116 codes 64198 intervals 5 bucket_modules 18 data_bytes 41758027
+KC: nodes 9900 pieces 49 systems 241 small_leaves 232 certificate_systems 9 (big leaves [180, 189, 210, 211, 212, 213, 235, 240])
+The leaf of `.hyp 298` of `N4` (`sys298`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 18245 products 18245 codes 37 intervals 1 bucket_modules 1 data_bytes 157427
+The leaf of `.hyp 1931` of `N4` (`sys1931`) with the Rabinowitsch polynomial: split [] buckets 1 max_bucket 13228 products 13228 codes 37 intervals 1 bucket_modules 1 data_bytes 114747
+N4 chain: elements 2605, ancestors 2044, table terms 484922, cofactor terms 1327556, products 104832885, max per identity 147215, modules 292 (budget 400000)
+N4: nodes 23530 pieces 147 systems 1949 small_leaves 1946 certificate_systems 2 (big leaves [298, 1931])

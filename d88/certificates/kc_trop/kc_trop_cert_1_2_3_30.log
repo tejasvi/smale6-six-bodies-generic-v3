@@ -1,0 +1,76 @@
+{
+ "masses": [
+  1,
+  2,
+  3,
+  30
+ ],
+ "p": 65521,
+ "support_check_variants_1": {
+  "terms": 575,
+  "vanishing": 0
+ },
+ "support_check_variants_3": {
+  "terms": 1133,
+  "vanishing": 0
+ },
+ "n_G1": 69,
+ "n_G2": 101,
+ "step1": {
+  "tag": "kc_G1",
+  "n_rays": 45,
+  "n_cones": 222,
+  "tested": 221,
+  "all_empty": false,
+  "lineality": []
+ },
+ "step2": [
+  {
+   "ray": 43,
+   "point": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    0,
+    -2,
+    -2,
+    0,
+    0,
+    -2,
+    -1,
+    -1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "torus_empty_G2": true
+  },
+  {
+   "ray": 44,
+   "point": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    0,
+    -2,
+    -2,
+    0,
+    0,
+    -6,
+    -3,
+    -3,
+    0,
+    0,
+    -2,
+    -2
+   ],
+   "torus_empty_G2": true
+  }
+ ],
+ "verdict_all_integral": true
+}

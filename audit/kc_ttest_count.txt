@@ -1,0 +1,4 @@
+solutions 4788; T-test over bodies 1, 2, 3 (interval arithmetic on the boxes): fails at 1092, passes at 3696, undecided at 0
+six smallest torque margins and |Y4|: 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04
+36 margins below 1e-4, all with |Y4| >= 5.638e+03; median |Y4| over all solutions 0.891
+at these 36 solutions max over l <= 3 of |Y_l/Y_4| = 2.022e-05

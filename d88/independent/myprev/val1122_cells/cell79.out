@@ -1,0 +1,37 @@
+#Reduced Groebner basis data
+#---
+#field characteristic: 65521
+#variable order:       a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, TT
+#monomial order:       graded reverse lexicographical
+#length of basis:      30 elements sorted by increasing leading monomials
+#---
+[1*n^1+1*o^1,
+1*m^1+1*p^1,
+1*j^1+32760*k^1,
+1*i^1+32761*k^1,
+1*h^1+32760*k^1,
+1*g^1+32761*k^1,
+1*f^1+65519*l^1,
+1*d^1+32761,
+1*c^1+32761,
+1*b^1+32760,
+1*a^1+32760,
+1*o^2+1*p^2,
+1*e^1*l^1+49141*k^1*TT^1,
+1*e^1*k^1+65517*q^1,
+1*k^2*TT^1+16*l^1*q^1,
+1*q^3+16380,
+1*e^1*q^2+49141*p^2,
+1*p^2*q^1+1*e^1,
+1*k^1*p^2+4,
+1*e^1*p^2+65519*l^2*TT^1,
+1*l^3+32760,
+1*k^1*q^2*TT^1+65520*l^1*p^2,
+1*l^2*q^1*TT^1+32761*e^2,
+1*k^1*l^2*TT^1+2*e^1,
+1*p^4+65517*e^2*q^1,
+1*l^1*q^2*TT^2+32760*e^4,
+1*k^1*l^1*q^1*TT^2+65519*e^3,
+1*l^2*p^2*TT^1+65519*e^3*q^1,
+1*e^4*q^1+32760*l^1*TT^2,
+1*e^5+32761*l^1*p^2*TT^2]:

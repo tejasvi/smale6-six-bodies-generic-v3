@@ -1,0 +1,19 @@
+{
+ "alt_cells": 990,
+ "cert_jsonl_entries_dim_minus1": 1423,
+ "distinct_cores": 1928,
+ "distinct_cores_alt": 970,
+ "distinct_cores_first_pass": 958,
+ "duplicate_cells_across_passes": 0,
+ "first_pass_cells": 37808,
+ "first_pass_core_not_certified": 1001,
+ "first_pass_core_records": 38809,
+ "first_pass_distinct_within_classes": 1423,
+ "link_files": 66,
+ "link_lines": 38798,
+ "open43": 43,
+ "replaced_cells": 35,
+ "scaled_2": 1409,
+ "uncertified_minus_alt": 43,
+ "uncertified_minus_alt_equals_open43": 1
+}

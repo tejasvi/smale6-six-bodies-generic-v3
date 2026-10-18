@@ -1,0 +1,8 @@
+R6 (w-centre at s, w-balance at s, z-balance at a):
+ma^3*mb^15-3*ma^6*mb^10*ms^2-9*ma^5*mb^11*ms^2-9*ma^4*mb^12*ms^2-3*ma^3*mb^13*ms^2+3*ma^9*mb^5*ms^4+18*ma^8*mb^6*ms^4+45*ma^7*mb^7*ms^4+60*ma^6*mb^8*ms^4+45*ma^5*mb^9*ms^4+18*ma^4*mb^10*ms^4+3*ma^3*mb^11*ms^4-ma^12*ms^6-9*ma^11*mb*ms^6-36*ma^10*mb^2*ms^6-85*ma^9*mb^3*ms^6-135*ma^8*mb^4*ms^6-162*ma^7*mb^5*ms^6-168*ma^6*mb^6*ms^6-162*ma^5*mb^7*ms^6-135*ma^4*mb^8*ms^6-85*ma^3*mb^9*ms^6-36*ma^2*mb^10*ms^6-9*ma*mb^11*ms^6-mb^12*ms^6
+[1]:
+   _[1]=-1
+   _[2]=-ma*mb^5+ma^4*ms^2+4*ma^3*mb*ms^2+6*ma^2*mb^2*ms^2+4*ma*mb^3*ms^2+mb^4*ms^2
+   _[3]=ma^2*mb^10-2*ma^5*mb^5*ms^2-5*ma^4*mb^6*ms^2-3*ma^3*mb^7*ms^2+ma^2*mb^8*ms^2+ma*mb^9*ms^2+ma^8*ms^4+5*ma^7*mb*ms^4+10*ma^6*mb^2*ms^4+11*ma^5*mb^3*ms^4+10*ma^4*mb^4*ms^4+11*ma^3*mb^5*ms^4+10*ma^2*mb^6*ms^4+5*ma*mb^7*ms^4+mb^8*ms^4
+[2]:
+   1,1,1

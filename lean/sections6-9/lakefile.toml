@@ -1,0 +1,42 @@
+name = "lean6special"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Lean6Special"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+# The statements, the soundness proofs and the final theorems (with Mathlib).
+[[lean_lib]]
+name = "Lean6Special"
+roots = ["Lean6.Special"]
+# At most four threads per lean process (without -j, lean starts one worker per hardware thread).
+weakLeanArgs = ["-j4"]
+
+# The checkers, their data and the `native_decide` runs: Mathlib-free modules under `Lean6.Special.Comp` (root module
+# `Lean6.Special.Comp`), compiled to shared libraries so that `native_decide` runs compiled code. Lake resolves a module
+# to the last library whose roots contain it, so these modules belong to this library and not to the one above. The
+# root is not the library name, so lake loads the library as a dynlib, not as a plugin.
+[[lean_lib]]
+name = "Lean6SpecialComp"
+roots = ["Lean6.Special.Comp"]
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Kernel-only versions (`decide +kernel`, no `native_decide`): the computational code of the checks over Nat and List
+# (no Mathlib) with the loaders of their data, and the soundness lemmas. The check modules themselves (L6CheckKSpec,
+# and the generated L6CheckC4, L6CheckTrop) are compiled by the memory-budget scheduler of scripts/kern/, not by Lake.
+# Not precompiled: the kernel checks need no compiled code, and the loaders run in the interpreter.
+[[lean_lib]]
+name = "L6KSpec"
+weakLeanArgs = ["-j4"]
+
+[[lean_lib]]
+name = "L6SoundKSpec"
+weakLeanArgs = ["-j4"]

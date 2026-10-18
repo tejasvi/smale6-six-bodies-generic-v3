@@ -1,0 +1,76 @@
+Constraint labels (all on the relatively open cell; h = node heights):
+  ('edge', col, v, c)        h(c) - h(v) > 0 (child deeper than parent)
+  ('root>=-2', col)          h(root) + 2 >= 0
+  ('O1:z+3w<4', k, l)        4 - zeta_kl - 3 omega_kl > 0      ('zstroke', k, l): zeta + 3 omega - 4 = 0
+  ('O1:3z+w<4', k, l)        4 - 3 zeta_kl - omega_kl > 0      ('wstroke', k, l): 3 zeta + omega - 4 = 0
+  ('circle', col, k)         a_k + 2 = 0 (resp. b_k)           ('nocircle', col, k): a_k + 2 > 0
+  ('argmin', id, t)          e(t) - e(t0) = 0 or > 0 for the first listed minimal term t0 of the base identity id
+A certificate d = sum y_i g_i + c (y_i >= 0 on inequalities, free on equalities) proves d > 0.
+
+=== class 4 cell 58: subset sum S_w(3, 4, 5): claimed minimal terms [('pos', 3), ('pos', 4)]: CERTIFIED
+  ('pos', 5) : 1*('edge', 'w', 8, 7)
+  ('cross', 3, 0) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 3, 1) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 3, 2) : 1/4*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 2, 5)
+  ('cross', 4, 0) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 4, 1) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 4, 2) : 1/4*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 2, 5)
+  ('cross', 5, 0) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 5, 1) : 1/2*('O1:z+3w<4', 2, 3) + -1*('circle', 'z', 2) + 1/2*('edge', 'w', 9, 8)
+  ('cross', 5, 2) : -1*('circle', 'z', 2) + 1*('edge', 'w', 8, 7) + -1/2*('zstroke', 2, 5)
+
+=== class 28 cell 0: subset sum S_w(2, 3, 4): claimed minimal terms [('pos', 2), ('pos', 3)]: CERTIFIED
+  ('pos', 4) : 1*('edge', 'w', 8, 7)
+  ('cross', 2, 0) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 2, 1) : 1/4*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 2, 5) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 3, 0) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 3, 1) : 1/4*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 3, 5) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 4, 0) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+  ('cross', 4, 1) : -1*('circle', 'z', 1) + 1*('edge', 'w', 8, 7) + -1/2*('zstroke', 1, 4)
+  ('cross', 4, 5) : 1/6*('O1:z+3w<4', 0, 1) + 1/12*('O1:z+3w<4', 1, 2) + -1*('circle', 'z', 1) + 3/4*('edge', 'w', 8, 7) + -1/4*('zstroke', 1, 4)
+
+=== class 53 cell 1: subset sum S_z(1, 4, 5): claimed minimal terms [('pos', 1), ('pos', 4)]: CERTIFIED
+  ('pos', 5) : 1*('edge', 'z', 8, 7)
+  ('cross', 1, 0) : 1/4*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 3/4*('edge', 'z', 8, 7) + -1/4*('wstroke', 0, 5)
+  ('cross', 1, 2) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+  ('cross', 1, 3) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+  ('cross', 4, 0) : 1/4*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 3/4*('edge', 'z', 8, 7) + -1/4*('wstroke', 0, 5)
+  ('cross', 4, 2) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+  ('cross', 4, 3) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+  ('cross', 5, 0) : -1*('circle', 'w', 0) + 1*('edge', 'z', 8, 7) + -1/2*('wstroke', 0, 5)
+  ('cross', 5, 2) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+  ('cross', 5, 3) : 1/2*('O1:3z+w<4', 0, 1) + -1*('circle', 'w', 0) + 1/2*('edge', 'z', 9, 8)
+
+=== class 0 cell 0: torque T_{3,4} (terms zw(p,q) = delta_pq^3 z_p w_q): claimed minimal terms [('zw', 3, 0), ('zw', 3, 1), ('zw', 4, 0), ('zw', 4, 1)]: CERTIFIED
+  ('zw', 0, 3) : 1/2*('O1:z+3w<4', 0, 3) + -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/3*('circle', 'z', 3) + 1/2*('edge', 'z', 8, 9) + 1/3*('zstroke', 3, 4)
+  ('zw', 1, 3) : 1/2*('O1:z+3w<4', 0, 3) + -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/3*('circle', 'z', 3) + 1/2*('edge', 'z', 8, 9) + 1/3*('zstroke', 3, 4)
+  ('zw', 3, 2) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + 1*('argmin', ('z', 'S', (2,)), ('cross', 2, 0)) + 2/3*('root>=-2', 'w') + 1/3*('wstroke', 2, 5)
+  ('zw', 2, 3) : 1/12*('O1:3z+w<4', 0, 2) + 1/3*('O1:3z+w<4', 2, 3) + 1/3*('O1:z+3w<4', 2, 3) + -1/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/6*('circle', 'w', 2) + 1/4*('edge', 'w', 7, 9) + 1/3*('wstroke', 2, 5) + 1/3*('zstroke', 3, 4)
+  ('zw', 3, 5) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + 1*('argmin', ('z', 'S', (2,)), ('cross', 2, 0)) + 2/3*('root>=-2', 'w') + 1/3*('wstroke', 2, 5)
+  ('zw', 5, 3) : 1/12*('O1:3z+w<4', 0, 2) + 1/3*('O1:3z+w<4', 2, 3) + 1/3*('O1:z+3w<4', 2, 3) + -1/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/6*('circle', 'w', 2) + 1/4*('edge', 'w', 7, 9) + 1/3*('wstroke', 2, 5) + 1/3*('zstroke', 3, 4)
+  ('zw', 0, 4) : 1/2*('O1:z+3w<4', 0, 3) + -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/3*('circle', 'z', 3) + 1/2*('edge', 'z', 8, 9) + 1/3*('zstroke', 3, 4)
+  ('zw', 1, 4) : 1/2*('O1:z+3w<4', 0, 3) + -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/3*('circle', 'z', 3) + 1/2*('edge', 'z', 8, 9) + 1/3*('zstroke', 3, 4)
+  ('zw', 4, 2) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + 1*('argmin', ('z', 'S', (2,)), ('cross', 2, 0)) + 2/3*('root>=-2', 'w') + 1/3*('wstroke', 2, 5)
+  ('zw', 2, 4) : 1/12*('O1:3z+w<4', 0, 2) + 1/3*('O1:3z+w<4', 2, 3) + 1/3*('O1:z+3w<4', 2, 3) + -1/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/6*('circle', 'w', 2) + 1/4*('edge', 'w', 7, 9) + 1/3*('wstroke', 2, 5) + 1/3*('zstroke', 3, 4)
+  ('zw', 4, 5) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + 1*('argmin', ('z', 'S', (2,)), ('cross', 2, 0)) + 2/3*('root>=-2', 'w') + 1/3*('wstroke', 2, 5)
+  ('zw', 5, 4) : 1/12*('O1:3z+w<4', 0, 2) + 1/3*('O1:3z+w<4', 2, 3) + 1/3*('O1:z+3w<4', 2, 3) + -1/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 1)) + -1/6*('circle', 'w', 2) + 1/4*('edge', 'w', 7, 9) + 1/3*('wstroke', 2, 5) + 1/3*('zstroke', 3, 4)
+
+=== class 15 cell 0: torque T_{0,3,4}: claimed minimal terms [('zw', 2, 0)]: CERTIFIED
+  ('zw', 0, 1) : 1*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + 1/2*('edge', 'z', 10, 7)
+  ('zw', 1, 0) : 5/12*('O1:3z+w<4', 0, 1) + 1/3*('O1:3z+w<4', 1, 2) + -5/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -5/6*('circle', 'w', 1) + 1/4*('edge', 'w', 8, 9) + 1/3*('wstroke', 1, 5)
+  ('zw', 0, 5) : 1*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + 1/2*('edge', 'z', 10, 7)
+  ('zw', 5, 0) : 5/12*('O1:3z+w<4', 0, 1) + 1/3*('O1:3z+w<4', 1, 2) + -5/6*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -5/6*('circle', 'w', 1) + 1/4*('edge', 'w', 8, 9) + 1/3*('wstroke', 1, 5)
+  ('zw', 3, 1) : 1/2*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + 1/2*('argmin', ('z', 'S', (0,)), ('cross', 0, 3)) + -1/6*('circle', 'w', 1) + 1/4*('edge', 'z', 7, 9) + 1/4*('edge', 'z', 8, 10) + -1/12*('wstroke', 1, 5)
+  ('zw', 1, 3) : 4/9*('O1:3z+w<4', 1, 3) + 1/18*('O1:z+3w<4', 0, 2) + 5/18*('O1:z+3w<4', 1, 3) + 2/3*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/9*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -2/9*('circle', 'w', 1) + 2/9*('edge', 'z', 8, 10) + 1/3*('wstroke', 1, 5) + 1/3*('zstroke', 2, 3)
+  ('zw', 2, 3) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -1/3*('circle', 'z', 3) + 1*('edge', 'z', 8, 10) + -1/6*('zstroke', 2, 3)
+  ('zw', 3, 5) : 1/2*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + 1/2*('argmin', ('z', 'S', (0,)), ('cross', 0, 3)) + -1/6*('circle', 'w', 1) + 1/4*('edge', 'z', 7, 9) + 1/4*('edge', 'z', 8, 10) + -1/12*('wstroke', 1, 5)
+  ('zw', 5, 3) : 4/9*('O1:3z+w<4', 1, 3) + 1/18*('O1:z+3w<4', 0, 2) + 5/18*('O1:z+3w<4', 1, 3) + 2/3*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/9*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -2/9*('circle', 'w', 1) + 2/9*('edge', 'z', 8, 10) + 1/3*('wstroke', 1, 5) + 1/3*('zstroke', 2, 3)
+  ('zw', 4, 1) : 1/2*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + 1/2*('argmin', ('z', 'S', (0,)), ('cross', 0, 3)) + -1/6*('circle', 'w', 1) + 1/4*('edge', 'z', 7, 9) + 1/4*('edge', 'z', 8, 10) + -1/12*('wstroke', 1, 5)
+  ('zw', 1, 4) : 4/9*('O1:3z+w<4', 1, 3) + 1/18*('O1:z+3w<4', 0, 2) + 5/18*('O1:z+3w<4', 1, 3) + 2/3*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/9*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -2/9*('circle', 'w', 1) + 2/9*('edge', 'z', 8, 10) + 1/3*('wstroke', 1, 5) + 1/3*('zstroke', 2, 3)
+  ('zw', 2, 4) : -1/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -1/3*('circle', 'z', 3) + 1*('edge', 'z', 8, 10) + -1/6*('zstroke', 2, 3)
+  ('zw', 4, 5) : 1/2*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/3*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + 1/2*('argmin', ('z', 'S', (0,)), ('cross', 0, 3)) + -1/6*('circle', 'w', 1) + 1/4*('edge', 'z', 7, 9) + 1/4*('edge', 'z', 8, 10) + -1/12*('wstroke', 1, 5)
+  ('zw', 5, 4) : 4/9*('O1:3z+w<4', 1, 3) + 1/18*('O1:z+3w<4', 0, 2) + 5/18*('O1:z+3w<4', 1, 3) + 2/3*('argmin', ('w', 'S', (2,)), ('cross', 2, 1)) + -2/9*('argmin', ('z', 'S', (0,)), ('cross', 0, 2)) + -2/9*('circle', 'w', 1) + 2/9*('edge', 'z', 8, 10) + 1/3*('wstroke', 1, 5) + 1/3*('zstroke', 2, 3)
+
+ALL CERTIFIED

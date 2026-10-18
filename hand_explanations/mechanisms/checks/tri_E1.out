@@ -1,0 +1,4 @@
+E1 case A, elimination ideal:
+ma^8*mb^8-4*ma^8*mb^6*mc^2-4*ma^6*mb^8*mc^2+6*ma^8*mb^4*mc^4-124*ma^6*mb^6*mc^4+6*ma^4*mb^8*mc^4-4*ma^8*mb^2*mc^6-124*ma^6*mb^4*mc^6-124*ma^4*mb^6*mc^6-4*ma^2*mb^8*mc^6+ma^8*mc^8-4*ma^6*mb^2*mc^8+6*ma^4*mb^4*mc^8-4*ma^2*mb^6*mc^8+mb^8*mc^8
+E(T) in square roots (x_i = 1/s_i): 
+sa^4*sb^4-2*sa^4*sb^2*sc^2-2*sa^2*sb^4*sc^2+sa^4*sc^4-2*sa^2*sb^2*sc^4+sb^4*sc^4

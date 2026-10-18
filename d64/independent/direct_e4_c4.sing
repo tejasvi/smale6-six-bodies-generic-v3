@@ -1,0 +1,52 @@
+// Referee check (my own formulation, not the author's code): the ORIGINAL systems E_4 and C_4 of d64/DERIVATION.md
+// at mu0 = (3,5,7,11), without the hand reductions of Sections 4.1 and 5.1.
+// E_4: xi_1 = eta_1 = 0 (translations), xi_2 = eta_2 = 1 (the 2-dim scaling group (l s, l/s, 1/l)), unknowns
+//      xi_3, xi_4, eta_3, eta_4, P_kl.  Equations: P_kl^2 xi_kl eta_kl = 1 (forces all of them nonzero),
+//      sum_l mu_l P_kl^3 xi_kl = 0, sum_l mu_l P_kl^3 eta_kl = 0 for k = 1..4.
+// C_4: body 4 = centre: xi_4 = 0, eta_4 = 0 (translation of eta only), xi_1 = eta_1 = 1 (scaling; xi_14, eta_14 != 0),
+//      unknowns xi_2, xi_3, eta_2, eta_3, P_kl, c.  Equations: distances, z-forces k = 1..4,
+//      w-forces = c for k = 1..3, centre condition mu_1 xi_1 + mu_2 xi_2 + mu_3 xi_3 = 0.
+// The run is parametrised by the characteristic CH (0 = exact over Q).  Prints the dimension and whether 1 is in the ideal.
+// Usage: Singular -q direct_e4_c4.sing   (with CH set by the wrapper via sed)
+int CH = 32003;
+list mu = 3,5,7,11;
+ring RE = CH, (x3,x4,y3,y4,p12,p13,p14,p23,p24,p34), dp;
+list X = poly(0), poly(1), x3, x4;
+list Y = poly(0), poly(1), y3, y4;
+matrix Pm[4][4];
+Pm[1,2]=p12; Pm[1,3]=p13; Pm[1,4]=p14; Pm[2,3]=p23; Pm[2,4]=p24; Pm[3,4]=p34;
+int k; int l;
+for (k=1; k<=4; k++) { for (l=1; l<k; l++) { Pm[k,l] = Pm[l,k]; } }
+ideal I;
+for (k=1; k<=4; k++) { for (l=k+1; l<=4; l++) { I = I, Pm[k,l]^2*(X[k]-X[l])*(Y[k]-Y[l]) - 1; } }
+for (k=1; k<=4; k++) {
+  poly fx = 0; poly fy = 0;
+  for (l=1; l<=4; l++) { if (l != k) { fx = fx + mu[l]*Pm[k,l]^3*(X[k]-X[l]); fy = fy + mu[l]*Pm[k,l]^3*(Y[k]-Y[l]); } }
+  I = I, fx, fy; kill fx; kill fy;
+}
+int t0 = timer;
+ideal G = std(I);
+"E4 direct: char", CH, " ngens", size(I), " dim", dim(G), " unit", (size(G)==1 && deg(G[1])==0), " sec", timer - t0;
+kill RE;
+
+ring RC = CH, (x2,x3,y2,y3,p12,p13,p14,p23,p24,p34,c), dp;
+list X = poly(1), x2, x3, poly(0);
+list Y = poly(1), y2, y3, poly(0);
+matrix Pm[4][4];
+Pm[1,2]=p12; Pm[1,3]=p13; Pm[1,4]=p14; Pm[2,3]=p23; Pm[2,4]=p24; Pm[3,4]=p34;
+int k; int l;
+for (k=1; k<=4; k++) { for (l=1; l<k; l++) { Pm[k,l] = Pm[l,k]; } }
+ideal I;
+for (k=1; k<=4; k++) { for (l=k+1; l<=4; l++) { I = I, Pm[k,l]^2*(X[k]-X[l])*(Y[k]-Y[l]) - 1; } }
+for (k=1; k<=4; k++) {
+  poly fx = 0; poly fy = 0;
+  for (l=1; l<=4; l++) { if (l != k) { fx = fx + mu[l]*Pm[k,l]^3*(X[k]-X[l]); fy = fy + mu[l]*Pm[k,l]^3*(Y[k]-Y[l]); } }
+  I = I, fx;
+  if (k <= 3) { I = I, fy - c; }
+  kill fx; kill fy;
+}
+I = I, mu[1]*X[1] + mu[2]*X[2] + mu[3]*X[3];
+int t0 = timer;
+ideal G = std(I);
+"C4 direct: char", CH, " ngens", size(I), " dim", dim(G), " unit", (size(G)==1 && deg(G[1])==0), " sec", timer - t0;
+quit;

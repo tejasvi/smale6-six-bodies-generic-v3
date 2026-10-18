@@ -1,0 +1,6 @@
+sol 1: mu4 = (-0.32537795 + 0.14800218j)  |c| = 2.21  centre = 0.00e+00  max model residual = 1.84e-40
+sol 2: mu4 = (0.23827116 + 1.0296384j)  |c| = 0.000999  centre = 4.51e-39  max model residual = 1.62e-39
+sol 3: mu4 = (1.7589244 + 1.6228884j)  |c| = 0.664  centre = 0.00e+00  max model residual = 1.67e-40
+sol 4: mu4 = (0.08790671 - 0.33460036j)  |c| = 1.79  centre = 7.17e-42  max model residual = 1.03e-40
+sol 5: mu4 = (-0.17960438 - 1.0970387j)  |c| = 0.00872  centre = 2.30e-41  max model residual = 1.59e-40
+solutions found: 5

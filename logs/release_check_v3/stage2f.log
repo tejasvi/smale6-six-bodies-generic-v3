@@ -1,0 +1,11 @@
+== stage f34k 2026-10-18T12:42:49Z
+hashes ok: data/f34k/SHA256SUMS (31880 files)
+hashes ok: data/f34k/EXPORT.sha256 (184 classes)
+built 31324 failed 0
+'L6CheckF.fusedK' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage f34k done 2026-10-18T12:44:25Z
+
+real	1m35.897s
+user	3m0.516s
+sys	0m41.452s
+EXIT=0

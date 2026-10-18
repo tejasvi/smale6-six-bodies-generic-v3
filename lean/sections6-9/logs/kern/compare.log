@@ -1,0 +1,22 @@
+# Reproducibility checks of the kernel-only versions on this branch (2026-10-18, one machine with 384 cores)
+
+## Committed modules
+ksp_gen.py . OUT N4 64, ksp_gen.py . OUT KC 64, then kc_classes.lean in OUT and kspc_gen.py OUT OUT/data/ksp/KC_classes.txt
+64: the 320 files of L6CheckKSpec/N4, the 154 of L6CheckKSpec/KC, the box data data/ksp/*_M*.bin and
+data/ksp/KC_classes.txt, byte-identical to the committed files (stage boxes). ke4_gen.py OUT 8: the 201 files of
+L6CheckKSpec/E4, byte-identical (stage e4).
+
+## Certificates and trace
+The 15 files data/kern/cert/*.cert.xz and data/kern/cert/trace_hypN4.txt.xz, decompressed: the digests of
+data/kern/SHA256SUMS.
+
+## Lemma 7.9 over F_32003 (kc4_gen.py, BUCKET_BUDGET 12000, SPLIT_BUDGET 60000, MODULE_BUDGET 400000)
+The chart equations written by gen/c4/dump_eqs.lean: sha256 93f796472d86f8ae979db2d05a70dd552811e8d368ebfb0308fc1a99c4e1acef,
+the equations from which the companion project generated its modules. Two generations (a separate directory, then
+stage c4gen): identical, 674 files (data/c4k/SHA256SUMS); the 643 modules and 28 data files among them are the 671
+files of the list of the modules the companion project compiled (with the bridges and Final importing K4.C4.Defs).
+
+## Lemma 6.19(a)(iii)-(iv) (ktrop_gen.py, 60000 60000 400000)
+KC with esc_kc_0, N4 with trace:trace_hypN4.txt: two generations (a separate directory, then stage tropgen) identical,
+1,011 files (data/tropk/SHA256SUMS); those of KC are the 108 files and those of N4 the 903 files of the lists of the
+modules the companion project compiled.

@@ -1,0 +1,44 @@
+nice 10; 4 cores, 1855 certificates exist, 3 to do; jobs 4, timeout 3600, order dp, varorder canon, method liftstd_slimgb
+watchdog: killed 12713 (10799 MB) in 5a4228c851228eb8_lgtzshq7
+watchdog: killed 13201 (10131 MB) in f319bd17c47cb72d_lalnlpjn
+watchdog: killed 13218 (9988 MB) in 1c7fd2dff66942f8_4zyrgbzk
+watchdog: killed 13176 (9926 MB) in 554cf28bbe3c176c_ruj2jlg7
+watchdog: killed 13183 (12171 MB) in e425e26ac373ea0b_o818wppm
+watchdog: killed 12940 (10692 MB) in 919069b72a23260d_zhdxt_8f
+watchdog: killed 13215 (10947 MB) in 5b002379685d4787_e83ft33o
+watchdog: killed 13281 (9905 MB) in bbfdf82e3e6adfc3_3r_t_n9y
+watchdog: killed 13290 (9921 MB) in 6076fa31bd11b1df_kflyg1vi
+watchdog: killed 13295 (10912 MB) in 242c0a990a09d8e6_oc3qkqtm
+watchdog: killed 12931 (9684 MB) in 919069b72a23260d_r79zc3ko
+watchdog: killed 13168 (10235 MB) in e810814dbbbd618f_degqu_oi
+watchdog: killed 13294 (10280 MB) in 304bfbe73dccade5_023lwn75
+watchdog: killed 13208 (13271 MB) in 86c713a305d6aa4d_dxs3os4l
+watchdog: killed 13227 (10539 MB) in e2b67e10f3e457b4_v5b94gpx
+watchdog: killed 13171 (10795 MB) in e1dcf7d3509e5f00_in09vz4b
+watchdog: killed 13204 (11541 MB) in e810814dbbbd618f_d7xh1at4
+watchdog: killed 13192 (11002 MB) in e5235da7d0793e20_78uwy3kg
+watchdog: killed 13203 (15748 MB) in 554cf28bbe3c176c_eh4yqxrg
+watchdog: killed 13303 (16835 MB) in e0e6f901b35ebcb2_60egqkjn
+watchdog: killed 13235 (16566 MB) in 7d73c225527a05c5_57nem9c8
+watchdog: killed 13198 (17090 MB) in 19766c038a4f930e_k6gyc5me
+watchdog: killed 13292 (16560 MB) in bf1045e3e0922710_j02qh2s7
+watchdog: killed 13247 (16849 MB) in 42955a12632fff8e_befri10x
+watchdog: killed 13299 (17149 MB) in 54e9bfbed9063e83_c40i6jpc
+watchdog: killed 13187 (17289 MB) in 78cd8b78de08cf7d_oe1vczjp
+watchdog: killed 13231 (16755 MB) in a96600ac093191b7_18q9yb27
+watchdog: killed 13260 (17089 MB) in 26ab6a31ef0dc88a_2nh74dor
+watchdog: killed 26905 (38915 MB) in 68b46768bc3b81d1_vfgznc7p
+watchdog: killed 27088 (13597 MB) in 2dae9fd819daadd3_rb520rp3
+watchdog: killed 12705 (11866 MB) in 3fb29ae96b879aab_m38gvxhr
+watchdog: killed 26966 (11428 MB) in 213b03c66e12df6c_ed341isn
+watchdog: killed 26984 (12883 MB) in 0e356e286a8b8710_hmmrtqot
+watchdog: killed 27016 (11084 MB) in ac2f3998d5e245d3_izphqij3
+watchdog: killed 12716 (10621 MB) in 554cf28bbe3c176c_riphxr_a
+watchdog: killed 26944 (11508 MB) in 28ca04a1e8a50726_9n00e558
+watchdog: killed 26969 (10413 MB) in 145ac192f1cf2a54_y3vi30u9
+watchdog: killed 27050 (8968 MB) in c645a7d11f2e8bcb_zc0zrskp
+watchdog: killed 27042 (8964 MB) in b42f71bb98700907_z6qlea0z
+watchdog: killed 26994 (9081 MB) in e6753d18d79a8653_k622upad
+watchdog: killed 26921 (9406 MB) in 656d766e082ae8a9_uhvo2dfi
+3 919069b72a23260d timeout 3600.19
+done

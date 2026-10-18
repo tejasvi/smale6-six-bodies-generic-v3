@@ -1,0 +1,3 @@
+mu=(1, 2, 7): deg S_mu 34, lead 81, deg sqfree(S_mu) 32, deg g 36, deg sqfree(g) 32, sqfree parts equal up to a constant: True
+mu=(1, 2, 8): deg S_mu 34, lead 81, deg sqfree(S_mu) 32, deg g 36, deg sqfree(g) 32, sqfree parts equal up to a constant: True
+mu=(2, 3, 11): deg S_mu 34, lead 625, deg sqfree(S_mu) 32, deg g 36, deg sqfree(g) 32, sqfree parts equal up to a constant: True

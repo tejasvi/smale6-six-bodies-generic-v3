@@ -1,0 +1,5 @@
+Lean per-cell lines: 4431 (none 4335, four 96); program per-cell lines: 4431 (none 4335, four-only 96)
+per-cell lists identical (same order): True
+program output on the embedded data identical to clique_census.txt: True
+classes compared with the note's per-class counts: 191; differing in (cells, with a clique): []
+Lean totals: cells 91273, clique 86938, three 86842, four 96, forced 91273

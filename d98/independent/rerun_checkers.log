@@ -1,0 +1,66 @@
+Fri Oct 16 11:09:44 UTC 2026
+=== Arb 1 2 7 1 2 7
+muA ['1', '2', '7'] muB ['1', '2', '7']
+roots (with mult) A 34 B 34, distinct shapes A 32 B 32
+min rho_A >= [0.76410794 +/- 1.46e-9], min rho_B >= [0.76410794 +/- 1.46e-9], margin 2 rhoA rhoB - 1 >= [0.16772188 +/- 3.49e-9] : dominant test PASS
+direct test: 1024 pairs x 256 sign matrices, all exclude 0: PASS; min |sum|/sum|c| >= [0.45370329 +/- 2.16e-10]
+time 2.2 s
+exit 0
+=== rational 1 2 7 1 2 7
+masses A ['1', '2', '7'] B ['1', '2', '7']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.7641079385 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0
+=== Arb 1 2 7 1 2 8
+muA ['1', '2', '7'] muB ['1', '2', '8']
+roots (with mult) A 34 B 34, distinct shapes A 32 B 32
+min rho_A >= [0.76410794 +/- 1.46e-9], min rho_B >= [0.79903584 +/- 4.53e-9], margin 2 rhoA rhoB - 1 >= [0.22109926 +/- 3.97e-9] : dominant test PASS
+direct test: 1024 pairs x 256 sign matrices, all exclude 0: PASS; min |sum|/sum|c| >= [0.49464348 +/- 4.18e-9]
+time 1.0 s
+exit 0
+=== rational 1 2 7 1 2 8
+masses A ['1', '2', '7'] B ['1', '2', '8']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.7990358445 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0
+=== Arb 1 2 7 1 3 7
+muA ['1', '2', '7'] muB ['1', '3', '7']
+roots (with mult) A 34 B 34, distinct shapes A 32 B 32
+min rho_A >= [0.76410794 +/- 1.46e-9], min rho_B >= [0.67923218 +/- 1.26e-9], margin 2 rhoA rhoB - 1 >= [0.038013404 +/- 3.83e-10] : dominant test PASS
+direct test: 1024 pairs x 256 sign matrices, all exclude 0: PASS; min |sum|/sum|c| >= [0.36282794 +/- 5.50e-10]
+time 1.7 s
+exit 0
+=== rational 1 2 7 1 3 7
+masses A ['1', '2', '7'] B ['1', '3', '7']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.6792321813 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0
+=== Arb 1 2 7 2 3 11
+muA ['1', '2', '7'] muB ['2', '3', '11']
+roots (with mult) A 34 B 34, distinct shapes A 32 B 32
+min rho_A >= [0.76410794 +/- 1.46e-9], min rho_B >= [0.74596115 +/- 3.67e-9], margin 2 rhoA rhoB - 1 >= [0.13998967 +/- 2.49e-9] : dominant test PASS
+direct test: 1024 pairs x 256 sign matrices, all exclude 0: PASS; min |sum|/sum|c| >= [0.43075286 +/- 1.13e-9]
+time 0.9 s
+exit 0
+=== rational 1 2 7 2 3 11
+masses A ['1', '2', '7'] B ['2', '3', '11']
+roots certified (Rouche, radius 2^-120): A 34, B 34
+min rho_A >= 0.7641079385, min rho_B >= 0.7459611463 (exact rationals); rho_A rho_B > 1/2: True
+worst A root: L11  t ~ -0.473561 +0.444772i
+exit 0
+=== independent mpmath (tools/rho_indep.py)
+number of roots (Lagrange counted per class, 18; collinear 20): 38
+  rho = 0.764107938541  at L11  t = (-0.4735614834 + 0.4447718088j)
+  rho = 0.764107938541  at L22  t = (-0.4735614834 - 0.4447718088j)
+  rho = 0.764642421888  at L11  t = (1.473561483 - 0.4447718088j)
+  rho = 0.764642421888  at L22  t = (1.473561483 + 0.4447718088j)
+min |l_j| over roots: 0.548004
+number of roots (Lagrange counted per class, 18; collinear 20): 38
+  rho = 0.799035844529  at L11  t = (-0.4735614834 + 0.4447718088j)
+  rho = 0.799035844529  at L22  t = (-0.4735614834 - 0.4447718088j)
+  rho = 0.799643716633  at L22  t = (1.473561483 + 0.4447718088j)
+  rho = 0.799643716633  at L11  t = (1.473561483 - 0.4447718088j)
+min |l_j| over roots: 0.543253

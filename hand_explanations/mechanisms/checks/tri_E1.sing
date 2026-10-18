@@ -1,0 +1,27 @@
+// E1, case (z-balance at a and b, w-balance at a): bodies a=1, b=2, c=3 (c at coordinate 0 in both colours)
+LIB "elim.lib";
+ring R = 0, (Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc), dp;
+poly xab = Xa - Xb; poly xbc = Xb; poly xca = -Xa;
+poly yab = Ya - Yb; poly ybc = Yb; poly yca = -Ya;
+ideal I =
+  // distances
+  Pab^2*xab*yab - 1, Pbc^2*xbc*ybc - 1, Pca^2*xca*yca - 1,
+  // z-balance at a: m_b Z_ab + m_c Z_ac = 0 ; at b: m_a Z_ba + m_c Z_bc = 0
+  mb*Pab^3*xab - mc*Pca^3*xca,
+  -ma*Pab^3*xab + mc*Pbc^3*xbc,
+  // w-balance at a
+  mb*Pab^3*yab - mc*Pca^3*yca;
+ideal S = I;
+list vv = Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc, xab, yab;
+int i;
+for (i = 1; i <= size(vv); i++) { S = sat(S, ideal(vv[i])); }
+ideal J = eliminate(S, Xa*Xb*Ya*Yb*Pab*Pbc*Pca);
+print("E1 case A, elimination ideal:"); print(J);
+// compare with E(T): product over signs of (sqrt(mb mc) +- sqrt(ma mc) +- sqrt(ma mb)) written in masses
+ring Q = 0, (sa, sb, sc), dp;    // sa^2 = ma etc.
+poly f = 1;
+int e1; int e2;
+for (e1 = 0; e1 <= 1; e1++) { for (e2 = 0; e2 <= 1; e2++) {
+   f = f * (sb*sc + (-1)^e1*sa*sc + (-1)^e2*sa*sb); } }
+print("E(T) in square roots (x_i = 1/s_i): "); print(f);
+quit;

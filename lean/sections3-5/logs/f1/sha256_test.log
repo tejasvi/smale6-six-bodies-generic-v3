@@ -1,0 +1,11 @@
+# scripts/f1/sha256_test.sh (run from the package root on a build box)
+2026-10-17 06:14 UTC
+files: 212
+all digests agree with sha256sum
+2f47a2ddaf56c25336c2ce1dabeade3e3c643971073fc6bfa05b9356a53ba00a  data/f1/n4.json
+48ff5f5c20e74fad036503ead82b7152719d7b581535deae2f898e7d21749d7d  data/f1/n5.json
+0f2ae5d0e1e8619eeb680c12b04fb168faaa856e43d61b16074df50a874e2ff4  data/f1/n6.json
+
+real	0m5.271s
+user	0m4.894s
+sys	0m0.373s

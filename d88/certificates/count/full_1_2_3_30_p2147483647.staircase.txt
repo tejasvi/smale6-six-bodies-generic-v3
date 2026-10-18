@@ -1,0 +1,7 @@
+variables ['X2', 'X3', 'Y1', 'Y2', 'Y3', 'p12', 'p13', 'p14', 'p23', 'p24', 'p34']
+minimal generators 7411
+standard monomials 20316
+
+real	0m6.058s
+user	0m6.054s
+sys	0m0.000s

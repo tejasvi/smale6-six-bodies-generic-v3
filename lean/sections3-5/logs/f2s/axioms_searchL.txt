@@ -1,0 +1,10 @@
+# theorem | standard axioms | number of native_decide auxiliary axioms | only allowed axioms
+L6.F2S.argminRecL_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.argminString_eq_renderIdx | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.branchRecL_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.cellL_stored | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.cellsBelowL_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.searchL_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.searchL_split | Quot.sound,propext | 0 | True
+L6.F2S.treeLevelL_complete | Classical.choice,Quot.sound,propext | 0 | True
+# theorems: 2165; with a disallowed axiom: 0; sorryAx anywhere in the log: False

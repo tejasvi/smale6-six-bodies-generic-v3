@@ -1,0 +1,28 @@
+// Variants seen in the engine's cores. Triangle a, b, c (c = s at coordinate 0 in both colours).
+LIB "elim.lib";
+proc elimtri(ideal I)
+{
+  ideal S = I;
+  list vv = Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc, Xa-Xb, Ya-Yb;
+  int i;
+  for (i = 1; i <= size(vv); i++) { S = sat(S, ideal(vv[i])); }
+  ideal J = eliminate(S, Xa*Xb*Ya*Yb*Pab*Pbc*Pca);
+  return(J);
+}
+ring R = 0, (Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc), dp;
+poly xab = Xa - Xb; poly xbc = Xb; poly xca = -Xa;
+poly yab = Ya - Yb; poly ybc = Yb; poly yca = -Ya;
+ideal Dist = Pab^2*xab*yab - 1, Pbc^2*xbc*ybc - 1, Pca^2*xca*yca - 1;
+poly UT = ma*mb*Pab + mb*mc*Pbc + mc*ma*Pca;
+// balances: z at a, z at b, w at a, w at b, w at c
+poly zA = mb*Pab^3*xab - mc*Pca^3*xca;
+poly zB = -ma*Pab^3*xab + mc*Pbc^3*xbc;
+poly wA = mb*Pab^3*yab - mc*Pca^3*yca;
+poly wB = -ma*Pab^3*yab + mc*Pbc^3*ybc;
+// (a) U_T + z-balance at a + w-balance at b (different vertices)
+ideal Ja = elimtri(Dist + ideal(UT, zA, wB));
+print("(a) U_T, z-bal at a, w-bal at b:"); print(Ja); if (size(Ja) > 0) { print(factorize(Ja[1])); }
+// (b) U_T + w-balance at a + w-centre at c (= s): ma*Ya + mb*Yb = 0
+ideal Jb = elimtri(Dist + ideal(UT, wA, ma*Ya + mb*Yb));
+print("(b) U_T, w-bal at a, w-centre at c:"); print(Jb); if (size(Jb) > 0) { print(factorize(Jb[1])); }
+quit;

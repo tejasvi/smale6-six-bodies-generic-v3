@@ -1,0 +1,26 @@
+// Lemma R1* (centred triangle, clusters): role variables. Centre colour w (balanced at a, b; s at O's coordinate 0),
+// other colour z (a, b, s in three distinct children; translation: s at 0). Masses ma, mb, ms; cluster masses MA, MB.
+LIB "elim.lib";
+ring R = 0, (Pab,Pbs,Psa,XA,XB,YA,YB,k, ma,mb,ms,MA,MB), dp;
+ideal I =
+  Pab^2*(XA-XB)*(YA-YB)-1,
+  Pbs^2*XB*YB-1,
+  Psa^2*XA*YA-1,
+  ms*Psa^3*YA + mb*Pab^3*(YA-YB),          // w-balance at a: m_s W_as + m_b W_ab
+  ms*Pbs^3*YB - ma*Pab^3*(YA-YB),          // w-balance at b: m_s W_bs + m_a W_ba
+  MA*YA + MB*YB;                           // centre relation of the clusters A, B
+I = sat(I, ideal(XA*XB*(XA-XB)*YA*YB*(YA-YB)));
+ideal E = eliminate(I, Pab*Pbs*Psa*XA*XB*YA*YB*k);
+print("R1* elimination ideal: " + string(size(E)) + " generator(s)");
+// hand formula: Res_kappa(MA*mb*kappa^3 - MB*ma, ms^2*(MA+MB)*(ma+mb*kappa)^3 - ma^3*mb^2*MB)
+poly H = resultant(MA*mb*k^3 - MB*ma, ms^2*(MA+MB)*(ma+mb*k)^3 - ma^3*mb^2*MB, k);
+print("factors of E[1]:"); print(factorize(E[1]));
+print("factors of hand H:"); print(factorize(H));
+ideal EH = std(ideal(H));
+print("E[1] in <H>: " + string(reduce(E[1], EH) == 0));
+ideal ES = std(E);
+print("H in E: " + string(reduce(H, ES) == 0));
+// specialisation MA = ma, MB = mb: AK's R(ab;s) times the degree-12 factor (label type 1)
+poly H1 = subst(subst(H, MA, ma), MB, mb);
+print("MA=ma, MB=mb:"); print(factorize(H1));
+quit;

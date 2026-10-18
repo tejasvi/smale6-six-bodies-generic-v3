@@ -1,0 +1,13 @@
+W3: gens 1; E subset <HW>: 1; HW in E: 1
+W3 (bal a,c): E2 subset <HW>: 1; HW in E2: 1
+EQ2: gens 1
+ma^2*MA^4-mb^2*MB^4
+EQ2: E subset <H>: 1; H in E: 1
+TQ: gens 1
+[1]:
+   _[1]=1
+   _[2]=n1^2-n1*n2+n2^2
+   _[3]=M1^2-M1*M2+M2^2
+   _[4]=n1^6*M1^6+2*n1^3*n2^3*M1^6+n2^6*M1^6+2*n1^6*M1^3*M2^3-12*n1^3*n2^3*M1^3*M2^3+2*n2^6*M1^3*M2^3+n1^6*M2^6+2*n1^3*n2^3*M2^6+n2^6*M2^6
+[2]:
+   1,1,1,1

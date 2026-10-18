@@ -1,0 +1,625 @@
+2026-10-17T11:00:30Z
+⚠ [9093/10510] Built Lean6.Special.K4.E4.Sound (1.5s)
+warning: Lean6/Special/K4/E4/Sound.lean:193:15: This simp argument is unused:
+  RingHom.mapMatrix_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [aZ, Mp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9098/10510] Built Lean6.Special.K4.C4.GBSound (1.0s)
+warning: Lean6/Special/K4/C4/GBSound.lean:67:34: This simp argument is unused:
+  List.all_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/GBSound.lean:207:20: This simp argument is unused:
+  h4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h3]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/GBSound.lean:229:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:230:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:232:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:233:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:246:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:249:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:249:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9099/10510] Built Lean6.Special.K4.E4.AlgebraIds (2.3s)
+warning: Lean6/Special/K4/E4/AlgebraIds.lean:61:34: Variable name `hw` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hw
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Lean6/Special/K4/E4/AlgebraIds.lean:85:23: this constant has no effect on the linear combination; it can be dropped from the term
+⚠ [9150/10510] Built Lean6.Special.Ball.Lin (3.3s)
+warning: Lean6/Special/Ball/Lin.lean:141:28: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.sub_apply, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9275/10510] Built Lean6.Special.Hand.Identities (6.5s)
+warning: Lean6/Special/Hand/Identities.lean:107:5: Variable name `hτ1` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hτ1
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Lean6/Special/Hand/Identities.lean:107:30: Variable name `hσ2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hσ2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [10046/10510] Built Lean6.Special.Ball.SlopeSem (21s)
+warning: Lean6/Special/Ball/SlopeSem.lean:50:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:50:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:51:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:51:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:83:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:84:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:84:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:89:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:97:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:97:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:98:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:98:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:215:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:215:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:231:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:231:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:237:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [10299/10510] Built Lean6.Special.Comp.D88.Boxes.KC.All (5.1s)
+warning: Lean6/Special/Comp/D88/Boxes/KC/All.lean:167:68: This simp argument is unused:
+  Bool.true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [allChunks, List.all_cons, List.all_nil, Bool.and_true, D000.ok, D001.ok, D002.ok, D003.ok, D004.ok,
+    D005.ok, D006.ok, D007.ok, D008.ok, D009.ok, D010.ok, D011.ok, D012.ok, D013.ok, D014.ok, D015.ok, D016.ok, D017.ok,
+    D018.ok, D019.ok, D020.ok, D021.ok, D022.ok, D023.ok, D024.ok, D025.ok, D026.ok, D027.ok, D028.ok, D029.ok, D030.ok,
+    D031.ok, D032.ok, D033.ok, D034.ok, D035.ok, D036.ok, D037.ok, D038.ok, D039.ok, D040.ok, D041.ok, D042.ok, D043.ok,
+    D044.ok, D045.ok, D046.ok, D047.ok, D048.ok, D049.ok, D050.ok, D051.ok, D052.ok, D053.ok, D054.ok, D055.ok, D056.ok,
+    D057.ok, D058.ok, D059.ok, D060.ok, D061.ok, D062.ok, D063.ok, D064.ok, D065.ok, D066.ok, D067.ok, D068.ok, D069.ok,
+    D070.ok, D071.ok, D072.ok, D073.ok, D074.ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10309/10510] Built Lean6.Special.Comp.D88.Boxes.N4.All (391ms)
+warning: Lean6/Special/Comp/D88/Boxes/N4/All.lean:653:68: This simp argument is unused:
+  Bool.true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [allChunks, List.all_cons, List.all_nil, Bool.and_true, D000.ok, D001.ok, D002.ok, D003.ok, D004.ok,
+    D005.ok, D006.ok, D007.ok, D008.ok, D009.ok, D010.ok, D011.ok, D012.ok, D013.ok, D014.ok, D015.ok, D016.ok, D017.ok,
+    D018.ok, D019.ok, D020.ok, D021.ok, D022.ok, D023.ok, D024.ok, D025.ok, D026.ok, D027.ok, D028.ok, D029.ok, D030.ok,
+    D031.ok, D032.ok, D033.ok, D034.ok, D035.ok, D036.ok, D037.ok, D038.ok, D039.ok, D040.ok, D041.ok, D042.ok, D043.ok,
+    D044.ok, D045.ok, D046.ok, D047.ok, D048.ok, D049.ok, D050.ok, D051.ok, D052.ok, D053.ok, D054.ok, D055.ok, D056.ok,
+    D057.ok, D058.ok, D059.ok, D060.ok, D061.ok, D062.ok, D063.ok, D064.ok, D065.ok, D066.ok, D067.ok, D068.ok, D069.ok,
+    D070.ok, D071.ok, D072.ok, D073.ok, D074.ok, D075.ok, D076.ok, D077.ok, D078.ok, D079.ok, D080.ok, D081.ok, D082.ok,
+    D083.ok, D084.ok, D085.ok, D086.ok, D087.ok, D088.ok, D089.ok, D090.ok, D091.ok, D092.ok, D093.ok, D094.ok, D095.ok,
+    D096.ok, D097.ok, D098.ok, D099.ok, D100.ok, D101.ok, D102.ok, D103.ok, D104.ok, D105.ok, D106.ok, D107.ok, D108.ok,
+    D109.ok, D110.ok, D111.ok, D112.ok, D113.ok, D114.ok, D115.ok, D116.ok, D117.ok, D118.ok, D119.ok, D120.ok, D121.ok,
+    D122.ok, D123.ok, D124.ok, D125.ok, D126.ok, D127.ok, D128.ok, D129.ok, D130.ok, D131.ok, D132.ok, D133.ok, D134.ok,
+    D135.ok, D136.ok, D137.ok, D138.ok, D139.ok, D140.ok, D141.ok, D142.ok, D143.ok, D144.ok, D145.ok, D146.ok, D147.ok,
+    D148.ok, D149.ok, D150.ok, D151.ok, D152.ok, D153.ok, D154.ok, D155.ok, D156.ok, D157.ok, D158.ok, D159.ok, D160.ok,
+    D161.ok, D162.ok, D163.ok, D164.ok, D165.ok, D166.ok, D167.ok, D168.ok, D169.ok, D170.ok, D171.ok, D172.ok, D173.ok,
+    D174.ok, D175.ok, D176.ok, D177.ok, D178.ok, D179.ok, D180.ok, D181.ok, D182.ok, D183.ok, D184.ok, D185.ok, D186.ok,
+    D187.ok, D188.ok, D189.ok, D190.ok, D191.ok, D192.ok, D193.ok, D194.ok, D195.ok, D196.ok, D197.ok, D198.ok, D199.ok,
+    D200.ok, D201.ok, D202.ok, D203.ok, D204.ok, D205.ok, D206.ok, D207.ok, D208.ok, D209.ok, D210.ok, D211.ok, D212.ok,
+    D213.ok, D214.ok, D215.ok, D216.ok, D217.ok, D218.ok, D219.ok, D220.ok, D221.ok, D222.ok, D223.ok, D224.ok, D225.ok,
+    D226.ok, D227.ok, D228.ok, D229.ok, D230.ok, D231.ok, D232.ok, D233.ok, D234.ok, D235.ok, D236.ok, D237.ok, D238.ok,
+    D239.ok, D240.ok, D241.ok, D242.ok, D243.ok, D244.ok, D245.ok, D246.ok, D247.ok, D248.ok, D249.ok, D250.ok, D251.ok,
+    D252.ok, D253.ok, D254.ok, D255.ok, D256.ok, D257.ok, D258.ok, D259.ok, D260.ok, D261.ok, D262.ok, D263.ok, D264.ok,
+    D265.ok, D266.ok, D267.ok, D268.ok, D269.ok, D270.ok, D271.ok, D272.ok, D273.ok, D274.ok, D275.ok, D276.ok, D277.ok,
+    D278.ok, D279.ok, D280.ok, D281.ok, D282.ok, D283.ok, D284.ok, D285.ok, D286.ok, D287.ok, D288.ok, D289.ok, D290.ok,
+    D291.ok, D292.ok, D293.ok, D294.ok, D295.ok, D296.ok, D297.ok, D298.ok, D299.ok, D300.ok, D301.ok, D302.ok, D303.ok,
+    D304.ok, D305.ok, D306.ok, D307.ok, D308.ok, D309.ok, D310.ok, D311.ok, D312.ok, D313.ok, D314.ok, D315.ok, D316.ok,
+    D317.ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10321/10510] Built Lean6.Special.Ball.KrawCheckSem (8.0s)
+warning: Lean6/Special/Ball/KrawCheckSem.lean:138:23: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [10322/10510] Built Lean6.Special.D98.Shapes (26s)
+warning: Lean6/Special/D98/Shapes.lean:147:60: This simp argument is unused:
+  neg_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Fk, sigM, zM, Fin.sum_univ_three, div_eq_mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10323/10510] Built Lean6.Special.Ball.Deriv (1.9s)
+warning: Lean6/Special/Ball/Deriv.lean:48:12: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  tendsto_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:49:17: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  tendsto_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:65:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/Deriv.lean:67:18: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/Deriv.lean:78:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:84:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:86:12: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:89:21: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:92:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:94:24: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:96:19: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [10329/10510] Built Lean6.Special.D98.Lemma69 (4.0s)
+warning: Lean6/Special/D98/Lemma69.lean:156:59: This simp argument is unused:
+  map_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toPoly_scale, toPoly_mul, Polynomial.map_mul, eq_intCast, Polynomial.map_intCast] at h'
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Lemma69.lean:174:43: This simp argument is unused:
+  derivative_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [toPoly_add, toPoly_mul, toPoly_deriv, Polynomial.map_add, Polynomial.map_mul, toPoly_cons,
+    toPoly_nil, mul_zero, add_zero, map_C] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10334/10510] Built Lean6.Special.D98.Heavy (5.1s)
+warning: Lean6/Special/D98/Heavy.lean:264:31: This simp argument is unused:
+  add_neg_cancel_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_neg_eq_add, norm_neg] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:293:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:294:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:295:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:360:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Lean6/Special/D98/Heavy.lean:368:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Lean6/Special/D98/Heavy.lean:360:54: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Lean6/Special/D98/Heavy.lean:368:50: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [10335/10510] Built Lean6.Special.D88.Boxes.BoxSound (3.2s)
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:53: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:70: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:87: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:104: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:53: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:70: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:87: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:104: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:53: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:70: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:87: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:104: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:141:69: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:141:96: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:142:16: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:142:43: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:148:61: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:148:93: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:149:16: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:149:48: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:244:17: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+
+Hint: Replace the deprecated name:
+  ContinuousLinearMap.coe_comp'̵
+⚠ [10338/10510] Built Lean6.Special.D88.Boxes.KCSound (3.7s)
+warning: Lean6/Special/D88/Boxes/KCSound.lean:151:8: Unused tactic linter: `push_cast at this ⊢` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [10341/10510] Built Lean6.Special.D98.Check127 (7.8s)
+warning: Lean6/Special/D98/Check127.lean:70:48: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eval_multiset_prod, Multiset.map_map]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:232:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n2, n3, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:233:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n1, n3, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:234:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n1, n2, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:322:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n2, n3, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:323:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n1, n3, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Check127.lean:324:77: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [AjG, μR, Lam, n1, n2, μC]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10469/10510] Built Lean6.Special.K4.E4.Rem (1.3s)
+warning: Lean6/Special/K4/E4/Rem.lean:67:15: Variable name `hω` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hω
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Lean6/Special/K4/E4/Rem.lean:85:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/K4/E4/Rem.lean:101:38: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Lean6/Special/K4/E4/Rem.lean:104:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/E4/Rem.lean:143:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Lean6/Special/K4/E4/Rem.lean:153:35: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [10474/10510] Built Lean6.Special.D88.Boxes.Counts (1.9s)
+warning: Lean6/Special/D88/Boxes/Counts.lean:62:15: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.val_succ, List.getElem_cons_succ, Fin.val_zero, List.getElem_cons_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/Counts.lean:64:32: This simp argument is unused:
+  ha
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/Counts.lean:93:4: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [10504/10510] Built Lean6.Special.K4.C4.Final (3.8s)
+warning: Lean6/Special/K4/C4/Final.lean:114:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:119:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:151:61: This simp argument is unused:
+  map_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eqsAt, eqsZ, eqIZ, eqIIZ, eqIIIZ, aZ, xiZ, Pm, muOf, map_prod, Finset.sum_filter, Finset.prod_filter,
+    Fin.sum_univ_four, Fin.prod_univ_four, pairIdx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/Final.lean:151:70: This simp argument is unused:
+  map_prod
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eqsAt, eqsZ, eqIZ, eqIIZ, eqIIIZ, aZ, xiZ, Pm, muOf, map_sum, Finset.sum_filter, Finset.prod_filter,
+    Fin.sum_univ_four, Fin.prod_univ_four, pairIdx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/Final.lean:188:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:190:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:192:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (10510 jobs).
+	Command being timed: "nice -n 10 lake build"
+	User time (seconds): 5929.57
+	System time (seconds): 158.77
+	Percent of CPU this job got: 1328%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:38.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6967548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 654
+	Minor (reclaiming a frame) page faults: 20154938
+	Voluntary context switches: 705490
+	Involuntary context switches: 13150
+	Swaps: 0
+	File system inputs: 1608
+	File system outputs: 1260672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+2026-10-17T11:08:08Z
+DONE

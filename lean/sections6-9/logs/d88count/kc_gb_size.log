@@ -1,0 +1,16 @@
+Lemma 6.19(b) feasibility: size of the reduced Groebner basis of KC' at mu0 = (1,2,3,30) modulo 65521
+(input: rung3/d88/certificates/kc/kc_full_1_2_3_30_p65521.ms, sha256 876cb395e196e2a88724eafed4b63e1706258a5ae14f4880b4114681961f0522;
+11 variables X2, X3, U1, U2, U3, p12, ..., p34; 12 equations; graded reverse lexicographic order)
+measured 2026-10-17 on a 384-core box
+
+msolve 0.9.4, `msolve -g 2 -t 32 -f kc.ms -o kc_gb.txt`:
+  wall 9.9 s (32 threads), max RSS 270 MB, output 83,490,602 bytes
+  reduced basis: 2,074 elements (the same number as the leading monomials in kc_full_1_2_3_30_p65521.lead),
+  3,059,205 terms, largest element 1,597 terms (gen/d88count/gbstats.py)
+Singular 4.4.1, `std` over F_65521 (rung3/d88/certificates/kc/singular_std_kc_65521.sing):
+  wall 24 min 24 s (one thread), max RSS 580 MB, vdim 4788
+Buchberger engine of Lean6.Special.Comp.K4.C4.GB on the same 12 equations (gen/d88count/mk_kctest.py, native code):
+  stopped after 25 min 51 s without a result (RSS 819 MB). On the 14 charts of Lemma 7.9 the engine takes about
+  31 times Singular's std time (1,057 s against 34.4 s), so a complete run on KC' would take about 12-13 hours.
+For comparison, S12 (20,316): reduced basis 7,411 elements, 42,346,010 terms; msolve 195 s on 32 threads
+  (3,191 CPU-s); Singular std did not finish in 2.7 hours (rung3/d88/DERIVATION.md, A.8).

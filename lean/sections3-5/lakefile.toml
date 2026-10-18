@@ -1,0 +1,125 @@
+name = "Lean6"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["L6Common", "L6Sound"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.style.header = false
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.35.0-rc3"
+
+# Computational libraries: code over Nat, Int, Array, Float and String only (no Mathlib), compiled to native
+# shared libraries (`precompileModules`), so that `native_decide` in the modules of L6Check runs native code,
+# not the IR interpreter. One library per family, so that the families build independently.
+
+# Shared code: parsing, SHA-256, exact linear algebra, the Farkas certificate check (Lemma 4.6), the LP proposer.
+[[lean_lib]]
+name = "L6Common"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F1: the diagrams (Proposition 3.1).
+[[lean_lib]]
+name = "L6F1"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F2: the cells (Proposition 4.5).
+[[lean_lib]]
+name = "L6F2"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F2, specification: the search on trees as families of point sets, written to be proved complete.
+[[lean_lib]]
+name = "L6F2S"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F3, F4: single-term exclusions and the links of the cores to the cells (Proposition 5.3).
+[[lean_lib]]
+name = "L6F34"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F3, F4 on the cells of the specification search (Proposition 5.3, stated for every pair satisfying `Cond`).
+[[lean_lib]]
+name = "L6F34S"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# F5: the clique census (Proposition 5.9).
+[[lean_lib]]
+name = "L6F5"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Sparse polynomials and cofactor certificates (Lemma 5.2).
+[[lean_lib]]
+name = "L6Poly"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Soundness lemmas of the checkers (Mathlib allowed).
+[[lean_lib]]
+name = "L6Sound"
+weakLeanArgs = ["-j4"]
+
+# The checks: theorems `checker data = true := by native_decide`, one module per shard.
+[[lean_lib]]
+name = "L6Check"
+weakLeanArgs = ["-j4"]
+
+# Pilots (timing experiments; not part of the checks).
+[[lean_lib]]
+name = "L6Pilot"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Kernel-only checks (`decide +kernel`, no `native_decide`): the computational code of the checks over Nat and List,
+# and the native generators of their data (untrusted; the executables below).
+[[lean_lib]]
+name = "L6K"
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Soundness lemmas of the kernel checks (Mathlib allowed). The check modules themselves (L6CheckK, and the generated
+# L6CheckF) are compiled by the memory-budget schedulers of scripts/kern/, not by Lake.
+[[lean_lib]]
+name = "L6SoundK"
+weakLeanArgs = ["-j4"]
+
+# Generators of the data of the kernel checks (untrusted: the kernel checks what they produce).
+[[lean_exe]]
+name = "f1shardgen"
+root = "L6K.F1.ShardGen"
+
+[[lean_exe]]
+name = "f1repgen"
+root = "L6K.F1.RepGen"
+
+[[lean_exe]]
+name = "f34kexport"
+root = "L6K.F34K.Export"
+
+# Earlier designs and measurements (not used by the checks).
+[[lean_exe]]
+name = "f1gen"
+root = "L6K.F1.Gen"
+
+[[lean_exe]]
+name = "f2sexport"
+root = "L6K.F2S.Export"
+
+[[lean_exe]]
+name = "f2sprof"
+root = "L6K.F2S.Prof"
+
+[[lean_exe]]
+name = "f34sstats"
+root = "L6K.F34S.Stats"

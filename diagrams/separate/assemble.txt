@@ -1,0 +1,19 @@
+k=2: 4 edge vectors pass E2/E3/E6; 2 labelled connected pieces; 2 classes up to relabelling (0.0 s)
+k=3: 37 edge vectors pass E2/E3/E6; 17 labelled connected pieces; 9 classes up to relabelling (0.0 s)
+k=4: 633 edge vectors pass E2/E3/E6; 351 labelled connected pieces; 40 classes up to relabelling (0.0 s)
+k=5: 18918 edge vectors pass E2/E3/E6; 13033 labelled connected pieces; 243 classes up to relabelling (2.5 s)
+932677 edge vectors (5 s); 67621 labelled connected diagrams (14 s); 129 classes (5 s)
+n=4: 3 connected classes, 31 labelled
+n=5: 14 connected classes, 1001 labelled
+n=4: assembled disconnected classes 2 (labelled 10); connected classes given 3 (labelled 31); total 5 classes, 41 labelled
+engine: 5 classes (3 connected, 2 not), labelled 41 (31 connected)
+disconnected: assembled == engine (as sets): True ; labelled counts agree: True
+connected: given == engine (as sets): True ; labelled agree: True
+n=5: assembled disconnected classes 10 (labelled 375); connected classes given 14 (labelled 1001); total 24 classes, 1376 labelled
+engine: 24 classes (14 connected, 10 not), labelled 1376 (1001 connected)
+disconnected: assembled == engine (as sets): True ; labelled counts agree: True
+connected: given == engine (as sets): True ; labelled agree: True
+n=6: assembled disconnected classes 62 (labelled 15091); connected classes given 129 (labelled 67621); total 191 classes, 82712 labelled
+engine: 191 classes (129 connected, 62 not), labelled 82712 (67621 connected)
+disconnected: assembled == engine (as sets): True ; labelled counts agree: True
+connected: given == engine (as sets): True ; labelled agree: True

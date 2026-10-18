@@ -1,0 +1,4 @@
+replay files 73344 {'lp': 133538490, 'kept': 57450756, 'pruned': 76087734, 'st_opt': 26563313, 'st_inf': 49524421, 'st_other': 0, 'resolve': 384, 'rat_dual': 26563313, 'rat_ray': 49524037, 'supp': 0, 'full': 384, 'fail': 0, 'border': 0}
+least kept slack (replay) 0.005494505494505591  largest optimal value among replay prunes 1.354472090042691e-14
+sec cert files 6768 {'lp': 185609091, 'kept': 611153, 'pruned': 184997938, 'st_opt': 73870530, 'st_inf': 111127408, 'st_other': 0, 'resolve': 0, 'rat_dual': 73870530, 'rat_ray': 111127408, 'supp': 0, 'full': 0, 'fail': 0, 'border': 0}
+inconsistent files 0 []

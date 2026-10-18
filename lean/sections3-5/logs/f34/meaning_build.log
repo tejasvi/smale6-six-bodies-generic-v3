@@ -1,0 +1,12 @@
+ℹ [3139/3139] Built L6Sound.F34.MeaningAxioms (1.2s)
+info: L6Sound/F34/MeaningAxioms.lean:2:0: 'L6.F34.checkChunk_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:3:0: 'L6.F34.cellKind_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:4:0: 'L6.F34.checkSingle_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:5:0: 'L6.F34.constantArgmin_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:6:0: 'L6.F34.checkLink_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:7:0: 'L6.F34.genSec_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:8:0: 'L6.F34.genBase_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:9:0: 'L6.F34.genFor_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:10:0: 'L6.F34.parseAll_lookup' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Sound/F34/MeaningAxioms.lean:11:0: 'L6.F34.prepare_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+real	0m2.412s

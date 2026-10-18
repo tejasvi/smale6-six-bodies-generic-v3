@@ -1,0 +1,13 @@
+cells mine 91273 theirs 91273 same keys True
+T mine/theirs {(False, False): 51189, (True, True): 40084} disagree examples []
+P mine/theirs {(False, False): 77980, (True, True): 13293} disagree examples []
+C mine/theirs {(False, False): 44984, (True, True): 46289} disagree examples []
+B mine/theirs {(False, False): 91089, (True, True): 184} disagree examples []
+E1 mine/theirs {(False, False): 4398, (True, True): 86875} disagree examples []
+R1 mine/theirs {(False, False): 34090, (True, True): 57183} disagree examples []
+R5 mine/theirs {(False, False): 55701, (True, True): 35572} disagree examples []
+R6 mine/theirs {(False, False): 37065, (True, True): 54208} disagree examples []
+Q mine/theirs {(False, False): 89168, (True, True): 2105} disagree examples []
+{'Tlit': 40084, 'Tdom': 40084, 'Tlit_not_dom': 0, 'Tdom_not_lit': 0, 'E1main': 86875, 'E1u_only': 0, 'R1main': 57183, 'R1v_only': 0, 'Eclass': 50399, 'Eclass_and_E1main': 50399}
+literal-T witnesses not confirmed by domination: 0
+E classes (mine): [3, 40, 148, 149, 150, 183]

@@ -1,0 +1,30 @@
+ℹ [172/174] Replayed Lean6.Special.Cover.Check.Axioms
+info: Lean6/Special/Cover/Check/Axioms.lean:6:0: Lean6.Special.Cover.prop_9_23_first : Option.map Lean6.Special.Cover.tally
+    (Lean6.Special.Cover.allCells L6F5.Data.n6 L6F5.Data.files) =
+  some
+    { cells := 91273, every := 70233, first := 90943, firstNoClique := 90919, cliqueOnly := [(4, 1), (47, 22), (53, 1)],
+      w3Only := 16, eq2Only := 58, w3OnlyNonzero := true, eq2OnlyNonzero := true,
+      perTest := [40084, 13293, 46289, 7722, 532, 2111, 50399, 86875, 77927, 79318, 54208, 2241, 2654, 2105, 86842] }
+info: Lean6/Special/Cover/Check/Axioms.lean:7:0: Lean6.Special.Cover.prop_9_23 : Option.map (Lean6.Special.Cover.coverTally Lean6.Special.Cover.coreLinks)
+    (Lean6.Special.Cover.allCells L6F5.Data.n6 L6F5.Data.files) =
+  some
+    { cells := 91273, aTotal := 70406, aEvery := 70233, aP4 := 171, aLinAll := 1, aTD := 1, first := 90943,
+      second := 287, secondRc := 1, secondTq := 1, secondP4 := 169, secondLin := 116,
+      remaining := [(31, 1), (124, 10), (127, 9), (132, 2), (133, 1), (143, 11), (147, 9)] }
+info: Lean6/Special/Cover/Check/Axioms.lean:8:0: Lean6.Special.Cover.prop_9_23_broad : Option.map
+    (Lean6.Special.Cover.Templates.broadCounts Lean6.Special.Cover.coreLinks)
+    (Lean6.Special.Cover.allCells L6F5.Data.n6 L6F5.Data.files) =
+  some [21040, 20226, 401, 2742, 2105, 0, 14978, 0]
+info: Lean6/Special/Cover/Check/Axioms.lean:9:0: 'Lean6.Special.Cover.prop_9_23_first' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Cover.prop_9_23_first._native.native_decide.ax_1_1]
+info: Lean6/Special/Cover/Check/Axioms.lean:10:0: 'Lean6.Special.Cover.prop_9_23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Cover.prop_9_23._native.native_decide.ax_1_1]
+info: Lean6/Special/Cover/Check/Axioms.lean:11:0: 'Lean6.Special.Cover.prop_9_23_broad' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Cover.prop_9_23_broad._native.native_decide.ax_1_1]
+Build completed successfully (174 jobs).

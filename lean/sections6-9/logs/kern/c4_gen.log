@@ -1,0 +1,14 @@
+s_p24 split [8, 1, 7] buckets 423 max_bucket 41837 products 5953674 codes 44840 intervals 3 bucket_modules 16 data_bytes 7014346
+t_p12 split [8, 7, 0] buckets 403 max_bucket 41027 products 6096030 codes 39450 intervals 3 bucket_modules 16 data_bytes 7234696
+s_c split [7, 1, 4] buckets 424 max_bucket 42326 products 6364230 codes 45660 intervals 3 bucket_modules 17 data_bytes 7706562
+s_p34 split [8, 1, 6] buckets 526 max_bucket 44189 products 7784669 codes 49030 intervals 4 bucket_modules 21 data_bytes 9235727
+t_c split [7, 0, 6] buckets 533 max_bucket 57799 products 9078557 codes 48497 intervals 4 bucket_modules 24 data_bytes 10600603
+t_p34 split [8, 6, 0] buckets 546 max_bucket 52760 products 9029945 codes 55372 intervals 4 bucket_modules 24 data_bytes 11025000
+s_p12 split [8, 7, 1] buckets 621 max_bucket 44244 products 9834505 codes 57427 intervals 4 bucket_modules 26 data_bytes 11779850
+t_p14 split [8, 7, 0] buckets 712 max_bucket 38611 products 10499829 codes 63950 intervals 4 bucket_modules 27 data_bytes 12707093
+t_p23 split [8, 0, 4] buckets 620 max_bucket 54975 products 11429892 codes 49421 intervals 4 bucket_modules 30 data_bytes 13253243
+s_p13 split [8, 7, 6, 5] buckets 1591 max_bucket 13390 products 15085919 codes 254325 intervals 16 bucket_modules 39 data_bytes 18811677
+s_p23 split [8, 4, 7, 1] buckets 1681 max_bucket 12476 products 16493031 codes 391888 intervals 25 bucket_modules 42 data_bytes 20671620
+t_p13 split [8, 7, 6, 5] buckets 1992 max_bucket 13420 products 18846067 codes 287530 intervals 18 bucket_modules 48 data_bytes 22948827
+t_p24 split [8, 7, 4, 5] buckets 2075 max_bucket 14523 products 20042858 codes 325508 intervals 21 bucket_modules 51 data_bytes 24803974
+s_p14 split [8, 7, 6, 5] buckets 2195 max_bucket 16996 products 21844523 codes 349661 intervals 22 bucket_modules 56 data_bytes 27410620

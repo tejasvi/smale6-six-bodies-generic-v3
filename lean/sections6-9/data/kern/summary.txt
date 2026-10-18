@@ -1,0 +1,32 @@
+[3, 5, 7, 11] s_c P=32003 equations 11 cofactor terms 682786 identity True
+[3, 5, 7, 11] s_p12 P=32003 equations 11 cofactor terms 1050252 identity True
+[3, 5, 7, 11] s_p13 P=32003 equations 11 cofactor terms 1588635 identity True
+[3, 5, 7, 11] s_p14 P=32003 equations 11 cofactor terms 2326008 identity True
+[3, 5, 7, 11] s_p23 P=32003 equations 11 cofactor terms 1686981 identity True
+[3, 5, 7, 11] s_p24 P=32003 equations 11 cofactor terms 619597 identity True
+[3, 5, 7, 11] s_p34 P=32003 equations 11 cofactor terms 821339 identity True
+[3, 5, 7, 11] t_c P=32003 equations 11 cofactor terms 947133 identity True
+[3, 5, 7, 11] t_p12 P=32003 equations 11 cofactor terms 642865 identity True
+[3, 5, 7, 11] t_p13 P=32003 equations 11 cofactor terms 1950780 identity True
+[3, 5, 7, 11] t_p14 P=32003 equations 11 cofactor terms 1131723 identity True
+[3, 5, 7, 11] t_p23 P=32003 equations 11 cofactor terms 1190333 identity True
+[3, 5, 7, 11] t_p34 P=32003 equations 11 cofactor terms 982350 identity True
+total 0
+c4_3_5_7_11_s_c wall 871.02 s, cpu 869.96 s, maxrss 8145896 KB, exit 0
+c4_3_5_7_11_s_p12 wall 2131.61 s, cpu 2129.96 s, maxrss 12262344 KB, exit 0
+c4_3_5_7_11_s_p13 wall 2221.49 s, cpu 2217.11 s, maxrss 15801480 KB, exit 0
+c4_3_5_7_11_s_p14 wall 5081.07 s, cpu 5076.52 s, maxrss 24239932 KB, exit 0
+c4_3_5_7_11_s_p23 wall 2304.59 s, cpu 2302.52 s, maxrss 13933732 KB, exit 0
+c4_3_5_7_11_s_p24 wall 1146.64 s, cpu 1145.68 s, maxrss 7633828 KB, exit 0
+c4_3_5_7_11_s_p34 wall 1188.01 s, cpu 1187.17 s, maxrss 7977896 KB, exit 0
+c4_3_5_7_11_t_c wall 1463.82 s, cpu 1462.62 s, maxrss 11283472 KB, exit 0
+c4_3_5_7_11_t_p12 wall 735.87 s, cpu 735.28 s, maxrss 5958272 KB, exit 0
+c4_3_5_7_11_t_p13 wall 1929.10 s, cpu 1927.44 s, maxrss 14453872 KB, exit 0
+c4_3_5_7_11_t_p14 wall 1705.48 s, cpu 1703.88 s, maxrss 11758552 KB, exit 0
+c4_3_5_7_11_t_p23 wall 1659.28 s, cpu 1658.06 s, maxrss 10849168 KB, exit 0
+c4_3_5_7_11_t_p24 wall 10208.81 s, cpu 10201.07 s, maxrss 33935760 KB, exit 0
+c4_3_5_7_11_t_p34 wall 1028.06 s, cpu 1026.99 s, maxrss 8719144 KB, exit 0
+[3, 5, 7, 11] t_p24 P=32003 equations 11 cofactor terms 2100842 identity True (verified 01:45 UTC; liftstd run exp2, 200 GB cap)
+esc_kc_0: system 0 P=65521 polynomials 101 cofactor terms 2167298 identity True
+esc_kc_0 wall 6907.98 s, cpu 6895.11 s, maxrss 78143664 KB, exit 0
+esc_n4_0 not finished: wall 21600.07 s (limit), maxrss 55770336 KB, exit 124

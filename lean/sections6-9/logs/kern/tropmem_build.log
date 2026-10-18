@@ -1,0 +1,7 @@
+# start 2026-10-18T11:29:10Z jobs 2 budget_gb 600.0 maxjobs 2
+L6CheckKSpec/TropUnits.lean exit 0 wall_s 2.84 user_s 2.72 sys_s 0.11 maxrss_kb 896524 est_gb 4.0
+L6CheckKSpec/TropMem.lean exit 0 wall_s 95.00 user_s 91.86 sys_s 3.07 maxrss_kb 16097540 est_gb 20.0
+# end 2026-10-18T11:30:45Z wall_s 95.0 failures 0
+# start 2026-10-18T11:30:45Z jobs 1 budget_gb 600.0 maxjobs 1
+L6CheckKSpec/TropSame.lean exit 0 wall_s 1.26 user_s 0.86 sys_s 0.39 maxrss_kb 3353536 est_gb 8.0
+# end 2026-10-18T11:30:47Z wall_s 2.0 failures 0

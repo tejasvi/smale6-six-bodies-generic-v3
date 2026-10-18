@@ -1,0 +1,1625 @@
+== check of the staged release layout (version 3), started 2026-10-18T14:56:32Z
+== machine: 384 cores, 708 GB RAM; Lean (version 4.35.0-rc3, x86_64-unknown-linux-gnu, commit 470d5ce1400764999581fd26d5d72b00d990b0f4, Release)
+lean6 17f8b22fc8d73dcded1d59262e5eb683e4c2917b
+lean6_special 3bb129780ef6454143dd73ec443652e8cae09660
+lean6_full c7e75f547f14c83801edf644600d44a2f57bc21d
+each package is the git archive of its commit, except the files that CHANGES.md lists
+== shipped tree: 6893 files, checked against the supplement's SHA256SUMS: OK
+== 1. the reused outputs, verified against the pinned sources
+-- lean6 (17f8b22): the reuse verification of the release check (l6reuse.sh verify: sources against git archive
+   17f8b22, certificates, no other files than the committed ones and the stage outputs, generated files against the
+   committed lists, out/ against the record made after the stages, every stage done, Mathlib, toolchain)
+sources: 4920 files checked against 17f8b22
+certificates: 1928 checked
+hashes ok: data/f4k/SHA256SUMS (4687 files)
+hashes ok: data/f34k/SHA256SUMS (31880 files)
+export data: 184 classes checked
+out: 33641 files checked
+mathlib c55e6e786f49471c72fbddbec5415808896aec1e, Lean (version 4.35.0-rc3, x86_64-unknown-linux-gnu, commit 470d5ce1400764999581fd26d5d72b00d990b0f4, Release)
+l6reuse: VERIFIED
+l6reuse verify rc=0
+lean6_special (3bb1297): 1825 files of the commit checked (logs/kern apart); other files only build outputs: yes
+lean6_full (027dfd1): 117 files of the commit checked (logs/kern apart); other files only build outputs: yes
+== 2. the shipped tree against the pinned commits: the differences are the documented edits (CHANGES.md)
+-- lean/sections3-5: files of the commit that differ or are missing here:
+L6Poly/Basic.lean: FAILED
+LEAN_CHECKS.md: FAILED
+PLAN.md: FAILED open or read
+README.md: FAILED
+data/cells/c0.jsonl: FAILED open or read
+data/cells/c1.jsonl: FAILED open or read
+data/cells/c10.jsonl: FAILED open or read
+data/cells/c100.jsonl: FAILED open or read
+data/cells/c101.jsonl: FAILED open or read
+data/cells/c102.jsonl: FAILED open or read
+data/cells/c103.jsonl: FAILED open or read
+data/cells/c104.jsonl: FAILED open or read
+data/cells/c105.jsonl: FAILED open or read
+data/cells/c106.jsonl: FAILED open or read
+data/cells/c107.jsonl: FAILED open or read
+data/cells/c108.jsonl: FAILED open or read
+data/cells/c109.jsonl: FAILED open or read
+data/cells/c11.jsonl: FAILED open or read
+data/cells/c110.jsonl: FAILED open or read
+data/cells/c111.jsonl: FAILED open or read
+data/cells/c112.jsonl: FAILED open or read
+data/cells/c113.jsonl: FAILED open or read
+data/cells/c114.jsonl: FAILED open or read
+data/cells/c115.jsonl: FAILED open or read
+data/cells/c116.jsonl: FAILED open or read
+data/cells/c117.jsonl: FAILED open or read
+data/cells/c118.jsonl: FAILED open or read
+data/cells/c119.jsonl: FAILED open or read
+data/cells/c12.jsonl: FAILED open or read
+data/cells/c120.jsonl: FAILED open or read
+data/cells/c121.jsonl: FAILED open or read
+data/cells/c122.jsonl: FAILED open or read
+data/cells/c123.jsonl: FAILED open or read
+data/cells/c124.jsonl: FAILED open or read
+data/cells/c125.jsonl: FAILED open or read
+data/cells/c126.jsonl: FAILED open or read
+data/cells/c127.jsonl: FAILED open or read
+data/cells/c128.jsonl: FAILED open or read
+data/cells/c129.jsonl: FAILED open or read
+data/cells/c13.jsonl: FAILED open or read
+data/cells/c130.jsonl: FAILED open or read
+data/cells/c131.jsonl: FAILED open or read
+data/cells/c132.jsonl: FAILED open or read
+data/cells/c133.jsonl: FAILED open or read
+data/cells/c134.jsonl: FAILED open or read
+data/cells/c135.jsonl: FAILED open or read
+data/cells/c136.jsonl: FAILED open or read
+data/cells/c137.jsonl: FAILED open or read
+data/cells/c138.jsonl: FAILED open or read
+data/cells/c139.jsonl: FAILED open or read
+data/cells/c14.jsonl: FAILED open or read
+data/cells/c140.jsonl: FAILED open or read
+data/cells/c141.jsonl: FAILED open or read
+data/cells/c142.jsonl: FAILED open or read
+data/cells/c143.jsonl: FAILED open or read
+data/cells/c144.jsonl: FAILED open or read
+data/cells/c145.jsonl: FAILED open or read
+data/cells/c146.jsonl: FAILED open or read
+data/cells/c147.jsonl: FAILED open or read
+data/cells/c148.jsonl: FAILED open or read
+data/cells/c149.jsonl: FAILED open or read
+data/cells/c15.jsonl: FAILED open or read
+data/cells/c150.jsonl: FAILED open or read
+data/cells/c151.jsonl: FAILED open or read
+data/cells/c152.jsonl: FAILED open or read
+data/cells/c153.jsonl: FAILED open or read
+data/cells/c154.jsonl: FAILED open or read
+data/cells/c155.jsonl: FAILED open or read
+data/cells/c156.jsonl: FAILED open or read
+data/cells/c157.jsonl: FAILED open or read
+data/cells/c158.jsonl: FAILED open or read
+data/cells/c159.jsonl: FAILED open or read
+data/cells/c16.jsonl: FAILED open or read
+data/cells/c160.jsonl: FAILED open or read
+data/cells/c161.jsonl: FAILED open or read
+data/cells/c162.jsonl: FAILED open or read
+data/cells/c163.jsonl: FAILED open or read
+data/cells/c164.jsonl: FAILED open or read
+data/cells/c165.jsonl: FAILED open or read
+data/cells/c166.jsonl: FAILED open or read
+data/cells/c167.jsonl: FAILED open or read
+data/cells/c168.jsonl: FAILED open or read
+data/cells/c169.jsonl: FAILED open or read
+data/cells/c17.jsonl: FAILED open or read
+data/cells/c170.jsonl: FAILED open or read
+data/cells/c171.jsonl: FAILED open or read
+data/cells/c172.jsonl: FAILED open or read
+data/cells/c173.jsonl: FAILED open or read
+data/cells/c174.jsonl: FAILED open or read
+data/cells/c175.jsonl: FAILED open or read
+data/cells/c176.jsonl: FAILED open or read
+data/cells/c177.jsonl: FAILED open or read
+data/cells/c178.jsonl: FAILED open or read
+data/cells/c179.jsonl: FAILED open or read
+data/cells/c18.jsonl: FAILED open or read
+data/cells/c180.jsonl: FAILED open or read
+data/cells/c181.jsonl: FAILED open or read
+data/cells/c182.jsonl: FAILED open or read
+data/cells/c183.jsonl: FAILED open or read
+data/cells/c184.jsonl: FAILED open or read
+data/cells/c185.jsonl: FAILED open or read
+data/cells/c186.jsonl: FAILED open or read
+data/cells/c187.jsonl: FAILED open or read
+data/cells/c188.jsonl: FAILED open or read
+data/cells/c189.jsonl: FAILED open or read
+data/cells/c19.jsonl: FAILED open or read
+data/cells/c190.jsonl: FAILED open or read
+data/cells/c2.jsonl: FAILED open or read
+data/cells/c20.jsonl: FAILED open or read
+data/cells/c21.jsonl: FAILED open or read
+data/cells/c22.jsonl: FAILED open or read
+data/cells/c23.jsonl: FAILED open or read
+data/cells/c24.jsonl: FAILED open or read
+data/cells/c25.jsonl: FAILED open or read
+data/cells/c26.jsonl: FAILED open or read
+data/cells/c27.jsonl: FAILED open or read
+data/cells/c28.jsonl: FAILED open or read
+data/cells/c29.jsonl: FAILED open or read
+data/cells/c3.jsonl: FAILED open or read
+data/cells/c30.jsonl: FAILED open or read
+data/cells/c31.jsonl: FAILED open or read
+data/cells/c32.jsonl: FAILED open or read
+data/cells/c33.jsonl: FAILED open or read
+data/cells/c34.jsonl: FAILED open or read
+data/cells/c35.jsonl: FAILED open or read
+data/cells/c36.jsonl: FAILED open or read
+data/cells/c37.jsonl: FAILED open or read
+data/cells/c38.jsonl: FAILED open or read
+data/cells/c39.jsonl: FAILED open or read
+data/cells/c4.jsonl: FAILED open or read
+data/cells/c40.jsonl: FAILED open or read
+data/cells/c41.jsonl: FAILED open or read
+data/cells/c42.jsonl: FAILED open or read
+data/cells/c43.jsonl: FAILED open or read
+data/cells/c44.jsonl: FAILED open or read
+data/cells/c45.jsonl: FAILED open or read
+data/cells/c46.jsonl: FAILED open or read
+data/cells/c47.jsonl: FAILED open or read
+data/cells/c48.jsonl: FAILED open or read
+data/cells/c49.jsonl: FAILED open or read
+data/cells/c5.jsonl: FAILED open or read
+data/cells/c50.jsonl: FAILED open or read
+data/cells/c51.jsonl: FAILED open or read
+data/cells/c52.jsonl: FAILED open or read
+data/cells/c53.jsonl: FAILED open or read
+data/cells/c54.jsonl: FAILED open or read
+data/cells/c55.jsonl: FAILED open or read
+data/cells/c56.jsonl: FAILED open or read
+data/cells/c57.jsonl: FAILED open or read
+data/cells/c58.jsonl: FAILED open or read
+data/cells/c59.jsonl: FAILED open or read
+data/cells/c6.jsonl: FAILED open or read
+data/cells/c60.jsonl: FAILED open or read
+data/cells/c61.jsonl: FAILED open or read
+data/cells/c62.jsonl: FAILED open or read
+data/cells/c63.jsonl: FAILED open or read
+data/cells/c64.jsonl: FAILED open or read
+data/cells/c65.jsonl: FAILED open or read
+data/cells/c66.jsonl: FAILED open or read
+data/cells/c67.jsonl: FAILED open or read
+data/cells/c68.jsonl: FAILED open or read
+data/cells/c69.jsonl: FAILED open or read
+data/cells/c7.jsonl: FAILED open or read
+data/cells/c70.jsonl: FAILED open or read
+data/cells/c71.jsonl: FAILED open or read
+data/cells/c72.jsonl: FAILED open or read
+data/cells/c73.jsonl: FAILED open or read
+data/cells/c74.jsonl: FAILED open or read
+data/cells/c75.jsonl: FAILED open or read
+data/cells/c76.jsonl: FAILED open or read
+data/cells/c77.jsonl: FAILED open or read
+data/cells/c78.jsonl: FAILED open or read
+data/cells/c79.jsonl: FAILED open or read
+data/cells/c8.jsonl: FAILED open or read
+data/cells/c80.jsonl: FAILED open or read
+data/cells/c81.jsonl: FAILED open or read
+data/cells/c82.jsonl: FAILED open or read
+data/cells/c83.jsonl: FAILED open or read
+data/cells/c84.jsonl: FAILED open or read
+data/cells/c85.jsonl: FAILED open or read
+data/cells/c86.jsonl: FAILED open or read
+data/cells/c87.jsonl: FAILED open or read
+data/cells/c88.jsonl: FAILED open or read
+data/cells/c89.jsonl: FAILED open or read
+data/cells/c9.jsonl: FAILED open or read
+data/cells/c90.jsonl: FAILED open or read
+data/cells/c91.jsonl: FAILED open or read
+data/cells/c92.jsonl: FAILED open or read
+data/cells/c93.jsonl: FAILED open or read
+data/cells/c94.jsonl: FAILED open or read
+data/cells/c95.jsonl: FAILED open or read
+data/cells/c96.jsonl: FAILED open or read
+data/cells/c97.jsonl: FAILED open or read
+data/cells/c98.jsonl: FAILED open or read
+data/cells/c99.jsonl: FAILED open or read
+logs/f4/replaced_table.md: FAILED
+scripts/copy_cells.py: FAILED
+scripts/f4/README.md: FAILED
+scripts/f4/certfmt.py: FAILED
+scripts/f4/lift.py: FAILED
+scripts/f4/replaced_table.py: FAILED
+-- lean/sections6-9: files of the commit that differ or are missing here:
+L6KSpec/C4Check.lean: FAILED
+L6KSpec/C4Load.lean: FAILED
+L6SoundKSpec/C4Cert.lean: FAILED
+LEAN_CHECKS.md: FAILED
+Lean6/Special/Ball/Kraw.lean: FAILED
+PLAN.md: FAILED
+README.md: FAILED
+scripts/kern/kc4_gen.py: FAILED
+-- lean/full: files of the commit that differ or are missing here:
+Compose/lake-manifest.json: FAILED
+Compose/lakefile.toml: FAILED
+FULL_PLAN.md: FAILED
+PROGRESS.md: FAILED
+README.md: FAILED
+check.sh: FAILED
+check_v3.sh: FAILED
+== 3. the build tree: out/ hard links (never written), .lake/build copies, Mathlib linked
+lean6 certificates: all 1928 match
+out/: 33641 + 3446 files (hard links)
+== 4. ./check_v3.sh with L6_STAGES='' SP_STAGES='' (start 14:57:32)
+check_v3.sh: keyword scan OK
+check_v3.sh: kernel checks of lean6 not built here: <build-dir>/lean/sections3-5/out as built before
+check_v3.sh: kernel checks of lean6_special not built here: <build-dir>/lean/sections6-9/out as built before
+check_v3.sh: keyword scan of the generated modules OK
+Build completed successfully (3552 jobs).
+⚠ [8991/9090] Replayed Lean6.Special.K4.E4.Defs
+warning: Lean6/Special/K4/E4/Defs.lean:1:0: 'Mathlib.Data.Complex.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Complex.Basic
+⚠ [8994/9090] Replayed Lean6.Special.K4.E4.Sound
+warning: Lean6/Special/K4/E4/Sound.lean:193:15: This simp argument is unused:
+  RingHom.mapMatrix_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [aZ, Mp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9004/9090] Replayed Lean6.Special.K4.C4.Defs
+warning: Lean6/Special/K4/C4/Defs.lean:77:61: This simp argument is unused:
+  map_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eqsAt, eqsZ, eqIZ, eqIIZ, eqIIIZ, aZ, xiZ, Pm, muOf, map_prod, Finset.sum_filter, Finset.prod_filter,
+    Fin.sum_univ_four, Fin.prod_univ_four, pairIdx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/Defs.lean:77:70: This simp argument is unused:
+  map_prod
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eqsAt, eqsZ, eqIZ, eqIIZ, eqIIIZ, aZ, xiZ, Pm, muOf, map_sum, Finset.sum_filter, Finset.prod_filter,
+    Fin.sum_univ_four, Fin.prod_univ_four, pairIdx]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9006/9090] Replayed Lean6.Special.K4.C4.GBSound
+warning: Lean6/Special/K4/C4/GBSound.lean:67:34: This simp argument is unused:
+  List.all_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/GBSound.lean:207:20: This simp argument is unused:
+  h4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h3]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/K4/C4/GBSound.lean:229:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:230:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:232:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:233:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:246:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:249:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/GBSound.lean:249:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9187/9305] Replayed Lean6.Special.K4.C4.Final
+warning: Lean6/Special/K4/C4/Final.lean:64:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:69:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:128:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:130:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/K4/C4/Final.lean:132:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [10171/10201] Replayed Lean6.Special.Comp.D88.Boxes.N4.All
+warning: Lean6/Special/Comp/D88/Boxes/N4/All.lean:653:68: This simp argument is unused:
+  Bool.true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [allChunks, List.all_cons, List.all_nil, Bool.and_true, D000.ok, D001.ok, D002.ok, D003.ok, D004.ok,
+    D005.ok, D006.ok, D007.ok, D008.ok, D009.ok, D010.ok, D011.ok, D012.ok, D013.ok, D014.ok, D015.ok, D016.ok, D017.ok,
+    D018.ok, D019.ok, D020.ok, D021.ok, D022.ok, D023.ok, D024.ok, D025.ok, D026.ok, D027.ok, D028.ok, D029.ok, D030.ok,
+    D031.ok, D032.ok, D033.ok, D034.ok, D035.ok, D036.ok, D037.ok, D038.ok, D039.ok, D040.ok, D041.ok, D042.ok, D043.ok,
+    D044.ok, D045.ok, D046.ok, D047.ok, D048.ok, D049.ok, D050.ok, D051.ok, D052.ok, D053.ok, D054.ok, D055.ok, D056.ok,
+    D057.ok, D058.ok, D059.ok, D060.ok, D061.ok, D062.ok, D063.ok, D064.ok, D065.ok, D066.ok, D067.ok, D068.ok, D069.ok,
+    D070.ok, D071.ok, D072.ok, D073.ok, D074.ok, D075.ok, D076.ok, D077.ok, D078.ok, D079.ok, D080.ok, D081.ok, D082.ok,
+    D083.ok, D084.ok, D085.ok, D086.ok, D087.ok, D088.ok, D089.ok, D090.ok, D091.ok, D092.ok, D093.ok, D094.ok, D095.ok,
+    D096.ok, D097.ok, D098.ok, D099.ok, D100.ok, D101.ok, D102.ok, D103.ok, D104.ok, D105.ok, D106.ok, D107.ok, D108.ok,
+    D109.ok, D110.ok, D111.ok, D112.ok, D113.ok, D114.ok, D115.ok, D116.ok, D117.ok, D118.ok, D119.ok, D120.ok, D121.ok,
+    D122.ok, D123.ok, D124.ok, D125.ok, D126.ok, D127.ok, D128.ok, D129.ok, D130.ok, D131.ok, D132.ok, D133.ok, D134.ok,
+    D135.ok, D136.ok, D137.ok, D138.ok, D139.ok, D140.ok, D141.ok, D142.ok, D143.ok, D144.ok, D145.ok, D146.ok, D147.ok,
+    D148.ok, D149.ok, D150.ok, D151.ok, D152.ok, D153.ok, D154.ok, D155.ok, D156.ok, D157.ok, D158.ok, D159.ok, D160.ok,
+    D161.ok, D162.ok, D163.ok, D164.ok, D165.ok, D166.ok, D167.ok, D168.ok, D169.ok, D170.ok, D171.ok, D172.ok, D173.ok,
+    D174.ok, D175.ok, D176.ok, D177.ok, D178.ok, D179.ok, D180.ok, D181.ok, D182.ok, D183.ok, D184.ok, D185.ok, D186.ok,
+    D187.ok, D188.ok, D189.ok, D190.ok, D191.ok, D192.ok, D193.ok, D194.ok, D195.ok, D196.ok, D197.ok, D198.ok, D199.ok,
+    D200.ok, D201.ok, D202.ok, D203.ok, D204.ok, D205.ok, D206.ok, D207.ok, D208.ok, D209.ok, D210.ok, D211.ok, D212.ok,
+    D213.ok, D214.ok, D215.ok, D216.ok, D217.ok, D218.ok, D219.ok, D220.ok, D221.ok, D222.ok, D223.ok, D224.ok, D225.ok,
+    D226.ok, D227.ok, D228.ok, D229.ok, D230.ok, D231.ok, D232.ok, D233.ok, D234.ok, D235.ok, D236.ok, D237.ok, D238.ok,
+    D239.ok, D240.ok, D241.ok, D242.ok, D243.ok, D244.ok, D245.ok, D246.ok, D247.ok, D248.ok, D249.ok, D250.ok, D251.ok,
+    D252.ok, D253.ok, D254.ok, D255.ok, D256.ok, D257.ok, D258.ok, D259.ok, D260.ok, D261.ok, D262.ok, D263.ok, D264.ok,
+    D265.ok, D266.ok, D267.ok, D268.ok, D269.ok, D270.ok, D271.ok, D272.ok, D273.ok, D274.ok, D275.ok, D276.ok, D277.ok,
+    D278.ok, D279.ok, D280.ok, D281.ok, D282.ok, D283.ok, D284.ok, D285.ok, D286.ok, D287.ok, D288.ok, D289.ok, D290.ok,
+    D291.ok, D292.ok, D293.ok, D294.ok, D295.ok, D296.ok, D297.ok, D298.ok, D299.ok, D300.ok, D301.ok, D302.ok, D303.ok,
+    D304.ok, D305.ok, D306.ok, D307.ok, D308.ok, D309.ok, D310.ok, D311.ok, D312.ok, D313.ok, D314.ok, D315.ok, D316.ok,
+    D317.ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10400/10431] Replayed Lean6.Special.Comp.D88.Boxes.KC.All
+warning: Lean6/Special/Comp/D88/Boxes/KC/All.lean:167:68: This simp argument is unused:
+  Bool.true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [allChunks, List.all_cons, List.all_nil, Bool.and_true, D000.ok, D001.ok, D002.ok, D003.ok, D004.ok,
+    D005.ok, D006.ok, D007.ok, D008.ok, D009.ok, D010.ok, D011.ok, D012.ok, D013.ok, D014.ok, D015.ok, D016.ok, D017.ok,
+    D018.ok, D019.ok, D020.ok, D021.ok, D022.ok, D023.ok, D024.ok, D025.ok, D026.ok, D027.ok, D028.ok, D029.ok, D030.ok,
+    D031.ok, D032.ok, D033.ok, D034.ok, D035.ok, D036.ok, D037.ok, D038.ok, D039.ok, D040.ok, D041.ok, D042.ok, D043.ok,
+    D044.ok, D045.ok, D046.ok, D047.ok, D048.ok, D049.ok, D050.ok, D051.ok, D052.ok, D053.ok, D054.ok, D055.ok, D056.ok,
+    D057.ok, D058.ok, D059.ok, D060.ok, D061.ok, D062.ok, D063.ok, D064.ok, D065.ok, D066.ok, D067.ok, D068.ok, D069.ok,
+    D070.ok, D071.ok, D072.ok, D073.ok, D074.ok]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [10554/10766] Replayed L6Check.F1.N6
+info: L6Check/F1/N6.lean:16:0: interpretation of L6F1.check_n6._native.native_decide.decl_1_1 took 26.1s
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0141ms
+	compilation (IR) 0.0439ms
+	compilation (LCNF base) 0.383ms
+	compilation (LCNF impure) 0.169ms
+	compilation (LCNF mono) 0.188ms
+	elaboration 0.434ms
+	fix level params 0.0114ms
+	instantiate metavars 0.0114ms
+	interpretation 26.1s
+	let-to-have transformation 0.017ms
+	process pre-definitions 0.113ms
+	share common exprs 0.0334ms
+	tactic execution 0.971ms
+	type checking 0.344ms
+	typeclass inference 0.595ms
+ℹ [10555/10766] Replayed L6Check.F1.N5
+info: L6Check/F1/N5.lean:14:0: interpretation of L6F1.check_n5._native.native_decide.decl_1_1 took 297ms
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0119ms
+	compilation (IR) 0.0367ms
+	compilation (LCNF base) 0.324ms
+	compilation (LCNF impure) 0.138ms
+	compilation (LCNF mono) 0.159ms
+	elaboration 0.339ms
+	fix level params 0.00616ms
+	instantiate metavars 0.0076ms
+	interpretation 297ms
+	let-to-have transformation 0.0156ms
+	process pre-definitions 0.0843ms
+	share common exprs 0.0315ms
+	tactic execution 0.81ms
+	type checking 0.388ms
+	typeclass inference 0.554ms
+ℹ [10556/10766] Replayed L6Check.F1.N4
+info: stderr:
+cumulative profiling times:
+	attribute application 0.012ms
+	compilation (IR) 0.0206ms
+	compilation (LCNF base) 0.223ms
+	compilation (LCNF impure) 0.0907ms
+	compilation (LCNF mono) 0.111ms
+	elaboration 0.257ms
+	fix level params 0.00858ms
+	instantiate metavars 0.00653ms
+	interpretation 6.1ms
+	let-to-have transformation 0.0142ms
+	process pre-definitions 0.0988ms
+	share common exprs 0.0368ms
+	tactic execution 0.579ms
+	type checking 0.302ms
+	typeclass inference 0.467ms
+⚠ [10734/11044] Replayed Lean6.Special.D98.Shapes
+warning: Lean6/Special/D98/Shapes.lean:147:60: This simp argument is unused:
+  neg_sq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Fk, sigM, zM, Fin.sum_univ_three, div_eq_mul_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [10735/11044] Replayed Lean6.Special.D98.Heavy
+warning: Lean6/Special/D98/Heavy.lean:264:31: This simp argument is unused:
+  add_neg_cancel_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [sub_neg_eq_add, norm_neg] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:293:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:294:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:295:70: This simp argument is unused:
+  norm_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Lam]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D98/Heavy.lean:360:54: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Lean6/Special/D98/Heavy.lean:368:50: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Lean6/Special/D98/Heavy.lean:360:54: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Lean6/Special/D98/Heavy.lean:368:50: Unused tactic linter: `positivity` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [10747/11044] Replayed L6Sound.F2S.RowsSem
+warning: L6Sound/F2S/RowsSem.lean:21:93: Variable name `hS` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hS
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [13497/14087] Built L6Poly.Basic (920ms)
+⚠ [13524/14087] Replayed CC6Compose.Dims
+warning: CC6Compose/Dims.lean:87:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CC6Compose/Dims.lean:92:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CC6Compose/Dims.lean:104:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: CC6Compose/Dims.lean:44:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:51:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:58:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:65:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:72:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:79:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:96:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:108:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:115:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: CC6Compose/Dims.lean:87:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CC6Compose/Dims.lean:92:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: CC6Compose/Dims.lean:104:6: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [13526/14087] Built L6Poly (420ms)
+✔ [13529/14087] Built Lean6.Special.Ball.Kraw (4.8s)
+✔ [13530/14087] Built L6Check.Poly.B93 (2.4s)
+✔ [13531/14087] Built L6Check.Poly.B97 (2.3s)
+✔ [13532/14087] Built L6Check.Poly.B98 (2.8s)
+✔ [13533/14087] Built L6Check.Poly.B100 (2.8s)
+✔ [13534/14087] Built L6Check.Poly.B99 (2.9s)
+✔ [13535/14087] Built L6Check.Poly.B103 (3.3s)
+✔ [13536/14087] Built L6Check.Poly.B101 (3.5s)
+✔ [13537/14087] Built L6Check.Poly.B88 (1.3s)
+✔ [13538/14087] Built L6Check.Poly.B105 (3.6s)
+✔ [13539/14087] Built L6Check.Poly.B102 (3.7s)
+✔ [13540/14087] Built L6Check.Poly.B104 (3.7s)
+✔ [13541/14087] Built L6Check.Poly.B106 (3.8s)
+✔ [13542/14087] Built L6Check.Poly.B83 (1.2s)
+✔ [13543/14087] Built L6Check.Poly.B86 (1.3s)
+✔ [13544/14087] Built L6Check.Poly.B109 (4.1s)
+✔ [13545/14087] Built L6Check.Poly.B71 (594ms)
+✔ [13546/14087] Built L6Check.Poly.B82 (1.1s)
+✔ [13547/14087] Built L6Check.Poly.B73 (670ms)
+✔ [13548/14087] Built L6Check.Poly.B78 (876ms)
+✔ [13549/14087] Built L6Check.Poly.B80 (911ms)
+✔ [13550/14087] Built L6Check.Poly.B91 (1.6s)
+✔ [13551/14087] Built L6Check.Poly.B94 (1.0s)
+✔ [13552/14087] Built L6Check.Poly.B108 (4.5s)
+✔ [13553/14087] Built L6Check.Poly.B95 (2.3s)
+✔ [13554/14087] Built L6Check.Poly.B107 (4.7s)
+✔ [13555/14087] Built L6Check.Poly.B74 (637ms)
+✔ [13556/14087] Built L6Check.Poly.B75 (678ms)
+✔ [13557/14087] Built L6Check.Poly.B61 (535ms)
+✔ [13558/14087] Built L6Check.Poly.B85 (1.2s)
+✔ [13559/14087] Built L6Check.Poly.B60 (563ms)
+✔ [13560/14087] Built L6Check.Poly.B64 (541ms)
+✔ [13561/14087] Built L6Check.Poly.B72 (598ms)
+✔ [13562/14087] Built L6Check.Poly.B110 (5.1s)
+✔ [13563/14087] Built L6Check.Poly.B89 (1.6s)
+✔ [13564/14087] Built L6Check.Poly.B114 (5.2s)
+✔ [13565/14087] Built L6Check.Poly.B62 (582ms)
+✔ [13566/14087] Built L6Check.Poly.B69 (608ms)
+✔ [13567/14087] Built L6Check.Poly.B113 (5.3s)
+✔ [13568/14087] Built L6Check.Poly.B66 (600ms)
+✔ [13569/14087] Built L6Check.Poly.B79 (921ms)
+✔ [13570/14087] Built L6Check.Poly.B81 (991ms)
+✔ [13571/14087] Built L6Check.Poly.B57 (593ms)
+✔ [13572/14087] Built L6Check.Poly.B76 (771ms)
+✔ [13573/14087] Built L6Check.Poly.B84 (1.2s)
+✔ [13574/14087] Built L6Check.Poly.B112 (5.6s)
+✔ [13575/14087] Built L6Check.Poly.B56 (586ms)
+✔ [13576/14087] Built L6Check.Poly.B70 (589ms)
+✔ [13577/14087] Built L6Check.Poly.B111 (5.7s)
+✔ [13578/14087] Built L6Check.Poly.B58 (568ms)
+✔ [13579/14087] Built L6Check.Poly.B65 (564ms)
+✔ [13580/14087] Built L6Check.Poly.B77 (773ms)
+✔ [13581/14087] Built L6Check.Poly.B90 (1.6s)
+✔ [13582/14087] Built L6Check.Poly.B63 (639ms)
+✔ [13583/14087] Built L6Check.Poly.B67 (579ms)
+✔ [13584/14087] Built L6Check.Poly.B59 (604ms)
+✔ [13585/14087] Built L6Check.Poly.B96 (2.2s)
+✔ [13586/14087] Built L6Check.Poly.B117 (6.3s)
+✔ [13587/14087] Built L6Check.Poly.B115 (6.5s)
+✔ [13588/14087] Built L6Check.Poly.B116 (6.4s)
+✔ [13589/14087] Built L6Check.Poly.B92 (1.0s)
+✔ [13590/14087] Built L6Check.Poly.B87 (1.3s)
+✔ [13591/14087] Built L6Check.Poly.B68 (533ms)
+✔ [13592/14087] Built L6Check.Poly.B118 (6.8s)
+✔ [13593/14087] Built L6Check.Poly.B119 (6.0s)
+✔ [13594/14087] Built L6Check.Poly.B121 (7.0s)
+✔ [13595/14087] Built L6Check.Poly.B122 (7.6s)
+✔ [13596/14087] Built L6Check.Poly.B120 (7.6s)
+✔ [13597/14087] Built L6Check.Poly.B123 (8.1s)
+✔ [13598/14087] Built L6Check.Poly.B124 (8.8s)
+✔ [13599/14087] Built L6Check.Poly.B125 (9.0s)
+✔ [13600/14087] Built L6Sound.Poly.Sound (9.1s)
+✔ [13601/14087] Built L6Check.Poly.B128 (9.5s)
+✔ [13602/14087] Built L6Check.Poly.B126 (9.8s)
+✔ [13603/14087] Built L6Check.Poly.B127 (9.9s)
+✔ [13604/14087] Built L6Check.Poly.B48 (4.6s)
+✔ [13605/14087] Built L6Check.Poly.B28 (5.5s)
+✔ [13606/14087] Built L6Check.Poly.B129 (11s)
+✔ [13607/14087] Built L6Check.Poly.B42 (5.3s)
+✔ [13608/14087] Built L6Check.Poly.B19 (5.7s)
+✔ [13609/14087] Built L6Check.Poly.B44 (6.5s)
+✔ [13610/14087] Built L6Check.Poly.B54 (7.6s)
+✔ [13611/14087] Built L6Check.Poly.B43 (7.7s)
+✔ [13612/14087] Built L6Check.Poly.B25 (7.6s)
+✔ [13613/14087] Built L6Check.Poly.B55 (7.5s)
+✔ [13614/14087] Built L6Check.Poly.B9 (6.8s)
+✔ [13615/14087] Built L6Check.Poly.B15 (5.8s)
+✔ [13616/14087] Built L6Check.Poly.B30 (8.2s)
+✔ [13617/14087] Built L6Check.Poly.B130 (14s)
+✔ [13618/14087] Built L6F34.Check (1.3s)
+✔ [13619/14087] Built L6Check.Poly.B32 (7.6s)
+✔ [13620/14087] Built L6Check.Poly.B131 (16s)
+✔ [13621/14087] Built L6Check.Poly.B4 (6.3s)
+✔ [13622/14087] Built L6Check.Poly.B40 (9.9s)
+✔ [13623/14087] Built L6Check.Poly.B45 (11s)
+✔ [13624/14087] Built L6Check.Poly.B41 (11s)
+✔ [13625/14087] Built L6Check.Poly.B53 (10s)
+✔ [13627/14087] Built L6Check.Poly.B26 (5.7s)
+✔ [13629/14087] Built L6Check.Poly.B37 (12s)
+✔ [13630/14087] Built L6F34 (495ms)
+✔ [13633/14087] Built L6Check.Poly.B34 (7.1s)
+✔ [13634/14087] Built L6Check.Poly.B38 (13s)
+✔ [13635/14087] Built L6Check.Poly.B10 (5.9s)
+✔ [13636/14087] Built L6Check.F34.C183K0 (529ms)
+✔ [13637/14087] Built L6Check.F34.C173K0 (542ms)
+✔ [13638/14087] Built L6Check.Poly.B2 (3.8s)
+✔ [13639/14087] Built L6Check.Poly.B52 (13s)
+✔ [13640/14087] Built L6Check.F34.C172K0 (650ms)
+✔ [13641/14087] Built L6Check.Poly.B7 (5.3s)
+✔ [13642/14087] Built L6Check.Poly.B22 (5.7s)
+✔ [13643/14087] Built L6Check.F34.C171K0 (767ms)
+✔ [13644/14087] Built L6Check.F34.C170K0 (593ms)
+✔ [13645/14087] Built L6Check.F34.C169K0 (758ms)
+✔ [13646/14087] Built L6Check.Poly.B132 (20s)
+✔ [13647/14087] Built L6Check.F34.C167K0 (942ms)
+✔ [13648/14087] Built L6Check.Poly.B11 (7.4s)
+✔ [13649/14087] Built L6Check.F34.C147K0 (812ms)
+✔ [13650/14087] Built L6Check.Poly.B49 (7.9s)
+✔ [13651/14087] Built L6Check.F34.C143K0 (938ms)
+✔ [13652/14087] Built L6Check.F34.C146K0 (971ms)
+✔ [13653/14087] Built L6Check.Poly.B13 (5.5s)
+✔ [13654/14087] Built L6Check.Poly.B51 (16s)
+✔ [13655/14087] Built L6Check.Poly.B31 (7.7s)
+✔ [13656/14087] Built L6Check.F34.C150K0 (2.4s)
+⚠ [13657/14087] Built L6Sound.F34.Meaning (3.9s)
+warning: L6Sound/F34/Meaning.lean:57:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34/Meaning.lean:59:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34/Meaning.lean:64:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34/Meaning.lean:131:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34/Meaning.lean:135:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34/Meaning.lean:156:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34/Meaning.lean:158:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34/Meaning.lean:187:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34/Meaning.lean:190:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34/Meaning.lean:195:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34/Meaning.lean:197:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [13658/14087] Built L6Check.Poly.B21 (15s)
+✔ [13659/14087] Built L6Check.F34.C142K0 (1.8s)
+✔ [13660/14087] Built L6Check.F34.C133K0 (1.7s)
+✔ [13661/14087] Built L6Check.Poly.B20 (7.6s)
+✔ [13662/14087] Built L6Check.F34.C148K3 (3.7s)
+⚠ [13663/14087] Built Lean6.Special.Ball.Lin (5.9s)
+warning: Lean6/Special/Ball/Lin.lean:141:28: This simp argument is unused:
+  Matrix.one_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.sub_apply, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [13664/14087] Built L6Check.Poly.B27 (14s)
+✔ [13665/14087] Built L6Check.F34.C131K0 (2.5s)
+✔ [13666/14087] Built L6Check.F34.C132K0 (2.8s)
+✔ [13667/14087] Built L6Check.Poly.B16 (10s)
+✔ [13668/14087] Built L6Check.Poly.B0 (9.9s)
+✔ [13669/14087] Built L6Check.Poly.B50 (20s)
+✔ [13670/14087] Built L6Check.F34.C130K0 (4.7s)
+✔ [13671/14087] Built L6Check.Poly.B39 (18s)
+✔ [13672/14087] Built L6Check.Poly.B12 (16s)
+✔ [13673/14087] Built L6Check.Poly.B5 (13s)
+✔ [13674/14087] Built L6Check.F34.C148K0 (11s)
+✔ [13675/14087] Built L6Check.F34.C128K13 (7.8s)
+✔ [13676/14087] Built L6Check.F34.C128K10 (8.3s)
+✔ [13677/14087] Built L6Check.F34.C128K12 (9.7s)
+✔ [13678/14087] Built L6Check.F34.C128K20 (12s)
+✔ [13679/14087] Built L6Check.F34.C128K18 (11s)
+✔ [13680/14087] Built L6Check.Poly.B6 (22s)
+✔ [13681/14087] Built L6Check.F34.C127K0 (502ms)
+✔ [13682/14087] Built L6Check.F34.C123K0 (479ms)
+✔ [13683/14087] Built L6Check.F34.C122K0 (594ms)
+✔ [13684/14087] Built L6Check.F34.C126K0 (768ms)
+✔ [13685/14087] Built L6Check.F34.C129K0 (13s)
+✔ [13686/14087] Built L6Check.F34.C121K0 (514ms)
+✔ [13687/14087] Built L6Check.F34.C119K0 (518ms)
+✔ [13688/14087] Built L6Check.F34.C120K0 (508ms)
+✔ [13689/14087] Built L6Check.F34.C117K0 (571ms)
+✔ [13690/14087] Built L6Check.F34.C128K14 (11s)
+✔ [13691/14087] Built L6Check.F34.C124K0 (1.7s)
+✔ [13692/14087] Built L6Check.F34.C128K19 (13s)
+✔ [13693/14087] Built L6Check.F34.C84K0 (475ms)
+✔ [13694/14087] Built L6Check.F34.C110K0 (532ms)
+✔ [13695/14087] Built L6Check.F34.C67K0 (533ms)
+✔ [13696/14087] Built L6Check.F34.C69K0 (537ms)
+✔ [13697/14087] Built L6Check.F34.C116K0 (723ms)
+✔ [13698/14087] Built L6Check.F34.C65K0 (533ms)
+✔ [13699/14087] Built L6Check.F34.C66K0 (540ms)
+✔ [13700/14087] Built L6Check.F34.C128K15 (12s)
+✔ [13701/14087] Built L6Check.Poly.B17 (20s)
+✔ [13702/14087] Built L6Check.F34.C63K0 (563ms)
+✔ [13703/14087] Built L6Check.F34.C58K0 (545ms)
+✔ [13704/14087] Built L6Check.F34.C128K21 (14s)
+✔ [13705/14087] Built L6Check.F34.C57K0 (569ms)
+✔ [13706/14087] Built L6Check.F34.C62K0 (675ms)
+✔ [13707/14087] Built L6Check.F34.C148K1 (16s)
+✔ [13708/14087] Built L6Check.F34.C53K0 (533ms)
+✔ [13709/14087] Built L6Check.F34.C55K0 (683ms)
+✔ [13710/14087] Built L6Check.F34.C34K0 (513ms)
+✔ [13711/14087] Built L6Check.F34.C35K0 (503ms)
+✔ [13712/14087] Built L6Check.F34.C42K0 (629ms)
+✔ [13713/14087] Built L6Check.F34.C56K0 (1.0s)
+✔ [13714/14087] Built L6Check.F34.C31K0 (906ms)
+✔ [13715/14087] Built L6Check.F34.C148K2 (17s)
+✔ [13716/14087] Built L6Check.F34.C28K0 (544ms)
+✔ [13717/14087] Built L6Check.F34.C44K0 (1.2s)
+✔ [13718/14087] Built L6Check.F34.C128K16 (14s)
+✔ [13719/14087] Built L6Check.F34.C22K0 (540ms)
+✔ [13720/14087] Built L6Check.F34.C20K0 (631ms)
+✔ [13721/14087] Built L6Check.F34.C128K9 (13s)
+✔ [13722/14087] Built L6Check.F34.C64K0 (2.5s)
+✔ [13723/14087] Built L6Check.F34.C24K0 (1.2s)
+✔ [13724/14087] Built L6Check.F34.C128K8 (13s)
+✔ [13725/14087] Built L6Check.F34.C13K0 (582ms)
+✔ [13726/14087] Built L6Check.F34.C15K0 (916ms)
+✔ [13727/14087] Built L6Check.F34.C16K0 (1.1s)
+✔ [13728/14087] Built L6Check.F34.C12K0 (545ms)
+✔ [13729/14087] Built L6Check.F34.C128K17 (15s)
+✔ [13730/14087] Built L6Check.F34.C8K0 (571ms)
+✔ [13731/14087] Built L6Check.F34.C10K0 (750ms)
+✔ [13732/14087] Built L6Check.F34.C128K0 (6.4s)
+✔ [13733/14087] Built L6Check.F34.C128K11 (15s)
+✔ [13734/14087] Built L6Check.F34.C4K0 (1.7s)
+✔ [13735/14087] Built L6Check.F34.C23K0 (2.8s)
+✔ [13736/14087] Built L6Check.F34.C128K6 (14s)
+✔ [13737/14087] Built L6Check.Poly.B47 (35s)
+✔ [13738/14087] Built L6Check.F34.C47K0 (4.7s)
+✔ [13739/14087] Built L6Check.Poly.B36 (35s)
+✔ [13740/14087] Built L6Check.F34.C25K0 (4.0s)
+✔ [13741/14087] Built L6Check.F34.C29K1 (5.2s)
+✔ [13742/14087] Built L6Check.F34.C128K2 (10s)
+✔ [13743/14087] Built L6Check.F34.C128K4 (14s)
+✔ [13744/14087] Built L6Check.F34.C128K7 (16s)
+✔ [13745/14087] Built L6Check.Poly.B23 (33s)
+✔ [13746/14087] Built L6Check.F34.C128K5 (15s)
+✔ [13747/14087] Built L6Check.F34.C30K0 (7.1s)
+✔ [13748/14087] Built L6Check.F34.C128K3 (14s)
+✔ [13749/14087] Built L6Check.F34.C3K29 (6.2s)
+✔ [13750/14087] Built L6Check.Poly.B133 (46s)
+✔ [13751/14087] Built L6Check.F34.C3K22 (7.5s)
+✔ [13752/14087] Built L6Check.F34.C3K25 (7.6s)
+✔ [13753/14087] Built L6Check.F34.C128K1 (15s)
+✔ [13754/14087] Built L6Check.F34.C40K0 (12s)
+✔ [13755/14087] Built L6Check.F34.C3K23 (10s)
+✔ [13758/14087] Built L6Check.F34.C0K0 (709ms)
+✔ [13759/14087] Built L6Check.F34.C3K24 (11s)
+✔ [13761/14087] Built L6Check.F34.C3K12 (8.5s)
+✔ [13762/14087] Built L6Check.F34.C3K18 (11s)
+✔ [13763/14087] Built L6Check.F34.C3K17 (10s)
+✔ [13764/14087] Built L6Check.F34.C3K19 (11s)
+✔ [13765/14087] Built L6Check.F34.C3K4 (5.9s)
+✔ [13766/14087] Built L6F34S.Check (1.9s)
+✔ [13769/14087] Built L6Check.F34.C3K14 (10s)
+✔ [13770/14087] Built L6Check.Poly.B35 (43s)
+✔ [13771/14087] Built L6F34S (913ms)
+✔ [13774/14087] Built L6Check.F34.C3K11 (11s)
+✔ [13775/14087] Built L6Check.F34.C3K13 (11s)
+✔ [13776/14087] Built L6Check.F34.C3K9 (10s)
+✔ [13777/14087] Built L6Check.F34.C3K15 (12s)
+✔ [13778/14087] Built L6Check.F34.C3K10 (11s)
+⚠ [13779/14087] Built Lean6.Special.Ball.SlopeSem (4.4s)
+warning: Lean6/Special/Ball/SlopeSem.lean:50:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:50:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:51:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:51:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:83:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:84:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:84:35: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:89:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:97:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:97:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:98:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:98:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:215:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:215:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:231:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:231:47: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/SlopeSem.lean:237:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [13780/14087] Built L6Sound.Composed (5.9s)
+✔ [13781/14087] Built L6Check.F34S.C0K0 (2.8s)
+✔ [13782/14087] Built L6Check.F34.C3K7 (12s)
+✔ [13783/14087] Built L6Check.F34.C3K8 (13s)
+✔ [13784/14087] Built L6Check.F34.C3K6 (12s)
+✔ [13785/14087] Built L6Check.F34.C3K16 (15s)
+✔ [13786/14087] Built L6Check.F34.C3K1 (10s)
+✔ [13787/14087] Built L6Check.F34.C3K3 (11s)
+✔ [13788/14087] Built L6Check.F34.C3K5 (14s)
+✔ [13789/14087] Built L6Check.F34.C14K0 (21s)
+✔ [13790/14087] Built L6Check.Poly.B33 (53s)
+✔ [13791/14087] Built L6Check.F34.C3K2 (13s)
+✔ [13792/14087] Built L6Check.F34.C149K0 (42s)
+✔ [13793/14087] Built L6Check.F34.C3K21 (22s)
+✔ [13794/14087] Built L6Check.Poly.B24 (57s)
+✔ [13795/14087] Built L6Check.Poly.B14 (57s)
+✔ [13796/14087] Built L6Check.F34.C3K28 (26s)
+✔ [13797/14087] Built L6Check.F34.C3K26 (31s)
+✔ [13798/14087] Built L6Check.Poly.B3 (57s)
+✔ [13799/14087] Built L6Check.F34.C3K20 (34s)
+✔ [13800/14087] Built L6Check.F34S.C8K0 (995ms)
+✔ [13801/14087] Built L6Check.F34.C3K0 (28s)
+✔ [13802/14087] Built L6Check.F34S.C10K0 (1.7s)
+✔ [13803/14087] Built L6Check.F34S.C12K0 (1.0s)
+✔ [13804/14087] Built L6Check.F34S.C13K0 (956ms)
+✔ [13805/14087] Built L6Check.F34S.C15K0 (4.0s)
+✔ [13806/14087] Built L6Check.F34S.C16K0 (3.5s)
+✔ [13807/14087] Built L6Check.Poly.B29 (81s)
+✔ [13808/14087] Built L6Check.F34S.C4K0 (14s)
+✔ [13809/14087] Built L6Check.F34S.C22K0 (1.1s)
+✔ [13810/14087] Built L6Check.F34S.C20K0 (2.3s)
+✔ [13811/14087] Built L6Check.F34S.C24K0 (5.3s)
+✔ [13812/14087] Built L6Check.F34S.C28K0 (1.2s)
+✔ [13813/14087] Built L6Check.F34.C3K27 (58s)
+✔ [13814/14087] Built L6Check.F34S.C25K0 (10s)
+✔ [13815/14087] Built L6Check.F34S.C23K0 (15s)
+✔ [13816/14087] Built L6Check.F34S.C31K0 (5.4s)
+✔ [13817/14087] Built L6Check.F34S.C34K0 (993ms)
+✔ [13818/14087] Built L6Check.F34S.C35K0 (1000ms)
+✔ [13819/14087] Built L6Check.F34.C29K0 (77s)
+✔ [13820/14087] Built L6Check.F34S.C42K0 (2.3s)
+✔ [13821/14087] Built L6Check.F34S.C29K1 (20s)
+✔ [13822/14087] Built L6Check.F34S.C3K29 (52s)
+✔ [13823/14087] Built L6Check.F34S.C53K0 (1.0s)
+✔ [13824/14087] Built L6Check.F34S.C30K0 (26s)
+✔ [13825/14087] Built L6Check.F34S.C44K0 (9.3s)
+✔ [13826/14087] Built L6Check.F34S.C55K0 (2.3s)
+✔ [13827/14087] Built L6Check.F34S.C3K21 (67s)
+✔ [13828/14087] Built L6Check.F34S.C57K0 (969ms)
+✔ [13829/14087] Built L6Check.F34S.C58K0 (1.1s)
+✔ [13830/14087] Built L6Check.F34S.C63K0 (1.4s)
+✔ [13831/14087] Built L6Check.F34S.C62K0 (1.8s)
+✔ [13832/14087] Built L6Check.F34S.C65K0 (934ms)
+✔ [13833/14087] Built L6Check.F34S.C56K0 (3.6s)
+✔ [13834/14087] Built L6Check.F34S.C66K0 (973ms)
+✔ [13835/14087] Built L6Check.F34S.C67K0 (1.2s)
+✔ [13836/14087] Built L6Check.F34S.C69K0 (1.0s)
+✔ [13837/14087] Built L6Check.F34S.C84K0 (965ms)
+✔ [13838/14087] Built L6Check.F34S.C3K11 (76s)
+✔ [13839/14087] Built L6Check.F34S.C110K0 (1.0s)
+✔ [13840/14087] Built L6Check.F34S.C117K0 (1.1s)
+✔ [13841/14087] Built L6Check.F34S.C119K0 (1.0s)
+✔ [13842/14087] Built L6Check.F34S.C120K0 (1.1s)
+✔ [13843/14087] Built L6Check.F34S.C116K0 (2.2s)
+✔ [13844/14087] Built L6Check.F34S.C121K0 (1.0s)
+✔ [13845/14087] Built L6Check.F34S.C123K0 (996ms)
+✔ [13846/14087] Built L6Check.F34S.C122K0 (1.0s)
+✔ [13847/14087] Built L6Check.F34S.C127K0 (1.3s)
+✔ [13848/14087] Built L6Check.F34S.C126K0 (2.5s)
+✔ [13849/14087] Built L6Check.F34S.C3K23 (76s)
+✔ [13850/14087] Built L6Check.F34S.C3K5 (83s)
+✔ [13851/14087] Built L6Check.F34S.C124K0 (7.7s)
+✔ [13852/14087] Built L6Check.F34S.C64K0 (13s)
+✔ [13853/14087] Built L6Check.F34S.C40K0 (35s)
+✔ [13854/14087] Built L6Check.F34S.C47K0 (31s)
+✔ [13855/14087] Built L6Check.F34S.C3K9 (95s)
+✔ [13856/14087] Built L6Check.F34S.C3K4 (95s)
+✔ [13857/14087] Built L6Check.F34S.C3K10 (96s)
+✔ [13858/14087] Built L6Check.F34S.C3K22 (91s)
+✔ [13859/14087] Built L6Check.F34S.C3K14 (96s)
+✔ [13860/14087] Built L6Check.F34S.C3K1 (100s)
+✔ [13861/14087] Built L6Check.Poly.B18 (145s)
+✔ [13862/14087] Built L6Check.F34S.C3K13 (98s)
+✔ [13863/14087] Built L6Check.F34S.C3K6 (101s)
+✔ [13864/14087] Built L6Check.F34S.C3K7 (102s)
+✔ [13865/14087] Built L6Check.F34S.C3K16 (101s)
+✔ [13866/14087] Built L6Check.Poly.B46 (155s)
+✔ [13867/14087] Built L6Check.F34S.C3K12 (104s)
+✔ [13868/14087] Built L6Check.F34S.C3K17 (103s)
+✔ [13869/14087] Built L6Check.F34S.C3K2 (108s)
+✔ [13870/14087] Built L6Check.F34S.C3K25 (101s)
+✔ [13871/14087] Built L6Check.F34S.C14K0 (85s)
+✔ [13872/14087] Built L6Check.Poly.B8 (153s)
+✔ [13873/14087] Built L6Check.F34S.C3K18 (107s)
+✔ [13874/14087] Built L6Check.F34S.C3K19 (110s)
+✔ [13875/14087] Built L6Check.F34S.C3K24 (107s)
+✔ [13876/14087] Built L6Check.F34S.C3K0 (116s)
+✔ [13877/14087] Built L6Check.F34S.C3K8 (116s)
+✔ [13878/14087] Built L6Check.F34S.C3K15 (113s)
+✔ [13879/14087] Built L6Check.F34S.C133K0 (4.9s)
+✔ [13880/14087] Built L6Check.F34S.C3K26 (108s)
+✔ [13881/14087] Built L6Check.F34S.C143K0 (5.1s)
+✔ [13882/14087] Built L6Check.F34S.C147K0 (4.4s)
+✔ [13883/14087] Built L6Check.F34S.C146K0 (5.7s)
+✔ [13884/14087] Built L6Check.F34S.C3K20 (116s)
+✔ [13885/14087] Built L6Check.F34S.C142K0 (10s)
+✔ [13886/14087] Built L6Check.F34S.C132K0 (12s)
+✔ [13887/14087] Built L6Check.F34S.C169K0 (1.6s)
+✔ [13888/14087] Built L6Check.F34S.C170K0 (1.2s)
+✔ [13889/14087] Built L6Check.F34S.C3K3 (123s)
+✔ [13890/14087] Built L6Check.F34S.C173K0 (995ms)
+✔ [13891/14087] Built L6Check.F34S.C167K0 (3.7s)
+✔ [13892/14087] Built L6Check.F34S.C171K0 (1.8s)
+✔ [13893/14087] Built L6Check.F34S.C172K0 (1.3s)
+✔ [13894/14087] Built L6Check.F34S.C183K0 (968ms)
+✔ [13895/14087] Built L6Check.F34S.C3K28 (113s)
+✔ [13896/14087] Built L6Check.F34S.C131K0 (16s)
+✔ [13897/14087] Built L6Check.F34S.C150K0 (9.2s)
+⚠ [13898/14087] Built Lean6.Special.Ball.KrawCheckSem (5.3s)
+warning: Lean6/Special/Ball/KrawCheckSem.lean:138:23: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [13899/14087] Built L6Sound.F34S.Defs (7.9s)
+✔ [13900/14087] Built L6Check.F34S.C148K3 (14s)
+⚠ [13901/14087] Built Lean6.Special.Ball.Deriv (4.6s)
+warning: Lean6/Special/Ball/Deriv.lean:48:12: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  tendsto_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:49:17: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  tendsto_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:65:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Lean6/Special/Ball/Deriv.lean:67:18: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Lean6/Special/Ball/Deriv.lean:78:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:84:21: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:86:12: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+warning: Lean6/Special/Ball/Deriv.lean:89:21: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:92:24: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:94:24: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: Lean6/Special/Ball/Deriv.lean:96:19: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [13902/14087] Built CC6Compose.ClaimCore (7.2s)
+✔ [13903/14087] Built Lean6.Special.D88.Boxes.Systems (10s)
+✔ [13904/14087] Built L6Sound.F34S.BelowR (8.2s)
+✔ [13905/14087] Built L6Sound.F34S.Congr (8.2s)
+✔ [13906/14087] Built L6Sound.F34S.Forms (8.5s)
+✔ [13907/14087] Built CC6Compose.OpenCore (8.5s)
+⚠ [13908/14087] Built L6Sound.F34S.PolySem (8.0s)
+warning: L6Sound/F34S/PolySem.lean:86:34: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/PolySem.lean:88:34: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:115:10: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [this, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: L6Sound/F34S/PolySem.lean:132:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/PolySem.lean:142:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:144:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/PolySem.lean:196:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:231:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:233:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:244:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/PolySem.lean:246:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/PolySem.lean:266:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/PolySem.lean:277:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [13909/14087] Built L6Check.F34S.C3K27 (133s)
+✔ [13910/14087] Built L6Check.F34S.C128K0 (63s)
+✔ [13911/14087] Built L6Check.F34S.C128K14 (47s)
+⚠ [13912/14087] Built Lean6.Special.D88.Boxes.BoxSound (7.8s)
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:53: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:70: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:87: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:128:104: This simp argument is unused:
+  n4D1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:53: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:70: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:87: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:132:104: This simp argument is unused:
+  n4D2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:53: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:70: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:87: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:136:104: This simp argument is unused:
+  n4D3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:141:69: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:141:96: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:142:16: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:142:43: This simp argument is unused:
+  n4D4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:148:61: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:148:93: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:149:16: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:149:48: This simp argument is unused:
+  n4X34Disc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Lean6/Special/D88/Boxes/BoxSound.lean:244:17: `ContinuousLinearMap.coe_comp'` has been deprecated: Use `ContinuousLinearMap.coe_comp` instead
+
+Hint: Replace the deprecated name:
+  ContinuousLinearMap.coe_comp'̵
+✔ [13913/14087] Built CC6Compose.V3.Interface (7.1s)
+✔ [13914/14087] Built L6Check.F34S.C130K0 (41s)
+⚠ [13915/14087] Built L6Sound.F34S.Meaning (8.5s)
+warning: L6Sound/F34S/Meaning.lean:146:27: This simp argument is unused:
+  List.contains_iff_mem
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Bool.not_eq_true'] at h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: L6Sound/F34S/Meaning.lean:150:64: This simp argument is unused:
+  decide_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.contains_iff_mem, hj, ite_true, Bool.and_eq_true] at h1
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: L6Sound/F34S/Meaning.lean:185:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/Meaning.lean:188:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/Meaning.lean:192:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:194:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:209:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/Meaning.lean:214:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:269:5: Variable name `hP` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hP
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: L6Sound/F34S/Meaning.lean:355:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/Meaning.lean:359:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:372:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: L6Sound/F34S/Meaning.lean:373:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:376:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: L6Sound/F34S/Meaning.lean:393:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [13916/14087] Built L6Check.F34S.C128K2 (69s)
+✔ [13917/14087] Built L6Check.F34S.C128K1 (72s)
+✔ [13918/14087] Built L6Check.Poly.B1 (192s)
+✔ [13919/14087] Built L6Check.Poly.Index (687ms)
+✔ [13920/14087] Built L6Check.F34S.C128K13 (56s)
+✔ [13921/14087] Built L6Check.F34.CertsOK.C3K1 (1.4s)
+✔ [13922/14087] Built L6Check.F34.CertsOK.C3K2 (1.6s)
+✔ [13923/14087] Built L6Check.F34S.C128K4 (73s)
+⚠ [13924/14087] Built Lean6.Special.D88.Boxes.KCSound (9.9s)
+warning: Lean6/Special/D88/Boxes/KCSound.lean:151:8: Unused tactic linter: `push_cast at this ⊢` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [13925/14087] Built L6Check.F34.CertsOK.C3K3 (2.1s)
+✔ [13926/14087] Built L6Check.F34.CertsOK.C149K0 (2.6s)
+✔ [13927/14087] Built L6Check.F34.CertsOK.C3K7 (1.2s)
+✔ [13928/14087] Built L6Check.F34S.C128K3 (76s)
+✔ [13929/14087] Built L6Check.F34S.C128K8 (64s)
+✔ [13930/14087] Built L6Check.F34S.C128K9 (64s)
+✔ [13931/14087] Built CC6Compose.ExclusionTerms (9.9s)
+✔ [13932/14087] Built L6Check.F34.CertsOK.C3K15 (2.0s)
+✔ [13933/14087] Built L6Check.F34.CertsOK.C3K13 (1.5s)
+✔ [13934/14087] Built L6Check.F34.CertsOK.C3K14 (884ms)
+✔ [13935/14087] Built L6Check.F34S.C128K16 (58s)
+✔ [13936/14087] Built L6Check.F34.CertsOK.C0K0 (711ms)
+✔ [13937/14087] Built L6Check.F34.CertsOK.C3K17 (1.2s)
+✔ [13938/14087] Built L6Check.F34.CertsOK.C3K19 (1.5s)
+✔ [13939/14087] Built L6Check.F34.CertsOK.C3K12 (1.2s)
+✔ [13940/14087] Built L6Check.F34.CertsOK.C3K18 (1.5s)
+✔ [13941/14087] Built L6Check.F34.CertsOK.C3K6 (5.8s)
+✔ [13942/14087] Built L6Check.F34.CertsOK.C3K24 (1.8s)
+✔ [13943/14087] Built L6Check.F34.CertsOK.C128K1 (809ms)
+✔ [13944/14087] Built L6Check.F34.CertsOK.C3K23 (1.2s)
+✔ [13945/14087] Built L6Check.F34.CertsOK.C29K0 (6.5s)
+✔ [13946/14087] Built L6Check.F34.CertsOK.C3K29 (927ms)
+✔ [13947/14087] Built L6Check.F34.CertsOK.C128K7 (725ms)
+✔ [13948/14087] Built L6Check.F34.CertsOK.C3K28 (7.5s)
+✔ [13949/14087] Built L6Check.F34.CertsOK.C3K0 (7.7s)
+✔ [13950/14087] Built L6Check.F34.CertsOK.C128K2 (1.1s)
+✔ [13951/14087] Built L6Check.F34.CertsOK.C25K0 (748ms)
+✔ [13952/14087] Built L6Check.F34.CertsOK.C30K0 (2.6s)
+✔ [13953/14087] Built L6Check.F34.CertsOK.C47K0 (720ms)
+✔ [13954/14087] Built L6Check.F34.CertsOK.C29K1 (1.7s)
+✔ [13955/14087] Built L6Check.F34.CertsOK.C128K6 (754ms)
+✔ [13956/14087] Built L6Check.F34.CertsOK.C4K0 (706ms)
+✔ [13957/14087] Built L6Check.F34.CertsOK.C23K0 (686ms)
+✔ [13958/14087] Built L6Check.F34.CertsOK.C3K20 (9.6s)
+✔ [13959/14087] Built L6Check.F34.CertsOK.C3K21 (9.7s)
+✔ [13960/14087] Built L6Check.F34.CertsOK.C8K0 (696ms)
+✔ [13961/14087] Built L6Check.F34.CertsOK.C128K11 (809ms)
+✔ [13962/14087] Built L6Check.F34.CertsOK.C10K0 (666ms)
+✔ [13963/14087] Built L6Check.F34.CertsOK.C128K5 (3.8s)
+✔ [13964/14087] Built L6Check.F34.CertsOK.C128K17 (797ms)
+✔ [13965/14087] Built L6Check.F34.CertsOK.C12K0 (775ms)
+✔ [13966/14087] Built L6Check.F34.CertsOK.C128K0 (941ms)
+✔ [13967/14087] Built L6Check.F34.CertsOK.C13K0 (524ms)
+✔ [13968/14087] Built L6Check.F34.CertsOK.C15K0 (724ms)
+✔ [13969/14087] Built L6Check.F34.CertsOK.C16K0 (771ms)
+✔ [13970/14087] Built L6Check.F34.CertsOK.C3K16 (11s)
+✔ [13971/14087] Built L6Check.F34.CertsOK.C24K0 (703ms)
+✔ [13972/14087] Built L6Check.F34.CertsOK.C128K8 (872ms)
+✔ [13973/14087] Built L6Check.F34.CertsOK.C64K0 (708ms)
+✔ [13974/14087] Built L6Check.F34.CertsOK.C20K0 (807ms)
+✔ [13975/14087] Built L6Check.F34.CertsOK.C128K9 (774ms)
+✔ [13976/14087] Built L6Check.F34.CertsOK.C22K0 (752ms)
+✔ [13977/14087] Built L6Check.F34.CertsOK.C40K0 (6.2s)
+✔ [13978/14087] Built L6Check.F34.CertsOK.C128K16 (732ms)
+✔ [13979/14087] Built L6Check.F34.CertsOK.C28K0 (791ms)
+✔ [13980/14087] Built L6Check.F34.CertsOK.C31K0 (811ms)
+✔ [13981/14087] Built L6Check.F34.CertsOK.C44K0 (886ms)
+✔ [13982/14087] Built L6Check.F34.CertsOK.C56K0 (701ms)
+✔ [13983/14087] Built L6Check.F34S.C128K5 (81s)
+✔ [13984/14087] Built L6Check.F34.CertsOK.C34K0 (695ms)
+✔ [13985/14087] Built L6Check.F34.CertsOK.C42K0 (835ms)
+✔ [13986/14087] Built L6Check.F34.CertsOK.C35K0 (738ms)
+✔ [13987/14087] Built L6Check.F34.CertsOK.C55K0 (743ms)
+✔ [13988/14087] Built L6Check.F34S.C128K18 (65s)
+✔ [13989/14087] Built L6Check.F34.CertsOK.C53K0 (721ms)
+✔ [13990/14087] Built L6Check.F34.CertsOK.C62K0 (730ms)
+✔ [13991/14087] Built L6Check.F34.CertsOK.C57K0 (840ms)
+✔ [13992/14087] Built L6Check.F34.CertsOK.C58K0 (778ms)
+✔ [13993/14087] Built L6Check.F34.CertsOK.C63K0 (839ms)
+✔ [13994/14087] Built L6Check.F34.CertsOK.C65K0 (782ms)
+✔ [13995/14087] Built L6Check.F34.CertsOK.C148K2 (1.8s)
+✔ [13996/14087] Built L6Check.F34S.C128K6 (81s)
+✔ [13997/14087] Built L6Check.F34.CertsOK.C148K1 (1.1s)
+✔ [13998/14087] Built L6Check.F34.CertsOK.C66K0 (748ms)
+✔ [13999/14087] Built L6Check.F34S.C128K11 (71s)
+✔ [14000/14087] Built L6Check.F34.CertsOK.C67K0 (744ms)
+✔ [14001/14087] Built L6Check.F34.CertsOK.C128K15 (838ms)
+✔ [14002/14087] Built L6Check.F34.CertsOK.C128K21 (1.2s)
+✔ [14003/14087] Built L6Check.F34.CertsOK.C3K10 (11s)
+✔ [14004/14087] Built L6Check.F34.CertsOK.C69K0 (794ms)
+✔ [14005/14087] Built L6Check.F34.CertsOK.C84K0 (680ms)
+✔ [14006/14087] Built L6Check.F34.CertsOK.C116K0 (753ms)
+✔ [14007/14087] Built L6Check.F34.CertsOK.C110K0 (755ms)
+✔ [14008/14087] Built L6Check.F34.CertsOK.C119K0 (686ms)
+✔ [14009/14087] Built L6Check.F34.CertsOK.C124K0 (785ms)
+✔ [14010/14087] Built L6Check.F34.CertsOK.C117K0 (816ms)
+✔ [14011/14087] Built L6Check.F34.CertsOK.C120K0 (732ms)
+✔ [14012/14087] Built L6Check.F34.CertsOK.C129K0 (706ms)
+✔ [14013/14087] Built L6Check.F34.CertsOK.C121K0 (866ms)
+✔ [14014/14087] Built L6Check.F34.CertsOK.C126K0 (866ms)
+✔ [14015/14087] Built L6Check.F34.CertsOK.C3K9 (12s)
+✔ [14016/14087] Built L6Check.F34.CertsOK.C122K0 (806ms)
+✔ [14017/14087] Built L6Check.F34.CertsOK.C123K0 (845ms)
+✔ [14018/14087] Built L6Check.F34.CertsOK.C127K0 (837ms)
+✔ [14019/14087] Built L6Check.F34.CertsOK.C128K19 (1.4s)
+✔ [14020/14087] Built L6Check.F34.CertsOK.C3K22 (8.9s)
+✔ [14021/14087] Built L6Check.F34.CertsOK.C128K10 (745ms)
+✔ [14022/14087] Built L6Check.F34.CertsOK.C128K14 (1.7s)
+✔ [14023/14087] Built L6Check.F34.CertsOK.C3K11 (12s)
+✔ [14024/14087] Built L6Check.F34.CertsOK.C130K0 (859ms)
+✔ [14025/14087] Built L6Check.F34.CertsOK.C131K0 (732ms)
+✔ [14026/14087] Built L6Check.F34.CertsOK.C132K0 (806ms)
+✔ [14027/14087] Built L6Check.F34.CertsOK.C148K3 (689ms)
+✔ [14028/14087] Built L6Check.F34.CertsOK.C128K20 (1.4s)
+✔ [14029/14087] Built L6Check.F34.CertsOK.C133K0 (786ms)
+✔ [14030/14087] Built L6Check.F34.CertsOK.C143K0 (795ms)
+✔ [14031/14087] Built L6Check.F34.CertsOK.C146K0 (642ms)
+✔ [14032/14087] Built L6Check.F34.CertsOK.C142K0 (901ms)
+✔ [14033/14087] Built L6Check.F34.CertsOK.C150K0 (857ms)
+✔ [14034/14087] Built L6Check.F34.CertsOK.C128K18 (1.8s)
+✔ [14035/14087] Built L6Check.F34.CertsOK.C147K0 (817ms)
+✔ [14036/14087] Built L6Check.F34.CertsOK.C128K3 (9.4s)
+✔ [14037/14087] Built L6Check.F34.CertsOK.C167K0 (726ms)
+✔ [14038/14087] Built L6Check.F34.CertsOK.C169K0 (771ms)
+✔ [14039/14087] Built L6Check.F34.CertsOK.C128K13 (1.8s)
+✔ [14040/14087] Built L6Check.F34.CertsOK.C170K0 (788ms)
+✔ [14041/14087] Built L6Check.F34.CertsOK.C171K0 (847ms)
+✔ [14042/14087] Built L6Check.F34.CertsOK.C172K0 (764ms)
+✔ [14043/14087] Built L6Check.F34.CertsOK.C173K0 (839ms)
+✔ [14044/14087] Built L6Check.F34.CertsOK.C128K12 (2.1s)
+✔ [14045/14087] Built L6Check.F34.CertsOK.C183K0 (838ms)
+✔ [14046/14087] Built L6Check.F34.CertsOK.C128K4 (9.1s)
+✔ [14047/14087] Built L6Check.F34.CertsOK.C3K4 (13s)
+✔ [14048/14087] Built L6Check.F34.CertsOK.C3K8 (15s)
+✔ [14049/14087] Built L6Check.F34.CertsOK.C148K0 (3.3s)
+✔ [14050/14087] Built L6Check.F34S.C128K10 (77s)
+✔ [14051/14087] Built L6Check.F34S.C128K12 (75s)
+✔ [14052/14087] Built L6Check.F34S.C148K0 (58s)
+✔ [14053/14087] Built L6Check.F34S.C148K1 (58s)
+✔ [14054/14087] Built L6Check.F34S.C128K19 (69s)
+✔ [14055/14087] Built L6Check.F34S.C128K20 (67s)
+✔ [14056/14087] Built L6Check.F34S.C128K7 (81s)
+✔ [14057/14087] Built Lean6.Special.D88.Boxes.Final (4.9s)
+✔ [14058/14087] Built L6Check.F34S.C128K21 (68s)
+✔ [14059/14087] Built L6Check.F34.CertsOK.C3K5 (20s)
+✔ [14060/14087] Built L6Check.F34S.C128K15 (76s)
+✔ [14061/14087] Built CC6Compose.ExclusionCore (8.1s)
+✔ [14062/14087] Built CC6Compose.Boxes (3.9s)
+✔ [14063/14087] Built L6Check.F34.CertsOK.C3K25 (19s)
+✔ [14064/14087] Built L6Check.F34S.C29K0 (139s)
+✔ [14065/14087] Built L6Check.F34S.C148K2 (67s)
+✔ [14066/14087] Built L6Check.F34S.C128K17 (84s)
+✔ [14067/14087] Built CC6Compose.Seven (7.1s)
+✔ [14068/14087] Built CC6Compose.ExclusionPoly (8.2s)
+✔ [14069/14087] Built L6Check.F34.CertsOK.C3K26 (34s)
+✔ [14070/14087] Built CC6Compose.Special (7.0s)
+✔ [14071/14087] Built L6Check.F34S.C149K0 (73s)
+✔ [14072/14087] Built CC6Compose.V3.Main (7.7s)
+✔ [14073/14087] Built L6Check.F34S.C129K0 (88s)
+✔ [14074/14087] Built CC6Compose.V3.Special (7.5s)
+✔ [14075/14087] Built L6Check.F34.CertsOK.C14K0 (86s)
+✔ [14076/14087] Built L6Check.F34.CertsOK.C3K27 (143s)
+✔ [14077/14087] Built L6Check.F34S.All (23s)
+✔ [14078/14087] Built CC6Compose.ExclusionImports (7.9s)
+✔ [14079/14087] Built CC6Compose.ExclusionClaim (9.0s)
+✔ [14080/14087] Built CC6Compose.ExclusionClasses (13s)
+✔ [14081/14087] Built CC6Compose.Exclusion (8.3s)
+✔ [14082/14087] Built CC6Compose.V3.Native (7.0s)
+✔ [14083/14087] Built CC6Compose.Final (8.1s)
+✔ [14084/14087] Built CC6Compose.Theorem (5.4s)
+✔ [14085/14087] Built CC6Compose.OpenKernel (8.0s)
+✔ [14086/14087] Built CC6Compose (7.9s)
+Build completed successfully (14087 jobs).
+check_v3.sh: CC6Full and the composition built in 454 s
+'CC6Full.exists_slice_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.finitelyManyCC_of_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.r2_fibre_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.exists_curve' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Expansion_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.degree_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Curve.U_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Curve.balancing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Curve.exists_singular_place_ell_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.germOfPlace_ell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.exists_germ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.relabel_ell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.swap_ell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.torque' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.partialVirial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.lagrange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.O1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.O5_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.O6_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.E3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.E5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.E6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.C3_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Germ.C4_z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.main_of_germExclusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d89_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d98_lead' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d93_lead' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.three_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.lem_E4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.elim_integral_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d98_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d93_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d64_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d66_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d88_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Six.d94_poly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.goodred' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.encard_complexZeros_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Identity.single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.Cell.core_b_int' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.seven_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.main_of_classesExcluded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CC6Full.exists_pos_aeval_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+check_v3.sh: Check.lean OK (47 theorems, only propext, Classical.choice, Quot.sound)
+'CC6Compose.V3.main_theorem_v3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.Count.kc_f4_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.Count.s12_f4_ok._native.native_decide.ax_1_1]
+check_v3.sh: CC6Compose.V3.main_theorem_v3 depends on propext, Classical.choice, Quot.sound and the auxiliary
+check_v3.sh: axioms of the F4 runs behind count_S12 and count_KC, nothing else
+check_v3.sh: OK
+	Command being timed: "bash check_v3.sh"
+	User time (seconds): 9267.09
+	System time (seconds): 239.47
+	Percent of CPU this job got: 1665%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 9:30.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28703732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29530878
+	Voluntary context switches: 1070717
+	Involuntary context switches: 227771
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 700048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+check_v3.sh rc=0 (end 15:07:03)
+== 5. the edited Lean files that Lake recompiled in this run (from its output above):
+  L6Poly.Basic: 1 build lines
+  Lean6.Special.Ball.Kraw: 1 build lines
+  L6KSpec.C4Check: 0 build lines
+  L6KSpec.C4Load: 0 build lines
+  L6SoundKSpec.C4Cert: 0 build lines
+== shipped files unchanged after the run: OK
+== finished 2026-10-18T15:07:03Z

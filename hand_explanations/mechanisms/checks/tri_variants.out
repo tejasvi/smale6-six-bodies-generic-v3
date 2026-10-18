@@ -1,0 +1,18 @@
+(a) U_T, z-bal at a, w-bal at b:
+ma^8*mb^8-4*ma^8*mb^6*mc^2-4*ma^6*mb^8*mc^2+6*ma^8*mb^4*mc^4-124*ma^6*mb^6*mc^4+6*ma^4*mb^8*mc^4-4*ma^8*mb^2*mc^6-124*ma^6*mb^4*mc^6-124*ma^4*mb^6*mc^6-4*ma^2*mb^8*mc^6+ma^8*mc^8-4*ma^6*mb^2*mc^8+6*ma^4*mb^4*mc^8-4*ma^2*mb^6*mc^8+mb^8*mc^8
+[1]:
+   _[1]=1
+   _[2]=ma^2*mb^2-2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[3]=ma^2*mb^2+2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[4]=ma^2*mb^2+2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+   _[5]=ma^2*mb^2-2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+[2]:
+   1,1,1,1,1
+(b) U_T, w-bal at a, w-centre at c:
+ma^9*mb^9-3*ma^10*mb^6*mc^2-3*ma^9*mb^7*mc^2-3*ma^7*mb^9*mc^2-3*ma^6*mb^10*mc^2+3*ma^11*mb^3*mc^4+6*ma^10*mb^4*mc^4+3*ma^9*mb^5*mc^4-21*ma^8*mb^6*mc^4-42*ma^7*mb^7*mc^4-21*ma^6*mb^8*mc^4+3*ma^5*mb^9*mc^4+6*ma^4*mb^10*mc^4+3*ma^3*mb^11*mc^4-ma^12*mc^6-3*ma^11*mb*mc^6-3*ma^10*mb^2*mc^6-4*ma^9*mb^3*mc^6-9*ma^8*mb^4*mc^6-9*ma^7*mb^5*mc^6-6*ma^6*mb^6*mc^6-9*ma^5*mb^7*mc^6-9*ma^4*mb^8*mc^6-4*ma^3*mb^9*mc^6-3*ma^2*mb^10*mc^6-3*ma*mb^11*mc^6-mb^12*mc^6
+[1]:
+   _[1]=-1
+   _[2]=-ma^3*mb^3+ma^4*mc^2+4*ma^3*mb*mc^2+6*ma^2*mb^2*mc^2+4*ma*mb^3*mc^2+mb^4*mc^2
+   _[3]=ma^6*mb^6-2*ma^7*mb^3*mc^2+ma^6*mb^4*mc^2+6*ma^5*mb^5*mc^2+ma^4*mb^6*mc^2-2*ma^3*mb^7*mc^2+ma^8*mc^4-ma^7*mb*mc^4+ma^6*mb^2*mc^4+2*ma^5*mb^3*mc^4-2*ma^4*mb^4*mc^4+2*ma^3*mb^5*mc^4+ma^2*mb^6*mc^4-ma*mb^7*mc^4+mb^8*mc^4
+[2]:
+   1,1,1

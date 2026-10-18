@@ -1,0 +1,7 @@
+class 63: sampled 68 kept and 400 pruned LPs
+(a) kept LPs with a certificate (must be 0): 0
+(b) eps=0.0: kept 0, pruned 68, failures 0 (expected: eps=0 -> 0 failures; eps=1e-12 -> failures = 68)
+(b) eps=1e-12: kept 0, pruned 68, failures 68 (expected: eps=0 -> 0 failures; eps=1e-12 -> failures = 68)
+(c) {'valid': 400, 'neg_rejected': 400, 'pert_rejected': 393, 'drop_rejected': 400, 'double_ok': 400, 'pert_valid_rows_without_heights': 7}
+(d) injected false prunes: 15; certifier failures: 15 (must be >= injected: the fake status is re-queried without presolve, so a re-run may hide some)
+RESULT PASS

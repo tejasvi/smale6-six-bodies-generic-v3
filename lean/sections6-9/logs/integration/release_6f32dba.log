@@ -1,0 +1,43 @@
+Release build: git archive of commit 6f32dba, fresh directory, 384-core machine, ulimit -n 65536, Mathlib's build present.
+Commands: lake build; lake env lean gen/axioms_all.lean; then lake env lean on every Lean script under gen/.
+
+2026-10-17T14:42:20Z
+build_rc=0
+2026-10-17T14:52:57Z
+axioms_rc=0
+script gen/c4/axioms.lean rc=0
+script gen/c4/dump_eqs.lean rc=0
+script gen/d88boxes/axioms.lean rc=0
+script gen/d88boxes/negctl.lean rc=0
+script gen/d88count/br_axioms.lean rc=0
+script gen/d88count/br_testdim.lean rc=0
+script gen/d88count/f4_axioms.lean rc=0
+script gen/d88trop/axioms.lean rc=0
+script gen/d88trop/axioms_gamma.lean rc=0
+script gen/d88trop/negctl.lean rc=0
+script gen/d98/axioms.lean rc=0
+script gen/d98/negctl.lean rc=0
+script gen/e4/axioms.lean rc=0
+script gen/e4/axioms_export.lean rc=0
+script gen/hand/axioms_HA.lean rc=0
+script gen/hand/axioms_HB.lean rc=0
+script gen/native_axiom_example.lean rc=0
+2026-10-17T14:55:21Z
+DONE
+
+lake build:
+✔ [10546/10550] Built Lean6.Special.Comp.D88.Count.RunS12 (600s)
+✔ [10547/10550] Built Lean6.Special.D88.Count.Main (1.4s)
+✔ [10548/10550] Built Lean6.Special.D88.Count (1.4s)
+✔ [10549/10550] Built Lean6.Special (2.7s)
+Build completed successfully (10550 jobs).
+	Command being timed: "nice -n 10 lake build"
+	User time (seconds): 18526.74
+	System time (seconds): 214.41
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:37.14
+	Maximum resident set size (kbytes): 15150716
+	Exit status: 0
+'Lean6.Special.D98.lq_00' depends on axioms: [propext]
+
+Axioms (gen/axioms_all.lean): 344 theorems printed; the axioms that occur are propext, Classical.choice, Quot.sound and
+529 distinct native_decide auxiliary axioms (<decl>._native.native_decide.ax_1_1); no sorryAx.

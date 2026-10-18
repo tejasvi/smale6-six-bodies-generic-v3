@@ -1,0 +1,33 @@
+// Referee check of Lemma E1 (MECHANISMS.md 3.3). Leading-coefficient system of a triangle T={a,b,c} whose pairs
+// meet at one node in each tree (coordinates Xa,Xb,Xc=0 and Ya,Yb,Yc=0), z-balance at a and b, w-balance at one vertex.
+LIB "elim.lib";
+LIB "primdec.lib";
+ring R = 0, (Pab,Pbc,Pca,Xa,Xb,Ya,Yb, ma,mb,mc), dp;
+poly xab = Xa-Xb; poly xbc = Xb; poly xca = -Xa;
+poly yab = Ya-Yb; poly ybc = Yb; poly yca = -Ya;
+ideal D = Pab^2*xab*yab-1, Pbc^2*xbc*ybc-1, Pca^2*xca*yca-1;
+// z-balance at a: mb*Z_ab + mc*Z_ac = 0 ; at b: ma*Z_ba + mc*Z_bc = 0   (Z_kl = P_kl^3 * xi_kl)
+poly za = mb*Pab^3*xab - mc*Pca^3*xca;
+poly zb = -ma*Pab^3*xab + mc*Pbc^3*xbc;
+poly wa = mb*Pab^3*yab - mc*Pca^3*yca;
+poly wc = ma*Pca^3*yca - mb*Pbc^3*ybc;
+poly nz = Pab*Pbc*Pca*Xa*Xb*(Xa-Xb)*Ya*Yb*(Ya-Yb)*ma*mb*mc;
+poly QT = ma^2*mb^2+mb^2*mc^2+mc^2*ma^2-2*ma*mb*mc*(ma+mb+mc);
+poly Q1 = (ma*mb+mb*mc+mc*ma)^2-4*ma*mb*mc^2;
+poly Q2 = (ma*mb+mb*mc+mc*ma)^2-4*ma*mc*mb^2;
+poly Q3 = (ma*mb+mb*mc+mc*ma)^2-4*mb*mc*ma^2;
+poly H = QT*Q1*Q2*Q3;
+int case;
+for (case = 1; case <= 2; case++) {
+  ideal I = D, za, zb;
+  if (case == 1) { I = I, wa; } else { I = I, wc; }
+  ideal S = sat(I, ideal(nz));
+  ideal E = eliminate(S, Pab*Pbc*Pca*Xa*Xb*Ya*Yb);
+  print("case " + string(case) + " (w-balance at " + string((case==1)*1) + "=a / 0=c): elim gens " + string(size(E)));
+  print(E);
+  ideal EH = std(ideal(H));
+  print("E in <H>: " + string(size(reduce(E, EH)) == 0));
+  print("H in E: " + string(reduce(H, std(E)) == 0));
+}
+print(factorize(H));
+quit;

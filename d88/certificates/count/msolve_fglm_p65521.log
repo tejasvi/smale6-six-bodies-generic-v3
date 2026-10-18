@@ -1,0 +1,245 @@
+Only the first 5 parametrizations of the radical ideal are correct
+
+--------------- INPUT DATA ---------------
+#variables                      11
+#equations                      12
+#invalid equations               0
+field characteristic         65521
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                        32
+info level                       1
+generate pbm files               0
+------------------------------------------
+
+---------------- TIMINGS ----------------
+overall(elapsed)      188.85 sec
+overall(cpu)         3067.10 sec
+select                 16.87 sec   8.9%
+symbolic prep.         60.82 sec  32.2%
+update                 25.45 sec  13.5%
+convert                 0.75 sec   0.4%
+linear algebra         83.74 sec  44.3%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                  7411
+#terms in basis            42346010
+#pairs reduced                87816
+#GM criterion              58648725
+#redundant elements            3429
+#rows reduced                183431
+#zero reductions              77183
+max. matrix data             285365 x 296591 (0.404%)
+max. symbolic hash table size  2^19
+max. basis hash table size     2^23
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+overall(elapsed)     2444.73 sec
+overall(cpu)         2462.29 sec
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+degree of ideal               20316
+#dense rows                    7850
+#normal forms                  3640
+total density                    27.1%
+density of the free part         29.4%
+density of the nonfree part      24.5%
+deg. elim. pol.               11838
+deg. sqfr. elim. pol.         11838
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+rational param(elapsed)      2634.41 sec
+rational param(cpu)          5530.38 sec
+-----------------------------------------
+Staircase is not generic
+and too many normal forms need to be computed
+
+Changing variable order for possibly more generic staircase:
+p34, X3, Y1, Y2, Y3, p12, p13, p14, p23, p24, X2
+
+--------------- INPUT DATA ---------------
+#variables                      11
+#equations                      12
+#invalid equations               0
+field characteristic         65521
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                        32
+info level                       1
+generate pbm files               0
+------------------------------------------
+
+---------------- TIMINGS ----------------
+overall(elapsed)      180.26 sec
+overall(cpu)         2927.35 sec
+select                 16.96 sec   9.4%
+symbolic prep.         55.15 sec  30.6%
+update                 28.71 sec  15.9%
+convert                 0.66 sec   0.4%
+linear algebra         77.65 sec  43.1%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                  7662
+#terms in basis            43575771
+#pairs reduced                89895
+#GM criterion              67474605
+#redundant elements            3964
+#rows reduced                187924
+#zero reductions              78518
+max. matrix data             301958 x 317016 (0.337%)
+max. symbolic hash table size  2^19
+max. basis hash table size     2^23
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+rational param(elapsed)       181.31 sec
+rational param(cpu)          2928.53 sec
+-----------------------------------------
+Staircase is not generic
+and too many normal forms need to be computed
+
+Changing variable order for possibly more generic staircase:
+X2, p34, Y1, Y2, Y3, p12, p13, p14, p23, p24, X3
+
+--------------- INPUT DATA ---------------
+#variables                      11
+#equations                      12
+#invalid equations               0
+field characteristic         65521
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                        32
+info level                       1
+generate pbm files               0
+------------------------------------------
+
+---------------- TIMINGS ----------------
+overall(elapsed)      188.83 sec
+overall(cpu)         3054.16 sec
+select                 17.18 sec   9.1%
+symbolic prep.         57.41 sec  30.4%
+update                 30.56 sec  16.2%
+convert                 0.75 sec   0.4%
+linear algebra         81.76 sec  43.3%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                  7732
+#terms in basis            43832792
+#pairs reduced                90720
+#GM criterion              68524035
+#redundant elements            3984
+#rows reduced                189658
+#zero reductions              79260
+max. matrix data             307234 x 322337 (0.336%)
+max. symbolic hash table size  2^19
+max. basis hash table size     2^23
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+rational param(elapsed)       189.91 sec
+rational param(cpu)          3055.32 sec
+-----------------------------------------
+
+Changing variable order for possibly more generic staircase:
+X2, X3, p34, Y2, Y3, p12, p13, p14, p23, p24, Y1
+
+--------------- INPUT DATA ---------------
+#variables                      11
+#equations                      12
+#invalid equations               0
+field characteristic         65521
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                        32
+info level                       1
+generate pbm files               0
+------------------------------------------
+
+---------------- TIMINGS ----------------
+overall(elapsed)      250.97 sec
+overall(cpu)         4178.15 sec
+select                 19.98 sec   8.0%
+symbolic prep.         68.12 sec  27.1%
+update                 37.06 sec  14.8%
+convert                 0.77 sec   0.3%
+linear algebra        123.60 sec  49.2%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                  9078
+#terms in basis            53655053
+#pairs reduced               104861
+#GM criterion              83261467
+#redundant elements            3836
+#rows reduced                219140
+#zero reductions              92130
+max. matrix data             262013 x 260107 (0.644%)
+max. symbolic hash table size  2^19
+max. basis hash table size     2^23
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+overall(elapsed)     2659.80 sec
+overall(cpu)         2679.75 sec
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+degree of ideal               20316
+#dense rows                    8564
+#normal forms                  2943
+total density                    28.0%
+density of the free part         30.1%
+density of the nonfree part      24.0%
+deg. elim. pol.               20316
+deg. sqfr. elim. pol.         20316
+-----------------------------------------
+
+
+---------------- TIMINGS ----------------
+rational param(elapsed)      2911.66 sec
+rational param(cpu)          6858.96 sec
+-----------------------------------------
+
+
+------------------------------------------------------------------------------------
+msolve overall time        5917.29 sec (elapsed) / 18373.20 sec (cpu)
+------------------------------------------------------------------------------------

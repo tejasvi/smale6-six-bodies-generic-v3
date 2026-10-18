@@ -1,0 +1,20 @@
+// R1: w-balance at a and b, s at the w-origin (Y_s = 0 = O's child), centre m_a Y_a + m_b Y_b = 0; closures in z
+LIB "elim.lib";
+ring R = 0, (Xa, Xb, Ya, Yb, Pab, Pbs, Psa, ma, mb, ms), dp;
+// z-coordinates: s at 0 ; w-coordinates: s at 0 (s in the child of O)
+poly xab = Xa - Xb; poly xbs = Xb; poly xsa = -Xa;
+poly yab = Ya - Yb; poly ybs = Yb; poly ysa = -Ya;
+ideal I = Pab^2*xab*yab - 1, Pbs^2*xbs*ybs - 1, Psa^2*xsa*ysa - 1,
+  // w-balance at a: m_b W_ab + m_s W_as = 0 ; at b: m_a W_ba + m_s W_bs = 0
+  mb*Pab^3*yab - ms*Psa^3*ysa,
+  -ma*Pab^3*yab + ms*Pbs^3*ybs,
+  // centre of mass at the w-scale
+  ma*Ya + mb*Yb;
+ideal S = I;
+list vv = Xa, Xb, Ya, Yb, Pab, Pbs, Psa, ma, mb, ms, xab, yab;
+int i;
+for (i = 1; i <= size(vv); i++) { S = sat(S, ideal(vv[i])); }
+ideal J = eliminate(S, Xa*Xb*Ya*Yb*Pab*Pbs*Psa);
+print("R1:"); print(J);
+for (i = 1; i <= size(J); i++) { print(factorize(J[i])); }
+quit;

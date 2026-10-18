@@ -1,0 +1,29 @@
+ring r = 0, (t, m1, m2, m3), dp;
+poly M = m1 + m2 + m3;
+poly l1 = m2 + m3*t; poly l2 = l1 - M; poly l3 = l1 - M*t;
+poly Y1 = m1^2*l2*l3; poly Y2 = m2^2*l1*l3; poly Y3 = m3^2*l1*l2;
+poly Phi = Y1^2 + Y2^2 + Y3^2 - 2*(Y1*Y2 + Y2*Y3 + Y3*Y1);
+proc quint(int s12, int s13, int s23)
+{
+  poly x = t - 1;
+  poly A = (m1+m2)*s12*x^2*(1+x)^2 + m3*s13*x^2 - m3*s23*(1+x)^2;
+  poly B = -m1*s12*x^2*(1+x)^2 + m1*s13*x^2 + (m2+m3)*s23*(1+x)^2;
+  return(x*A - B);
+}
+list G = t^2 - t + 1, t^4-5*t^3+9*t^2-5*t+1, t^4+t^3-2*t+1, t^4-2*t^3+t+1,
+         quint(1,1,1), quint(1,1,-1), quint(1,-1,-1), quint(1,-1,1);
+list nms = "L_eq", "L01", "L10", "L11", "Cppp", "Cppm", "Cpmm", "Cpmp";
+int i; int j;
+link out = ":w p93_factors_full.txt";
+for (i = 1; i <= size(G); i++)
+{
+  poly R = resultant(G[i], Phi, t);
+  list F = factorize(R);
+  for (j = 1; j <= size(F[1]); j++)
+  {
+    if (deg(F[1][j]) >= 1) { write(out, nms[i] + " | deg " + string(deg(F[1][j])) + " | mult " + string(F[2][j]) + " | " + string(F[1][j])); }
+  }
+  kill R; kill F;
+}
+close(out);
+quit;

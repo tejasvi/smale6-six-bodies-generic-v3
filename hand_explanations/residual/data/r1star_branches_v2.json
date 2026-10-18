@@ -1,0 +1,11 @@
+{
+ "R1* by alpha or beta": 79318,
+ "R1* only by the S branch": 0,
+ "R1* without subset sum": 79318,
+ "branches S,alpha": 4012,
+ "branches alpha": 73591,
+ "branches alpha,beta": 324,
+ "branches beta": 1391,
+ "branches none": 11955,
+ "cells": 91273
+}

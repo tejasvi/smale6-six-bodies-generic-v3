@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+engine/runs/
+lean/sections3-5/data/cells/*.jsonl
+lean/sections3-5/data/f4/parts/

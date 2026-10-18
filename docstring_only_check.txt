@@ -1,0 +1,33 @@
+# Comments-only check of the edited Lean files (docstring_only_check.py; CHANGES.md lists the edits).
+# Original: git show of the pinned commit (lean/COMMITS); edited: the file of this supplement.
+# lean6 17f8b22fc8d73dcded1d59262e5eb683e4c2917b
+# lean6_special 3bb129780ef6454143dd73ec443652e8cae09660
+# lean6_full c7e75f547f14c83801edf644600d44a2f57bc21d
+PASS  lean/sections3-5/L6Poly/Basic.lean
+  file sha256   b77ae12390593da12bdda3d58b8fcc6d074939c455edf37a53cc2497d7452cb8  3a1a5aab95bba11e5fef8c0d8e50ed788de863c5437eb1a3fb0c23a0fb2ee7c1
+  tokens sha256 9f6adffa09371c421258ca1c2ddacbe3aa5b2e9d25f56f61b7c8ecce8da445fb  9f6adffa09371c421258ca1c2ddacbe3aa5b2e9d25f56f61b7c8ecce8da445fb  (1252, 1252 tokens)
+PASS  lean/sections6-9/L6KSpec/C4Check.lean
+  file sha256   88812fe9f3c13cc4bf6573e09b49aecb32aee54b6558507ddc1503a578f798d3  1692dae1e9d1a3eba73ef5930bf2506da6fd2a35a3366e5ebe33feb154668574
+  tokens sha256 f4ecde9edb1a4291a5c6102bf85d3dced267112bfee70609d02b4c15621bccc6  f4ecde9edb1a4291a5c6102bf85d3dced267112bfee70609d02b4c15621bccc6  (1305, 1305 tokens)
+PASS  lean/sections6-9/L6KSpec/C4Load.lean
+  file sha256   99122013834b95ea659f1cce5244ca9874c1a09f507390a1b0acfc0e0561bc9d  854eaf8a553353629e05b604b7eecfb38fd6c25ca9aaccd225a64a31f2369c9d
+  tokens sha256 5d1c70fb9103c3c662d4ccde309c268507faab1a768b51e2552c353e2fdd50a9  5d1c70fb9103c3c662d4ccde309c268507faab1a768b51e2552c353e2fdd50a9  (703, 703 tokens)
+PASS  lean/sections6-9/L6SoundKSpec/C4Cert.lean
+  file sha256   05d96e494b2de9803784a5fc38d73e1f591e7beaae608265d2b5b38996f6d57f  a419e741c4322ca4fb91584b6d49504dbad21181cbcacff4fab1b11ff2979c79
+  tokens sha256 40903f914c535d0ba32c5dcb8899563966bd30e3c4c5963194808f941a86f3a5  40903f914c535d0ba32c5dcb8899563966bd30e3c4c5963194808f941a86f3a5  (4641, 4641 tokens)
+PASS  lean/sections6-9/Lean6/Special/Ball/Kraw.lean
+  file sha256   e9b341fe7469a6d86e5088c658e3d79b25397d40478333eac5fea9ce92e1b2e1  d1afe30e076c8daf6e0a3b4285afcdd1f31b25af0d361529f651bcbec16b2742
+  tokens sha256 6b814b462acb52a61d5ecc62f527129820c78abd20ec1abd20e11303ac846b80  6b814b462acb52a61d5ecc62f527129820c78abd20ec1abd20e11303ac846b80  (1838, 1838 tokens)
+# 5 files checked.
+# Negative controls (one declared name changed in a copy of the edited file; each must FAIL):
+  sections3-5/L6Poly/Basic.lean: declared name Poly -> PolyX
+negative control FAILS as required: lean/sections3-5/L6Poly/Basic.lean
+  sections6-9/L6KSpec/C4Check.lean: declared name KPoly -> KPolyX
+negative control FAILS as required: lean/sections6-9/L6KSpec/C4Check.lean
+  sections6-9/L6KSpec/C4Load.lean: declared name lit -> litX
+negative control FAILS as required: lean/sections6-9/L6KSpec/C4Load.lean
+  sections6-9/L6SoundKSpec/C4Cert.lean: declared name keyExp -> keyExpX
+negative control FAILS as required: lean/sections6-9/L6SoundKSpec/C4Cert.lean
+  sections6-9/Lean6/Special/Ball/Kraw.lean: declared name norm_mulVec_apply_le -> norm_mulVec_apply_leX
+negative control FAILS as required: lean/sections6-9/Lean6/Special/Ball/Kraw.lean
+# 5 of 5 negative controls fail as required.

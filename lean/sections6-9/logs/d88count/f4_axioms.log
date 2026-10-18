@@ -1,0 +1,21 @@
+`lake env lean gen/d88count/f4_axioms.lean` after the trusted runs (2026-10-17): the soundness theorem of the F4
+engine, the two runs, and Lemma 6.19(b) for KC′ and S12 assembled from them with `count_KC_of`, `count_S12_of`
+(Final.lean).
+
+'Lean6.Special.D88.Count.f4_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.Count.kc_f4_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ kc_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.Count.s12_f4_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ s12_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Count.count_KC_f4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ kc_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Count.count_S12_f4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ s12_f4_ok._native.native_decide.ax_1_1]

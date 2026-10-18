@@ -1,0 +1,9 @@
+(1) 9 orbits, sizes {81}; the invariant separates them: True
+(2) 3 types: (0, 0, 0): 1 classes; (0, 0, 1): 6 classes; (0, 1, 2): 2 classes
+(3) type I, e = (0, 0, 0, 0, 0, 0) (invariant (0, 0, 0)): E invertible; no solution with p != 0: True
+(3) type II, e = (0, 0, 1, 0, 0, 0) (invariant (0, 0, 1)): E invertible; no solution with p != 0: True
+(3) type III, e = (0, 2, 1, 1, 2, 0) (invariant (0, 1, 2)): ker E = span[1, 1, 1, 1]; no solution with p != 0: True
+(4) score sequences: {(3, 2, 1, 0): 24, (3, 1, 1, 1): 8, (2, 2, 1, 1): 24, (2, 2, 2, 0): 8}
+(5) T scores (3, 2, 1, 0): e1 = s**2*t**2 + s**2 + t**2; R1 = 5*t**8 - 20*t**7 + 26*t**6 - 20*t**5 + 19*t**4 - 4*t**3 + 2*t**2 + 1; R1(0) = 1; R2 = t^4 (t**8 + 14*t**6 - 28*t**5 + 47*t**4 - 52*t**3 + 42*t**2 - 20*t + 5), remainder 0; Res_t(R1, R2/t^4) = 630935101440000 = {2: 16, 3: 4, 5: 4, 7: 2, 3881: 1}
+(5) S scores (3, 1, 1, 1): e1 = s**2*t**2 + s**2 + t**2; R1 = 5*t**8 - 20*t**7 + 30*t**6 - 36*t**5 + 43*t**4 - 28*t**3 + 22*t**2 - 8*t + 1; R1(0) = 1; R2 = t^4 (t**8 + 14*t**6 - 28*t**5 + 47*t**4 - 52*t**3 + 42*t**2 - 20*t + 5), remainder 0; Res_t(R1, R2/t^4) = 4199040000000000 = {2: 16, 3: 8, 5: 10}
+(5) C scores (2, 2, 1, 1): e1 = s**2*t**2 + s**2 - t**2; R1 = -3*t**8 + 12*t**7 - 18*t**6 + 20*t**5 - 17*t**4 + 4*t**3 + 2*t**2 + 1; R1(0) = 1; R2 = t^4 (t**8 - 10*t**6 + 28*t**5 - 37*t**4 + 36*t**3 - 26*t**2 + 12*t - 3), remainder 0; Res_t(R1, R2/t^4) = -407920640000 = {2: 16, 5: 4, 23: 1, 433: 1, -1: 1}

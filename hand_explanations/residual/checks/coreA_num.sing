@@ -1,0 +1,24 @@
+// family A core at fixed masses: unit ideal (dim -1) at all four mass vectors below, including the two with
+// m_a = m_b (5,5,7 and 3,3,11), as the claim H_L(m_a,m_b) = 0 (no positive zero) predicts; RESIDUAL_v2.md §9.5.
+// (Header comment corrected 2026-10-17 PDT; it said "not unit at m_a = m_b". The computation is unchanged.)
+LIB "elim.lib";
+proc tcase(int ia, int ib, int ic)
+{
+  ring R = 0, (Pab,Pas,Pbs,Xa,Xb,Xs,Ya,Yb), dp;
+  number ma = ia; number mb = ib; number ms = ic;
+  ideal I =
+    Pab^2*(Xa-Xb)*(Ya-Yb)-1, Pas^2*(Xa-Xs)*Ya-1, Pbs^2*(Xb-Xs)*Yb-1,
+    ma*Ya + mb*Yb, ma*Xa + mb*Xb + ms*Xs,
+    Ya - ms*Pas^3*Ya - mb*Pab^3*(Ya-Yb),
+    ma*Pas^3*(0-Ya) + mb*Pbs^3*(0-Yb),
+    Xa - ms*Pas^3*(Xa-Xs) - mb*Pab^3*(Xa-Xb),
+    Ya - 1;
+  I = sat(I, ideal(Xa*Xb*Xs*(Xa-Xb)*(Xa-Xs)*(Xb-Xs)*Ya*Yb*(Ya-Yb)));
+  ideal G = std(I);
+  print("masses " + string(ia) + "," + string(ib) + "," + string(ic) + ": dim " + string(dim(G)) + " vdim " + string(vdim(G)));
+}
+tcase(3, 5, 7);
+tcase(2, 9, 4);
+tcase(5, 5, 7);
+tcase(3, 3, 11);
+quit;

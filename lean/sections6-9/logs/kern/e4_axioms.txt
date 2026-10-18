@@ -1,0 +1,2 @@
+'Lean6.Special.K4.E4K.lemma_7_7' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4K.check_3_5_7_11' depends on axioms: [propext, Classical.choice, Quot.sound]

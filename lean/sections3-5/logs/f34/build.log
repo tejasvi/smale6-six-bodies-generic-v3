@@ -1,0 +1,721 @@
+✔ [901/1270] Built L6Check.F34.Data.Common (167ms)
+✔ [902/1270] Built L6Check.F34.Data.C0 (166ms)
+✔ [1198/1575] Built L6F34.Point (256ms)
+✔ [1199/1575] Built L6Check.F34.Data.C4 (191ms)
+✔ [1200/1575] Built L6Check.F34.Data.C8 (190ms)
+✔ [1201/1575] Built L6Check.F34.Data.C12 (159ms)
+✔ [1487/1627] Built L6Check.F34.Data.C10 (189ms)
+✔ [1488/1627] Built L6Check.F34.Data.C13 (186ms)
+✔ [1489/1627] Built L6Check.F34.Data.C14 (219ms)
+✔ [1490/1627] Built L6Check.F34.Data.C15 (192ms)
+✔ [1491/1627] Built L6Check.F34.Data.C16 (168ms)
+✔ [1492/1627] Built L6Check.F34.Data.C20 (169ms)
+✔ [1493/1627] Built L6Check.F34.Data.C22 (162ms)
+✔ [1494/1627] Built L6Check.F34.Data.C23 (199ms)
+✔ [1495/1627] Built L6Check.F34.Data.C24 (192ms)
+✔ [1496/1627] Built L6Check.F34.Data.C25 (197ms)
+✔ [1497/1627] Built L6Check.F34.Data.C28 (177ms)
+✔ [1527/1643] Built L6Check.F34.Data.C29 (223ms)
+✔ [1528/1643] Built L6Check.F34.Data.C30 (181ms)
+✔ [1529/1643] Built L6Check.F34.Data.C31 (193ms)
+✔ [1530/1643] Built L6Check.F34.Data.C34 (192ms)
+✔ [1531/1643] Built L6Check.F34.Data.C35 (187ms)
+✔ [1532/1643] Built L6Check.F34.Data.C40 (217ms)
+✔ [1533/1643] Built L6Check.F34.Data.C42 (192ms)
+✔ [1534/1643] Built L6Check.F34.Data.C44 (211ms)
+✔ [1535/1643] Built L6Check.F34.Data.C53 (184ms)
+✔ [1536/1643] Built L6Check.F34.Data.C55 (184ms)
+✔ [1542/1814] Built L6F34.Point:c.o (253ms)
+✔ [1543/1814] Built L6F34.Point:dynlib (40ms)
+✔ [1544/1814] Built L6Check.F34.Data.C47 (201ms)
+✔ [1545/1814] Built L6Check.F34.Data.C56 (203ms)
+✔ [1546/1814] Built L6Check.F34.Data.C57 (173ms)
+✔ [1547/1814] Built L6Check.F34.Data.C58 (165ms)
+✔ [1548/1814] Built L6Check.F34.Data.C62 (196ms)
+✔ [1549/1814] Built L6Check.F34.Data.C63 (196ms)
+✔ [1550/1814] Built L6Check.F34.Data.C64 (215ms)
+✔ [1551/1814] Built L6Check.F34.Data.C65 (173ms)
+✔ [1701/2015] Built L6F34.Basic (685ms)
+✔ [1702/2015] Built L6Check.F34.Data.C66 (238ms)
+✔ [1703/2015] Built L6Check.F34.Data.C67 (178ms)
+✔ [1704/2015] Built L6Check.F34.Data.C69 (199ms)
+✔ [1705/2015] Built L6Check.F34.Data.C84 (179ms)
+✔ [1706/2015] Built L6Check.F34.Data.C110 (165ms)
+✔ [1707/2015] Built L6Check.F34.Data.C116 (175ms)
+✔ [1708/2015] Built L6Check.F34.Data.C117 (167ms)
+✔ [1709/2015] Built L6Check.F34.Data.C119 (195ms)
+✔ [1710/2015] Built L6Check.F34.Data.C121 (165ms)
+✔ [1877/2154] Built L6Check.F34.Data.C120 (201ms)
+✔ [1878/2154] Built L6Check.F34.Data.C122 (200ms)
+✔ [1879/2154] Built L6Check.F34.Data.C123 (200ms)
+✔ [1880/2154] Built L6Check.F34.Data.C124 (192ms)
+✔ [1881/2154] Built L6Check.F34.Data.C126 (188ms)
+✔ [1882/2154] Built L6Check.F34.Data.C127 (182ms)
+✔ [2001/2160] Built L6Check.F34.Data.C129 (211ms)
+✔ [2002/2160] Built L6Check.F34.Data.C130 (192ms)
+✔ [2003/2160] Built L6Check.F34.Data.C131 (180ms)
+✔ [2004/2160] Built L6Check.F34.Data.C132 (181ms)
+✔ [2005/2160] Built L6Check.F34.Data.C133 (166ms)
+✔ [2006/2160] Built L6Check.F34.Data.C142 (205ms)
+✔ [2007/2160] Built L6Check.F34.Data.C143 (171ms)
+✔ [2008/2160] Built L6Check.F34.Data.C146 (170ms)
+✔ [2009/2160] Built L6Check.F34.Data.C147 (209ms)
+✔ [2010/2160] Built L6Check.F34.Data.C149 (192ms)
+✔ [2011/2160] Built L6Check.F34.Data.C150 (206ms)
+✔ [2012/2160] Built L6Check.F34.Data.C167 (204ms)
+✔ [2013/2160] Built L6Check.F34.Data.C169 (199ms)
+✔ [2014/2160] Built L6Check.F34.Data.C170 (180ms)
+✔ [2015/2160] Built L6Check.F34.Data.C171 (173ms)
+✔ [2016/2160] Built L6Check.F34.Data.C172 (189ms)
+✔ [2017/2160] Built L6Check.F34.Data.C173 (168ms)
+✔ [2018/2160] Built L6Check.F34.Data.C183 (170ms)
+✔ [2019/2160] Built L6Check.F34.Data.C148 (339ms)
+✔ [2020/2160] Built L6F34.Basic:c.o (891ms)
+✔ [2021/2160] Built L6F34.Basic:dynlib (41ms)
+✔ [2022/2160] Built L6Check.F34.Data.C3 (1.6s)
+✔ [2023/2160] Built L6Check.F34.Data.C128 (1.3s)
+✔ [2024/2160] Built L6F34.Ident (471ms)
+✔ [2025/2160] Built L6F34.Ident:c.o (608ms)
+✔ [2026/2160] Built L6F34.Ident:dynlib (33ms)
+✔ [2027/2160] Built L6F34.Check (455ms)
+✔ [2028/2160] Built L6F34.Check:c.o (646ms)
+✔ [2029/2160] Built L6F34.Check:dynlib (39ms)
+✔ [2030/2160] Built L6F34 (188ms)
+✔ [2032/2160] Built L6F34:c.o (40ms)
+✔ [2033/2160] Built L6F34:shared (38ms)
+✔ [2034/2160] Built L6Check.F34.C173K0 (228ms)
+✔ [2035/2160] Built L6Check.F34.C183K0 (228ms)
+✔ [2036/2160] Built L6Check.F34.C167K0 (464ms)
+✔ [2037/2160] Built L6Check.F34.C169K0 (414ms)
+✔ [2038/2160] Built L6Check.F34.C170K0 (360ms)
+✔ [2039/2160] Built L6Check.F34.C171K0 (432ms)
+✔ [2040/2160] Built L6Check.F34.C172K0 (375ms)
+✔ [2041/2160] Built L6Check.F34.C147K0 (465ms)
+✔ [2042/2160] Built L6Check.F34.C66K0 (280ms)
+✔ [2043/2160] Built L6Check.F34.C67K0 (280ms)
+✔ [2044/2160] Built L6Check.F34.C69K0 (280ms)
+✔ [2045/2160] Built L6Check.F34.C84K0 (280ms)
+✔ [2046/2160] Built L6Check.F34.C110K0 (280ms)
+✔ [2047/2160] Built L6Check.F34.C117K0 (320ms)
+✔ [2048/2160] Built L6Check.F34.C119K0 (335ms)
+✔ [2049/2160] Built L6Check.F34.C120K0 (334ms)
+✔ [2050/2160] Built L6Check.F34.C121K0 (335ms)
+✔ [2051/2160] Built L6Check.F34.C122K0 (352ms)
+✔ [2052/2160] Built L6Check.F34.C123K0 (352ms)
+✔ [2053/2160] Built L6Check.F34.C126K0 (392ms)
+✔ [2054/2160] Built L6Check.F34.C127K0 (352ms)
+✔ [2055/2160] Built L6Check.F34.C143K0 (693ms)
+✔ [2056/2160] Built L6Check.F34.C146K0 (694ms)
+✔ [2057/2160] Built L6Check.F34.C28K0 (275ms)
+✔ [2058/2160] Built L6Check.F34.C34K0 (317ms)
+✔ [2059/2160] Built L6Check.F34.C35K0 (327ms)
+✔ [2060/2160] Built L6Check.F34.C42K0 (347ms)
+✔ [2061/2160] Built L6Check.F34.C53K0 (298ms)
+✔ [2062/2160] Built L6Check.F34.C55K0 (319ms)
+✔ [2063/2160] Built L6Check.F34.C57K0 (298ms)
+✔ [2064/2160] Built L6Check.F34.C58K0 (348ms)
+✔ [2065/2160] Built L6Check.F34.C62K0 (347ms)
+✔ [2066/2160] Built L6Check.F34.C63K0 (387ms)
+✔ [2067/2160] Built L6Check.F34.C65K0 (347ms)
+✔ [2068/2160] Built L6Check.F34.C116K0 (371ms)
+✔ [2069/2160] Built L6Check.F34.C133K0 (828ms)
+✔ [2070/2160] Built L6Check.F34.C8K0 (216ms)
+✔ [2071/2160] Built L6Check.F34.C22K0 (278ms)
+✔ [2072/2160] Built L6Check.F34.C142K0 (952ms)
+✔ [2073/2160] Built L6Check.F34.C56K0 (573ms)
+✔ [2074/2160] Built L6Check.F34.C0K0 (361ms)
+✔ [2075/2160] Built L6Check.F34.C10K0 (428ms)
+✔ [2076/2160] Built L6Check.F34.C12K0 (426ms)
+✔ [2077/2160] Built L6Check.F34.C13K0 (427ms)
+✔ [2078/2160] Built L6Check.F34.C15K0 (441ms)
+✔ [2079/2160] Built L6Check.F34.C20K0 (415ms)
+✔ [2080/2160] Built L6Check.F34.C31K0 (638ms)
+✔ [2081/2160] Built L6Check.F34.C44K0 (658ms)
+✔ [2082/2160] Built L6Check.F34.C124K0 (790ms)
+✔ [2083/2160] Built L6Check.F34.C16K0 (514ms)
+✔ [2084/2160] Built L6Check.F34.C24K0 (605ms)
+✔ [2085/2160] Built L6Check.F34.C131K0 (1.2s)
+✔ [2086/2160] Built L6Check.F34.C150K0 (1.2s)
+✔ [2087/2160] Built L6Check.F34.Cover (1.5s)
+✔ [2088/2160] Built L6Check.F34.C4K0 (884ms)
+✔ [2089/2160] Built L6Check.F34.C132K0 (1.6s)
+✔ [2090/2160] Built L6Check.F34.C64K0 (1.3s)
+✔ [2091/2160] Built L6Check.F34.C23K0 (1.4s)
+✔ [2092/2160] Built L6Check.F34.C148K3 (1.9s)
+✔ [2093/2160] Built L6Check.F34.C130K0 (2.4s)
+✔ [2094/2160] Built L6Check.F34.C47K0 (2.4s)
+✔ [2095/2160] Built L6Check.F34.C25K0 (2.5s)
+✔ [2096/2160] Built L6Check.F34.C29K1 (2.7s)
+✔ [2097/2160] Built L6Check.F34.C3K29 (3.2s)
+✔ [2098/2160] Built L6Check.F34.C30K0 (3.7s)
+✔ [2099/2160] Built L6Check.F34.Sha (2.0s)
+✔ [2100/2160] Built L6Check.F34.C148K0 (5.6s)
+✔ [2101/2160] Built L6Check.F34.C128K18 (5.8s)
+✔ [2102/2160] Built L6Check.F34.C3K17 (5.5s)
+✔ [2103/2160] Built L6Check.F34.C128K14 (5.9s)
+✔ [2104/2160] Built L6Check.F34.C128K20 (6.1s)
+✔ [2105/2160] Built L6Check.F34.C3K9 (5.5s)
+✔ [2106/2160] Built L6Check.F34.C3K23 (5.5s)
+✔ [2107/2160] Built L6Check.F34.C3K4 (5.5s)
+✔ [2108/2160] Built L6Check.F34.C3K24 (5.7s)
+✔ [2109/2160] Built L6Check.F34.C128K0 (6.1s)
+✔ [2110/2160] Built L6Check.F34.C128K13 (6.2s)
+✔ [2111/2160] Built L6Check.F34.C3K11 (5.7s)
+✔ [2112/2160] Built L6Check.F34.C3K12 (5.7s)
+✔ [2113/2160] Built L6Check.F34.C3K18 (5.7s)
+✔ [2114/2160] Built L6Check.F34.C3K13 (5.8s)
+✔ [2115/2160] Built L6Check.F34.C3K19 (5.8s)
+✔ [2116/2160] Built L6Check.F34.C40K0 (6.1s)
+✔ [2117/2160] Built L6Check.F34.C128K15 (6.4s)
+✔ [2118/2160] Built L6Check.F34.C3K3 (5.9s)
+✔ [2119/2160] Built L6Check.F34.C129K0 (6.7s)
+✔ [2120/2160] Built L6Check.F34.C3K1 (5.9s)
+✔ [2121/2160] Built L6Check.F34.C3K10 (5.0s)
+✔ [2122/2160] Built L6Check.F34.C128K2 (6.5s)
+✔ [2123/2160] Built L6Check.F34.C128K19 (6.7s)
+✔ [2124/2160] Built L6Check.F34.C3K14 (6.2s)
+✔ [2125/2160] Built L6Check.F34.C128K8 (6.7s)
+✔ [2126/2160] Built L6Check.F34.C3K15 (6.3s)
+✔ [2127/2160] Built L6Check.F34.C3K6 (6.4s)
+✔ [2128/2160] Built L6Check.F34.C128K3 (6.8s)
+✔ [2129/2160] Built L6Check.F34.C3K7 (6.4s)
+✔ [2130/2160] Built L6Check.F34.C128K9 (6.0s)
+✔ [2131/2160] Built L6Check.F34.C128K16 (7.2s)
+✔ [2132/2160] Built L6Check.F34.C128K21 (7.3s)
+✔ [2133/2160] Built L6Check.F34.C3K2 (6.6s)
+✔ [2134/2160] Built L6Check.F34.C128K4 (7.1s)
+✔ [2135/2160] Built L6Check.F34.C128K6 (7.2s)
+✔ [2136/2160] Built L6Check.F34.C128K12 (7.2s)
+✔ [2137/2160] Built L6Check.F34.C3K22 (6.8s)
+✔ [2138/2160] Built L6Check.F34.C128K10 (7.3s)
+✔ [2139/2160] Built L6Check.F34.C3K25 (6.9s)
+✔ [2140/2160] Built L6Check.F34.C128K1 (7.6s)
+✔ [2141/2160] Built L6Check.F34.C3K5 (7.2s)
+✔ [2142/2160] Built L6Check.F34.C128K5 (7.7s)
+✔ [2143/2160] Built L6Check.F34.C148K1 (8.0s)
+✔ [2144/2160] Built L6Check.F34.C128K11 (7.9s)
+✔ [2145/2160] Built L6Check.F34.C3K8 (7.6s)
+✔ [2146/2160] Built L6Check.F34.C128K7 (8.1s)
+✔ [2147/2160] Built L6Check.F34.C128K17 (8.3s)
+✔ [2148/2160] Built L6Check.F34.C3K16 (8.5s)
+✔ [2149/2160] Built L6Check.F34.C148K2 (9.2s)
+✔ [2150/2160] Built L6Check.F34.C14K0 (11s)
+✔ [2151/2160] Built L6Check.F34.C3K21 (11s)
+✔ [2152/2160] Built L6Check.F34.C3K28 (13s)
+✔ [2153/2160] Built L6Check.F34.C3K0 (14s)
+✔ [2154/2160] Built L6Check.F34.C3K26 (16s)
+✔ [2155/2160] Built L6Check.F34.C3K20 (18s)
+✔ [2156/2160] Built L6Check.F34.C149K0 (20s)
+✔ [2157/2160] Built L6Check.F34.C3K27 (28s)
+✔ [2158/2160] Built L6Check.F34.C29K0 (40s)
+✔ [2159/2160] Built L6Check.F34.Main (1.8s)
+ℹ [2160/2160] Built L6Check.F34.Axioms (270ms)
+info: L6Check/F34/Axioms.lean:3:0: 'L6.F34.Checks.F34_c0_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c0_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:4:0: 'L6.F34.Checks.F34_c3_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:5:0: 'L6.F34.Checks.F34_c3_k1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k1._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:6:0: 'L6.F34.Checks.F34_c3_k2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k2._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:7:0: 'L6.F34.Checks.F34_c3_k3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k3._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:8:0: 'L6.F34.Checks.F34_c3_k4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k4._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:9:0: 'L6.F34.Checks.F34_c3_k5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k5._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:10:0: 'L6.F34.Checks.F34_c3_k6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k6._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:11:0: 'L6.F34.Checks.F34_c3_k7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k7._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:12:0: 'L6.F34.Checks.F34_c3_k8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k8._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:13:0: 'L6.F34.Checks.F34_c3_k9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k9._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:14:0: 'L6.F34.Checks.F34_c3_k10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k10._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:15:0: 'L6.F34.Checks.F34_c3_k11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k11._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:16:0: 'L6.F34.Checks.F34_c3_k12' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k12._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:17:0: 'L6.F34.Checks.F34_c3_k13' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k13._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:18:0: 'L6.F34.Checks.F34_c3_k14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k14._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:19:0: 'L6.F34.Checks.F34_c3_k15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k15._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:20:0: 'L6.F34.Checks.F34_c3_k16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k16._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:21:0: 'L6.F34.Checks.F34_c3_k17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k17._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:22:0: 'L6.F34.Checks.F34_c3_k18' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k18._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:23:0: 'L6.F34.Checks.F34_c3_k19' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k19._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:24:0: 'L6.F34.Checks.F34_c3_k20' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k20._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:25:0: 'L6.F34.Checks.F34_c3_k21' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k21._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:26:0: 'L6.F34.Checks.F34_c3_k22' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k22._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:27:0: 'L6.F34.Checks.F34_c3_k23' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k23._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:28:0: 'L6.F34.Checks.F34_c3_k24' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k24._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:29:0: 'L6.F34.Checks.F34_c3_k25' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k25._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:30:0: 'L6.F34.Checks.F34_c3_k26' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k26._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:31:0: 'L6.F34.Checks.F34_c3_k27' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k27._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:32:0: 'L6.F34.Checks.F34_c3_k28' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k28._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:33:0: 'L6.F34.Checks.F34_c3_k29' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c3_k29._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:34:0: 'L6.F34.Checks.F34_c4_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c4_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:35:0: 'L6.F34.Checks.F34_c8_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c8_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:36:0: 'L6.F34.Checks.F34_c10_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c10_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:37:0: 'L6.F34.Checks.F34_c12_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c12_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:38:0: 'L6.F34.Checks.F34_c13_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c13_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:39:0: 'L6.F34.Checks.F34_c14_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c14_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:40:0: 'L6.F34.Checks.F34_c15_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c15_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:41:0: 'L6.F34.Checks.F34_c16_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c16_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:42:0: 'L6.F34.Checks.F34_c20_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c20_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:43:0: 'L6.F34.Checks.F34_c22_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c22_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:44:0: 'L6.F34.Checks.F34_c23_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c23_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:45:0: 'L6.F34.Checks.F34_c24_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c24_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:46:0: 'L6.F34.Checks.F34_c25_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c25_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:47:0: 'L6.F34.Checks.F34_c28_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c28_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:48:0: 'L6.F34.Checks.F34_c29_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c29_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:49:0: 'L6.F34.Checks.F34_c29_k1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c29_k1._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:50:0: 'L6.F34.Checks.F34_c30_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c30_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:51:0: 'L6.F34.Checks.F34_c31_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c31_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:52:0: 'L6.F34.Checks.F34_c34_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c34_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:53:0: 'L6.F34.Checks.F34_c35_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c35_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:54:0: 'L6.F34.Checks.F34_c40_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c40_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:55:0: 'L6.F34.Checks.F34_c42_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c42_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:56:0: 'L6.F34.Checks.F34_c44_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c44_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:57:0: 'L6.F34.Checks.F34_c47_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c47_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:58:0: 'L6.F34.Checks.F34_c53_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c53_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:59:0: 'L6.F34.Checks.F34_c55_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c55_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:60:0: 'L6.F34.Checks.F34_c56_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c56_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:61:0: 'L6.F34.Checks.F34_c57_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c57_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:62:0: 'L6.F34.Checks.F34_c58_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c58_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:63:0: 'L6.F34.Checks.F34_c62_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c62_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:64:0: 'L6.F34.Checks.F34_c63_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c63_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:65:0: 'L6.F34.Checks.F34_c64_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c64_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:66:0: 'L6.F34.Checks.F34_c65_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c65_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:67:0: 'L6.F34.Checks.F34_c66_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c66_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:68:0: 'L6.F34.Checks.F34_c67_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c67_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:69:0: 'L6.F34.Checks.F34_c69_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c69_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:70:0: 'L6.F34.Checks.F34_c84_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c84_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:71:0: 'L6.F34.Checks.F34_c110_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c110_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:72:0: 'L6.F34.Checks.F34_c116_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c116_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:73:0: 'L6.F34.Checks.F34_c117_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c117_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:74:0: 'L6.F34.Checks.F34_c119_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c119_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:75:0: 'L6.F34.Checks.F34_c120_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c120_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:76:0: 'L6.F34.Checks.F34_c121_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c121_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:77:0: 'L6.F34.Checks.F34_c122_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c122_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:78:0: 'L6.F34.Checks.F34_c123_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c123_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:79:0: 'L6.F34.Checks.F34_c124_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c124_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:80:0: 'L6.F34.Checks.F34_c126_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c126_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:81:0: 'L6.F34.Checks.F34_c127_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c127_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:82:0: 'L6.F34.Checks.F34_c128_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:83:0: 'L6.F34.Checks.F34_c128_k1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k1._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:84:0: 'L6.F34.Checks.F34_c128_k2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k2._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:85:0: 'L6.F34.Checks.F34_c128_k3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k3._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:86:0: 'L6.F34.Checks.F34_c128_k4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k4._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:87:0: 'L6.F34.Checks.F34_c128_k5' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k5._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:88:0: 'L6.F34.Checks.F34_c128_k6' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k6._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:89:0: 'L6.F34.Checks.F34_c128_k7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k7._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:90:0: 'L6.F34.Checks.F34_c128_k8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k8._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:91:0: 'L6.F34.Checks.F34_c128_k9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k9._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:92:0: 'L6.F34.Checks.F34_c128_k10' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k10._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:93:0: 'L6.F34.Checks.F34_c128_k11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k11._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:94:0: 'L6.F34.Checks.F34_c128_k12' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k12._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:95:0: 'L6.F34.Checks.F34_c128_k13' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k13._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:96:0: 'L6.F34.Checks.F34_c128_k14' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k14._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:97:0: 'L6.F34.Checks.F34_c128_k15' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k15._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:98:0: 'L6.F34.Checks.F34_c128_k16' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k16._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:99:0: 'L6.F34.Checks.F34_c128_k17' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k17._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:100:0: 'L6.F34.Checks.F34_c128_k18' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k18._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:101:0: 'L6.F34.Checks.F34_c128_k19' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k19._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:102:0: 'L6.F34.Checks.F34_c128_k20' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k20._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:103:0: 'L6.F34.Checks.F34_c128_k21' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c128_k21._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:104:0: 'L6.F34.Checks.F34_c129_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c129_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:105:0: 'L6.F34.Checks.F34_c130_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c130_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:106:0: 'L6.F34.Checks.F34_c131_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c131_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:107:0: 'L6.F34.Checks.F34_c132_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c132_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:108:0: 'L6.F34.Checks.F34_c133_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c133_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:109:0: 'L6.F34.Checks.F34_c142_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c142_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:110:0: 'L6.F34.Checks.F34_c143_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c143_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:111:0: 'L6.F34.Checks.F34_c146_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c146_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:112:0: 'L6.F34.Checks.F34_c147_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c147_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:113:0: 'L6.F34.Checks.F34_c148_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c148_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:114:0: 'L6.F34.Checks.F34_c148_k1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c148_k1._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:115:0: 'L6.F34.Checks.F34_c148_k2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c148_k2._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:116:0: 'L6.F34.Checks.F34_c148_k3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c148_k3._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:117:0: 'L6.F34.Checks.F34_c149_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c149_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:118:0: 'L6.F34.Checks.F34_c150_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c150_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:119:0: 'L6.F34.Checks.F34_c167_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c167_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:120:0: 'L6.F34.Checks.F34_c169_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c169_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:121:0: 'L6.F34.Checks.F34_c170_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c170_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:122:0: 'L6.F34.Checks.F34_c171_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c171_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:123:0: 'L6.F34.Checks.F34_c172_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c172_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:124:0: 'L6.F34.Checks.F34_c173_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c173_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:125:0: 'L6.F34.Checks.F34_c183_k0' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_c183_k0._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:126:0: 'L6.F34.Checks.F34_cover' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6.F34.Checks.F34_cover._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:127:0: 'L6.F34.Checks.F34_chunks_cover' depends on axioms: [propext]
+info: L6Check/F34/Axioms.lean:128:0: 'L6.F34.Checks.F34_totals' does not depend on any axioms
+info: L6Check/F34/Axioms.lean:129:0: 'L6.F34.Checks.F34_sha_cells' depends on axioms: [propext,
+ Quot.sound,
+ L6.F34.Checks.F34_sha_cells._native.native_decide.ax_1_1]
+info: L6Check/F34/Axioms.lean:130:0: 'L6.F34.Checks.F34_sha_n6' depends on axioms: [propext,
+ Quot.sound,
+ L6.F34.Checks.F34_sha_n6._native.native_decide.ax_1_1]
+Build completed successfully (2160 jobs).
+
+real	0m48.282s
+user	9m11.766s
+sys	0m22.028s

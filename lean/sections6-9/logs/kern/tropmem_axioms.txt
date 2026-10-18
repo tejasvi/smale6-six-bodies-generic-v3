@@ -1,0 +1,4 @@
+'Lean6.Special.Comp.D88.TropK.n4_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.D88.TropK.kc_units_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.kc_G_mem' depends on axioms: [propext, Classical.choice, Quot.sound]

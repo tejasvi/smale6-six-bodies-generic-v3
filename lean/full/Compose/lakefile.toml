@@ -1,0 +1,26 @@
+name = "CC6Compose"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["CC6Compose"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+weak.linter.style.header = false
+
+# The proved theory (the parent directory) and the certificate checkers of Sections 3-5 and 6-7.
+[[require]]
+name = "CC6Full"
+path = ".."
+
+[[require]]
+name = "lean6special"
+path = "../../sections6-9"
+
+[[lean_lib]]
+name = "CC6Compose"
+weakLeanArgs = ["-j4"]
+
+[[require]]
+name = "Lean6"
+path = "../../sections3-5"

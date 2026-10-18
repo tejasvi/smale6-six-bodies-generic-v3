@@ -1,0 +1,6 @@
+B0 mine/theirs (non-residual cells): {(True, True): 7684, (False, False): 83474} []
+K mine/theirs (non-residual cells): {(False, False): 90630, (True, True): 528} []
+L mine/theirs (non-residual cells): {(False, False): 89059, (True, True): 2099} []
+R1* mine/theirs (non-residual cells): {(True, True): 79254, (False, False): 11904} []
+W3 mine/theirs (non-residual cells): {(False, False): 88932, (True, True): 635, (True, False): 1591} [(47, 381), (47, 382), (47, 393), (47, 394)]
+EQ2 mine/theirs (non-residual cells): {(False, False): 88514, (True, True): 2644} []

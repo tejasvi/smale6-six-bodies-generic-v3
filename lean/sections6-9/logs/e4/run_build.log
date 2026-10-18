@@ -1,0 +1,8 @@
+✔ [6/8] Built Lean6.Special.Comp.K4.E4.Mac:c.o (494ms)
+✔ [7/8] Built Lean6.Special.Comp.K4.E4.Mac:dynlib (35ms)
+✔ [8/8] Built Lean6.Special.Comp.K4.E4.Run (85s)
+Build completed successfully (8 jobs).
+
+real	1m26.007s
+user	1m25.706s
+sys	0m0.345s

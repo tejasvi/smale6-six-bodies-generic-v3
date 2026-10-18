@@ -1,0 +1,4 @@
+records 990 certified (a try with dim -1) 990
+first-pass uncertified 1033 certified by alternative cores 990 subset True
+remaining 43 equal to the open list True
+remaining by engine class [(31, 1), (124, 11), (127, 9), (132, 1), (133, 1), (143, 11), (147, 9)]

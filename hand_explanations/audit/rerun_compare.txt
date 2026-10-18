@@ -1,0 +1,26 @@
+# Rerun of the mechanisms referee's checkers from a fresh copy of its scripts (driver.sh), 2026-10-17 UTC.
+# Comparison of each output with the stored one in hand_explanations/independent/ (scripts/, sing/, final_classification.jsonl).
+identical  scripts/L_identity.out
+identical  scripts/clique_overlap.out
+same counts; dictionary items and the four sample cells of the W3 line in another order  scripts/cmp_global_resid.out
+identical  scripts/cmp_resid.out
+same counts; dictionary items in another order  scripts/compare_cov.out
+identical  scripts/cumul_ref.out
+identical  scripts/exact_templates_all.out
+identical  scripts/families_check.out
+identical  scripts/final_partition.out
+identical  scripts/misc_counts.out
+identical  scripts/p4_check_all.out
+identical  scripts/resid_certs.out
+identical  scripts/resid_polys.out
+identical  scripts/single_acct.out
+identical  scripts/table21.out
+identical apart from Singular's 'redefining' notices  sing/E1.out
+identical apart from Singular's 'redefining' notices  sing/L.out
+identical  sing/R156.out
+identical  sing/R1star.out
+identical  sing/W3EQ2TQ.out
+identical  final_classification.jsonl (sha256 2194c5aa9752527c)
+same 91,273 lines, in another order (parallel workers)  scripts/ref_cover.jsonl
+same 91,273 lines, in another order (parallel workers)  scripts/ref_resid_cover.jsonl
+same 91,273 lines, in another order (parallel workers)  scripts/ref_lp.jsonl

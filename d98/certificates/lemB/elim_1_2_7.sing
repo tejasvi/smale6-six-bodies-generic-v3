@@ -1,0 +1,31 @@
+
+LIB "elim.lib";
+LIB "primdec.lib";
+ring r = 0, (z2,z3,w1,w2,w3,p12,p13,p23,t), dp;
+int m1 = 1; int m2 = 2; int m3 = 7;
+poly z1 = 1 + z2;
+ideal I =
+  m1*z1 + m2*z2 + m3*z3,
+  m1*w1 + m2*w2 + m3*w3,
+  z1 - m2*p12^3*(z1-z2) - m3*p13^3*(z1-z3),
+  z2 - m1*p12^3*(z2-z1) - m3*p23^3*(z2-z3),
+  z3 - m1*p13^3*(z3-z1) - m2*p23^3*(z3-z2),
+  w1 - m2*p12^3*(w1-w2) - m3*p13^3*(w1-w3),
+  w2 - m1*p12^3*(w2-w1) - m3*p23^3*(w2-w3),
+  w3 - m1*p13^3*(w3-w1) - m2*p23^3*(w3-w2),
+  p12^2*(z1-z2)*(w1-w2) - 1,
+  p13^2*(z1-z3)*(w1-w3) - 1,
+  p23^2*(z2-z3)*(w2-w3) - 1,
+  t - (z1 - z3);
+ideal J = std(I);
+int d = dim(J); int v = vdim(J);
+int vr = vdim(std(radical(J)));
+ideal E = eliminate(I, z2*z3*w1*w2*w3*p12*p13*p23);
+link l = ":w certificates/lemB/elim_1_2_7.txt";
+write(l, "dim=" + string(d));
+write(l, "vdim=" + string(v));
+write(l, "vdim_radical=" + string(vr));
+write(l, "ngens=" + string(size(E)));
+write(l, "g=" + string(E[1]));
+close(l);
+quit;

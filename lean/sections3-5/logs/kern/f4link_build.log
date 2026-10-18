@@ -1,0 +1,33 @@
+# start 2026-10-18T05:08:43Z jobs 31 budget_gb 650.0 maxjobs 24
+L6CheckK/F4Link/L13.lean exit 0 wall_s 27.20 user_s 25.76 sys_s 1.17 maxrss_kb 6899012 est_gb 12.0
+L6CheckK/F4Link/L18.lean exit 0 wall_s 27.54 user_s 26.03 sys_s 1.23 maxrss_kb 6920992 est_gb 12.0
+L6CheckK/F4Link/L0.lean exit 0 wall_s 28.35 user_s 27.07 sys_s 1.13 maxrss_kb 6926580 est_gb 12.0
+L6CheckK/F4Link/L3.lean exit 0 wall_s 29.30 user_s 27.87 sys_s 1.21 maxrss_kb 6929644 est_gb 12.0
+L6CheckK/F4Link/L20.lean exit 0 wall_s 33.17 user_s 31.71 sys_s 1.21 maxrss_kb 6943760 est_gb 12.0
+L6CheckK/F4Link/L11.lean exit 0 wall_s 40.68 user_s 39.27 sys_s 1.18 maxrss_kb 6940196 est_gb 12.0
+L6CheckK/F4Link/L30.lean exit 0 wall_s 16.61 user_s 15.53 sys_s 1.01 maxrss_kb 6925180 est_gb 12.0
+L6CheckK/F4Link/L19.lean exit 0 wall_s 46.71 user_s 45.29 sys_s 1.14 maxrss_kb 6968132 est_gb 12.0
+L6CheckK/F4Link/L1.lean exit 0 wall_s 49.84 user_s 47.97 sys_s 1.54 maxrss_kb 6989108 est_gb 12.0
+L6CheckK/F4Link/L24.lean exit 0 wall_s 53.09 user_s 51.51 sys_s 1.29 maxrss_kb 6983288 est_gb 12.0
+L6CheckK/F4Link/L21.lean exit 0 wall_s 55.57 user_s 54.00 sys_s 1.30 maxrss_kb 6982224 est_gb 12.0
+L6CheckK/F4Link/L25.lean exit 0 wall_s 69.30 user_s 67.70 sys_s 1.27 maxrss_kb 7001120 est_gb 12.0
+L6CheckK/F4Link/L26.lean exit 0 wall_s 72.26 user_s 70.32 sys_s 1.55 maxrss_kb 7003500 est_gb 12.0
+L6CheckK/F4Link/L28.lean exit 0 wall_s 72.23 user_s 70.48 sys_s 1.38 maxrss_kb 7039740 est_gb 12.0
+L6CheckK/F4Link/L12.lean exit 0 wall_s 76.45 user_s 74.98 sys_s 1.15 maxrss_kb 7036384 est_gb 12.0
+L6CheckK/F4Link/L8.lean exit 0 wall_s 35.39 user_s 34.15 sys_s 1.08 maxrss_kb 6958420 est_gb 12.0
+L6CheckK/F4Link/L16.lean exit 0 wall_s 82.03 user_s 80.09 sys_s 1.57 maxrss_kb 7054948 est_gb 12.0
+L6CheckK/F4Link/L14.lean exit 0 wall_s 91.72 user_s 89.99 sys_s 1.33 maxrss_kb 7216444 est_gb 12.0
+L6CheckK/F4Link/L23.lean exit 0 wall_s 108.36 user_s 106.51 sys_s 1.36 maxrss_kb 7069160 est_gb 12.0
+L6CheckK/F4Link/L29.lean exit 0 wall_s 111.82 user_s 110.08 sys_s 1.28 maxrss_kb 7064108 est_gb 12.0
+L6CheckK/F4Link/L9.lean exit 0 wall_s 86.46 user_s 84.96 sys_s 1.18 maxrss_kb 7073052 est_gb 12.0
+L6CheckK/F4Link/L4.lean exit 0 wall_s 104.98 user_s 103.38 sys_s 1.24 maxrss_kb 7138972 est_gb 12.0
+L6CheckK/F4Link/L6.lean exit 0 wall_s 104.89 user_s 103.28 sys_s 1.25 maxrss_kb 7073004 est_gb 12.0
+L6CheckK/F4Link/L15.lean exit 0 wall_s 138.43 user_s 136.66 sys_s 1.24 maxrss_kb 7429648 est_gb 12.0
+L6CheckK/F4Link/L17.lean exit 0 wall_s 149.32 user_s 147.46 sys_s 1.38 maxrss_kb 7384228 est_gb 12.0
+L6CheckK/F4Link/L7.lean exit 0 wall_s 121.15 user_s 119.48 sys_s 1.27 maxrss_kb 7404304 est_gb 12.0
+L6CheckK/F4Link/L10.lean exit 0 wall_s 175.52 user_s 172.83 sys_s 2.14 maxrss_kb 7599976 est_gb 12.0
+L6CheckK/F4Link/L22.lean exit 0 wall_s 263.80 user_s 261.40 sys_s 1.49 maxrss_kb 7414584 est_gb 12.0
+L6CheckK/F4Link/L2.lean exit 0 wall_s 376.89 user_s 373.85 sys_s 1.88 maxrss_kb 8169192 est_gb 12.0
+L6CheckK/F4Link/L27.lean exit 0 wall_s 430.24 user_s 427.29 sys_s 1.65 maxrss_kb 8063152 est_gb 12.0
+L6CheckK/F4Link/L5.lean exit 0 wall_s 406.89 user_s 404.26 sys_s 1.53 maxrss_kb 8193884 est_gb 12.0
+# end 2026-10-18T05:15:59Z wall_s 436.0 failures 0

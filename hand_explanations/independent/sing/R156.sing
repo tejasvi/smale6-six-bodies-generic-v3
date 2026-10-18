@@ -1,0 +1,38 @@
+// Referee check of Lemmas R1, R1-variant, R5, R6 (MECHANISMS.md 3.4).
+// Centre colour w: w-root with children {a}, {b}, {s,O,...}: eta_as = Ya, eta_bs = Yb, eta_ab = Ya-Yb, ma*Ya+mb*Yb = 0.
+// Other colour z: a, b, s in three children of one node: xi_as = Xa, xi_bs = Xb, xi_ab = Xa-Xb (Xs = 0).
+LIB "elim.lib";
+ring R = 0, (Pab,Pbs,Pas,Xa,Xb,Ya,Yb, ma,mb,ms), dp;
+poly xab = Xa-Xb; poly xas = Xa; poly xbs = Xb;
+poly yab = Ya-Yb; poly yas = Ya; poly ybs = Yb;
+ideal D = Pab^2*xab*yab-1, Pbs^2*xbs*ybs-1, Pas^2*xas*yas-1;
+poly cen = ma*Ya+mb*Yb;
+// balances (equation of k: sum_l m_l P_kl^3 sep_kl, sep_kl = c_k - c_l)
+poly wbal_a = mb*Pab^3*yab + ms*Pas^3*yas;
+poly wbal_b = -ma*Pab^3*yab + ms*Pbs^3*ybs;
+poly wbal_s = -ma*Pas^3*yas - mb*Pbs^3*ybs;
+poly zbal_a = mb*Pab^3*xab + ms*Pas^3*xas;
+poly UT = ma*mb*Pab + mb*ms*Pbs + ma*ms*Pas;
+poly nz = Pab*Pbs*Pas*Xa*Xb*(Xa-Xb)*Ya*Yb*(Ya-Yb)*ma*mb*ms;
+poly elv = Pab*Pbs*Pas*Xa*Xb*Ya*Yb;
+// claimed polynomials
+ring Rc = (0,w), (ma,mb,ms), dp; minpoly = w^2+w+1;
+poly r1 = (ms^2*(ma+mb)*(mb+ma)^3-ma^3*mb^3)*(ms^2*(ma+mb)*(mb+w*ma)^3-ma^3*mb^3)*(ms^2*(ma+mb)*(mb+w^2*ma)^3-ma^3*mb^3);
+poly r6 = (ma*mb^5-ms^2*(ma+mb)^3*(mb+ma))*(ma*mb^5*w^2-ms^2*(ma+mb)^3*(mb+ma*w^2))*(ma*mb^5*w-ms^2*(ma+mb)^3*(mb+ma*w));
+string sr1 = string(r1); string sr6 = string(r6);
+setring R;
+execute("poly R1c = " + sr1 + ";");
+execute("poly R6c = " + sr6 + ";");
+poly R5c = ms^2*(ma+mb)^3*(ma^5+mb^5)-ma^5*mb^5;
+proc report(string nm, ideal I, poly H) {
+  ideal S = sat(I, ideal(nz));
+  ideal E = eliminate(S, elv);
+  print(nm + ": elimination ideal has " + string(size(E)) + " generator(s)");
+  if (size(E) <= 2) { print(factorize(E[1])); }
+  print("  E subset <H>: " + string(size(reduce(E, std(ideal(H)))) == 0) + ";  H in E: " + string(reduce(H, std(E)) == 0));
+}
+report("R1 (w-centre, w-bal a,b)", D + ideal(cen, wbal_a, wbal_b), R1c);
+report("R1-variant (w-centre, w-bal a, U_T)", D + ideal(cen, wbal_a, UT), R1c);
+report("R5 (w-centre, z-bal a, U_T)", D + ideal(cen, zbal_a, UT), R5c);
+report("R6 (w-centre, w-bal s, z-bal a)", D + ideal(cen, wbal_s, zbal_a), R6c);
+quit;

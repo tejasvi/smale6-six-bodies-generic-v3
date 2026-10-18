@@ -1,0 +1,11 @@
+nice 10; 4 cores, 1855 certificates exist, 3 to do; jobs 4, timeout 3600, order dp, varorder canon, method elim_slimgb
+1 4bfd68290034f94f ok_not_kept 3.01
+2 6eaaae5128d29302 ok_not_kept 4.51
+watchdog: killed 13177 (10579 MB) in 7a1020554264b34a_o0dc2s9s
+watchdog: killed 13201 (10131 MB) in f319bd17c47cb72d_lalnlpjn
+watchdog: killed 8453 (9599 MB) in e1dcf7d3509e5f00_dev2stgq
+watchdog: killed 13184 (9380 MB) in e1dcf7d3509e5f00_yvu6n1kf
+watchdog: killed 13225 (9772 MB) in 8b120e49ff1a484f_xek5iszk
+watchdog: killed 13196 (10233 MB) in 0c669317b45c3f18___46elch
+3 919069b72a23260d memkill 475.62
+done

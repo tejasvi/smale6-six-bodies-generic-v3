@@ -1,0 +1,17 @@
+// E1, case (z- and w-balance at the same vertex a, U_T): a=1, b=2, c=3 (c at 0)
+LIB "elim.lib";
+ring R = 0, (Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc), dp;
+poly xab = Xa - Xb; poly xbc = Xb; poly xca = -Xa;
+poly yab = Ya - Yb; poly ybc = Yb; poly yca = -Ya;
+ideal I = Pab^2*xab*yab - 1, Pbc^2*xbc*ybc - 1, Pca^2*xca*yca - 1,
+  mb*Pab^3*xab - mc*Pca^3*xca,
+  mb*Pab^3*yab - mc*Pca^3*yca,
+  ma*mb*Pab + mb*mc*Pbc + mc*ma*Pca;
+ideal S = I;
+list vv = Xa, Xb, Ya, Yb, Pab, Pbc, Pca, ma, mb, mc, xab, yab;
+int i;
+for (i = 1; i <= size(vv); i++) { S = sat(S, ideal(vv[i])); }
+ideal J = eliminate(S, Xa*Xb*Ya*Yb*Pab*Pbc*Pca);
+print("E1 case B (same-vertex balances + U_T):"); print(J);
+if (size(J) > 0) { print(factorize(J[1])); }
+quit;

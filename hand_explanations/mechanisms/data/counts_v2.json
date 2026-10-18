@@ -1,0 +1,137 @@
+{
+ "residue cells": 115,
+ "residue classes": 16,
+ "residue by class": {
+  "0": 1,
+  "4": 14,
+  "10": 9,
+  "14": 12,
+  "15": 2,
+  "16": 12,
+  "23": 6,
+  "25": 10,
+  "28": 1,
+  "30": 6,
+  "53": 1,
+  "56": 2,
+  "62": 14,
+  "63": 7,
+  "64": 16,
+  "116": 2
+ },
+ "single-term table": {
+  "T|J|=3 T2": {
+   "cells": 25689,
+   "T": 25646,
+   "P": 7056,
+   "C": 15962,
+   "B": 0,
+   "T,P,C or B": 25649,
+   "E/E1/R1/R5/R6/Q": 25620,
+   "residue": 1
+  },
+  "S|J|=3 SC": {
+   "cells": 5784,
+   "T": 0,
+   "P": 0,
+   "C": 5280,
+   "B": 0,
+   "T,P,C or B": 5280,
+   "E/E1/R1/R5/R6/Q": 5784,
+   "residue": 0
+  },
+  "T|J|=3 T1": {
+   "cells": 5638,
+   "T": 5596,
+   "P": 882,
+   "C": 1995,
+   "B": 0,
+   "T,P,C or B": 5602,
+   "E/E1/R1/R5/R6/Q": 5630,
+   "residue": 0
+  },
+  "Ip E0": {
+   "cells": 5355,
+   "T": 0,
+   "P": 5355,
+   "C": 0,
+   "B": 0,
+   "T,P,C or B": 5355,
+   "E/E1/R1/R5/R6/Q": 5355,
+   "residue": 0
+  },
+  "T|J|=1 T1": {
+   "cells": 2723,
+   "T": 2419,
+   "P": 0,
+   "C": 1492,
+   "B": 72,
+   "T,P,C or B": 2635,
+   "E/E1/R1/R5/R6/Q": 2505,
+   "residue": 28
+  },
+  "T|J|=1 T2": {
+   "cells": 2619,
+   "T": 2319,
+   "P": 0,
+   "C": 1490,
+   "B": 22,
+   "T,P,C or B": 2553,
+   "E/E1/R1/R5/R6/Q": 2497,
+   "residue": 6
+  },
+  "T|J|=2 T2": {
+   "cells": 2320,
+   "T": 2156,
+   "P": 0,
+   "C": 1612,
+   "B": 0,
+   "T,P,C or B": 2228,
+   "E/E1/R1/R5/R6/Q": 2220,
+   "residue": 8
+  },
+  "T|J|=2 T1": {
+   "cells": 2112,
+   "T": 1948,
+   "P": 0,
+   "C": 1476,
+   "B": 0,
+   "T,P,C or B": 2028,
+   "E/E1/R1/R5/R6/Q": 2102,
+   "residue": 0
+  },
+  "S|J|=4 SP": {
+   "cells": 192,
+   "T": 0,
+   "P": 0,
+   "C": 0,
+   "B": 0,
+   "T,P,C or B": 0,
+   "E/E1/R1/R5/R6/Q": 192,
+   "residue": 0
+  }
+ },
+ "B cells": 184,
+ "B cells outside T or C": 0,
+ "R5 cells": 35572,
+ "R5 cells outside E or E1": 0,
+ "R5 cells covered by nothing else": 0,
+ "E1 stored witnesses balanced 3+3": 65920,
+ "E1 stored witnesses by tag": {
+  "bal": 86875
+ },
+ "R1 stored witnesses by tag": {
+  "bal2": 57183
+ },
+ "cells scanned": 91273,
+ "E1 U_T variant (some triangle)": 71461,
+ "E1 first witness balanced at all three vertices in both colours": 65920,
+ "E1 main hypothesis (some triangle)": 86875,
+ "E1 main or variant": 86875,
+ "E1 only via the U_T variant": 0,
+ "E1 some triangle balanced at all three vertices in both colours": 74920,
+ "R1 main or variant": 57183,
+ "R1 one balance + U_T (some centred triangle)": 0,
+ "R1 only via the one-balance + U_T variant": 0,
+ "R1 two balances (some centred triangle)": 57183
+}

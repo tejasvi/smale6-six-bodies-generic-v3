@@ -1,0 +1,13 @@
+# LP proposer pilot (L6Common/LP.lean, L6Pilot/LPBench.lean), box with 384 vCPUs, one thread, 2026-10-17 09:10 UTC
+# Input: the first 60,000 LPs that the engine's search (texact, generic-v1, mode le, base identities) solves in part
+# 358 of 384 of classes 29 and 3, dumped with the HiGHS verdicts by scripts/pilot/dump_lps.py (rows times 2).
+# Python dump time for class 3 (search + HiGHS + writing): real 35.6 s.
+# lake build L6Pilot.RunBench (the bench runs as native code from the precompiled modules):
+<box>/l6/pilot/c29_p358.lps: parsed 60000 LPs in 4262 ms
+{ total := 60000, agree := 60000, keptBoth := 26235, prunedBoth := 33765, leanKeptPyPruned := 0, leanPrunedPyKept := 0, failures := 0 }
+decide time 7998 ms
+<box>/l6/pilot/c3_p358.lps: parsed 60000 LPs in 4656 ms
+{ total := 60000, agree := 60000, keptBoth := 28352, prunedBoth := 31648, leanKeptPyPruned := 0, leanPrunedPyKept := 0, failures := 0 }
+decide time 8730 ms
+# => 0.13-0.15 ms per LP (float simplex + exact integer recovery + Farkas.check of every prune); all verdicts equal
+#    to HiGHS's; every prune (65,413) certified exactly, 0 failures.

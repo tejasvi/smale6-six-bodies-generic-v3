@@ -1,0 +1,12 @@
+Clean rebuild of each module of Lemma 6.19(b)'s bridge (its build outputs deleted, dependencies built), times as
+reported by lake (elaboration; for the checker modules also the C compilation and the shared library).
+
+Lean6.Special.Comp.D88.Count.Order       0.16 s  (C object 0.06 s, shared library 0.03 s)
+Lean6.Special.Comp.D88.Count.DimCheck    0.25 s
+Lean6.Special.Comp.D88.Count.Sys         0.41 s
+Lean6.Special.D88.Count.Dim              1.1 s
+Lean6.Special.D88.Count.Order            1.7 s
+Lean6.Special.D88.Count.Bridge           1.4 s
+Lean6.Special.D88.Count.DimSound         1.4 s
+Lean6.Special.D88.Count.Systems          4.9 s
+Lean6.Special.D88.Count.Final            1.3 s

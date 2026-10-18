@@ -1,0 +1,8 @@
+aeb26e6ce44e8aab44164f33c1f0eb6d5f38f85777d21be330beeac4c2f78f93  rung3/d64/certificates/e4_cert_macaulay_3_5_7_11.json
+733ed394e86f9d547f92546047af0893219dd83bf361da342e3cb72b39000483  rung3/d64_referee/scratch/scope/e4_1_1_1_1.json
+0bb6932b6bd1918d03e2ea89a6807b5e353f16a63bfb48716f26fdd122c11470  rung3/paper_generic/audit/e4_equal_mass.txt
+f531b6b60b0784781e80e54c713b001c13842006b676ced8807817999abbb785  rung3/d64_referee/scratch/collinear_saturated.log
+2ef9cddb86594a368965d983736229f9262ad4243116aeb6bd3d74d550b362d2  rung3/paper_generic/tools/e4_equal_mass.py
+# References only: the Lean checks of Section 7 read no certificate file. Everything is recomputed from the
+# definitions of the paper (the forms F_ε, G_σ, the Macaulay matrices, the resultants); these files were consulted
+# for the parameters (p = 2147483629, j ↦ 882503254), the printed values and the counts that the checks reproduce.

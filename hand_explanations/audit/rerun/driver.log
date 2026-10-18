@@ -1,0 +1,24 @@
+[0s] run_ref
+[102s] run_resid
+[121s] compare_cov
+[127s] cmp_resid
+[129s] cmp_global_resid
+[130s] cumul_ref
+[140s] final_partition
+[150s] misc_counts
+[169s] single_acct
+[179s] table21
+[188s] clique_overlap
+[191s] families_check
+[193s] ref_lp
+[237s] resid_certs
+[237s] exact_templates
+[279s] p4_check
+[306s] resid_polys
+[425s] L_identity
+[426s] Singular E1.sing
+[427s] Singular L.sing
+[427s] Singular R156.sing
+[429s] Singular R1star.sing
+[429s] Singular W3EQ2TQ.sing
+[434s] done

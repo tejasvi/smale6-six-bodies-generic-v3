@@ -1,0 +1,5 @@
+{'(iii) via T': 67, 'ok': 183, '(iii) balance': 76, '(iii) via S': 40}
+{'S': 960, 'D': 734, 'T': 67, 'P4': 183, 'cells_ok': 551, 'body': 92, 'LIN': 368, 'LIN_same': 368}
+{('torque terms ok', True, 'centre colour matches', True): 67}
+{('S two forces of s', True): 40}
+{('S colour in centre colours', True, 1): 40}

@@ -1,0 +1,51 @@
+'Lean6.Special.D88.Trop.n4_G_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_mem_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_G_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_mem_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_units' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_units_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_units' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_units_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_torus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_size' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_count._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_terms._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_size' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_count._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_terms._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_gfan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_gfan_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_gfan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_gfan_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.cover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.mem_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.units_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+real	0m1.634s
+user	0m1.150s
+sys	0m0.762s

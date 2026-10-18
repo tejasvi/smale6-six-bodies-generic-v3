@@ -1,0 +1,159 @@
+import L6F34.Check
+import L6Check.F34.Data.Common
+import L6Check.F34.Data.C3
+import L6Check.Certs.C00f154a24a370ecc
+import L6Check.Certs.C013892d6b9108463
+import L6Check.Certs.C01e8d2b5ff000a8a
+import L6Check.Certs.C07242f678e81f55c
+import L6Check.Certs.C083b6d1a8e427b0e
+import L6Check.Certs.C0aefdff9eee03906
+import L6Check.Certs.C0ef486cb83932658
+import L6Check.Certs.C1154f63f4ae46ba1
+import L6Check.Certs.C120e89dcea405b52
+import L6Check.Certs.C13c1860a31f9e354
+import L6Check.Certs.C159170cc8fce2871
+import L6Check.Certs.C172a8d486ab2dd17
+import L6Check.Certs.C17d125efbb380559
+import L6Check.Certs.C1a140fd715c8977d
+import L6Check.Certs.C1c9df8eff133f888
+import L6Check.Certs.C1d864bd2176c6ae2
+import L6Check.Certs.C1d8ae59ed5a598a2
+import L6Check.Certs.C1e2967b0cae77bfc
+import L6Check.Certs.C1e5824ec76e4c67e
+import L6Check.Certs.C1e82998f5cfb3bf3
+import L6Check.Certs.C20d34f4000060361
+import L6Check.Certs.C22db517aacec5061
+import L6Check.Certs.C2690962aefef2d17
+import L6Check.Certs.C32bf56bc823126e4
+import L6Check.Certs.C342d265855a691a0
+import L6Check.Certs.C35d82ba48f97fd54
+import L6Check.Certs.C37ef76aa20c05360
+import L6Check.Certs.C3ea4605e29445606
+import L6Check.Certs.C41e3ef996d18557b
+import L6Check.Certs.C42f5f99b3dfc4d2c
+import L6Check.Certs.C43a064782550865d
+import L6Check.Certs.C44cb11ddbf22c8c7
+import L6Check.Certs.C44e78d260a1296bb
+import L6Check.Certs.C45b7edf950821bea
+import L6Check.Certs.C45c07671fbddc583
+import L6Check.Certs.C4627b4cd3ad10f72
+import L6Check.Certs.C478085dbb3e0b13e
+import L6Check.Certs.C493681a192bc06ca
+import L6Check.Certs.C4a94965ffdc6fb50
+import L6Check.Certs.C4ebcbfb6d5499b50
+import L6Check.Certs.C4eedbedb34ed9102
+import L6Check.Certs.C5038acf7c79a60be
+import L6Check.Certs.C52cd84399cd40c05
+import L6Check.Certs.C5437d1ed83271756
+import L6Check.Certs.C592233b08989e55f
+import L6Check.Certs.C59a24919ddd33a0a
+import L6Check.Certs.C5a9430da467a73bd
+import L6Check.Certs.C5cd941238ab4c685
+import L6Check.Certs.C5e0310bd2b4828f9
+import L6Check.Certs.C63a97f9d7e72c67f
+import L6Check.Certs.C63c9e55c80b95975
+import L6Check.Certs.C679323c60894051f
+import L6Check.Certs.C6a5f8ce3764e998a
+import L6Check.Certs.C6ab714f4d84692a6
+import L6Check.Certs.C6cb81b64dfa2ff3a
+import L6Check.Certs.C6ded5b16333e71c1
+import L6Check.Certs.C6eaaae5128d29302
+import L6Check.Certs.C72112d56716fc785
+import L6Check.Certs.C75044a6dcc875e11
+import L6Check.Certs.C794e2032a19fb9b4
+import L6Check.Certs.C79c77f69c52211cc
+import L6Check.Certs.C7c6436ef67e0cc62
+import L6Check.Certs.C7e8620c709e3774f
+import L6Check.Certs.C7f10f1f3767082da
+import L6Check.Certs.C81b16c6358e5d184
+import L6Check.Certs.C840c82e8ce38adf2
+import L6Check.Certs.C84a6e11560c07325
+import L6Check.Certs.C87a07b94a7f08ce0
+import L6Check.Certs.C897335502e01010c
+import L6Check.Certs.C897da59625543f7b
+import L6Check.Certs.C898740a21921e75e
+import L6Check.Certs.C8aac2b54941c8dc8
+import L6Check.Certs.C9235ea497ad9b23c
+import L6Check.Certs.C93239f06053d3f20
+import L6Check.Certs.C93c8105c578bfc2b
+import L6Check.Certs.C94591d62baa390f8
+import L6Check.Certs.C95a15d44251b1712
+import L6Check.Certs.C9600a54ab540df70
+import L6Check.Certs.C9602c18df168a1fe
+import L6Check.Certs.C9c9cc4fab39693cc
+import L6Check.Certs.C9d68012519eb9ef4
+import L6Check.Certs.C9e8384ef47000134
+import L6Check.Certs.Ca0a2df73a214e4c1
+import L6Check.Certs.Ca12d97d2fcf138b4
+import L6Check.Certs.Ca152f608aaf33d4a
+import L6Check.Certs.Ca197c950a1d97f38
+import L6Check.Certs.Ca2c60b24372b458e
+import L6Check.Certs.Ca2c84a897b759e59
+import L6Check.Certs.Ca32faa1664f2a77c
+import L6Check.Certs.Ca36399fc6144633e
+import L6Check.Certs.Ca4b0785c8177e72b
+import L6Check.Certs.Cad7c41850e85fffa
+import L6Check.Certs.Cb29576f4f3a1aab7
+import L6Check.Certs.Cb2cbb7e9c3dd2874
+import L6Check.Certs.Cb3ed7a12d785417e
+import L6Check.Certs.Cb6f3b0dcb2515d0c
+import L6Check.Certs.Cb9f0bd0c9f777700
+import L6Check.Certs.Cbac00a2f3f16123d
+import L6Check.Certs.Cbbc43c0022e3fe1e
+import L6Check.Certs.Cbc8fe78fee02901f
+import L6Check.Certs.Cbece27e87a1bd47a
+import L6Check.Certs.Cbf1045e3e0922710
+import L6Check.Certs.Cbf160f81cc1891ee
+import L6Check.Certs.Cc08dc59867d5c2c1
+import L6Check.Certs.Cc141c278d23fd57b
+import L6Check.Certs.Cc4d1d016ebec23fb
+import L6Check.Certs.Cca1432ee05efb96a
+import L6Check.Certs.Ccd92e3f9051a4bb1
+import L6Check.Certs.Cce2f695d2d3f243c
+import L6Check.Certs.Ccfd09f4a777458e5
+import L6Check.Certs.Cd02660cef5adaeaf
+import L6Check.Certs.Cd088fc20f4a1a850
+import L6Check.Certs.Cd31fe53c7c4cc54f
+import L6Check.Certs.Cd446af27446827db
+import L6Check.Certs.Cd9d720586a5ac04a
+import L6Check.Certs.Cddc6cf1e376e9505
+import L6Check.Certs.Cde4caa486ab633f2
+import L6Check.Certs.Ce259d50945779b9d
+import L6Check.Certs.Ce36e575c21c81dd7
+import L6Check.Certs.Ce3e93f672b0634f3
+import L6Check.Certs.Ce561a9e2067dd9d1
+import L6Check.Certs.Ce6f416cdfd1c56e1
+import L6Check.Certs.Ce7e3a559758d5202
+import L6Check.Certs.Cea1d2795415261ab
+import L6Check.Certs.Cecdc3c4e37764455
+import L6Check.Certs.Cef54a8d8a8d20e98
+import L6Check.Certs.Cef762e83bc6e8077
+import L6Check.Certs.Cefa2e2bcd1dc637d
+import L6Check.Certs.Cf0f2997f961f3435
+import L6Check.Certs.Cf599655cd03897f4
+import L6Check.Certs.Cf6344910dd62038d
+import L6Check.Certs.Cf8c6533ac87c6478
+import L6Check.Certs.Cf9d89ba1685be5ab
+import L6Check.Certs.Cfaaaeaf219b9d8c5
+import L6Check.Certs.Cfb6bcaae937cd240
+import L6Check.Certs.Cfce5422db8977d36
+import L6Check.Certs.Cfd317fc64c82db90
+import L6Check.Certs.Cffe2e7616b8257cf
+
+/-! F3/F4 (Proposition 5.3), class 3, cells 39000 ≤ cell < 40500 of `data/cells/c3.jsonl`. -/
+
+namespace L6.F34.Checks
+
+open L6.F34 L6.F34.Data
+
+-- the evaluation allocates (parsing the certificates), which counts towards the heartbeats
+set_option maxHeartbeats 0 in
+/-- Every cell `39000 ≤ cell < 40500` of class 3 is excluded by a single term (Lemma 5.1, certified), or
+its core polynomials are the initial forms of the cell and the generators of the named certificate
+(Lemma 5.2), or it is one of the 43 open cells; with the counts { single := 1148, core1 := 267, core2 := 85, opn := 0 }. -/
+theorem F34_c3_k26 : checkChunk 3 n6 cells_3 single_3 links_3 pass_3 open43
+    [("00f154a24a370ecc", L6.Certs.C00f154a24a370ecc), ("013892d6b9108463", L6.Certs.C013892d6b9108463), ("01e8d2b5ff000a8a", L6.Certs.C01e8d2b5ff000a8a), ("07242f678e81f55c", L6.Certs.C07242f678e81f55c), ("083b6d1a8e427b0e", L6.Certs.C083b6d1a8e427b0e), ("0aefdff9eee03906", L6.Certs.C0aefdff9eee03906), ("0ef486cb83932658", L6.Certs.C0ef486cb83932658), ("1154f63f4ae46ba1", L6.Certs.C1154f63f4ae46ba1), ("120e89dcea405b52", L6.Certs.C120e89dcea405b52), ("13c1860a31f9e354", L6.Certs.C13c1860a31f9e354), ("159170cc8fce2871", L6.Certs.C159170cc8fce2871), ("172a8d486ab2dd17", L6.Certs.C172a8d486ab2dd17), ("17d125efbb380559", L6.Certs.C17d125efbb380559), ("1a140fd715c8977d", L6.Certs.C1a140fd715c8977d), ("1c9df8eff133f888", L6.Certs.C1c9df8eff133f888), ("1d864bd2176c6ae2", L6.Certs.C1d864bd2176c6ae2), ("1d8ae59ed5a598a2", L6.Certs.C1d8ae59ed5a598a2), ("1e2967b0cae77bfc", L6.Certs.C1e2967b0cae77bfc), ("1e5824ec76e4c67e", L6.Certs.C1e5824ec76e4c67e), ("1e82998f5cfb3bf3", L6.Certs.C1e82998f5cfb3bf3), ("20d34f4000060361", L6.Certs.C20d34f4000060361), ("22db517aacec5061", L6.Certs.C22db517aacec5061), ("2690962aefef2d17", L6.Certs.C2690962aefef2d17), ("32bf56bc823126e4", L6.Certs.C32bf56bc823126e4), ("342d265855a691a0", L6.Certs.C342d265855a691a0), ("35d82ba48f97fd54", L6.Certs.C35d82ba48f97fd54), ("37ef76aa20c05360", L6.Certs.C37ef76aa20c05360), ("3ea4605e29445606", L6.Certs.C3ea4605e29445606), ("41e3ef996d18557b", L6.Certs.C41e3ef996d18557b), ("42f5f99b3dfc4d2c", L6.Certs.C42f5f99b3dfc4d2c), ("43a064782550865d", L6.Certs.C43a064782550865d), ("44cb11ddbf22c8c7", L6.Certs.C44cb11ddbf22c8c7), ("44e78d260a1296bb", L6.Certs.C44e78d260a1296bb), ("45b7edf950821bea", L6.Certs.C45b7edf950821bea), ("45c07671fbddc583", L6.Certs.C45c07671fbddc583), ("4627b4cd3ad10f72", L6.Certs.C4627b4cd3ad10f72), ("478085dbb3e0b13e", L6.Certs.C478085dbb3e0b13e), ("493681a192bc06ca", L6.Certs.C493681a192bc06ca), ("4a94965ffdc6fb50", L6.Certs.C4a94965ffdc6fb50), ("4ebcbfb6d5499b50", L6.Certs.C4ebcbfb6d5499b50), ("4eedbedb34ed9102", L6.Certs.C4eedbedb34ed9102), ("5038acf7c79a60be", L6.Certs.C5038acf7c79a60be), ("52cd84399cd40c05", L6.Certs.C52cd84399cd40c05), ("5437d1ed83271756", L6.Certs.C5437d1ed83271756), ("592233b08989e55f", L6.Certs.C592233b08989e55f), ("59a24919ddd33a0a", L6.Certs.C59a24919ddd33a0a), ("5a9430da467a73bd", L6.Certs.C5a9430da467a73bd), ("5cd941238ab4c685", L6.Certs.C5cd941238ab4c685), ("5e0310bd2b4828f9", L6.Certs.C5e0310bd2b4828f9), ("63a97f9d7e72c67f", L6.Certs.C63a97f9d7e72c67f), ("63c9e55c80b95975", L6.Certs.C63c9e55c80b95975), ("679323c60894051f", L6.Certs.C679323c60894051f), ("6a5f8ce3764e998a", L6.Certs.C6a5f8ce3764e998a), ("6ab714f4d84692a6", L6.Certs.C6ab714f4d84692a6), ("6cb81b64dfa2ff3a", L6.Certs.C6cb81b64dfa2ff3a), ("6ded5b16333e71c1", L6.Certs.C6ded5b16333e71c1), ("6eaaae5128d29302", L6.Certs.C6eaaae5128d29302), ("72112d56716fc785", L6.Certs.C72112d56716fc785), ("75044a6dcc875e11", L6.Certs.C75044a6dcc875e11), ("794e2032a19fb9b4", L6.Certs.C794e2032a19fb9b4), ("79c77f69c52211cc", L6.Certs.C79c77f69c52211cc), ("7c6436ef67e0cc62", L6.Certs.C7c6436ef67e0cc62), ("7e8620c709e3774f", L6.Certs.C7e8620c709e3774f), ("7f10f1f3767082da", L6.Certs.C7f10f1f3767082da), ("81b16c6358e5d184", L6.Certs.C81b16c6358e5d184), ("840c82e8ce38adf2", L6.Certs.C840c82e8ce38adf2), ("84a6e11560c07325", L6.Certs.C84a6e11560c07325), ("87a07b94a7f08ce0", L6.Certs.C87a07b94a7f08ce0), ("897335502e01010c", L6.Certs.C897335502e01010c), ("897da59625543f7b", L6.Certs.C897da59625543f7b), ("898740a21921e75e", L6.Certs.C898740a21921e75e), ("8aac2b54941c8dc8", L6.Certs.C8aac2b54941c8dc8), ("9235ea497ad9b23c", L6.Certs.C9235ea497ad9b23c), ("93239f06053d3f20", L6.Certs.C93239f06053d3f20), ("93c8105c578bfc2b", L6.Certs.C93c8105c578bfc2b), ("94591d62baa390f8", L6.Certs.C94591d62baa390f8), ("95a15d44251b1712", L6.Certs.C95a15d44251b1712), ("9600a54ab540df70", L6.Certs.C9600a54ab540df70), ("9602c18df168a1fe", L6.Certs.C9602c18df168a1fe), ("9c9cc4fab39693cc", L6.Certs.C9c9cc4fab39693cc), ("9d68012519eb9ef4", L6.Certs.C9d68012519eb9ef4), ("9e8384ef47000134", L6.Certs.C9e8384ef47000134), ("a0a2df73a214e4c1", L6.Certs.Ca0a2df73a214e4c1), ("a12d97d2fcf138b4", L6.Certs.Ca12d97d2fcf138b4), ("a152f608aaf33d4a", L6.Certs.Ca152f608aaf33d4a), ("a197c950a1d97f38", L6.Certs.Ca197c950a1d97f38), ("a2c60b24372b458e", L6.Certs.Ca2c60b24372b458e), ("a2c84a897b759e59", L6.Certs.Ca2c84a897b759e59), ("a32faa1664f2a77c", L6.Certs.Ca32faa1664f2a77c), ("a36399fc6144633e", L6.Certs.Ca36399fc6144633e), ("a4b0785c8177e72b", L6.Certs.Ca4b0785c8177e72b), ("ad7c41850e85fffa", L6.Certs.Cad7c41850e85fffa), ("b29576f4f3a1aab7", L6.Certs.Cb29576f4f3a1aab7), ("b2cbb7e9c3dd2874", L6.Certs.Cb2cbb7e9c3dd2874), ("b3ed7a12d785417e", L6.Certs.Cb3ed7a12d785417e), ("b6f3b0dcb2515d0c", L6.Certs.Cb6f3b0dcb2515d0c), ("b9f0bd0c9f777700", L6.Certs.Cb9f0bd0c9f777700), ("bac00a2f3f16123d", L6.Certs.Cbac00a2f3f16123d), ("bbc43c0022e3fe1e", L6.Certs.Cbbc43c0022e3fe1e), ("bc8fe78fee02901f", L6.Certs.Cbc8fe78fee02901f), ("bece27e87a1bd47a", L6.Certs.Cbece27e87a1bd47a), ("bf1045e3e0922710", L6.Certs.Cbf1045e3e0922710), ("bf160f81cc1891ee", L6.Certs.Cbf160f81cc1891ee), ("c08dc59867d5c2c1", L6.Certs.Cc08dc59867d5c2c1), ("c141c278d23fd57b", L6.Certs.Cc141c278d23fd57b), ("c4d1d016ebec23fb", L6.Certs.Cc4d1d016ebec23fb), ("ca1432ee05efb96a", L6.Certs.Cca1432ee05efb96a), ("cd92e3f9051a4bb1", L6.Certs.Ccd92e3f9051a4bb1), ("ce2f695d2d3f243c", L6.Certs.Cce2f695d2d3f243c), ("cfd09f4a777458e5", L6.Certs.Ccfd09f4a777458e5), ("d02660cef5adaeaf", L6.Certs.Cd02660cef5adaeaf), ("d088fc20f4a1a850", L6.Certs.Cd088fc20f4a1a850), ("d31fe53c7c4cc54f", L6.Certs.Cd31fe53c7c4cc54f), ("d446af27446827db", L6.Certs.Cd446af27446827db), ("d9d720586a5ac04a", L6.Certs.Cd9d720586a5ac04a), ("ddc6cf1e376e9505", L6.Certs.Cddc6cf1e376e9505), ("de4caa486ab633f2", L6.Certs.Cde4caa486ab633f2), ("e259d50945779b9d", L6.Certs.Ce259d50945779b9d), ("e36e575c21c81dd7", L6.Certs.Ce36e575c21c81dd7), ("e3e93f672b0634f3", L6.Certs.Ce3e93f672b0634f3), ("e561a9e2067dd9d1", L6.Certs.Ce561a9e2067dd9d1), ("e6f416cdfd1c56e1", L6.Certs.Ce6f416cdfd1c56e1), ("e7e3a559758d5202", L6.Certs.Ce7e3a559758d5202), ("ea1d2795415261ab", L6.Certs.Cea1d2795415261ab), ("ecdc3c4e37764455", L6.Certs.Cecdc3c4e37764455), ("ef54a8d8a8d20e98", L6.Certs.Cef54a8d8a8d20e98), ("ef762e83bc6e8077", L6.Certs.Cef762e83bc6e8077), ("efa2e2bcd1dc637d", L6.Certs.Cefa2e2bcd1dc637d), ("f0f2997f961f3435", L6.Certs.Cf0f2997f961f3435), ("f599655cd03897f4", L6.Certs.Cf599655cd03897f4), ("f6344910dd62038d", L6.Certs.Cf6344910dd62038d), ("f8c6533ac87c6478", L6.Certs.Cf8c6533ac87c6478), ("f9d89ba1685be5ab", L6.Certs.Cf9d89ba1685be5ab), ("faaaeaf219b9d8c5", L6.Certs.Cfaaaeaf219b9d8c5), ("fb6bcaae937cd240", L6.Certs.Cfb6bcaae937cd240), ("fce5422db8977d36", L6.Certs.Cfce5422db8977d36), ("fd317fc64c82db90", L6.Certs.Cfd317fc64c82db90), ("ffe2e7616b8257cf", L6.Certs.Cffe2e7616b8257cf)]
+    39000 40500 { single := 1148, core1 := 267, core2 := 85, opn := 0 } = true := by
+  native_decide
+
+end L6.F34.Checks

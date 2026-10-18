@@ -1,0 +1,9 @@
+classes: 7 of 191
+class 3  CC 7  listed cells 44247
+class 40  CC 15  listed cells 394
+class 86  CC 24  listed cells 0
+class 148  CC 12  listed cells 4777
+class 149  CC 19  listed cells 756
+class 150  CC 28  listed cells 224
+class 183  CC 76  listed cells 1
+listed cells in these classes: 50399, in 6 classes

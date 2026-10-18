@@ -1,0 +1,7 @@
+ring r=0,(x,y),dp;
+ideal I = x*y, x^2;
+I = sat(I, ideal(x));
+print(I);
+ideal G = std(I);
+print("DIM " + string(dim(G)));
+quit;

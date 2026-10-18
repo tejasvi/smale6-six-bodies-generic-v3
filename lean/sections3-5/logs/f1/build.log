@@ -1,0 +1,278 @@
+2026-10-17 06:26 UTC
+Lean (version 4.35.0-rc3, x86_64-unknown-linux-gnu, commit 470d5ce1400764999581fd26d5d72b00d990b0f4, Release)
+== lake build L6Common.SHA256 L6F1
+✔ [2/22] Built L6F1.Data (177ms)
+✔ [3/22] Built L6Common.SHA256 (230ms)
+✔ [4/22] Built L6F1.Data:c.o (40ms)
+✔ [5/22] Built L6F1.Data:dynlib (35ms)
+✔ [6/22] Built L6F1.Rules (304ms)
+✔ [7/22] Built L6F1.Rules:c.o (479ms)
+✔ [8/22] Built L6F1.Rules:dynlib (39ms)
+✔ [9/22] Built L6F1.Search (231ms)
+✔ [10/22] Built L6F1.Json (324ms)
+✔ [11/22] Built L6F1.Search:c.o (285ms)
+✔ [12/22] Built L6F1.Search:dynlib (32ms)
+✔ [13/22] Built L6F1.Json:c.o (323ms)
+✔ [14/22] Built L6F1.Json:dynlib (32ms)
+✔ [15/22] Built L6F1.ChangChen (221ms)
+✔ [16/22] Built L6F1.Check (208ms)
+✔ [17/22] Built L6F1.Check:c.o (157ms)
+✔ [18/22] Built L6F1.ChangChen:c.o (251ms)
+✔ [19/22] Built L6F1.ChangChen:dynlib (30ms)
+✔ [20/22] Built L6F1.Check:dynlib (31ms)
+✔ [21/22] Built L6F1 (142ms)
+Build completed successfully (22 jobs).
+== exit 0, wall 2.7 s
+== lake build L6Sound.F1.Basic L6Sound.F1.Complete L6Sound.F1.Orbit L6Sound.F1.Component L6Sound.F1.Classes
+✔ [3124/3130] Built L6F1:c.o (38ms)
+✔ [3125/3130] Built L6F1:shared (31ms)
+✔ [3126/3130] Built L6Sound.F1.Basic (1.4s)
+✔ [3127/3130] Built L6Sound.F1.Component (1.4s)
+✔ [3128/3130] Built L6Sound.F1.Orbit (1.6s)
+✔ [3129/3130] Built L6Sound.F1.Complete (1.8s)
+✔ [3130/3130] Built L6Sound.F1.Classes (1.6s)
+Build completed successfully (3130 jobs).
+== exit 0, wall 6.1 s
+== lake build L6Check.F1.Sha L6Check.F1.N4 L6Check.F1.N5 L6Check.F1.N6
+✔ [24/30] Built L6Common (149ms)
+✔ [25/30] Built L6Common:c.o (35ms)
+ℹ [26/30] Built L6Check.F1.N4 (168ms)
+info: stderr:
+cumulative profiling times:
+	attribute application 0.00995ms
+	compilation (IR) 0.0345ms
+	compilation (LCNF base) 0.311ms
+	compilation (LCNF impure) 0.137ms
+	compilation (LCNF mono) 0.153ms
+	elaboration 0.284ms
+	fix level params 0.00792ms
+	instantiate metavars 0.00586ms
+	interpretation 6.15ms
+	let-to-have transformation 0.0137ms
+	process pre-definitions 0.0943ms
+	share common exprs 0.0317ms
+	tactic execution 0.712ms
+	type checking 0.237ms
+	typeclass inference 0.468ms
+✔ [27/30] Built L6Common:shared (31ms)
+ℹ [28/30] Built L6Check.F1.N5 (470ms)
+info: L6Check/F1/N5.lean:14:0: interpretation of L6F1.check_n5._native.native_decide.decl_1_1 took 297ms
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0129ms
+	compilation (IR) 0.0257ms
+	compilation (LCNF base) 0.278ms
+	compilation (LCNF impure) 0.112ms
+	compilation (LCNF mono) 0.128ms
+	elaboration 0.229ms
+	fix level params 0.00652ms
+	instantiate metavars 0.00635ms
+	interpretation 297ms
+	let-to-have transformation 0.0142ms
+	process pre-definitions 0.119ms
+	share common exprs 0.0259ms
+	tactic execution 0.66ms
+	type checking 0.241ms
+	typeclass inference 0.536ms
+✔ [29/30] Built L6Check.F1.Sha (302ms)
+ℹ [30/30] Built L6Check.F1.N6 (25s)
+info: L6Check/F1/N6.lean:16:0: interpretation of L6F1.check_n6._native.native_decide.decl_1_1 took 25.4s
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0144ms
+	compilation (IR) 0.046ms
+	compilation (LCNF base) 0.371ms
+	compilation (LCNF impure) 0.168ms
+	compilation (LCNF mono) 0.188ms
+	elaboration 0.408ms
+	fix level params 0.0109ms
+	instantiate metavars 0.0117ms
+	interpretation 25.4s
+	let-to-have transformation 0.0158ms
+	process pre-definitions 0.118ms
+	share common exprs 0.0325ms
+	tactic execution 0.958ms
+	type checking 0.37ms
+	typeclass inference 0.602ms
+Build completed successfully (30 jobs).
+== exit 0, wall 26.3 s
+== lake build L6Check.F1.Main L6Check.F1.ChangChen L6Check.F1.Axioms
+ℹ [22/737] Replayed L6Check.F1.N6
+info: L6Check/F1/N6.lean:16:0: interpretation of L6F1.check_n6._native.native_decide.decl_1_1 took 25.4s
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0144ms
+	compilation (IR) 0.046ms
+	compilation (LCNF base) 0.371ms
+	compilation (LCNF impure) 0.168ms
+	compilation (LCNF mono) 0.188ms
+	elaboration 0.408ms
+	fix level params 0.0109ms
+	instantiate metavars 0.0117ms
+	interpretation 25.4s
+	let-to-have transformation 0.0158ms
+	process pre-definitions 0.118ms
+	share common exprs 0.0325ms
+	tactic execution 0.958ms
+	type checking 0.37ms
+	typeclass inference 0.602ms
+ℹ [23/737] Replayed L6Check.F1.N5
+info: L6Check/F1/N5.lean:14:0: interpretation of L6F1.check_n5._native.native_decide.decl_1_1 took 297ms
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0129ms
+	compilation (IR) 0.0257ms
+	compilation (LCNF base) 0.278ms
+	compilation (LCNF impure) 0.112ms
+	compilation (LCNF mono) 0.128ms
+	elaboration 0.229ms
+	fix level params 0.00652ms
+	instantiate metavars 0.00635ms
+	interpretation 297ms
+	let-to-have transformation 0.0142ms
+	process pre-definitions 0.119ms
+	share common exprs 0.0259ms
+	tactic execution 0.66ms
+	type checking 0.241ms
+	typeclass inference 0.536ms
+ℹ [24/737] Replayed L6Check.F1.N4
+info: stderr:
+cumulative profiling times:
+	attribute application 0.00995ms
+	compilation (IR) 0.0345ms
+	compilation (LCNF base) 0.311ms
+	compilation (LCNF impure) 0.137ms
+	compilation (LCNF mono) 0.153ms
+	elaboration 0.284ms
+	fix level params 0.00792ms
+	instantiate metavars 0.00586ms
+	interpretation 6.15ms
+	let-to-have transformation 0.0137ms
+	process pre-definitions 0.0943ms
+	share common exprs 0.0317ms
+	tactic execution 0.712ms
+	type checking 0.237ms
+	typeclass inference 0.468ms
+✔ [3139/3141] Built L6Check.F1.Main (1.4s)
+ℹ [3140/3141] Built L6Check.F1.ChangChen (2.1s)
+info: L6Check/F1/ChangChen.lean:17:0: interpretation of L6F1.check_cc._native.native_decide.decl_1_1 took 784ms
+info: stderr:
+cumulative profiling times:
+	attribute application 0.0133ms
+	compilation (IR) 0.0623ms
+	compilation (LCNF base) 0.314ms
+	compilation (LCNF impure) 0.17ms
+	compilation (LCNF mono) 0.18ms
+	elaboration 0.372ms
+	fix level params 0.00623ms
+	instantiate metavars 0.00817ms
+	interpretation 784ms
+	let-to-have transformation 0.0153ms
+	overlappingInstancesLinter 0.262ms
+	process pre-definitions 0.0916ms
+	share common exprs 0.0182ms
+	tactic execution 0.803ms
+	tacticAnalysis 0.428ms
+	type checking 0.213ms
+	typeclass inference 0.336ms
+ℹ [3141/3141] Built L6Check.F1.Axioms (1.3s)
+info: L6Check/F1/Axioms.lean:7:0: L6F1.F1_main : {d ∈ L6F1.allDiagrams 6 | L6F1.okRules 6 d = true}.card = 82712 ∧
+  {e ∈ Finset.range (4 ^ 15) | L6F1.edgeRules 6 e = true}.card = 932677 ∧
+    L6F1.parseFile L6F1.n6json = some (6, 82712, L6F1.classes6) ∧
+      L6F1.renderFile 6 82712 L6F1.classes6 = L6F1.n6json ∧
+        L6F1.classes6.length = 191 ∧
+          (∀ (d : L6F1.Diagram),
+              d ∈ L6F1.allDiagrams 6 ∧ L6F1.okRules 6 d = true ↔ ∃ x ∈ L6F1.classes6, d ∈ L6F1.orbit 6 x.1) ∧
+            List.Pairwise (fun x y ↦ Disjoint (L6F1.orbit 6 x.1) (L6F1.orbit 6 y.1)) L6F1.classes6 ∧
+              (∀ x ∈ L6F1.classes6, (L6F1.orbit 6 x.1).ncard = x.2) ∧
+                (∀ x ∈ L6F1.classes6, ∀ d ∈ L6F1.orbit 6 x.1, L6F1.rawKey 6 x.1 ≤ L6F1.rawKey 6 d) ∧
+                  (∀ x ∈ L6F1.classes6, L6F1.canonKey 6 false x.1 = L6F1.rawKey 6 x.1) ∧
+                    List.Pairwise (fun x1 x2 ↦ x1 < x2) (List.map (fun x ↦ L6F1.rawKey 6 x.1) L6F1.classes6)
+info: L6Check/F1/Axioms.lean:8:0: @L6F1.F1_one_representative : ∀ {d : L6F1.Diagram},
+  d ∈ L6F1.allDiagrams 6 → L6F1.okRules 6 d = true → ∃! i, (L6F1.classes6.get i).1 ∈ L6F1.orbit 6 d
+info: L6Check/F1/Axioms.lean:9:0: L6F1.F1_reps_distinct_orbits : ∀ (i j : Fin L6F1.classes6.length),
+  i ≠ j → (L6F1.classes6.get i).1 ∉ L6F1.orbit 6 (L6F1.classes6.get j).1
+info: L6Check/F1/Axioms.lean:10:0: @L6F1.F1_canonKey_invariant : ∀ {d : L6F1.Diagram},
+  L6F1.inRange 6 d = true →
+    ∀ (σ : Equiv.Perm (Fin 6)) (s : Bool), L6F1.canonKey 6 false (L6F1.actP 6 σ s d) = L6F1.canonKey 6 false d
+info: L6Check/F1/Axioms.lean:11:0: L6F1.F1_n5 : {d ∈ L6F1.allDiagrams 5 | L6F1.okRules 5 d = true}.card = 1376 ∧
+  {e ∈ Finset.range (4 ^ 10) | L6F1.edgeRules 5 e = true}.card = 18918 ∧
+    ∃ cls,
+      L6F1.parseFile L6F1.n5json = some (5, 1376, cls) ∧
+        L6F1.renderFile 5 1376 cls = L6F1.n5json ∧
+          cls.length = 24 ∧
+            (∀ x ∈ cls, L6F1.inRange 5 x.1 = true) ∧
+              (∀ (d : L6F1.Diagram),
+                  d ∈ L6F1.allDiagrams 5 ∧ L6F1.okRules 5 d = true ↔ ∃ x ∈ cls, d ∈ L6F1.orbit 5 x.1) ∧
+                List.Pairwise (fun x y ↦ Disjoint (L6F1.orbit 5 x.1) (L6F1.orbit 5 y.1)) cls ∧
+                  (∀ x ∈ cls, (L6F1.orbit 5 x.1).ncard = x.2) ∧
+                    (∀ x ∈ cls, ∀ d ∈ L6F1.orbit 5 x.1, L6F1.rawKeyLex 5 x.1 ≤ L6F1.rawKeyLex 5 d) ∧
+                      List.Pairwise (fun x1 x2 ↦ x1 < x2) (List.map (fun x ↦ L6F1.rawKeyLex 5 x.1) cls)
+info: L6Check/F1/Axioms.lean:12:0: L6F1.F1_n4 : {d ∈ L6F1.allDiagrams 4 | L6F1.okRules 4 d = true}.card = 41 ∧
+  {e ∈ Finset.range (4 ^ 6) | L6F1.edgeRules 4 e = true}.card = 633 ∧
+    ∃ cls,
+      L6F1.parseFile L6F1.n4json = some (4, 41, cls) ∧
+        L6F1.renderFile 4 41 cls = L6F1.n4json ∧
+          cls.length = 5 ∧
+            (∀ x ∈ cls, L6F1.inRange 4 x.1 = true) ∧
+              (∀ (d : L6F1.Diagram),
+                  d ∈ L6F1.allDiagrams 4 ∧ L6F1.okRules 4 d = true ↔ ∃ x ∈ cls, d ∈ L6F1.orbit 4 x.1) ∧
+                List.Pairwise (fun x y ↦ Disjoint (L6F1.orbit 4 x.1) (L6F1.orbit 4 y.1)) cls ∧
+                  (∀ x ∈ cls, (L6F1.orbit 4 x.1).ncard = x.2) ∧
+                    (∀ x ∈ cls, ∀ d ∈ L6F1.orbit 4 x.1, L6F1.rawKeyLex 4 x.1 ≤ L6F1.rawKeyLex 4 d) ∧
+                      List.Pairwise (fun x1 x2 ↦ x1 < x2) (List.map (fun x ↦ L6F1.rawKeyLex 4 x.1) cls)
+info: L6Check/F1/Axioms.lean:13:0: @L6F1.mem_search : ∀ {n : ℕ} {d : L6F1.Diagram}, L6F1.inRange n d = true → L6F1.okRules n d = true → d ∈ L6F1.search n
+info: L6Check/F1/Axioms.lean:14:0: @L6F1.mem_component_iff : ∀ {n : ℕ} {s : ℕ → ℕ → Bool} {k j : ℕ},
+  k < n → (j ∈ L6F1.component n s k ↔ Relation.ReflTransGen (L6F1.strokeRel n s) k j)
+info: L6Check/F1/Axioms.lean:15:0: L6F1.F1_chang_chen : ∃ xs,
+  L6F1.parseCC L6F1.ccData = some xs ∧
+    List.map L6F1.renderCCLine xs = L6F1.ccLines L6F1.ccData ∧
+      xs.length = 117 ∧
+        (∀ x ∈ xs, L6F1.ccToDiagram x ∈ L6F1.allDiagrams 6 ∧ L6F1.okRules 6 (L6F1.ccToDiagram x) = true) ∧
+          ∃ f,
+            Function.Injective f ∧
+              ∀ (i : Fin xs.length), L6F1.ccToDiagram (xs.get i) ∈ L6F1.orbit 6 (L6F1.classes6.get (f i)).1
+info: L6Check/F1/Axioms.lean:17:0: 'L6F1.F1_main' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:18:0: 'L6F1.F1_one_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:19:0: 'L6F1.F1_reps_distinct_orbits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:20:0: 'L6F1.F1_canonKey_invariant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:21:0: 'L6F1.F1_n5' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n5._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:22:0: 'L6F1.F1_n4' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n4._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:23:0: 'L6F1.check_n6' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:24:0: 'L6F1.check_n5' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n5._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:25:0: 'L6F1.check_n4' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_n4._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:26:0: 'L6F1.n6json_sha256' depends on axioms: [propext, Quot.sound, L6F1.n6json_sha256._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:27:0: 'L6F1.n5json_sha256' depends on axioms: [propext, Quot.sound, L6F1.n5json_sha256._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:28:0: 'L6F1.n4json_sha256' depends on axioms: [propext, Quot.sound, L6F1.n4json_sha256._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:29:0: 'L6F1.F1_chang_chen' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ L6F1.check_cc._native.native_decide.ax_1_1,
+ L6F1.check_n6._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:30:0: 'L6F1.check_cc' depends on axioms: [propext, Classical.choice, Quot.sound, L6F1.check_cc._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:31:0: 'L6F1.ccData_sha256' depends on axioms: [propext, Quot.sound, L6F1.ccData_sha256._native.native_decide.ax_1_1]
+info: L6Check/F1/Axioms.lean:32:0: 'L6F1.mem_search' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:33:0: 'L6F1.mem_edgeLeaves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:34:0: 'L6F1.mem_candsUpTo' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:35:0: 'L6F1.classification_of_check' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:36:0: 'L6F1.canonKey_actP' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:37:0: 'L6F1.canonKey_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:38:0: 'L6F1.mem_orbitList_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:39:0: 'L6F1.list_of_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:40:0: 'L6F1.actP_actP' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:41:0: 'L6F1.orbit_actP' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:42:0: 'L6F1.diagram_ext' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:43:0: 'L6F1.mem_component_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: L6Check/F1/Axioms.lean:44:0: 'L6F1.digit_eq_digitShift' depends on axioms: [propext, Quot.sound]
+info: L6Check/F1/Axioms.lean:45:0: 'L6F1.bit_eq_bitShift' depends on axioms: [propext, Quot.sound]
+Build completed successfully (3141 jobs).
+== exit 0, wall 6.1 s

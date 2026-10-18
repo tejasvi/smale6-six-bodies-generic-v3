@@ -1,0 +1,14 @@
+{"class": 3, "cell": 39672, "lift_s": 0.1, "cert_bytes": 306548, "verify_s": 3.0, "lift": "ok"}
+{"class": 3, "cell": 42626, "lift_s": 83.7, "cert_bytes": 9459255, "verify_s": 558.8, "lift": "ok"}
+{"class": 149, "cell": 487, "lift_s": 660.1, "cert_bytes": 8856304, "verify_s": 354.1, "lift": "ok"}
+{"class": 14, "cell": 218, "lift_s": 2400.4, "lift": "lift_timeout"}
+{"class": 3, "cell": 41091, "lift_s": 2400.5, "lift": "lift_timeout"}
+{"class": 3, "cell": 17222, "lift_s": 2400.6, "lift": "lift_timeout"}
+{"class": 3, "cell": 8722, "lift_s": 2400.7, "lift": "lift_timeout"}
+{"class": 3, "cell": 13414, "lift_s": 2400.8, "lift": "lift_timeout"}
+{"class": 149, "cell": 115, "lift_s": 2400.8, "lift": "lift_timeout"}
+{"class": 3, "cell": 41569, "lift_s": 2400.9, "lift": "lift_timeout"}
+{"class": 3, "cell": 41143, "lift_s": 2400.9, "lift": "lift_timeout"}
+{"class": 3, "cell": 31349, "lift_s": 2400.9, "lift": "lift_timeout"}
+{"class": 3, "cell": 24695, "lift_s": 2402.1, "lift": "lift_timeout"}
+{"class": 30, "cell": 122, "lift_s": 2030.4, "cert_bytes": 416354744, "verify_s": 2401.0, "lift": "verify_timeout"}

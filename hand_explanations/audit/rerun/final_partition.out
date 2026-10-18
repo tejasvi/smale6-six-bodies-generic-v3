@@ -1,0 +1,12 @@
+A1 every-mass cell-level                           70233
+A2 every-mass template (secondary identities)      172
+A3 every-mass exact torque certificate (TD)        1
+D paper sections 6-7 only                          43
+G1 generic cell-level                              20683
+G2 generic, one secondary identity (exact cert)    4
+G3 generic template LIN (secondary identities)     137
+every positive mass total: 70406
+total: 91273
+D by class: {31: 1, 124: 10, 127: 9, 132: 2, 133: 1, 143: 11, 147: 9}
+cells whose only every-mass cell-level lemma is P: 5355
+cells whose only every-mass cell-level lemmas are within {B}: 0

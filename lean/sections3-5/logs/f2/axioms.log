@@ -1,0 +1,6 @@
+L6.F2.Checks.f2_all: standard ['Classical.choice', 'Quot.sound', 'propext'], native_decide auxiliary axioms 426, other []
+L6.F2.Checks.f2_totals: standard [], native_decide auxiliary axioms 1, other []
+L6.F2.Checks.f2_classes_with_cells: standard [], native_decide auxiliary axioms 1, other []
+L6.F2.Checks.tree_counts: standard ['Classical.choice', 'Quot.sound', 'propext'], native_decide auxiliary axioms 1, other []
+L6.F2.decideLP_discard: standard ['Classical.choice', 'Quot.sound', 'propext'], native_decide auxiliary axioms 0, other []
+L6.F2.feasible_discard: standard ['Classical.choice', 'Quot.sound', 'propext'], native_decide auxiliary axioms 0, other []

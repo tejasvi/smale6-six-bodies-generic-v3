@@ -1,0 +1,14 @@
+// Lemma TQ: colour z: l1, l2 at the root with coordinates X1, X2 (k1, k2 in O's child), centre M1*X1 + M2*X2 = 0;
+// colour w: k1, k2 coordinates Y1, Y2 (l1, l2 in O's child), m_k1*Y1 + m_k2*Y2 = 0 (Lemma S); torque T_{l1,l2}
+// initial form sum m_l m_k P_kl^3 X_l Y_k = 0; D relations P_kl^2 (-X_l) Y_k = 1.
+LIB "elim.lib";
+ring R = 0, (P11,P12,P21,P22,X1,X2,Y1,Y2, n1,n2,M1,M2), dp;   // n1,n2 = masses of k1,k2; M1,M2 = masses of l1,l2
+ideal I =
+  P11^2*(-X1)*Y1-1, P12^2*(-X2)*Y1-1, P21^2*(-X1)*Y2-1, P22^2*(-X2)*Y2-1,   // Pkl: k index first
+  M1*X1 + M2*X2, n1*Y1 + n2*Y2,
+  n1*M1*P11^3*X1*Y1 + n1*M2*P12^3*X2*Y1 + n2*M1*P21^3*X1*Y2 + n2*M2*P22^3*X2*Y2;
+I = sat(I, ideal(X1*X2*(X1-X2)*Y1*Y2*(Y1-Y2)));
+ideal E = eliminate(I, P11*P12*P21*P22*X1*X2*Y1*Y2);
+print("TQ elimination ideal: " + string(size(E)) + " generator(s)");
+int i; for (i = 1; i <= size(E); i++) { print(factorize(E[i])); }
+quit;

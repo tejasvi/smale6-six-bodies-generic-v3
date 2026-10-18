@@ -1,0 +1,4 @@
+lean6 17f8b22fc8d73dcded1d59262e5eb683e4c2917b
+lean6_special 3bb129780ef6454143dd73ec443652e8cae09660
+lean6_full c7e75f547f14c83801edf644600d44a2f57bc21d
+each package is the git archive of its commit, except the files that CHANGES.md lists

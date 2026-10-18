@@ -1,0 +1,10 @@
+Q(1,-1,1)(t-1) factored: (t**2 - t + 1)*(mu1*t**3 - mu1*t**2 - mu1*t + mu1 + mu2*t**3 - 2*mu2*t**2 - 2*mu3*t + mu3)
+S1 deg_t 5 matches: [('Q(1, -1, -1)', -(mu1 + mu2 + mu3)**4)]
+S2 deg_t 5 matches: [('Q(1, 1, 1)', (mu1 + mu2 + mu3)**4)]
+S3 deg_t 5 matches: [('Q(1, 1, -1)', (mu1 + mu2 + mu3)**4)]
+S4 deg_t 3 matches: None
+   factors: [(mu1*t**3 - mu1*t**2 - mu1*t + mu1 + mu2*t**3 - 2*mu2*t**2 - 2*mu3*t + mu3, 1)] const -mu1**2 - 2*mu1*mu2 - 2*mu1*mu3 - mu2**2 - 2*mu2*mu3 - mu3**2
+S5 deg_t 2 matches: [('t2-t+1', (mu1 + mu2 + mu3)**2)]
+S6 deg_t 4 matches: [('N01', (mu1 + mu2 + mu3)**4)]
+S7 deg_t 4 matches: [('N10', (mu1 + mu2 + mu3)**4)]
+S8 deg_t 4 matches: [('N11', (mu1 + mu2 + mu3)**4)]

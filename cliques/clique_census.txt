@@ -1,0 +1,55 @@
+cells 91273; with a clique 86938; without 4335; with a three-body clique 86842; with a four-body clique only 96
+classes all of whose cells have a clique (18): [3, 4, 40, 42, 44, 47, 53, 55, 84, 128, 129, 148, 149, 150, 167, 169, 170, 183]
+singular-only (3, 8722) clique
+singular-only (3, 13414) clique
+singular-only (3, 17222) clique
+singular-only (3, 24695) clique
+singular-only (3, 31349) clique
+singular-only (3, 41091) clique
+singular-only (3, 41143) clique
+singular-only (3, 41569) clique
+singular-only (14, 218) clique
+singular-only (30, 122) no clique
+open (31, 22) no clique
+open (124, 0) clique
+open (124, 16) clique
+open (124, 17) clique
+open (124, 30) clique
+open (124, 46) clique
+open (124, 83) clique
+open (124, 105) clique
+open (124, 109) clique
+open (124, 110) clique
+open (124, 111) clique
+open (124, 121) clique
+open (127, 0) no clique
+open (127, 1) no clique
+open (127, 2) no clique
+open (127, 3) no clique
+open (127, 4) no clique
+open (127, 5) no clique
+open (127, 6) no clique
+open (127, 7) no clique
+open (127, 8) no clique
+open (132, 53) no clique
+open (133, 17) no clique
+open (143, 3) no clique
+open (143, 13) no clique
+open (143, 14) no clique
+open (143, 23) no clique
+open (143, 29) no clique
+open (143, 35) no clique
+open (143, 47) no clique
+open (143, 53) no clique
+open (143, 59) no clique
+open (143, 65) no clique
+open (143, 71) no clique
+open (147, 5) no clique
+open (147, 11) no clique
+open (147, 17) no clique
+open (147, 23) no clique
+open (147, 29) no clique
+open (147, 35) no clique
+open (147, 41) no clique
+open (147, 47) no clique
+open (147, 53) no clique

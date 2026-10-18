@@ -1,0 +1,59 @@
+generic-first (MECHANISMS lemmas):
+   ('E', 50399, 50399)
+   ('E1', 36476, 86875)
+   ('R1', 1863, 88738)
+   ('R6', 456, 89194)
+   ('Q', 62, 89256)
+   ('T', 458, 89714)
+   ('C', 693, 90407)
+   ('P,B,R5', 0, 90407)
+   ('templates', 551, 90958)
+   ('d-folders', 200, 91158)
+residue after MECHANISMS: 115 Counter({(64, 'single'): 16, (62, 'core'): 14, (4, 'single'): 12, (14, 'core'): 12, (16, 'core'): 12, (10, 'core'): 9, (63, 'core'): 7, (23, 'single'): 6, (25, 'single'): 6, (30, 'core'): 6, (25, 'core'): 4, (116, 'single'): 2, (56, 'core'): 2, (4, 'core'): 2, (15, 'core'): 1, (0, 'core'): 1, (15, 'single'): 1, (28, 'core'): 1, (53, 'core'): 1})
+residual lemmas on the residue:
+   ('B0', 38, 38)
+   ('K', 4, 42)
+   ('L', 12, 54)
+   ('R1*(alpha/beta)', 40, 94)
+   ('W3', 15, 109)
+   ('EQ2', 2, 111)
+every positive mass (cell-level and template):
+   ('T', 40084, 40084)
+   ('P', 5355, 45439)
+   ('C', 22873, 68312)
+   ('B', 0, 68312)
+   ('tmpl all-mass', 184, 68496)
+   ('B0', 254, 68750)
+   ('K', 76, 68826)
+   ('L', 1579, 70405)
+every positive mass, single-term cells:
+   ('T', 40084, 40084)
+   ('P', 5355, 45439)
+   ('C', 5891, 51330)
+   ('B', 0, 51330)
+   ('tmpl all-mass', 0, 51330)
+   ('B0', 254, 51584)
+   ('K', 76, 51660)
+   ('L', 0, 51660)
+every positive mass, cell-level only (no engine cores):
+   ('T', 40084, 40084)
+   ('P', 5355, 45439)
+   ('C', 22873, 68312)
+   ('B', 0, 68312)
+   ('B0', 254, 68566)
+   ('K', 76, 68642)
+   ('L', 1591, 70233)
+template-first cells: 551 Counter({'coreLIN-generic': 367, 'coreP4': 183, 'coreLIN-all': 1})
+  of which covered by a residual cell-level lemma: 244 Counter({'coreLIN-generic': 230, 'coreP4': 14})
+  by lemma: Counter({'R1s': 229, 'L': 12, 'EQ2': 2, 'W3': 1})
+  template cells with no cell-level lemma: 307 Counter({124: 128, 64: 71, 126: 27, 47: 22, 116: 14, 0: 8, 172: 6, 16: 4, 58: 2, 117: 2, 120: 2, 20: 2, 15: 2, 57: 2, 8: 1, 123: 1, 66: 1, 173: 1, 12: 1, 110: 1, 122: 1, 121: 1, 34: 1, 119: 1, 23: 1, 13: 1, 35: 1, 65: 1, 171: 1})
+d-folder-first cells: 200 covered by a residual cell-level lemma: 157 Counter({132: 61, 133: 48, 143: 22, 147: 18, 31: 8})
+  d-folder cells with no cell-level lemma: Counter({(143, 'd64'): 11, (124, 'd64'): 10, (127, 'd88'): 9, (147, 'd88'): 9, (132, 'd98'): 2, (31, 'd98'): 1, (133, 'd98'): 1})
+==== partition of all cells by the weakest input needed ====
+cell-level hand lemma: 90919
+secondary identity with exact certificate (R1* gamma, TQ): 4 [(0, 0), (4, 58), (28, 0), (53, 1)]
+d-folder whole-class theorems only: 171 Counter({(124, 'coreP4'): 128, (143, 'd64'): 11, (124, 'd64'): 10, (127, 'd88'): 9, (147, 'd88'): 9, (132, 'd98'): 2, (31, 'd98'): 1, (133, 'd98'): 1})
+engine core template only (LIN/P4): 179 Counter({'coreLIN-generic': 137, 'coreP4': 41, 'coreLIN-all': 1})
+   by class: [(0, 8), (8, 1), (12, 1), (13, 1), (15, 2), (16, 4), (20, 2), (23, 1), (34, 1), (35, 1), (47, 22), (57, 2), (58, 2), (64, 71), (65, 1), (66, 1), (110, 1), (116, 14), (117, 2), (119, 1), (120, 2), (121, 1), (122, 1), (123, 1), (126, 27), (171, 1), (172, 6), (173, 1)]
+nothing: 0
+P1 at every positive mass: 70233 ; P1 generic only: 20686

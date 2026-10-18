@@ -1,0 +1,11 @@
+$ lake env lean gen/native_axiom_example.lean
+axiom Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1 : decide
+    (Lean6.Special.Comp.D88.Trop.hypOK Lean6.Special.Comp.D88.Trop.hypsN4 = true) =
+  true
+'Lean6.Special.Comp.D88.Trop.n4_hyp_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+theorem Lean6.Special.Comp.D88.Trop.n4_hyp_ok : Lean6.Special.Comp.D88.Trop.hypOK Lean6.Special.Comp.D88.Trop.hypsN4 =
+  true :=
+of_decide_eq_true Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1

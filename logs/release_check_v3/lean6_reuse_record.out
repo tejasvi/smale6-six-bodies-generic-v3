@@ -1,0 +1,13 @@
+out: 33641 files, 45292895650 bytes
+log logs/kern/compare.log: unchanged
+log logs/kern/f1_axioms.txt: unchanged
+log logs/kern/f1_build.log: extended
+log logs/kern/f34k_axioms.txt: new
+log logs/kern/f34k_build.log: new
+log logs/kern/f34k_export.log: extended
+log logs/kern/f34k_gen.log: extended
+log logs/kern/f4_axioms.txt: unchanged
+log logs/kern/f4_build.log: extended
+log logs/kern/f4_gen.log: rewritten
+log logs/kern/f4link_axioms.txt: unchanged
+log logs/kern/f4link_build.log: unchanged

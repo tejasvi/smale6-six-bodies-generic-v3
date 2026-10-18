@@ -1,0 +1,154 @@
+import L6K.F1.Shard
+
+set_option maxRecDepth 1000000
+set_option maxHeartbeats 0
+
+/-! Shards 7743–7809 of the search of Proposition 3.1 (prefixes of `edgesUpTo 6 10`). -/
+
+namespace L6CheckK.F1.Shards.S120
+
+open L6F1 L6K.F1
+
+def s0 : Nat × Nat × List Nat := (8456, 106, [641736968, 643834120, 11307852040, 11309949192, 11379155208, 11381252360, 344207663368, 344239120648, 344241217800, 354873778440, 354905235720, 354907332872, 354945081608, 354976538888, 354978636040, 1168338067720, 1168872841480, 1168874938632, 1179004182792, 1179075485960, 1179538956552, 1179541053704, 1179610259720, 1179612356872, 1443180323080, 1443215974664, 1443719291144, 1453846438152, 1453882089736, 1453917741320, 1453953392904, 1454385406216, 1454456709384, 1479687545096, 1486129996040, 1488210370824, 1488273285384, 1488277479688, 2279052681480, 2485175460104, 2485209014536, 2485211111688, 2553897033992, 2553930588424, 3309305864456, 3309842735368, 3309844832520, 3378027438344, 3378564309256, 3652871790856, 3652903248136, 3652905345288, 3653406564616, 3653408661768, 3653440119048, 3653442216200])
+def s1 : Nat × Nat × List Nat := (270600, 55, [])
+def s2 : Nat × Nat × List Nat := (532744, 58, [])
+def s3 : Nat × Nat × List Nat := (794888, 50, [])
+def s4 : Nat × Nat × List Nat := (139528, 106, [71442696, 107094280, 610410760, 641868040, 643965192, 10737557768, 10773209352, 10808860936, 10844512520, 11276525832, 11307983112, 11310080264, 11347829000, 11379286280, 11381383432, 36578664712, 43021115656, 45101490440, 45164405000, 45168599304, 343668826376, 343704477960, 344207794440, 344239251720, 344241348872, 354334941448, 354370593032, 354406244616, 354441896200, 354873909512, 354905366792, 354907463944, 354945212680, 354976669960, 354978767112, 380176048392, 386618499336, 388698874120, 388761788680, 388765982984, 1168302547208, 1168338198792, 1168841515272, 1168872972552, 1168875069704, 1178968662280, 1179004313864, 1179039965448, 1179075617032, 1179507630344, 1179539087624, 1179541184776, 1179578933512, 1179610390792, 1179612487944, 1204809769224, 1211252220168, 1213332594952, 1213395509512, 1213399703816, 1374460977416, 1374496629000, 1374999945480, 1375031402760, 1375033499912, 1385127092488, 1385162744072, 1385198395656, 1385234047240, 1385666060552, 1385697517832, 1385699614984, 1385737363720, 1385768821000, 1385770918152, 1410968199432, 1417410650376, 1419491025160, 1419553939720, 1419558134024, 1443180454152, 1443216105736, 1443719422216, 1443750879496, 1443752976648, 1453846569224, 1453882220808, 1453917872392, 1453953523976, 1454385537288, 1454416994568, 1454419091720, 1454456840456, 1454488297736, 1454490394888, 1479687676168, 1486130127112, 1488210501896, 1488273416456, 1488277610760, 2278482387208, 2278515941640, 2279019258120, 2279052812552, 2484672274696, 2484674371848, 2485209145608, 2485211242760, 2553360294152, 2553391751432, 2553393848584, 2553930719496, 3309809312008, 3309811409160, 3309842866440, 3309844963592, 3377994014984, 3378528788744, 3378530885896, 3378564440328, 3584183902472, 3584687218952, 3584720773384, 3584722870536, 3652871921928, 3652903379208, 3652905476360, 3653406695688, 3653408792840, 3653440250120, 3653442347272])
+def s5 : Nat × Nat × List Nat := (401672, 45, [273031432, 340140296, 11010449672, 11073364232, 11077558536, 36776059144, 36780253448, 36847362312, 43289813256, 45433102600, 45437296904, 343870415112, 343937523976, 354607833352, 354670747912, 354674942216, 380373442824, 380377637128, 380444745992, 386887196936, 389030486280, 389034680584])
+def s6 : Nat × Nat × List Nat := (663816, 48, [])
+def s7 : Nat × Nat × List Nat := (925960, 42, [])
+def s8 : Nat × Nat × List Nat := (24840, 55, [])
+def s9 : Nat × Nat × List Nat := (286984, 45, [570712328, 572809480, 11308130568, 11310227720, 344136638728, 344168096008, 344170193160, 354874056968, 354905514248, 354907611400, 2268315541768, 2279052960008, 2474438320392, 2474471874824, 2474473971976, 2485175738632, 2485209293064, 2485211390216, 2543159894280, 2543193448712, 2553897312520, 2553930866952])
+def s10 : Nat × Nat × List Nat := (155912, 45, [335700232, 339894536, 11010203912, 11073118472, 11077312776, 36847116552, 43218264328, 43285373192, 43289567496, 45369942280, 45437051144, 343933083912, 343937278216, 354607587592, 354670502152, 354674696456, 380444500232, 386815648008, 386882756872, 386886951176, 388967325960, 389034434824])
+def s11 : Nat × Nat × List Nat := (418056, 28, [418056, 36069640, 71721224, 273047816, 335962376, 340156680, 539386120, 570843400, 572940552, 10737836296, 10773487880, 10809139464, 11010466056, 11073380616, 11077574920, 11276804360, 11308261640, 11310358792, 36511834376, 36578943240, 36780269832, 36847378696, 43017199880, 43021394184, 43285635336, 43289829640, 45101768968, 45164683528, 45168877832, 45437313288, 343597801736, 343633453320, 343669104904, 343870431496, 343933346056, 343937540360, 344136769800, 344168227080, 344170324232, 354335219976, 354370871560, 354406523144, 354607849736, 354670764296, 354674958600, 354874188040, 354905645320, 354907742472, 380109218056, 380176326920, 380377653512, 380444762376, 386614583560, 386618777864, 386883019016, 386887213320, 388699152648, 388762067208, 388766261512, 389034696968, 2267745247496, 2267778801928, 2268282118408, 2268315672840, 2278482665736, 2278516220168, 2279019536648, 2279053091080, 2473935134984, 2473937232136, 2474472005896, 2474474103048, 2484672553224, 2484674650376, 2485209424136, 2485211521288, 2542623154440, 2542654611720, 2542656708872, 2543193579784, 2553360572680, 2553392029960, 2553394127112, 2553930998024])
+def s12 : Nat × Nat × List Nat := (41224, 58, [])
+def s13 : Nat × Nat × List Nat := (172296, 48, [])
+def s14 : Nat × Nat × List Nat := (57608, 50, [])
+def s15 : Nat × Nat × List Nat := (188680, 42, [])
+def s16 : Nat × Nat × List Nat := (12552, 82, [3653678149896])
+def s17 : Nat × Nat × List Nat := (274696, 50, [])
+def s18 : Nat × Nat × List Nat := (536840, 51, [])
+def s19 : Nat × Nat × List Nat := (28936, 50, [])
+def s20 : Nat × Nat × List Nat := (291080, 42, [])
+def s21 : Nat × Nat × List Nat := (45320, 51, [])
+def s22 : Nat × Nat × List Nat := (1288, 100, [])
+def s23 : Nat × Nat × List Nat := (263432, 48, [])
+def s24 : Nat × Nat × List Nat := (525576, 46, [4397251167496])
+def s25 : Nat × Nat × List Nat := (787720, 39, [])
+def s26 : Nat × Nat × List Nat := (66824, 48, [19363071240, 2287105803528])
+def s27 : Nat × Nat × List Nat := (328968, 38, [10773398792, 27953267976, 2278516131080, 2295696000264])
+def s28 : Nat × Nat × List Nat := (132360, 45, [])
+def s29 : Nat × Nat × List Nat := (197896, 39, [68190143752])
+def s30 : Nat × Nat × List Nat := (17672, 58, [])
+def s31 : Nat × Nat × List Nat := (279816, 48, [])
+def s32 : Nat × Nat × List Nat := (83208, 38, [35734792, 10773153032, 19363087624, 2267778467080, 2278515885320, 2287105819912])
+def s33 : Nat × Nat × List Nat := (345352, 38, [35996936, 10773415176, 19363349768, 25805800712, 27953284360, 2267778729224, 2278516147464, 2287106082056, 2293548533000, 2295696016648])
+def s34 : Nat × Nat × List Nat := (34056, 55, [4397376505096])
+def s35 : Nat × Nat × List Nat := (50440, 44, [])
+def s36 : Nat × Nat × List Nat := (5384, 58, [])
+def s37 : Nat × Nat × List Nat := (529672, 33, [4396982736136, 4397250123016, 4397251171592])
+def s38 : Nat × Nat × List Nat := (21768, 29, [])
+def s39 : Nat × Nat × List Nat := (38152, 28, [4397108073736, 4397375460616, 4397376509192])
+def s40 : Nat × Nat × List Nat := (54536, 25, [])
+def s41 : Nat × Nat × List Nat := (9480, 55, [])
+def s42 : Nat × Nat × List Nat := (140552, 45, [21112072, 88220936, 10758530312, 10821444872, 10825639176, 36524139784, 36528334088, 36595442952, 43037893896, 45181183240, 45185377544, 1168252216584, 1168319325448, 1178989634824, 1179052549384, 1179056743688, 1204755244296, 1204759438600, 1204826547464, 1211268998408, 1213412287752, 1213416482056])
+def s43 : Nat × Nat × List Nat := (25864, 29, [])
+def s44 : Nat × Nat × List Nat := (42248, 29, [])
+def s45 : Nat × Nat × List Nat := (58632, 26, [])
+def s46 : Nat × Nat × List Nat := (13576, 44, [])
+def s47 : Nat × Nat × List Nat := (29960, 26, [68232967432])
+def s48 : Nat × Nat × List Nat := (46344, 25, [])
+def s49 : Nat × Nat × List Nat := (2312, 100, [])
+def s50 : Nat × Nat × List Nat := (264456, 45, [])
+def s51 : Nat × Nat × List Nat := (526600, 48, [1168302934280, 1204810156296])
+def s52 : Nat × Nat × List Nat := (788744, 39, [4329610938632])
+def s53 : Nat × Nat × List Nat := (67848, 46, [4397519145224])
+def s54 : Nat × Nat × List Nat := (133384, 48, [])
+def s55 : Nat × Nat × List Nat := (657672, 38, [343669344520, 380176566536, 1443180972296, 1479688194312])
+def s56 : Nat × Nat × List Nat := (198920, 39, [])
+def s57 : Nat × Nat × List Nat := (18696, 55, [])
+def s58 : Nat × Nat × List Nat := (280840, 45, [136595720, 170150152, 19463948552, 19497502984, 343733979400, 343765436680, 343767533832, 363061332232, 363092789512, 363094886664, 2267877230856, 2267879328008, 2267912882440, 2287204583688, 2287206680840, 2287240235272, 2474071312648, 2493398665480, 2542788692232, 2542790789384, 2562116045064, 2562118142216])
+def s59 : Nat × Nat × List Nat := (35080, 58, [])
+def s60 : Nat × Nat × List Nat := (100616, 33, [4396982307080, 4397510789384, 4397519177992])
+def s61 : Nat × Nat × List Nat := (51464, 44, [])
+def s62 : Nat × Nat × List Nat := (6408, 55, [4397534812424])
+def s63 : Nat × Nat × List Nat := (22792, 29, [])
+def s64 : Nat × Nat × List Nat := (39176, 28, [4396997974280, 4397526456584, 4397534845192])
+def s65 : Nat × Nat × List Nat := (55560, 25, [])
+def s66 : Nat × Nat × List Nat := (10504, 58, [])
+
+theorem ok0 : shardOK 10 s0.1 s0.2.1 s0.2.2 = true := by decide +kernel
+theorem ok1 : shardOK 10 s1.1 s1.2.1 s1.2.2 = true := by decide +kernel
+theorem ok2 : shardOK 10 s2.1 s2.2.1 s2.2.2 = true := by decide +kernel
+theorem ok3 : shardOK 10 s3.1 s3.2.1 s3.2.2 = true := by decide +kernel
+theorem ok4 : shardOK 10 s4.1 s4.2.1 s4.2.2 = true := by decide +kernel
+theorem ok5 : shardOK 10 s5.1 s5.2.1 s5.2.2 = true := by decide +kernel
+theorem ok6 : shardOK 10 s6.1 s6.2.1 s6.2.2 = true := by decide +kernel
+theorem ok7 : shardOK 10 s7.1 s7.2.1 s7.2.2 = true := by decide +kernel
+theorem ok8 : shardOK 10 s8.1 s8.2.1 s8.2.2 = true := by decide +kernel
+theorem ok9 : shardOK 10 s9.1 s9.2.1 s9.2.2 = true := by decide +kernel
+theorem ok10 : shardOK 10 s10.1 s10.2.1 s10.2.2 = true := by decide +kernel
+theorem ok11 : shardOK 10 s11.1 s11.2.1 s11.2.2 = true := by decide +kernel
+theorem ok12 : shardOK 10 s12.1 s12.2.1 s12.2.2 = true := by decide +kernel
+theorem ok13 : shardOK 10 s13.1 s13.2.1 s13.2.2 = true := by decide +kernel
+theorem ok14 : shardOK 10 s14.1 s14.2.1 s14.2.2 = true := by decide +kernel
+theorem ok15 : shardOK 10 s15.1 s15.2.1 s15.2.2 = true := by decide +kernel
+theorem ok16 : shardOK 10 s16.1 s16.2.1 s16.2.2 = true := by decide +kernel
+theorem ok17 : shardOK 10 s17.1 s17.2.1 s17.2.2 = true := by decide +kernel
+theorem ok18 : shardOK 10 s18.1 s18.2.1 s18.2.2 = true := by decide +kernel
+theorem ok19 : shardOK 10 s19.1 s19.2.1 s19.2.2 = true := by decide +kernel
+theorem ok20 : shardOK 10 s20.1 s20.2.1 s20.2.2 = true := by decide +kernel
+theorem ok21 : shardOK 10 s21.1 s21.2.1 s21.2.2 = true := by decide +kernel
+theorem ok22 : shardOK 10 s22.1 s22.2.1 s22.2.2 = true := by decide +kernel
+theorem ok23 : shardOK 10 s23.1 s23.2.1 s23.2.2 = true := by decide +kernel
+theorem ok24 : shardOK 10 s24.1 s24.2.1 s24.2.2 = true := by decide +kernel
+theorem ok25 : shardOK 10 s25.1 s25.2.1 s25.2.2 = true := by decide +kernel
+theorem ok26 : shardOK 10 s26.1 s26.2.1 s26.2.2 = true := by decide +kernel
+theorem ok27 : shardOK 10 s27.1 s27.2.1 s27.2.2 = true := by decide +kernel
+theorem ok28 : shardOK 10 s28.1 s28.2.1 s28.2.2 = true := by decide +kernel
+theorem ok29 : shardOK 10 s29.1 s29.2.1 s29.2.2 = true := by decide +kernel
+theorem ok30 : shardOK 10 s30.1 s30.2.1 s30.2.2 = true := by decide +kernel
+theorem ok31 : shardOK 10 s31.1 s31.2.1 s31.2.2 = true := by decide +kernel
+theorem ok32 : shardOK 10 s32.1 s32.2.1 s32.2.2 = true := by decide +kernel
+theorem ok33 : shardOK 10 s33.1 s33.2.1 s33.2.2 = true := by decide +kernel
+theorem ok34 : shardOK 10 s34.1 s34.2.1 s34.2.2 = true := by decide +kernel
+theorem ok35 : shardOK 10 s35.1 s35.2.1 s35.2.2 = true := by decide +kernel
+theorem ok36 : shardOK 10 s36.1 s36.2.1 s36.2.2 = true := by decide +kernel
+theorem ok37 : shardOK 10 s37.1 s37.2.1 s37.2.2 = true := by decide +kernel
+theorem ok38 : shardOK 10 s38.1 s38.2.1 s38.2.2 = true := by decide +kernel
+theorem ok39 : shardOK 10 s39.1 s39.2.1 s39.2.2 = true := by decide +kernel
+theorem ok40 : shardOK 10 s40.1 s40.2.1 s40.2.2 = true := by decide +kernel
+theorem ok41 : shardOK 10 s41.1 s41.2.1 s41.2.2 = true := by decide +kernel
+theorem ok42 : shardOK 10 s42.1 s42.2.1 s42.2.2 = true := by decide +kernel
+theorem ok43 : shardOK 10 s43.1 s43.2.1 s43.2.2 = true := by decide +kernel
+theorem ok44 : shardOK 10 s44.1 s44.2.1 s44.2.2 = true := by decide +kernel
+theorem ok45 : shardOK 10 s45.1 s45.2.1 s45.2.2 = true := by decide +kernel
+theorem ok46 : shardOK 10 s46.1 s46.2.1 s46.2.2 = true := by decide +kernel
+theorem ok47 : shardOK 10 s47.1 s47.2.1 s47.2.2 = true := by decide +kernel
+theorem ok48 : shardOK 10 s48.1 s48.2.1 s48.2.2 = true := by decide +kernel
+theorem ok49 : shardOK 10 s49.1 s49.2.1 s49.2.2 = true := by decide +kernel
+theorem ok50 : shardOK 10 s50.1 s50.2.1 s50.2.2 = true := by decide +kernel
+theorem ok51 : shardOK 10 s51.1 s51.2.1 s51.2.2 = true := by decide +kernel
+theorem ok52 : shardOK 10 s52.1 s52.2.1 s52.2.2 = true := by decide +kernel
+theorem ok53 : shardOK 10 s53.1 s53.2.1 s53.2.2 = true := by decide +kernel
+theorem ok54 : shardOK 10 s54.1 s54.2.1 s54.2.2 = true := by decide +kernel
+theorem ok55 : shardOK 10 s55.1 s55.2.1 s55.2.2 = true := by decide +kernel
+theorem ok56 : shardOK 10 s56.1 s56.2.1 s56.2.2 = true := by decide +kernel
+theorem ok57 : shardOK 10 s57.1 s57.2.1 s57.2.2 = true := by decide +kernel
+theorem ok58 : shardOK 10 s58.1 s58.2.1 s58.2.2 = true := by decide +kernel
+theorem ok59 : shardOK 10 s59.1 s59.2.1 s59.2.2 = true := by decide +kernel
+theorem ok60 : shardOK 10 s60.1 s60.2.1 s60.2.2 = true := by decide +kernel
+theorem ok61 : shardOK 10 s61.1 s61.2.1 s61.2.2 = true := by decide +kernel
+theorem ok62 : shardOK 10 s62.1 s62.2.1 s62.2.2 = true := by decide +kernel
+theorem ok63 : shardOK 10 s63.1 s63.2.1 s63.2.2 = true := by decide +kernel
+theorem ok64 : shardOK 10 s64.1 s64.2.1 s64.2.2 = true := by decide +kernel
+theorem ok65 : shardOK 10 s65.1 s65.2.1 s65.2.2 = true := by decide +kernel
+theorem ok66 : shardOK 10 s66.1 s66.2.1 s66.2.2 = true := by decide +kernel
+
+/-- The shards of this module. -/
+def shards : List (Nat × Nat × List Nat) := [s0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19, s20, s21, s22, s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33, s34, s35, s36, s37, s38, s39, s40, s41, s42, s43, s44, s45, s46, s47, s48, s49, s50, s51, s52, s53, s54, s55, s56, s57, s58, s59, s60, s61, s62, s63, s64, s65, s66]
+
+theorem all_ok : shards.all (fun x => shardOK 10 x.1 x.2.1 x.2.2) = true := by
+  simp only [shards, List.all_cons, List.all_nil, Bool.and_true, ok0, ok1, ok2, ok3, ok4, ok5, ok6, ok7, ok8, ok9, ok10, ok11, ok12, ok13, ok14, ok15, ok16, ok17, ok18, ok19, ok20, ok21, ok22, ok23, ok24, ok25, ok26, ok27, ok28, ok29, ok30, ok31, ok32, ok33, ok34, ok35, ok36, ok37, ok38, ok39, ok40, ok41, ok42, ok43, ok44, ok45, ok46, ok47, ok48, ok49, ok50, ok51, ok52, ok53, ok54, ok55, ok56, ok57, ok58, ok59, ok60, ok61, ok62, ok63, ok64, ok65, ok66]
+
+end L6CheckK.F1.Shards.S120

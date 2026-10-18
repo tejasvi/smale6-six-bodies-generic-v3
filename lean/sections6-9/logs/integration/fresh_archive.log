@@ -1,0 +1,12 @@
+Build of a fresh checkout (git archive of commit 8dbc9b8) on a 384-core machine, ulimit -n 65536, Mathlib's build present.
+Commands: lake build; lake env lean gen/axioms_all.lean
+
+2026-10-17T14:25:48Z start
+build_rc=0
+2026-10-17T14:36:06Z end of build
+axioms_rc=0
+Build completed successfully (10550 jobs).
+User time (seconds): 18495.35
+Elapsed (wall clock) time (h:mm:ss or m:ss): 10:18.93
+Maximum resident set size (kbytes): 15076216
+Theorems whose axioms were printed: 344 of 344

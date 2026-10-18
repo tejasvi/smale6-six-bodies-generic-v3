@@ -1,0 +1,19 @@
+t^2-t+1 at 0: value 1, tail bound 11/100 = 0.1100
+t^2-t+1 at 1: value 1, tail bound 11/100 = 0.1100
+N01 at 0: value 1, tail bound 5951/10000 = 0.5951
+N01 at 1: value 1, tail bound 2011/10000 = 0.2011
+N10 at 0: value 1, tail bound 2011/10000 = 0.2011
+N10 at 1: value 1, tail bound 5951/10000 = 0.5951
+N11 at 0: value 1, tail bound 1021/10000 = 0.1021
+N11 at 1: value 1, tail bound 1021/10000 = 0.1021
+sigma (1, 1, 1) at x=0: |C(c)|=1, B_C=0.3300, B_D=2.4257, 40(1-B_C)-B_D=24.374
+sigma (1, 1, 1) at x=-1: |C(c)|=1, B_C=0.3300, B_D=1.2578, 40(1-B_C)-B_D=25.542
+sigma (1, 1, -1) at x=0: |C(c)|=1, B_C=0.3320, B_D=2.4257, 40(1-B_C)-B_D=24.294
+sigma (1, 1, -1) at x=-1: |C(c)|=1, B_C=0.3320, B_D=1.2178, 40(1-B_C)-B_D=25.502
+sigma (1, -1, -1) at x=0: |C(c)|=1, B_C=0.3300, B_D=2.4457, 40(1-B_C)-B_D=24.354
+sigma (1, -1, -1) at x=-1: |C(c)|=1, B_C=0.3300, B_D=1.2178, 40(1-B_C)-B_D=25.582
+sigma (1, -1, 1) at x=0: |C(c)|=1, B_C=0.3320, B_D=2.4057, 40(1-B_C)-B_D=24.314
+sigma (1, -1, 1) at x=-1: |C(c)|=1, B_C=0.3320, B_D=1.2378, 40(1-B_C)-B_D=25.482
+exact bounds hold: True
+deg S_mu 34 leading coefficient 81
+34 roots; min |t| = 0.4221; min |t-1| = 0.4221; min rho = 0.9787

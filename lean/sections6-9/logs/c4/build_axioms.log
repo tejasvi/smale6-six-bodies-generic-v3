@@ -1,0 +1,263 @@
+== clean build of Lean6.Special.K4.C4 (fresh directory), started 2026-10-17T06:43:21Z
+✔ [3114/3302] Built Lean6.Special.Comp.K4.C4.Sys (208ms)
+✔ [3115/3302] Built Lean6.Special.Comp.K4.C4.Prime (174ms)
+✔ [3116/3302] Built Lean6.Special.Comp.K4.C4.Sys:c.o (130ms)
+✔ [3117/3302] Built Lean6.Special.Comp.K4.C4.GB (429ms)
+✔ [3121/3302] Built Lean6.Special.Comp.K4.C4.Sys:dynlib (32ms)
+✔ [3122/3302] Built Lean6.Special.Comp.K4.C4.GB:c.o (345ms)
+✔ [3123/3302] Built Lean6.Special.Comp.K4.C4.GB:dynlib (32ms)
+✔ [3124/3302] Built Lean6.Special.Comp.K4.C4.Check (166ms)
+✔ [3125/3302] Built Lean6.Special.Comp.K4.C4.Check:c.o (57ms)
+✔ [3126/3302] Built Lean6.Special.Comp.K4.C4.Check:dynlib (34ms)
+⚠ [3128/3302] Built Lean6.Special.K4.C4.GBSound (1.9s)
+✔ [3129/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P12 (28s)
+✔ [3130/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P12:c.o (49ms)
+✔ [3131/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P12:dynlib (45ms)
+✔ [3132/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P12 (29s)
+✔ [3133/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P12:c.o (49ms)
+✔ [3134/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P12:dynlib (44ms)
+✔ [3135/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P23 (30s)
+✔ [3136/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P23:c.o (48ms)
+✔ [3137/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P23:dynlib (43ms)
+✔ [3138/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P23 (31s)
+✔ [3139/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P23:c.o (49ms)
+✔ [3140/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P23:dynlib (45ms)
+✔ [3141/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P23 (31s)
+✔ [3142/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P23:c.o (50ms)
+✔ [3143/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P23:dynlib (43ms)
+✔ [3144/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P23 (32s)
+✔ [3145/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P23:c.o (48ms)
+✔ [3146/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P23:dynlib (47ms)
+✔ [3147/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P12 (37s)
+✔ [3148/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P12:c.o (41ms)
+✔ [3149/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P12:dynlib (35ms)
+✔ [3150/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P12 (39s)
+✔ [3151/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P12:c.o (43ms)
+✔ [3152/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P12:dynlib (35ms)
+✔ [3153/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P23 (52s)
+✔ [3154/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P23:c.o (48ms)
+✔ [3155/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P23:dynlib (43ms)
+✔ [3156/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P13 (53s)
+✔ [3157/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P13:c.o (49ms)
+✔ [3158/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P13:dynlib (43ms)
+✔ [3159/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P23 (55s)
+✔ [3160/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P23:c.o (48ms)
+✔ [3161/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P23:dynlib (41ms)
+✔ [3162/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P13 (55s)
+✔ [3163/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P13:c.o (49ms)
+✔ [3164/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P13:dynlib (43ms)
+✔ [3165/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P12 (58s)
+✔ [3166/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P12:c.o (49ms)
+✔ [3167/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P12:dynlib (43ms)
+✔ [3168/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P23 (59s)
+✔ [3169/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P23:c.o (48ms)
+✔ [3170/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P23:dynlib (43ms)
+✔ [3171/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P12 (60s)
+✔ [3172/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P12:c.o (43ms)
+✔ [3173/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P12:dynlib (37ms)
+✔ [3174/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P23 (61s)
+✔ [3175/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P23:c.o (49ms)
+✔ [3176/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P23:dynlib (43ms)
+✔ [3177/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P13 (68s)
+✔ [3178/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P13:c.o (49ms)
+✔ [3179/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P13:dynlib (45ms)
+✔ [3180/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P13 (68s)
+✔ [3181/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P13:c.o (50ms)
+✔ [3182/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P13:dynlib (44ms)
+✔ [3183/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P12 (68s)
+✔ [3184/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P12:c.o (49ms)
+✔ [3185/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P12:dynlib (45ms)
+✔ [3186/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P13 (69s)
+✔ [3187/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P13:c.o (46ms)
+✔ [3188/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P13:dynlib (43ms)
+✔ [3189/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P13 (72s)
+✔ [3190/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P13:c.o (42ms)
+✔ [3191/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P13:dynlib (37ms)
+✔ [3192/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P12 (73s)
+✔ [3193/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P12:c.o (46ms)
+✔ [3194/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P12:dynlib (39ms)
+✔ [3195/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P24 (73s)
+✔ [3196/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P24:c.o (44ms)
+✔ [3197/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P24:dynlib (37ms)
+✔ [3198/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P13 (74s)
+✔ [3199/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P13:c.o (48ms)
+✔ [3200/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P13:dynlib (42ms)
+✔ [3201/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P13 (74s)
+✔ [3202/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P13:c.o (49ms)
+✔ [3203/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P13:dynlib (41ms)
+✔ [3204/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P24 (77s)
+✔ [3205/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P24:c.o (49ms)
+✔ [3206/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P24:dynlib (46ms)
+✔ [3207/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P34 (78s)
+✔ [3208/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P34:c.o (50ms)
+✔ [3209/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P34:dynlib (45ms)
+✔ [3210/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P34 (78s)
+✔ [3211/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P34:c.o (49ms)
+✔ [3212/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P34:dynlib (44ms)
+✔ [3213/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P14 (79s)
+✔ [3214/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P14:c.o (47ms)
+✔ [3215/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P14:dynlib (43ms)
+✔ [3216/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P34 (79s)
+✔ [3217/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P34:c.o (51ms)
+✔ [3218/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P34:dynlib (42ms)
+✔ [3219/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P14 (80s)
+✔ [3220/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P14:c.o (43ms)
+✔ [3221/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_P14:dynlib (36ms)
+✔ [3222/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P14 (82s)
+✔ [3223/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P14:c.o (49ms)
+✔ [3224/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P14:dynlib (43ms)
+✔ [3225/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P34 (82s)
+✔ [3226/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P34:c.o (42ms)
+✔ [3227/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P24 (82s)
+✔ [3228/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P34:dynlib (35ms)
+✔ [3229/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P24:c.o (45ms)
+✔ [3230/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P24:dynlib (40ms)
+✔ [3231/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P24 (83s)
+✔ [3232/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P24:c.o (43ms)
+✔ [3233/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P24:dynlib (37ms)
+✔ [3234/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P14 (83s)
+✔ [3235/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P24 (83s)
+✔ [3236/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P24:c.o (49ms)
+✔ [3237/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P24:dynlib (41ms)
+✔ [3238/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P14:c.o (50ms)
+✔ [3239/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_P14:dynlib (40ms)
+✔ [3240/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P14 (83s)
+✔ [3241/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P14:c.o (48ms)
+✔ [3242/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P14:dynlib (44ms)
+✔ [3243/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P14 (83s)
+✔ [3244/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P14:c.o (43ms)
+✔ [3245/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_P14:dynlib (37ms)
+✔ [3246/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P24 (84s)
+✔ [3247/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P24:c.o (42ms)
+✔ [3248/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P24:dynlib (36ms)
+✔ [3249/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P24 (85s)
+✔ [3250/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P24:c.o (42ms)
+✔ [3251/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P24:dynlib (34ms)
+✔ [3252/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P34 (86s)
+✔ [3253/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P34:c.o (42ms)
+✔ [3254/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_P34:dynlib (36ms)
+✔ [3255/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P14 (86s)
+✔ [3256/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P14:c.o (40ms)
+✔ [3257/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P34 (86s)
+✔ [3258/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P14:dynlib (35ms)
+✔ [3259/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P34:c.o (41ms)
+✔ [3260/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P24 (86s)
+✔ [3261/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P24:c.o (49ms)
+✔ [3262/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P24:dynlib (38ms)
+✔ [3263/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_P34:dynlib (35ms)
+✔ [3264/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P34 (86s)
+✔ [3265/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P34 (87s)
+✔ [3266/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P34:c.o (42ms)
+✔ [3267/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_P34:dynlib (35ms)
+✔ [3268/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P34:c.o (43ms)
+✔ [3269/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_P34:dynlib (35ms)
+✔ [3270/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P14 (88s)
+✔ [3271/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P14:c.o (47ms)
+✔ [3272/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_P14:dynlib (43ms)
+✔ [3273/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_C (111s)
+✔ [3274/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_C:c.o (48ms)
+✔ [3275/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.T_C:dynlib (44ms)
+✔ [3276/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_C (114s)
+✔ [3277/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_C:c.o (48ms)
+✔ [3278/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.T_C:dynlib (41ms)
+✔ [3279/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_C (116s)
+✔ [3280/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_C:c.o (47ms)
+✔ [3281/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.S_C:dynlib (42ms)
+✔ [3282/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_C (117s)
+✔ [3283/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_C:c.o (43ms)
+✔ [3284/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789.S_C:dynlib (35ms)
+✔ [3285/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P1073741789 (171ms)
+✔ [3286/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_C (118s)
+✔ [3287/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_C:c.o (41ms)
+✔ [3288/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003.S_C:dynlib (37ms)
+✔ [3289/3302] Built Lean6.Special.Comp.K4.C4.Run.M0P32003 (169ms)
+✔ [3290/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_C (119s)
+✔ [3291/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_C:c.o (40ms)
+✔ [3292/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003.T_C:dynlib (35ms)
+✔ [3293/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P32003 (168ms)
+✔ [3294/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_C (121s)
+✔ [3295/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_C:c.o (47ms)
+✔ [3296/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.S_C:dynlib (41ms)
+✔ [3297/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_C (125s)
+✔ [3298/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_C:c.o (47ms)
+✔ [3299/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789.T_C:dynlib (42ms)
+✔ [3300/3302] Built Lean6.Special.Comp.K4.C4.Run.M1P1073741789 (199ms)
+⚠ [3301/3302] Built Lean6.Special.K4.C4.Final (3.9s)
+✔ [3302/3302] Built Lean6.Special.K4.C4 (1.4s)
+Build completed successfully (3302 jobs).
+wall 134.27 s, user 4234.55 s, sys 10.97 s, max RSS 3486576 KB (largest single process)
+== axioms
+'Lean6.Special.K4.C4.lemma_7_9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.C4.trialPrime_1073741789._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.trialPrime_32003._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P34.ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.C4.sec_7_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.C4.trialPrime_1073741789._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.trialPrime_32003._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P34.ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.C4.unitTest_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.chart_no_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.chart_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.eval_eqs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.prime_of_trialPrime' depends on axioms: [propext, Classical.choice, Quot.sound]
+== scan for sorry/admit in the C4 sources
+none
+== done 2026-10-17T06:45:38Z

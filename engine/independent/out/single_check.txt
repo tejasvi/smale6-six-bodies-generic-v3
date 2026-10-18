@@ -1,0 +1,1 @@
+{"pool": 52432, "sample": 1500, "unique_min_at_stored_point": 1500, "recertified_single": 1500, "bad": []}

@@ -1,0 +1,14 @@
+nice 10; 4 cores, 1855 certificates exist, 3 to do; jobs 4, timeout 3600, order dp, varorder canon, method elim
+watchdog: killed 12713 (10799 MB) in 5a4228c851228eb8_lgtzshq7
+watchdog: killed 13201 (10131 MB) in f319bd17c47cb72d_lalnlpjn
+watchdog: killed 13218 (9988 MB) in 1c7fd2dff66942f8_4zyrgbzk
+watchdog: killed 13242 (9675 MB) in 311de1ceb9499b5e_2e31zwxb
+watchdog: killed 13209 (9864 MB) in 13aaedb3d5763636_3_rj88lz
+watchdog: killed 12940 (10692 MB) in 919069b72a23260d_zhdxt_8f
+watchdog: killed 13215 (10947 MB) in 5b002379685d4787_e83ft33o
+watchdog: killed 13281 (9905 MB) in bbfdf82e3e6adfc3_3r_t_n9y
+watchdog: killed 13290 (9921 MB) in 6076fa31bd11b1df_kflyg1vi
+watchdog: killed 13189 (9666 MB) in 919069b72a23260d__aqdj9yp
+watchdog: killed 13280 (9425 MB) in e0e6f901b35ebcb2_a_n5ysy2
+3 919069b72a23260d memkill 710.64
+done

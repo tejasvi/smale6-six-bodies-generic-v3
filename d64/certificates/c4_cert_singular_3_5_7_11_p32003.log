@@ -1,0 +1,21 @@
+number of equations: 11
+chart s =1, p12 =1: unit ideal
+chart s =1, p13 =1: unit ideal
+chart s =1, p14 =1: unit ideal
+chart s =1, p23 =1: unit ideal
+chart s =1, p24 =1: unit ideal
+chart s =1, p34 =1: unit ideal
+chart s =1, c =1: unit ideal
+chart t =1, p12 =1: unit ideal
+chart t =1, p13 =1: unit ideal
+chart t =1, p14 =1: unit ideal
+chart t =1, p23 =1: unit ideal
+chart t =1, p24 =1: unit ideal
+chart t =1, p34 =1: unit ideal
+chart t =1, c =1: unit ideal
+characteristic: 32003  failures: 0
+VERDICT: PASS
+
+real	0m40.481s
+user	0m40.458s
+sys	0m0.021s

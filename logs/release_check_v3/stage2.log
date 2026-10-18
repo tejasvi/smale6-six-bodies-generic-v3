@@ -1,0 +1,39 @@
+== stage libs 2026-10-18T06:26:54Z
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9162/9163] Built L6SoundK (24s)
+Build completed successfully (9163 jobs).
+== stage libs done 2026-10-18T06:30:45Z
+== stage f1 2026-10-18T06:30:45Z
+failures 0
+failures 0
+failures 0
+failures 0
+'L6CheckK.F1.F1_main_k' depends on axioms: [propext, Classical.choice, Quot.sound]
+== stage f1 done 2026-10-18T06:52:16Z
+== stage f4gen 2026-10-18T06:52:16Z
+hashes ok: data/f4k/SHA256SUMS (4687 files)
+== stage f4gen done 2026-10-18T06:54:23Z
+== stage f4 2026-10-18T06:54:23Z
+hashes ok: data/f4k/SHA256SUMS (4687 files)
+failures 0
+failures 0
+failures 0
+failures 0
+F4: certificates 1928, standard axioms only 1928
+== stage f4 done 2026-10-18T07:19:32Z
+== stage f34kexport 2026-10-18T07:19:32Z
+== stage f34kexport done 2026-10-18T07:31:00Z
+== stage f34kgen 2026-10-18T07:31:00Z
+hashes ok: data/f34k/SHA256SUMS (31880 files)
+hashes ok: data/f34k/EXPORT.sha256 (184 classes)
+== stage f34kgen done 2026-10-18T07:31:43Z
+== stage f34k 2026-10-18T07:31:43Z
+hashes ok: data/f34k/SHA256SUMS (31880 files)
+hashes ok: data/f34k/EXPORT.sha256 (184 classes)
+Terminated
+== stage f34k FAILED
+
+real	256m30.957s
+user	23476m39.579s
+sys	572m40.928s
+EXIT=1

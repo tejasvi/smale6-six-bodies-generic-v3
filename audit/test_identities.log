@@ -1,0 +1,4 @@
+n=4: 3 solutions
+  largest residual by identity type: {'S': '3.7e-14', 'T': '1.9e-15', 'V': '3.6e-15', 'D': '2.2e-14', 'UI': '3.0e-15', 'I': '2.6e-14', 'com': '2.5e-15'}
+n=5: 3 solutions
+  largest residual by identity type: {'S': '5.2e-14', 'T': '1.1e-14', 'V': '4.8e-14', 'D': '6.1e-14', 'UI': '5.3e-14', 'I': '4.0e-13', 'com': '2.9e-14'}

@@ -1,0 +1,18 @@
+EQ2 elimination ideal: 1 generator(s)
+ma^2*MA^4-mb^2*MB^4
+[1]:
+   _[1]=1
+   _[2]=ma*MA^2-mb*MB^2
+   _[3]=ma*MA^2+mb*MB^2
+[2]:
+   1,1,1
+H in E: 1
+MA=ma, MB=mb: 
+[1]:
+   _[1]=1
+   _[2]=ma-mb
+   _[3]=ma+mb
+   _[4]=ma^2-ma*mb+mb^2
+   _[5]=ma^2+ma*mb+mb^2
+[2]:
+   1,1,1,1,1

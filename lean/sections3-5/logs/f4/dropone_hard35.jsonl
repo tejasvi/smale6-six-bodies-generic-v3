@@ -1,0 +1,35 @@
+{"certid": "6076fa31bd11b1df", "fixed": 1, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 2, 2, 4], "irredundant": true}
+{"certid": "7d73c225527a05c5", "fixed": 1, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 3, 3, 5], "irredundant": true}
+{"certid": "304bfbe73dccade5", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 4, 2, 2], "irredundant": true}
+{"certid": "4a818de2c5ea4f29", "fixed": 2, "ngens": 7, "full_dim": -1, "drop_dims": [4, 4, 5, 4, 4, 4, 4], "irredundant": true}
+{"certid": "5021f4b8aa02c581", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 2, 2, 4], "irredundant": true}
+{"certid": "5b64d70cf7765943", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 5, 2, 2, 2, 3, 3], "irredundant": true}
+{"certid": "e1dcf7d3509e5f00", "fixed": -1, "ngens": 10, "full_dim": -1, "drop_dims": [6, 7, 6, 6, 6, 6, 6, 6, 6, 6], "irredundant": true}
+{"certid": "a96600ac093191b7", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 3, 2, 2, 3, 5], "irredundant": true}
+{"certid": "0b6e5f6afe4cc9bb", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 2, 2, 4], "irredundant": true}
+{"certid": "b7af1da5c9e8d214", "fixed": 3, "ngens": 6, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 5], "irredundant": true}
+{"certid": "27f49c33642245f5", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 3, 3, 5], "irredundant": true}
+{"certid": "cf8ae9951ff9f143", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "e0e6f901b35ebcb2", "fixed": 1, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 2, 2, 2], "irredundant": true}
+{"certid": "12c2ebdf7446ded3", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [4, 4, 4, 4, 4, 4, 6], "irredundant": true}
+{"certid": "86c713a305d6aa4d", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "b075a2e324a12cc1", "fixed": 0, "ngens": 8, "full_dim": -1, "drop_dims": [5, 8, 5, 5, 6, 5, 5, 6], "irredundant": true}
+{"certid": "6f90dce812c6e87c", "fixed": 3, "ngens": 7, "full_dim": -1, "drop_dims": [2, 2, 2, 2, 2, 4, 2], "irredundant": true}
+{"certid": "311de1ceb9499b5e", "fixed": 0, "ngens": 8, "full_dim": -1, "drop_dims": [1, 1, 1, 1, 1, 1, 1, 1], "irredundant": true}
+{"certid": "5b002379685d4787", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 4, 3, 3, 3, 3, 3, 3, 4], "irredundant": true}
+{"certid": "919069b72a23260d", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 4, 3, 3], "irredundant": true}
+{"certid": "0c669317b45c3f18", "fixed": 1, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 4, 3], "irredundant": true}
+{"certid": "8b120e49ff1a484f", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "e5235da7d0793e20", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [4, 4, 4, 4, 4, 4, 4, 4, 4], "irredundant": true}
+{"certid": "f319bd17c47cb72d", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "1c7fd2dff66942f8", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "13aaedb3d5763636", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "76b37bbf10824e2d", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 3], "irredundant": true}
+{"certid": "554cf28bbe3c176c", "fixed": 2, "ngens": 10, "full_dim": -1, "drop_dims": [6, 6, 6, 6, 6, 6, 6, 6, 6, 6], "irredundant": true}
+{"certid": "78cd8b78de08cf7d", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4], "irredundant": true}
+{"certid": "3fb29ae96b879aab", "fixed": 0, "ngens": 8, "full_dim": -1, "drop_dims": [1, 2, 1, 1, 1, 1, 1, 1], "irredundant": true}
+{"certid": "e425e26ac373ea0b", "fixed": 0, "ngens": 9, "full_dim": -1, "drop_dims": [5, 5, 5, 5, 5, 5, 6, 6, 8], "irredundant": true}
+{"certid": "7a1020554264b34a", "fixed": 0, "ngens": 10, "full_dim": -1, "drop_dims": [3, 3, 3, 3, 3, 3, 3, 3, 4, 3], "irredundant": true}
+{"certid": "b2d7aa02be49da10", "fixed": 0, "ngens": 13, "full_dim": -1, "drop_dims": [6, 6, 6, 7, 6, 6, 7, 7, 8, 8, 8, 8, 8], "irredundant": true}
+{"certid": "f5a95ac7805ac251", "fixed": 1, "ngens": 12, "full_dim": null, "drop_dims": [null, null, null, null, null, null, null, null, null, null, null, null], "irredundant": false}
+{"certid": "e8b905ff357bcdad", "fixed": 0, "ngens": 14, "full_dim": null, "drop_dims": [null, null, null, null, null, null, null, null, null, null, null, null, null, null], "irredundant": false}

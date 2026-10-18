@@ -1,0 +1,3 @@
+solutions 4788; T-test over bodies 1, 2, 3 fails at 1092; passes at 3696; smallest |relative margin| 9.120e-06
+six smallest torque margins and |Y4|: 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04; 1.474e-06 at 4.964e+04
+36 margins below 1e-4, all with |Y4| >= 5.638e+03; median |Y4| over all solutions 0.891

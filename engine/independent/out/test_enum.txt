@@ -1,0 +1,9 @@
+trees: generated 55720, distinct 55720, with a body at O 16512, expected 55720 = 39208 + 6*2752
+class 63: 4 stored tree pairs examined, cumulative instances 16
+class 124: 4 stored tree pairs examined, cumulative instances 48
+class 171: 4 stored tree pairs examined, cumulative instances 56
+class 30: 4 stored tree pairs examined, cumulative instances 88
+class 128: 4 stored tree pairs examined, cumulative instances 120
+class 131: 4 stored tree pairs examined, cumulative instances 152
+exact argmins vs brute force: 152 identity instances, mismatches 0
+RESULT PASS

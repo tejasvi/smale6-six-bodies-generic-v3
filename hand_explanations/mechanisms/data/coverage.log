@@ -1,0 +1,57 @@
+5000 10
+10000 20
+15000 29
+20000 38
+25000 46
+30000 55
+35000 63
+40000 71
+45000 80
+50000 89
+55000 97
+60000 105
+65000 112
+70000 120
+75000 128
+80000 149
+85000 159
+90000 172
+{
+ "core|C": 5856,
+ "core|E": 23624,
+ "core|E1": 8141,
+ "core|Q": 2,
+ "core|R1": 175,
+ "core|R6": 220,
+ "core|comp": 72,
+ "core|coreLIN-all": 1,
+ "core|coreLIN-generic": 367,
+ "core|coreP4": 183,
+ "core|d64": 43,
+ "core|d88": 36,
+ "core|d98": 121,
+ "single|C": 3155,
+ "single|E": 26775,
+ "single|E1": 540,
+ "single|P": 3444,
+ "single|T": 18475,
+ "single|comp": 43
+}
+{
+ "core|B": 90,
+ "core|C": 16982,
+ "core|E1": 36125,
+ "core|Q": 1877,
+ "core|R1": 17032,
+ "core|R5": 8969,
+ "core|R6": 16196,
+ "single|B": 94,
+ "single|C": 29307,
+ "single|E1": 50750,
+ "single|P": 13293,
+ "single|Q": 228,
+ "single|R1": 40151,
+ "single|R5": 26603,
+ "single|R6": 38012,
+ "single|T": 40084
+}

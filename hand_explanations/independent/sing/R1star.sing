@@ -1,0 +1,31 @@
+// Referee check of Lemma R1* (RESIDUAL.md 4). y = centre/balance colour: s in the O-child of v (coordinate 0),
+// a below child A (coordinate XA), b below child B (XB): yhat_as = XA, yhat_bs = XB, yhat_ab = XA-XB.
+// x colour: a, b, s in three children of one node: xhat_as = Ya, xhat_bs = Yb, xhat_ab = Ya-Yb.
+LIB "elim.lib";
+ring R = 0, (Pab,Pbs,Pas,XA,XB,Ya,Yb, ma,mb,ms,MA,MB), dp;
+ideal D = Pab^2*(XA-XB)*(Ya-Yb)-1, Pbs^2*XB*Yb-1, Pas^2*XA*Ya-1;
+poly ybal_a = mb*Pab^3*(XA-XB) + ms*Pas^3*XA;
+poly ybal_b = -ma*Pab^3*(XA-XB) + ms*Pbs^3*XB;
+poly cen = MA*XA + MB*XB;
+ideal I = D, ybal_a, ybal_b, cen;
+ideal S = sat(I, ideal(Pab*Pbs*Pas*XA*XB*(XA-XB)*Ya*Yb*(Ya-Yb)*ma*mb*ms*MA*MB));
+ideal E = eliminate(S, Pab*Pbs*Pas*XA*XB*Ya*Yb);
+print("R1*: elimination ideal generators: " + string(size(E)) + ", degree of E[1]: " + string(deg(E[1])));
+// hand polynomial: N = Res_k(MA*mb*k^3 - MB*ma, ms^2*(MA+MB)*(ma+mb*k)^3 - ma^3*mb^2*MB) / (ma^3*mb^3)
+ring R2 = 0, (k, ma,mb,ms,MA,MB), dp;
+poly r = resultant(MA*mb*k^3 - MB*ma, ms^2*(MA+MB)*(ma+mb*k)^3 - ma^3*mb^2*MB, k);
+print("resultant factors:"); print(factorize(r));
+string sr = string(r);
+setring R;
+execute("poly Nr = " + sr + ";");
+print("E[1] divides resultant: " + string(reduce(Nr, std(ideal(E[1]))) == 0));
+print("resultant in E: " + string(reduce(Nr, std(E)) == 0));
+// is E principal = (N)?  compare E[1] with resultant/(ma^3 mb^3)
+poly Nq = Nr / (ma^3*mb^3);
+print("resultant divisible by ma^3 mb^3: " + string(Nq*(ma^3*mb^3) == Nr));
+print("E == <N>: " + string(size(reduce(E, std(ideal(Nq)))) == 0 && reduce(Nq, std(E)) == 0));
+print("factorize N:"); print(factorize(Nq)[2]);
+// specialisations
+poly N1 = subst(subst(Nq, MA, ma), MB, mb);
+print("MA=ma, MB=mb:"); print(factorize(N1));
+quit;

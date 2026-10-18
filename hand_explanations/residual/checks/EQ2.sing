@@ -1,0 +1,19 @@
+// Lemma EQ2: colour z: s in O's child at the root, a, b with coordinates Xa, Xb, centre MA*Xa + MB*Xb = 0, s balanced;
+// colour w: s at O's coordinate at the w-node of T, a, b coordinates Ya, Yb; z- and w-equations of a with position.
+LIB "elim.lib";
+ring R = 0, (Psa,Psb,Pab,Xa,Xb,Ya,Yb, ma,mb,ms,MA,MB), dp;
+ideal I =
+  Psa^2*Xa*Ya-1, Psb^2*Xb*Yb-1, Pab^2*(Xa-Xb)*(Ya-Yb)-1,
+  MA*Xa + MB*Xb,
+  ma*Psa^3*(0-Xa) + mb*Psb^3*(0-Xb),
+  Xa - ms*Psa^3*Xa - mb*Pab^3*(Xa-Xb),
+  Ya - ms*Psa^3*Ya - mb*Pab^3*(Ya-Yb);
+I = sat(I, ideal(Xa*Xb*(Xa-Xb)*Ya*Yb*(Ya-Yb)));
+ideal E = eliminate(I, Psa*Psb*Pab*Xa*Xb*Ya*Yb);
+print("EQ2 elimination ideal: " + string(size(E)) + " generator(s)");
+print(E);
+int i; for (i = 1; i <= size(E); i++) { print(factorize(E[i])); }
+poly H = ma^2*MA^4 - mb^2*MB^4;
+print("H in E: " + string(reduce(H, std(E)) == 0));
+print("MA=ma, MB=mb: "); print(factorize(subst(subst(E[1], MA, ma), MB, mb)));
+quit;

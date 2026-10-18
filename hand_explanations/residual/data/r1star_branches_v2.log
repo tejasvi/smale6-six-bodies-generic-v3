@@ -1,0 +1,20 @@
+10000 3
+20000 5
+30000 8
+40000 10
+50000 13
+60000 15
+70000 18
+80000 20
+90000 22
+{
+ "R1* by alpha or beta": 79318,
+ "R1* only by the S branch": 0,
+ "R1* without subset sum": 79318,
+ "branches S,alpha": 4012,
+ "branches alpha": 73591,
+ "branches alpha,beta": 324,
+ "branches beta": 1391,
+ "branches none": 11955,
+ "cells": 91273
+}

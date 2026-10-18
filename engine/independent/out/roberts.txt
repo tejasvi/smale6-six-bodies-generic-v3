@@ -1,0 +1,5 @@
+cell 884: 176 equations (103 secondary), single-term exclusion: None, certifier counts {'lp': 1124, 'kept': 2, 'pruned': 1122, 'st_opt': 500, 'st_inf': 622, 'rat_dual': 500, 'rat_ray': 622}
+(a) Roberts masses (1/2,1/2,1/2,1/2,-1/8), char 0: dim 3
+(c) random rational masses ['17/39', '36/10', '25/40', '32/42', '39/6'], char 0: dim -1
+(c) random rational masses ['40/2', '32/18', '37/16', '14/47', '32/36'], char 0: dim -1
+(b) over Q(m1..m4), m0 = 1: dim -1

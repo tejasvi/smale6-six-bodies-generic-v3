@@ -1,0 +1,64 @@
+nice 10; 1935 cores, 1859 certificates exist, 76 to do; jobs 100, timeout 1800, order dp, varorder canon, method elim
+12 79c77f69c52211cc ok_not_kept 7.02
+15 f58b73d9b29a439a ok_not_kept 68.53
+16 a7f4c52874d139a0 ok_not_kept 73.52
+18 d2101510a56ccb71 ok_not_kept 206.05
+19 7a1020554264b34a memkill 319.58
+20 ea2ae820392e76c6 ok_not_kept 342.07
+22 f319bd17c47cb72d memkill 354.58
+23 1c7fd2dff66942f8 memkill 369.58
+25 554cf28bbe3c176c memkill 389.58
+26 13aaedb3d5763636 memkill 419.58
+27 8b120e49ff1a484f memkill 419.59
+28 0c669317b45c3f18 memkill 454.59
+watchdog: killed 13212 (10826 MB) in 5a4228c851228eb8_la2zzimg
+29 76b37bbf10824e2d memkill 485.12
+watchdog: killed 13174 (10195 MB) in b075a2e324a12cc1_yva0e799
+30 89c37d5d7be81231 memkill 520.1
+31 b075a2e324a12cc1 memkill 520.1
+watchdog: killed 13186 (12255 MB) in 3394c79dff5a914d_swfag9o4
+33 bbfdf82e3e6adfc3 memkill 609.62
+34 919069b72a23260d memkill 649.64
+35 e0e6f901b35ebcb2 memkill 689.62
+36 e810814dbbbd618f memkill 749.65
+37 27f49c33642245f5 memkill 781.64
+38 fc934afe0c2723c4 memkill 840.17
+watchdog: killed 13276 (10878 MB) in 5021f4b8aa02c581_yvkgz3e9
+39 e2b67e10f3e457b4 memkill 884.69
+40 e1dcf7d3509e5f00 memkill 904.68
+41 e5235da7d0793e20 memkill 949.73
+43 7d73c225527a05c5 memkill 1499.78
+44 19766c038a4f930e memkill 1549.84
+45 42955a12632fff8e memkill 1619.85
+46 54e9bfbed9063e83 memkill 1659.81
+47 a96600ac093191b7 memkill 1739.86
+48 26ab6a31ef0dc88a memkill 1779.82
+49 3fb29ae96b879aab timeout 1800.34
+50 e2448096808df218 timeout 1800.35
+51 98f8948c205c615f timeout 1800.36
+52 e425e26ac373ea0b timeout 1800.36
+53 78cd8b78de08cf7d timeout 1800.36
+54 1459bbf4f7537687 timeout 1800.37
+55 6854bcb779f23df6 timeout 1800.38
+56 5b002379685d4787 timeout 1800.41
+57 a3f35edf8c8e8930 timeout 1800.41
+58 86c713a305d6aa4d timeout 1800.44
+59 12c2ebdf7446ded3 timeout 1800.44
+60 3394c79dff5a914d timeout 1800.46
+61 f5a95ac7805ac251 timeout 1800.47
+62 4a818de2c5ea4f29 timeout 1800.5
+63 cf8ae9951ff9f143 timeout 1800.5
+64 e8b905ff357bcdad timeout 1800.53
+65 5a4228c851228eb8 timeout 1800.53
+66 5021f4b8aa02c581 timeout 1800.54
+67 0b6e5f6afe4cc9bb timeout 1800.6
+68 bf1045e3e0922710 timeout 1800.66
+69 b2d7aa02be49da10 timeout 1800.67
+70 242c0a990a09d8e6 timeout 1800.73
+71 311de1ceb9499b5e timeout 1800.73
+72 304bfbe73dccade5 timeout 1800.74
+73 b7af1da5c9e8d214 timeout 1800.86
+74 6f90dce812c6e87c timeout 1800.86
+75 5b64d70cf7765943 timeout 1800.88
+76 6076fa31bd11b1df timeout 1800.91
+done

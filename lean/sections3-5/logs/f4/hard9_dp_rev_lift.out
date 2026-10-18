@@ -1,0 +1,13 @@
+nice 10; 9 cores, 1838 certificates exist, 9 to do; jobs 9, timeout 3600, order dp, varorder rev, method lift
+watchdog: killed 8419 (25520 MB) in b2d7aa02be49da10_ccd9s5t2
+watchdog: killed 13167 (10259 MB) in fc934afe0c2723c4_6wbuuqu4
+watchdog: killed 26913 (25177 MB) in bb7f240c6492da56_h525o_29
+4 554cf28bbe3c176c memkill 2464.68
+watchdog: killed 27159 (8983 MB) in 62a20631e35f44da_usy3ws7l
+watchdog: killed 26919 (10422 MB) in 2735c572e612354e_27k9jq57
+5 0b6e5f6afe4cc9bb timeout 3600.2
+6 3fb29ae96b879aab timeout 3600.23
+7 0c669317b45c3f18 timeout 3600.24
+8 311de1ceb9499b5e timeout 3600.25
+9 919069b72a23260d timeout 3600.28
+done

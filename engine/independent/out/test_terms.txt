@@ -1,0 +1,4 @@
+value test: 3 complex solutions at masses [0.821, 1.748, 2.004, 0.572, 0.87, 2.821]
+  largest |sum of all terms| by identity type: {'D': '4.0e-14', 'Ip': '4.8e-15', 'S2': '5.8e-14', 'T': '4.4e-15', 'UI': '4.8e-15', 'V': '4.7e-15', 'tinit_Dkl': '9.7e-16', 'tinit_I': '3.8e-14', 'tinit_Ip': '4.8e-15', 'tinit_S1': '3.8e-14', 'tinit_Sw': '1.3e-15', 'tinit_Sz': '5.8e-14', 'tinit_U': '2.8e-15'}
+exponent test: 784228 terms on 300 random tree pairs, mismatches 0
+RESULT PASS

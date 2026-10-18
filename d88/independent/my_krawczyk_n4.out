@@ -1,0 +1,5 @@
+{"kind": "n4", "n": 20316, "krawczyk_ok": 20316, "omitted_eq_contains_0": 20316, "T_pass": 20316, "min_T_rel_margin": 0.1756232074599996, "T_body_counts": {"0": 0, "1": 0, "2": 0, "3": 20316}, "near_pairs_float_lt_1e-6": 0, "not_separated": 0, "min_supdist_pairs_with_first_coord_within_1e-9": 1.0185814186137565, "max_box_radius_used": 8.279533634290932e-47}
+
+real	0m1.415s
+user	0m1.077s
+sys	0m0.222s

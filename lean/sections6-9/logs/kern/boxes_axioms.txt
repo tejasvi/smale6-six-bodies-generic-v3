@@ -1,0 +1,3 @@
+'Lean6.Special.D88.BoxesK.lemma_6_19_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.lemma_6_19_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.BoxesK.sec_6_7_counts' depends on axioms: [propext, Classical.choice, Quot.sound]

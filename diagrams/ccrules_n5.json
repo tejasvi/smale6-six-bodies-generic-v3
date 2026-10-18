@@ -1,0 +1,108 @@
+[
+ {
+  "class": 0,
+  "fails": [
+   "T3.3d*w",
+   "T3.3d*z"
+  ]
+ },
+ {
+  "class": 1,
+  "fails": []
+ },
+ {
+  "class": 2,
+  "fails": []
+ },
+ {
+  "class": 3,
+  "fails": []
+ },
+ {
+  "class": 4,
+  "fails": []
+ },
+ {
+  "class": 5,
+  "fails": []
+ },
+ {
+  "class": 6,
+  "fails": [
+   "T3.3cz"
+  ]
+ },
+ {
+  "class": 7,
+  "fails": []
+ },
+ {
+  "class": 8,
+  "fails": []
+ },
+ {
+  "class": 9,
+  "fails": [
+   "T3.3d*w"
+  ]
+ },
+ {
+  "class": 10,
+  "fails": []
+ },
+ {
+  "class": 11,
+  "fails": []
+ },
+ {
+  "class": 12,
+  "fails": []
+ },
+ {
+  "class": 13,
+  "fails": []
+ },
+ {
+  "class": 14,
+  "fails": []
+ },
+ {
+  "class": 15,
+  "fails": [
+   "T3.3cz",
+   "T3.8z"
+  ]
+ },
+ {
+  "class": 16,
+  "fails": []
+ },
+ {
+  "class": 17,
+  "fails": []
+ },
+ {
+  "class": 18,
+  "fails": []
+ },
+ {
+  "class": 19,
+  "fails": []
+ },
+ {
+  "class": 20,
+  "fails": []
+ },
+ {
+  "class": 21,
+  "fails": []
+ },
+ {
+  "class": 22,
+  "fails": []
+ },
+ {
+  "class": 23,
+  "fails": []
+ }
+]

@@ -1,0 +1,73 @@
+'Lean6.Special.D98.lq_00' depends on axioms: [propext]
+'Lean6.Special.D98.lq_12' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_21' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_01_02' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_10_20' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_11_22' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lagrange_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Q_eq_F' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Spol_natDegree_leadingCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.S_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.toPoly_SUP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.lemma69_check_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lemma69_check_1_2_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_1_2_8._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lemma69_check_2_3_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_2_3_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_2_3_11._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lagrange_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.collinear_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Q_heavy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.heavy_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.rho_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.heavy_signed_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.no_common_root_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.bez93._native.native_decide.ax_1_1]
+'Lean6.Special.D98.P93_eval_1_2_7_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.bez93._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.deg_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.Hand.rewrite_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.binary_masses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.binary_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_dominant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.torque_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.com_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.N4.yeq2_of_S11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.KC.yeq2_of_KC12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.check_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_1_2_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_rho_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.roots_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_1_2_7_min' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.minFac_eq._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.upper_1_2_7._native.native_decide.ax_1_1]

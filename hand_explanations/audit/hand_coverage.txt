@@ -1,0 +1,45 @@
+cells: referee 91273, notes 91273, same keys: True
+tiers (referee): {'A1': 70233, 'A2': 172, 'A3': 1, 'D': 43, 'G1': 20683, 'G2': 4, 'G3': 137}
+tiers (notes):   {'A1': 70233, 'A2': 172, 'A3': 1, 'D': 43, 'G1': 20683, 'G2': 4, 'G3': 137}
+tier equal cell by cell: 91273 of 91273
+every-mass lemma sets equal cell by cell: 91273 of 91273
+generic lemma sets: differences (referee only, notes only): {(('W3',), ()): 1591}
+cells whose only cell-level lemma is W3: 16, classes {10: 9, 23: 1, 25: 4, 56: 2}; the notes flag W3 there: True
+cells whose only cell-level lemma is EQ2: 58, classes {15: 4, 31: 8, 132: 6, 143: 22, 147: 18}
+
+EVERY POSITIVE MASS
+per lemma: {'T': 40084, 'P': 13293, 'C': 46289, 'B0': 7722, 'K': 532, 'L': 2111, 'B': 184}
+cell-level (T,P,C,B,B0,K,L): 70233; without B: 70233
+cumulative T,P,C,B0,K,L: [('T', 40084), ('P', 45439), ('C', 68312), ('B0', 68566), ('K', 68642), ('L', 70233)]
+A2 (templates P4/LIN, certified secondary identities): 172 {'coreP4': 171, 'coreLIN-all': 1}
+A3 (Lemma 5.1 with a certified torque): [(15, 0)]
+every positive mass total: 70406
+single-term cells (Lemma 5.1, every positive mass): 52432; not in (a): 771 {'G1': 771}; diagram 89 cells: 49, not in (a) or single: 49
+diagram 82 cells (Proposition 6.7): 42, not in (a), single or diagram 89: 9 [(15, 6), (15, 7), (15, 12), (15, 13), (15, 24), (15, 25), (15, 30), (15, 36), (15, 37)]; diagram 90 cells (Proposition 6.4): 196, not in (a) or single: 0
+every positive mass with Lemma 5.1 on all single-term cells, Theorem 6.5, Propositions 6.4 and 6.7: 71235
+
+GENERIC MASSES
+cell-level hand lemmas (any): 90919; of them outside tiers A1, G1: [((15, 0), 'A3', ['EQ2']), ((15, 1), 'A2', ['EQ2']), ((15, 31), 'A2', ['EQ2'])]
+only lemmas with certified secondary identities: 311 {'TQ': 1, 'coreP4': 169, 'R1*gamma': 3, 'coreLIN-generic': 137, 'coreLIN-all': 1}
+only Sections 6-7: 43 {('class 31', 'CC89'): 1, ('class 124', 'CC64'): 10, ('class 127', 'CC88'): 9, ('class 132', 'CC93'): 2, ('class 133', 'CC98'): 1, ('class 143', 'CC66'): 11, ('class 147', 'CC94'): 9}
+  cells: [(31, 22), (124, 0), (124, 17), (124, 30), (124, 46), (124, 83), (124, 105), (124, 109), (124, 110), (124, 111), (124, 121), (127, 0), (127, 1), (127, 2), (127, 3), (127, 4), (127, 5), (127, 6), (127, 7), (127, 8), (132, 51), (132, 53), (133, 17), (143, 3), (143, 13), (143, 14), (143, 23), (143, 29), (143, 35), (143, 47), (143, 53), (143, 59), (143, 65), (143, 71), (147, 5), (147, 11), (147, 17), (147, 23), (147, 29), (147, 35), (147, 41), (147, 47), (147, 53)]
+  of Proposition 5.3's 43 open cells: 42 in this set; open cells with a hand lemma: [((124, 16), ['C'], None)]; cells here that are not open: [(132, 51)]
+total: 90919 + 311 + 43 = 91273
+per lemma (generic): {'E1': 86875, 'R': 79318, 'R6': 54208, 'Q': 2105, 'W3': 2241, 'EQ2': 2654} {'E': 50399, 'R1': 57183, 'R1s': 79318, 'R5': 35572}
+cumulative E1, R, R6, Q, W3, EQ2, then T..L: [('E1', 86875), ('R', 89839), ('R6', 90287), ('Q', 90289), ('W3', 90367), ('EQ2', 90531), ('+ every-mass lemmas', 90919)]
+E cells all have E1: True; R1 cells all have R1*(alpha/beta): True
+E classes: [3, 40, 148, 149, 150, 183] CC ['7', '12', '15', '19', '28', '76'] cells 50399
+LIN cells without a cell-level lemma: 138 (tiers {'G3': 137, 'A2': 1}); some minor nonzero at one of three points in all: True []
+  the every-mass LIN cell(s): [((122, 1), ['m0*m1*m2 + m3*m4*m5'])]
+
+CLIQUES (Corollary 9.18, census of Proposition 9.19)
+clique 86938; E1 86875; both 84155; clique only 2783; E1 only 2720; union 89658
+cells with a clique and no cell-level lemma: 114, by tier {'D': 10, 'G3': 22, 'A2': 80, 'G2': 2}
+  with a three-body clique: 24, by tier {'G3': 22, 'G2': 2}, classes {47: 22, 4: 1, 53: 1}
+  with a four-body clique only: 90, by tier {'D': 10, 'A2': 80}, classes {124: 90}
+  three-body clique cells among the secondary-only cells: 24 [(4, 58), (47, 0), (47, 1), (47, 32), (47, 33), (47, 34), (47, 35), (47, 37), (47, 38), (47, 39), (47, 40), (47, 41), (47, 42), (47, 44), (47, 45), (47, 323), (47, 324), (47, 342), (47, 343), (47, 361), (47, 362), (47, 405), (47, 406), (53, 1)]
+  D cells with a clique: [(124, 0), (124, 17), (124, 30), (124, 46), (124, 83), (124, 105), (124, 109), (124, 110), (124, 111), (124, 121)]
+with Corollary 9.18 (three-body cliques): cell-level 90943; secondary only 287; Sections 6-7 only 43
+  secondary-only cells without a three-body clique, by lemma: {'coreLIN-generic': 115, 'coreP4': 169, 'TQ': 1, 'R1*gamma': 1, 'coreLIN-all': 1}
+  D cells with a three-body clique: []
+cells whose only cell-level lemmas are among W3, EQ2: 74; of them with a three-body clique: []

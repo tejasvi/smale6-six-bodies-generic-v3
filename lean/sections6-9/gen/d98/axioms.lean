@@ -1,0 +1,43 @@
+import Lean6.Special.D98
+import Lean6.Special.Hand
+import Lean6.Special.D98.Check127Final
+open Lean6.Special.D98 Lean6.Special.Hand
+#print axioms lq_00
+#print axioms lq_12
+#print axioms lq_21
+#print axioms lq_01_02
+#print axioms lq_10_20
+#print axioms lq_11_22
+#print axioms lagrange_shape
+#print axioms Q_eq_F
+#print axioms Spol_natDegree_leadingCoeff
+#print axioms S_generic
+#print axioms toPoly_SUP
+#print axioms lemma69_check_1_2_7
+#print axioms lemma69_check_1_2_8
+#print axioms lemma69_check_2_3_11
+#print axioms lagrange_bounds
+#print axioms collinear_tails
+#print axioms Q_heavy
+#print axioms heavy_roots
+#print axioms rho_bound
+#print axioms heavy_signed_sums
+#print axioms no_common_root_1_2_7
+#print axioms P93_eval_1_2_7_ne_zero
+#print axioms rewrite_identity
+#print axioms binary_masses
+#print axioms binary_ne_zero
+#print axioms prop68_ratio
+#print axioms prop68_equal
+#print axioms prop68_branch
+#print axioms ttest_pair
+#print axioms ttest_dominant
+#print axioms ttest_reduction
+#print axioms torque_identity
+#print axioms com_identity
+#print axioms Lean6.Special.Hand.N4.yeq2_of_S11
+#print axioms Lean6.Special.Hand.KC.yeq2_of_KC12
+#print axioms check_1_2_7
+#print axioms check_1_2_8
+#print axioms check_rho_product
+#print axioms check_1_2_7_min

@@ -1,0 +1,23 @@
+noncollinear (729 patterns, exact over Q(w)): pass 729 fail 0 cpu 30.6156
+collinear (64 patterns, exact over Q): pass 64 fail 0
+bidegrees: {{1, 3}, {1, 3}, {1, 3}, {1, 3}, {2, 1}, {2, 1}, {2, 1}, {2, 4}, {2, 4}, {2, 4}, {2, 4}}
+chart s=1, p_(1,2)=1: unit ideal true
+chart s=1, p_(1,3)=1: unit ideal true
+chart s=1, p_(1,4)=1: unit ideal true
+chart s=1, p_(2,3)=1: unit ideal true
+chart s=1, p_(2,4)=1: unit ideal true
+chart s=1, p_(3,4)=1: unit ideal true
+chart s=1, c=1: unit ideal true
+chart t=1, p_(1,2)=1: unit ideal true
+chart t=1, p_(1,3)=1: unit ideal true
+chart t=1, p_(1,4)=1: unit ideal true
+chart t=1, p_(2,3)=1: unit ideal true
+chart t=1, p_(2,4)=1: unit ideal true
+chart t=1, p_(3,4)=1: unit ideal true
+chart t=1, c=1: unit ideal true
+C4 charts mod 1000003: failures 0
+THIRD IMPLEMENTATION: PASS
+
+real	9m22.882s
+user	12m39.185s
+sys	1m5.900s

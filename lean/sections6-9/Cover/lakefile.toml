@@ -1,0 +1,38 @@
+name = "lean6specialcover"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Lean6SpecialCover"]
+
+[leanOptions]
+pp.unicode.fun = true
+relaxedAutoImplicit = false
+
+# The companion project `lean6` (Sections 3-5 and 9), checked out beside this repository: its readers of the stored
+# cells and diagrams (`L6F34`, `L6F5`), its certification of argmin sets (`L6F34`, `L6Common`) and the embedded cell
+# and link files (`L6Check.F5.Data`, `L6Check.F34.Data`). Built against `lean6` commit d593063 (branch upd-exclusion);
+# the modules used are unchanged since lean6's release 6fb8b01.
+[[require]]
+name = "Lean6"
+path = "../../lean6"
+
+# The statements and the `native_decide` runs of Proposition 9.23.
+[[lean_lib]]
+name = "Lean6SpecialCover"
+roots = ["Lean6.Special.Cover"]
+weakLeanArgs = ["-j4"]
+
+# The checkers: modules under `Lean6.Special.Cover.Comp`, compiled to shared libraries so that `native_decide` runs
+# compiled code (as in the parent repository: the last library whose roots contain a module owns it, and the root is
+# not the library name).
+[[lean_lib]]
+name = "Lean6SpecialCoverComp"
+roots = ["Lean6.Special.Cover.Comp"]
+precompileModules = true
+weakLeanArgs = ["-j4"]
+
+# Development only (not part of the checks): per-cell dumps by `#eval`, compared with the Python classifications of the
+# supplement.
+[[lean_lib]]
+name = "Lean6SpecialCoverDev"
+roots = ["Lean6.Special.Cover.Dev"]
+weakLeanArgs = ["-j4"]

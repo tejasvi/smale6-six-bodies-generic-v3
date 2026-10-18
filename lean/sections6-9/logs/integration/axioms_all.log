@@ -1,0 +1,1549 @@
+'Lean6.Special.D98.lq_00' depends on axioms: [propext]
+'Lean6.Special.D98.lq_12' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_21' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_01_02' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_10_20' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lq_11_22' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D98.lagrange_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Q_eq_F' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Spol_natDegree_leadingCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.S_generic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.toPoly_SUP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.lemma69_check_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lemma69_check_1_2_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_1_2_8._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lemma69_check_2_3_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.deg_2_3_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.sqf_2_3_11._native.native_decide.ax_1_1]
+'Lean6.Special.D98.lagrange_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.collinear_tails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.Q_heavy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.heavy_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.rho_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.heavy_signed_sums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.no_common_root_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.bez93._native.native_decide.ax_1_1]
+'Lean6.Special.D98.P93_eval_1_2_7_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.bez93._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.deg_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.Hand.rewrite_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.binary_masses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.binary_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prop68_branch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_pair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_dominant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.ttest_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.torque_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.com_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.N4.yeq2_of_S11' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.KC.yeq2_of_KC12' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D98.check_1_2_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_1_2_8' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_rho_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.roots_1_2_8._native.native_decide.ax_1_1]
+'Lean6.Special.D98.check_1_2_7_min' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D98.minFac_eq._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.roots_1_2_7._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D98.upper_1_2_7._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_G_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_mem_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_G_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_mem_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_units' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_units_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_units' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_units_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_torus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_size' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_count._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_terms._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_size' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_count._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_terms._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_gfan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_gfan_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_gfan' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_gfan_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.cover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.mem_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.units_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.n4_hypsOK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_hypsOK' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.n4_torus_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus_all' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.eval_algH_eq' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.D88.Trop.hypsOK_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Boxes.lemma_6_19_c' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.N4.allData_length._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.allSep_ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D000.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D001.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D002.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D003.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D004.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D005.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D006.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D007.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D008.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D009.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D010.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D011.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D012.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D013.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D014.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D015.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D016.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D017.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D018.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D019.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D020.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D021.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D022.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D023.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D024.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D025.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D026.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D027.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D028.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D029.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D030.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D031.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D032.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D033.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D034.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D035.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D036.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D037.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D038.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D039.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D040.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D041.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D042.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D043.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D044.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D045.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D046.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D047.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D048.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D049.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D050.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D051.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D052.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D053.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D054.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D055.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D056.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D057.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D058.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D059.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D060.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D061.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D062.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D063.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D064.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D065.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D066.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D067.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D068.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D069.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D070.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D071.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D072.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D073.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D074.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D075.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D076.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D077.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D078.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D079.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D080.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D081.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D082.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D083.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D084.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D085.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D086.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D087.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D088.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D089.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D090.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D091.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D092.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D093.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D094.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D095.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D096.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D097.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D098.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D099.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D100.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D101.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D102.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D103.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D104.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D105.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D106.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D107.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D108.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D109.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D110.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D111.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D112.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D113.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D114.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D115.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D116.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D117.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D118.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D119.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D120.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D121.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D122.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D123.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D124.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D125.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D126.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D127.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D128.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D129.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D130.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D131.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D132.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D133.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D134.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D135.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D136.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D137.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D138.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D139.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D140.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D141.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D142.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D143.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D144.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D145.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D146.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D147.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D148.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D149.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D150.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D151.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D152.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D153.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D154.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D155.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D156.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D157.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D158.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D159.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D160.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D161.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D162.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D163.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D164.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D165.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D166.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D167.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D168.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D169.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D170.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D171.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D172.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D173.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D174.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D175.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D176.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D177.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D178.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D179.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D180.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D181.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D182.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D183.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D184.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D185.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D186.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D187.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D188.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D189.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D190.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D191.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D192.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D193.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D194.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D195.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D196.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D197.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D198.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D199.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D200.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D201.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D202.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D203.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D204.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D205.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D206.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D207.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D208.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D209.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D210.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D211.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D212.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D213.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D214.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D215.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D216.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D217.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D218.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D219.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D220.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D221.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D222.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D223.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D224.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D225.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D226.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D227.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D228.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D229.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D230.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D231.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D232.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D233.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D234.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D235.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D236.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D237.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D238.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D239.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D240.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D241.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D242.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D243.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D244.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D245.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D246.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D247.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D248.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D249.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D250.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D251.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D252.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D253.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D254.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D255.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D256.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D257.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D258.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D259.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D260.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D261.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D262.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D263.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D264.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D265.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D266.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D267.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D268.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D269.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D270.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D271.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D272.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D273.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D274.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D275.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D276.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D277.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D278.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D279.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D280.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D281.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D282.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D283.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D284.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D285.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D286.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D287.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D288.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D289.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D290.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D291.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D292.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D293.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D294.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D295.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D296.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D297.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D298.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D299.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D300.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D301.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D302.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D303.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D304.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D305.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D306.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D307.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D308.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D309.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D310.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D311.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D312.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D313.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D314.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D315.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D316.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D317.ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.lemma_6_19_d' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.KC.allData_length._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.allSep_ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D000.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D001.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D002.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D003.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D004.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D005.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D006.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D007.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D008.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D009.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D010.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D011.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D012.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D013.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D014.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D015.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D016.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D017.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D018.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D019.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D020.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D021.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D022.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D023.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D024.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D025.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D026.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D027.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D028.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D029.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D030.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D031.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D032.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D033.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D034.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D035.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D036.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D037.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D038.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D039.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D040.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D041.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D042.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D043.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D044.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D045.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D046.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D047.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D048.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D049.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D050.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D051.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D052.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D053.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D054.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D055.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D056.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D057.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D058.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D059.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D060.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D061.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D062.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D063.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D064.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D065.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D066.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D067.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D068.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D069.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D070.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D071.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D072.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D073.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D074.ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.sec_6_7_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.KC.allData_length._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.allSep_ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.counts_ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D000.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D001.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D002.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D003.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D004.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D005.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D006.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D007.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D008.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D009.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D010.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D011.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D012.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D013.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D014.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D015.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D016.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D017.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D018.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D019.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D020.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D021.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D022.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D023.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D024.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D025.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D026.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D027.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D028.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D029.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D030.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D031.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D032.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D033.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D034.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D035.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D036.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D037.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D038.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D039.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D040.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D041.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D042.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D043.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D044.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D045.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D046.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D047.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D048.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D049.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D050.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D051.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D052.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D053.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D054.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D055.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D056.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D057.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D058.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D059.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D060.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D061.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D062.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D063.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D064.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D065.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D066.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D067.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D068.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D069.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D070.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D071.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D072.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D073.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D074.ok._native.native_decide.ax_1_1]
+'Lean6.Special.Kraw.kraw_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Kraw.hasFDerivAt_tpoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Boxes.N4.eval_s11T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Boxes.KC.eval_kc12T' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Boxes.N4.all_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.N4.D000.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D001.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D002.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D003.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D004.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D005.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D006.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D007.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D008.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D009.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D010.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D011.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D012.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D013.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D014.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D015.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D016.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D017.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D018.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D019.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D020.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D021.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D022.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D023.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D024.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D025.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D026.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D027.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D028.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D029.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D030.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D031.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D032.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D033.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D034.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D035.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D036.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D037.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D038.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D039.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D040.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D041.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D042.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D043.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D044.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D045.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D046.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D047.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D048.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D049.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D050.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D051.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D052.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D053.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D054.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D055.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D056.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D057.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D058.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D059.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D060.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D061.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D062.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D063.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D064.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D065.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D066.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D067.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D068.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D069.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D070.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D071.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D072.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D073.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D074.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D075.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D076.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D077.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D078.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D079.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D080.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D081.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D082.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D083.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D084.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D085.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D086.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D087.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D088.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D089.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D090.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D091.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D092.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D093.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D094.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D095.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D096.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D097.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D098.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D099.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D100.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D101.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D102.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D103.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D104.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D105.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D106.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D107.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D108.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D109.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D110.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D111.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D112.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D113.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D114.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D115.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D116.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D117.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D118.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D119.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D120.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D121.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D122.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D123.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D124.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D125.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D126.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D127.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D128.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D129.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D130.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D131.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D132.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D133.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D134.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D135.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D136.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D137.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D138.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D139.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D140.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D141.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D142.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D143.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D144.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D145.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D146.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D147.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D148.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D149.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D150.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D151.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D152.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D153.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D154.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D155.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D156.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D157.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D158.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D159.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D160.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D161.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D162.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D163.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D164.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D165.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D166.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D167.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D168.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D169.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D170.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D171.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D172.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D173.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D174.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D175.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D176.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D177.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D178.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D179.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D180.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D181.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D182.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D183.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D184.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D185.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D186.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D187.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D188.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D189.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D190.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D191.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D192.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D193.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D194.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D195.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D196.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D197.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D198.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D199.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D200.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D201.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D202.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D203.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D204.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D205.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D206.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D207.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D208.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D209.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D210.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D211.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D212.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D213.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D214.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D215.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D216.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D217.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D218.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D219.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D220.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D221.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D222.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D223.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D224.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D225.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D226.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D227.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D228.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D229.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D230.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D231.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D232.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D233.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D234.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D235.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D236.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D237.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D238.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D239.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D240.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D241.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D242.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D243.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D244.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D245.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D246.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D247.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D248.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D249.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D250.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D251.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D252.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D253.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D254.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D255.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D256.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D257.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D258.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D259.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D260.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D261.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D262.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D263.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D264.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D265.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D266.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D267.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D268.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D269.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D270.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D271.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D272.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D273.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D274.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D275.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D276.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D277.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D278.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D279.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D280.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D281.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D282.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D283.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D284.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D285.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D286.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D287.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D288.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D289.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D290.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D291.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D292.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D293.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D294.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D295.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D296.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D297.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D298.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D299.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D300.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D301.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D302.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D303.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D304.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D305.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D306.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D307.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D308.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D309.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D310.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D311.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D312.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D313.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D314.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D315.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D316.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.N4.D317.ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.N4.allSep_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.N4.allSep_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.KC.all_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.KC.D000.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D001.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D002.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D003.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D004.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D005.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D006.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D007.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D008.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D009.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D010.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D011.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D012.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D013.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D014.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D015.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D016.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D017.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D018.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D019.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D020.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D021.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D022.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D023.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D024.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D025.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D026.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D027.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D028.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D029.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D030.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D031.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D032.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D033.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D034.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D035.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D036.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D037.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D038.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D039.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D040.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D041.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D042.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D043.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D044.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D045.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D046.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D047.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D048.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D049.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D050.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D051.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D052.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D053.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D054.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D055.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D056.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D057.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D058.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D059.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D060.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D061.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D062.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D063.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D064.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D065.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D066.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D067.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D068.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D069.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D070.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D071.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D072.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D073.ok._native.native_decide.ax_1_1,
+ Lean6.Special.D88.Boxes.KC.D074.ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.KC.allSep_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.KC.allSep_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Boxes.KC.counts_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.D88.Boxes.KC.counts_ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.lemma_7_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ K4.E4.mem_patsF_aux._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.check_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ K4.E4.mem_patsF_aux._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.no_zero_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.no_zero_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.no_zero_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res12_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.res13_T3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T1_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T2_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.R1T3_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.resR_T1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT1_low._native.native_decide.ax_1_1,
+ K4.E4.LUT1._native.native_decide.ax_1_1,
+ K4.E4.UT1_diag._native.native_decide.ax_1_1,
+ K4.E4.UT1_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.resR_T2' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT2_low._native.native_decide.ax_1_1,
+ K4.E4.LUT2._native.native_decide.ax_1_1,
+ K4.E4.UT2_diag._native.native_decide.ax_1_1,
+ K4.E4.UT2_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.resR_T3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ K4.E4.LT3_low._native.native_decide.ax_1_1,
+ K4.E4.LUT3._native.native_decide.ax_1_1,
+ K4.E4.UT3_diag._native.native_decide.ax_1_1,
+ K4.E4.UT3_up._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.Alg.caseI_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseI_three_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseI_two_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_diff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.cube_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_equal_fails' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_b' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_b_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_c_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseII_d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_lambda' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_eigen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_system' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII_cubes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.caseIII' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_21' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_w24' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.Alg.ne_46' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.E4.free' depends on axioms: [propext, Comp.E4.free._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.orbit_size' depends on axioms: [propext, Comp.E4.orbit_size._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.inv_invariant' depends on axioms: [propext, Comp.E4.inv_invariant._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.inv_separates' depends on axioms: [propext, Comp.E4.inv_separates._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.nine_values' depends on axioms: [propext, Comp.E4.nine_values._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.perms_count' depends on axioms: [Comp.E4.perms_count._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.relabel_triple' depends on axioms: [propext, Comp.E4.relabel_triple._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.conj_triple' depends on axioms: [propext, Comp.E4.conj_triple._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rep_triples' depends on axioms: [propext]
+'Lean6.Special.Comp.E4.reduction' depends on axioms: [propext, Comp.E4.reduction._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.score_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.score_counts._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.score_determines' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.score_determines._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.reduce_tournaments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.reduce_tournaments._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rep_scores' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rep_scores._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.E4.rE_root' does not depend on any axioms
+'Lean6.Special.Comp.E4.sE_sq' does not depend on any axioms
+'Lean6.Special.K4.E4.remark_7_14_1112' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_1112._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_5_2_11_3' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_5_2_11_3._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_1234' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_1234._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.remark_7_14_2357' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Comp.E4.rem714_2357._native.native_decide.ax_1_1,
+ K4.E4.mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.C4.lemma_7_9' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.C4.trialPrime_1073741789._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.trialPrime_32003._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P1073741789.T_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M0P32003.T_P34.ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.C4.sec_7_4' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.C4.trialPrime_1073741789._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.trialPrime_32003._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P1073741789.T_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.S_P34.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_C.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P12.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P13.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P14.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P23.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P24.ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.C4.Run.M1P32003.T_P34.ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.C4.unitTest_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.chart_no_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.chart_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.eval_eqs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.C4.prime_of_trialPrime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.sum_sum_antisymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.sum_erase_eq_sum_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Zf_self' depends on axioms: [propext]
+'Lean6.Special.Hand.Zf_antisymm' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.body_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.body_eq_of_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.subset_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.mass_sum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.torque_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.partial_virial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.U_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.sep_sum_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.sep_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.lemma_2_3_a' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.partial_virial_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.rows_swap_D' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.rows_swap_Z' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.rows_rotate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.iota_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.iota_invol' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.iota_rows' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.z_iota' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.w_iota' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.O1_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.O3_zstroke' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.edgeF_strictAnti' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.omega_eq_edgeF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.zstroke_kind' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.wstroke_kind' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.zwedge_kind' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.edgeF_gt_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.edgeF_lt_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.E2_arith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.E3_arith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.E6_arith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.C2_arith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.C4_arith' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.fibre_bound' depends on axioms: [propext]
+'Lean6.Special.Hand.triangle_one_circle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.root_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.root_two_children' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.root_two_children_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F1_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F1_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F2_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F4_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.F4_coeff' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.d90_F4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d90_a4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d90_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d89_sum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d89_F4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d89_torque_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d82_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d81_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.shape_positions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.shape_positions_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.lagrange_p3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.lagrange_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.lagrange_quadratic_j' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.collinear_p' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.collinear_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.collinear_shape' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.cross_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.torque_lead_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.split_signed_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d93_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Phi3_product' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.Phi3_zero_of_signed' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.d93_to_Y' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d93_Phi3_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.sum_mass_Phi' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.const_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d64_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d64_F4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.d64_Zjk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.cube_root_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.E4_noncollinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prod_drop_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.E4_collinear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.II_of_iii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.III_of_eta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.xiZ_centre' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.xiZ_param' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.xiZ_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.prod_smul_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.bideg_I' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.bideg_II' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.bideg_III' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.cube_root_cases' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.primitive_re_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.normSq_cube_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.cube_re_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.cube_pos_forces_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.real_forces_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.ssum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.ssum_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handT_le_of_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handT_le_of_not_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handP_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.forced_x2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.forced_x4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handC_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handB0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handK_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handK_c'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handK' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handL_relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handL_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handL' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.sum_symm_antisymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.cliquesum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique_x_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique_orders' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handP4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handP4_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.collinear_dist' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.Sec9.collinear_force' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_i_ratios' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.one_is_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_i' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_ii_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_ii_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_ii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.clique3_iii' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.QT_identity' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.Sec9.QT_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR_lambda' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR_relations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.natDegree_map_NF_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.natDegree_map_NG_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.N_eval_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.N_special' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.N_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR_kappa' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR6_relation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.prod_cube_roots' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR6_product' depends on axioms: [propext, Quot.sound]
+'Lean6.Special.Hand.Sec9.H6poly_ms_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.H6poly_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handR6_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handW3_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handW3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handEQ2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handEQ2_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handQ_signs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handQ_prod_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handQ_not_all_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handQ_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.sq_real_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.sq_real_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.cube_inj_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Hand.Sec9.handTQ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.n4_torus_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.cover_soundG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.chk_soundG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.initialFormG_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.torusEmptyG_rat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Trop.n4_torus_all_of_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.n4_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.n4_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Trop.kc_torus_all_of_gamma' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.D88.Trop.kc_cover_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_gb_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.D88.Trop.kc_hyp_ok._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macCheck_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macFpoly_map_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macF_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.F_eq_zero_of_macF_det' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macF_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macF_det_ne_zero_1111' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.exists_macF_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macFpoly_det_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportF_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macGpoly_map_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.macG_row' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.G_eq_zero_of_macG_det' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macG_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macG_det_ne_zero_1111' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.exists_macG_det_ne_zero_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.macGpoly_det_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.exportG_ok._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.monosOK_ok._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.omega0_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.K4.E4.lemma_7_7' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_1111._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.allG_1111._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.K4.E4.check_3_5_7_11' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ Lean6.Special.Comp.E4.allF_3_5_7_11._native.native_decide.ax_1_1,
+ Lean6.Special.Comp.E4.allG_3_5_7_11._native.native_decide.ax_1_1,
+ mem_patsF_aux._native.native_decide.ax_1_1,
+ mem_patsG_aux._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Count.DegRevLex.wellFoundedLT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.DegRevLex.toDegRevLex_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.degRevLex_lt_iff'' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.degRevLex_single_lt_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.grevGtStd_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_toMv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.mem_span_of_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.lead_toMv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.std_subset_of_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_std' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.finrank_le_of_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.dimCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_s12InputsZ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_kcInputsZ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.eval_reduceMod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.toMv_s12Input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.toMv_kcInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_s12Inputs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.span_kcInputs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.count_KC_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.count_S12_of' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.Count.f4_good' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.Comp.Count.kc_f4_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ kc_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.Comp.Count.s12_f4_ok' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ s12_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Count.count_KC' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ kc_f4_ok._native.native_decide.ax_1_1]
+'Lean6.Special.D88.Count.count_S12' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound,
+ s12_f4_ok._native.native_decide.ax_1_1]

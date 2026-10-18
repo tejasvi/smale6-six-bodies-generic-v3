@@ -1,0 +1,2 @@
+{"tag": "kc", "n_rays": 46, "n_cones": 224, "tested": 223, "all_empty": false, "lineality": []}
+FAIL [41] [0, 0, 0, 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, -1, 0, -1, -1]

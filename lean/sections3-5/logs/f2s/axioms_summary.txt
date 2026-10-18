@@ -1,0 +1,17 @@
+# theorem | standard axioms | number of native_decide auxiliary axioms | only allowed axioms
+L6.F2S.Checks.f2s_cells_sound | Classical.choice,Quot.sound,propext | 660 | True
+L6.F2S.Checks.f2s_order | Classical.choice,Quot.sound,propext | 1 | True
+L6.F2S.Checks.keys_c3 | Classical.choice,Quot.sound,propext | 157 | True
+L6.F2S.argminRec_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.branchRec_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.cellsBelow_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.cells_sound | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.forced_facts | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.idents_eval | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.keepLP_sound | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.levelFacts | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.options_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.partialRows_strict | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.search_complete | Classical.choice,Quot.sound,propext | 0 | True
+L6.F2S.treeLevel_complete | Classical.choice,Quot.sound,propext | 0 | True
+# theorems: 15; with a disallowed axiom: 0; sorryAx anywhere in the log: False

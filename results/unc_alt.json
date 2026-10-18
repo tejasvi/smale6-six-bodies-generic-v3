@@ -1,0 +1,3033 @@
+[
+{
+"class": 40,
+"cc": 15,
+"cell": 13,
+"sumx": -0.333333,
+"reason": "core 699a673c545692d6 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 66,
+"sumx": 0.0,
+"reason": "core 9c0a320db217bed6 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 90,
+"sumx": 0.0,
+"reason": "core 9c0a320db217bed6 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 102,
+"sumx": 0.0,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 103,
+"sumx": 0.0,
+"reason": "core 7b2f157e50a67f5c not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 108,
+"sumx": -0.666666,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 112,
+"sumx": -0.3,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 113,
+"sumx": 0.0,
+"reason": "core 7b2f157e50a67f5c not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 160,
+"sumx": -0.333333,
+"reason": "core a993baad6a359169 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 208,
+"sumx": -0.666666,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 210,
+"sumx": -1.0,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 211,
+"sumx": -0.785715,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 212,
+"sumx": -0.3,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 213,
+"sumx": 0.0,
+"reason": "core 2c0bca84fc2e5940 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 236,
+"sumx": -0.666666,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 238,
+"sumx": -1.0,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 239,
+"sumx": -0.785715,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 240,
+"sumx": -0.3,
+"reason": "core b304179df1f9b399 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 241,
+"sumx": 0.0,
+"reason": "core 2c0bca84fc2e5940 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 258,
+"sumx": -0.666666,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 260,
+"sumx": -1.0,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 261,
+"sumx": -0.785715,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 262,
+"sumx": -0.3,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 263,
+"sumx": 0.0,
+"reason": "core 7b2f157e50a67f5c not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 321,
+"sumx": -0.666666,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 323,
+"sumx": -1.0,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 324,
+"sumx": -0.785715,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 325,
+"sumx": -0.3,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 326,
+"sumx": 0.0,
+"reason": "core 9d24d57d68ef8181 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 331,
+"sumx": -0.666666,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 333,
+"sumx": -1.0,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 334,
+"sumx": -0.785715,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 335,
+"sumx": -0.3,
+"reason": "core c16dfb8a37b5f3cf not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 336,
+"sumx": 0.0,
+"reason": "core 7b2f157e50a67f5c not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 353,
+"sumx": -0.666666,
+"reason": "core bf0937c7476d0cdc not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 355,
+"sumx": -1.0,
+"reason": "core bf0937c7476d0cdc not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 356,
+"sumx": -0.785715,
+"reason": "core bf0937c7476d0cdc not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 358,
+"sumx": 0.0,
+"reason": "core 9ddd7d34e780a2bb not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 362,
+"sumx": -0.333333,
+"reason": "core 7cbad5c54e84b946 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 369,
+"sumx": -0.666666,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 371,
+"sumx": -1.0,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 372,
+"sumx": -0.785715,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 373,
+"sumx": -0.3,
+"reason": "core 0d1faa0792253186 not certified over Q(m) (dim None)"
+},
+{
+"class": 40,
+"cc": 15,
+"cell": 374,
+"sumx": 0.0,
+"reason": "core 9d24d57d68ef8181 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 1,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 4,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 6,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 7,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 9,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 10,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 12,
+"sumx": -2.4,
+"reason": "core d4f0f3c2e309e80c not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 13,
+"sumx": -1.263159,
+"reason": "core 80172e480d10dd57 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 14,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 15,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 16,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 18,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 19,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 21,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 22,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 25,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 26,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 28,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 30,
+"sumx": -0.521739,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 40,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 50,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 86,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 114,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 115,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 117,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 118,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 120,
+"sumx": -2.4,
+"reason": "core 3a9ddfe13b0b91d9 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 121,
+"sumx": -1.263159,
+"reason": "core 80172e480d10dd57 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 122,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 123,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 124,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 126,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 127,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 129,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 130,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 133,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 134,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 136,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 138,
+"sumx": -0.521739,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 148,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 158,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 186,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 187,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 189,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 190,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 192,
+"sumx": -2.4,
+"reason": "core d4f0f3c2e309e80c not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 193,
+"sumx": -1.263159,
+"reason": "core 80172e480d10dd57 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 194,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 195,
+"sumx": -2.4,
+"reason": "core ba2670e93a95aded not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 196,
+"sumx": -1.263159,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 198,
+"sumx": -2.4,
+"reason": "core 6ab17ec9f9a2f699 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 199,
+"sumx": -1.263159,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 201,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 202,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 205,
+"sumx": -2.4,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 206,
+"sumx": -1.263159,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 208,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 210,
+"sumx": -0.521739,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 220,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 230,
+"sumx": -5.142857,
+"reason": "core 9515511448308b04 not certified over Q(m) (dim None)"
+},
+{
+"class": 30,
+"cc": 16,
+"cell": 265,
+"sumx": -1.263159,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 31,
+"cc": 89,
+"cell": 22,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 0,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 16,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 17,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 30,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 46,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 83,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 105,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 109,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 110,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 111,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 124,
+"cc": 64,
+"cell": 121,
+"sumx": -1.6,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 2857,
+"sumx": 0.0,
+"reason": "core 57a457c3211c80d0 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 2881,
+"sumx": 0.0,
+"reason": "core 717e9b55f71896d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 2903,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 2904,
+"sumx": -0.1875,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 2906,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3012,
+"sumx": 0.0,
+"reason": "core 57a457c3211c80d0 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3036,
+"sumx": 0.0,
+"reason": "core 717e9b55f71896d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3058,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3059,
+"sumx": -0.1875,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3061,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3228,
+"sumx": 0.0,
+"reason": "core 36ef301c5ad8a5bf not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3252,
+"sumx": 0.0,
+"reason": "core f66944f4e107f0d3 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3274,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3275,
+"sumx": -0.1875,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 3277,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4140,
+"sumx": 0.0,
+"reason": "core ba2faf30238c5182 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4164,
+"sumx": 0.0,
+"reason": "core 1b3dfbf2be794bd6 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4186,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4187,
+"sumx": -0.1875,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4189,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4230,
+"sumx": 0.0,
+"reason": "core 36ef301c5ad8a5bf not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4254,
+"sumx": 0.0,
+"reason": "core f66944f4e107f0d3 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4276,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4277,
+"sumx": -0.1875,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4279,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4446,
+"sumx": 0.0,
+"reason": "core 0d6006b47a60a434 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4470,
+"sumx": 0.0,
+"reason": "core 710b1c7f17e4c76c not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4495,
+"sumx": 0.0,
+"reason": "core 296e7a6ee6dcdd08 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4599,
+"sumx": 0.0,
+"reason": "core ba2faf30238c5182 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4623,
+"sumx": 0.0,
+"reason": "core 1b3dfbf2be794bd6 not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4645,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4646,
+"sumx": -0.1875,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 148,
+"cc": 12,
+"cell": 4648,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 132,
+"cc": 93,
+"cell": 51,
+"sumx": -15.999999,
+"reason": "core 3aac87396c580abc not certified over Q(m) (dim None)"
+},
+{
+"class": 132,
+"cc": 93,
+"cell": 53,
+"sumx": -15.0,
+"reason": "core 4cb9bc252ec2477e not certified over Q(m) (dim None)"
+},
+{
+"class": 133,
+"cc": 98,
+"cell": 17,
+"sumx": -18.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 132,
+"sumx": -6e-06,
+"reason": "core 96cf65cf8290515f not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 133,
+"sumx": -3e-06,
+"reason": "core afa6039e6210f422 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 288,
+"sumx": -6e-06,
+"reason": "core 3f9ce57fdad26afe not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 289,
+"sumx": -3e-06,
+"reason": "core 6e235fa8c8b94001 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 519,
+"sumx": -6e-06,
+"reason": "core 1e2a7808c9470294 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 520,
+"sumx": -3e-06,
+"reason": "core 85a3dd844d852cfc not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 675,
+"sumx": -6e-06,
+"reason": "core b0b45f2490883a73 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 676,
+"sumx": -3e-06,
+"reason": "core 7cbad5c54e84b946 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 831,
+"sumx": -6e-06,
+"reason": "core 1e2a7808c9470294 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 832,
+"sumx": -3e-06,
+"reason": "core 85a3dd844d852cfc not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 894,
+"sumx": -6e-06,
+"reason": "core 8f218ac4106cc544 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 896,
+"sumx": -3e-06,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1053,
+"sumx": -6e-06,
+"reason": "core 3f9ce57fdad26afe not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1054,
+"sumx": -3e-06,
+"reason": "core 6e235fa8c8b94001 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1131,
+"sumx": -6e-06,
+"reason": "core c1fc5690b55074c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1133,
+"sumx": -3e-06,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1197,
+"sumx": -6e-06,
+"reason": "core e6848401449eb7ec not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1199,
+"sumx": -3e-06,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1265,
+"sumx": -3e-06,
+"reason": "core 80172e480d10dd57 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1329,
+"sumx": -6e-06,
+"reason": "core e6848401449eb7ec not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1331,
+"sumx": -3e-06,
+"reason": "core ce6ee58ad1671f80 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1395,
+"sumx": -6e-06,
+"reason": "core c1fc5690b55074c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1397,
+"sumx": -3e-06,
+"reason": "core 4b032bbfbee1b623 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1437,
+"sumx": 0.0,
+"reason": "core a36f23caf9205ed3 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1438,
+"sumx": -0.571431,
+"reason": "core b5e28ee0452d5729 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1443,
+"sumx": -6e-06,
+"reason": "core a36f23caf9205ed3 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1444,
+"sumx": -3e-06,
+"reason": "core b5e28ee0452d5729 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1476,
+"sumx": 0.0,
+"reason": "core c72db0fdadd27a3d not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1478,
+"sumx": -0.571431,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1482,
+"sumx": -6e-06,
+"reason": "core c72db0fdadd27a3d not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1484,
+"sumx": -3e-06,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1500,
+"sumx": 0.0,
+"reason": "core c72db0fdadd27a3d not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1502,
+"sumx": -0.571431,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1506,
+"sumx": -6e-06,
+"reason": "core c72db0fdadd27a3d not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1508,
+"sumx": -3e-06,
+"reason": "core 186de8d14aae4041 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1518,
+"sumx": -6e-06,
+"reason": "core 8f218ac4106cc544 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1520,
+"sumx": -3e-06,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1527,
+"sumx": -6e-06,
+"reason": "core 8f218ac4106cc544 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1529,
+"sumx": -3e-06,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1536,
+"sumx": 0.0,
+"reason": "core a36f23caf9205ed3 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1537,
+"sumx": -0.571431,
+"reason": "core b5e28ee0452d5729 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1542,
+"sumx": -6e-06,
+"reason": "core a36f23caf9205ed3 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1543,
+"sumx": -3e-06,
+"reason": "core b5e28ee0452d5729 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1554,
+"sumx": -6e-06,
+"reason": "core 3f9ce57fdad26afe not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1555,
+"sumx": -3e-06,
+"reason": "core 6e235fa8c8b94001 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1602,
+"sumx": -6e-06,
+"reason": "core 3f9ce57fdad26afe not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1603,
+"sumx": -3e-06,
+"reason": "core 6e235fa8c8b94001 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1668,
+"sumx": -6e-06,
+"reason": "core 8f218ac4106cc544 not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1670,
+"sumx": -3e-06,
+"reason": "core 279674718763b21e not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1827,
+"sumx": -6e-06,
+"reason": "core 96cf65cf8290515f not certified over Q(m) (dim None)"
+},
+{
+"class": 29,
+"cc": 8,
+"cell": 1828,
+"sumx": -3e-06,
+"reason": "core afa6039e6210f422 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 4,
+"sumx": -5.333333,
+"reason": "core 3884f561fb725df0 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 7,
+"sumx": -3.818183,
+"reason": "core 3884f561fb725df0 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 9,
+"sumx": -5.44,
+"reason": "core 5fb360069b5aab26 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 13,
+"sumx": -4.8,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 14,
+"sumx": -5.571426,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 15,
+"sumx": -3.428573,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 33,
+"sumx": -4.8,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 34,
+"sumx": -5.571426,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 35,
+"sumx": -3.428573,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 46,
+"sumx": -6.285713,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 47,
+"sumx": -7.0,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 48,
+"sumx": -5.333333,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 49,
+"sumx": -4.8,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 50,
+"sumx": -5.571426,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 51,
+"sumx": -3.428573,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 58,
+"sumx": -6.285713,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 59,
+"sumx": -7.0,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 60,
+"sumx": -5.333333,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 61,
+"sumx": -4.8,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 62,
+"sumx": -5.571426,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 63,
+"sumx": -3.428573,
+"reason": "core 6169aacd03b1c672 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 67,
+"sumx": -3.724137,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 68,
+"sumx": -4.5,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 69,
+"sumx": -2.000002,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 73,
+"sumx": -4.8,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 74,
+"sumx": -5.571426,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 75,
+"sumx": -3.428573,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 170,
+"sumx": -8.0,
+"reason": "core 53041780a9c54410 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 206,
+"sumx": -8.0,
+"reason": "core 53041780a9c54410 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 215,
+"sumx": -2.769231,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 218,
+"sumx": -3.076925,
+"reason": "core a74759e81d78cbdc not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 223,
+"sumx": -5.333333,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 227,
+"sumx": -3.818183,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 230,
+"sumx": -5.44,
+"reason": "core a74759e81d78cbdc not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 231,
+"sumx": -6.285713,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 232,
+"sumx": -7.0,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 233,
+"sumx": -5.333333,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 234,
+"sumx": -4.8,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 235,
+"sumx": -5.571426,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 236,
+"sumx": -3.428573,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 243,
+"sumx": -6.285713,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 244,
+"sumx": -7.0,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 245,
+"sumx": -5.333333,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 246,
+"sumx": -4.8,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 247,
+"sumx": -5.571426,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 248,
+"sumx": -3.428573,
+"reason": "core 5ad03191465a65ec not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 252,
+"sumx": -3.724137,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 253,
+"sumx": -4.5,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 254,
+"sumx": -2.000002,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 258,
+"sumx": -4.8,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 259,
+"sumx": -5.571426,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 260,
+"sumx": -3.428573,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 327,
+"sumx": -5.333333,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 330,
+"sumx": -3.818183,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 332,
+"sumx": -5.44,
+"reason": "core a74759e81d78cbdc not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 336,
+"sumx": -4.8,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 337,
+"sumx": -5.571426,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 338,
+"sumx": -3.428573,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 374,
+"sumx": -6.285713,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 375,
+"sumx": -7.0,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 376,
+"sumx": -5.333333,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 377,
+"sumx": -4.8,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 378,
+"sumx": -5.571426,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 379,
+"sumx": -3.428573,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 386,
+"sumx": -6.285713,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 387,
+"sumx": -7.0,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 388,
+"sumx": -5.333333,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 389,
+"sumx": -4.8,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 390,
+"sumx": -5.571426,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 391,
+"sumx": -3.428573,
+"reason": "core c8da9879d6fbc0f2 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 395,
+"sumx": -3.724137,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 396,
+"sumx": -4.5,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 397,
+"sumx": -2.000002,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 401,
+"sumx": -4.8,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 402,
+"sumx": -5.571426,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 403,
+"sumx": -3.428573,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 465,
+"sumx": -4.8,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 466,
+"sumx": -5.571426,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 467,
+"sumx": -3.428573,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 484,
+"sumx": -5.333333,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 487,
+"sumx": -3.818183,
+"reason": "core 80bb19eed78dec07 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 489,
+"sumx": -5.44,
+"reason": "core a74759e81d78cbdc not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 493,
+"sumx": -4.8,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 494,
+"sumx": -5.571426,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 495,
+"sumx": -3.428573,
+"reason": "core d70908c5f84b6c9f not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 524,
+"sumx": -4.8,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 525,
+"sumx": -5.571426,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 526,
+"sumx": -3.428573,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 540,
+"sumx": -4.8,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 541,
+"sumx": -5.571426,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 542,
+"sumx": -3.428573,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 560,
+"sumx": -4.8,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 561,
+"sumx": -5.571426,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 562,
+"sumx": -3.428573,
+"reason": "core 29b27a7de6ecf457 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 578,
+"sumx": -4.8,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 579,
+"sumx": -5.571426,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 580,
+"sumx": -3.428573,
+"reason": "core 8a4250416b6e217d not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 594,
+"sumx": -4.8,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 595,
+"sumx": -5.571426,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 596,
+"sumx": -3.428573,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 612,
+"sumx": -4.8,
+"reason": "core 9933c749012d206a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 613,
+"sumx": -5.571426,
+"reason": "core 9933c749012d206a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 614,
+"sumx": -3.428573,
+"reason": "core 9933c749012d206a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 630,
+"sumx": -4.8,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 631,
+"sumx": -5.571426,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 632,
+"sumx": -3.428573,
+"reason": "core 7244ada9287a189a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 660,
+"sumx": -4.8,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 661,
+"sumx": -5.571426,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 662,
+"sumx": -3.428573,
+"reason": "core a4a8d93b105ac46a not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 685,
+"sumx": -5.333333,
+"reason": "core 3884f561fb725df0 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 688,
+"sumx": -3.818183,
+"reason": "core 3884f561fb725df0 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 690,
+"sumx": -5.44,
+"reason": "core 5fb360069b5aab26 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 694,
+"sumx": -4.8,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 695,
+"sumx": -5.571426,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 696,
+"sumx": -3.428573,
+"reason": "core fd24bd70c67cd7c6 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 714,
+"sumx": -4.8,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 715,
+"sumx": -5.571426,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 716,
+"sumx": -3.428573,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 732,
+"sumx": -4.8,
+"reason": "core db2f5486b405d600 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 733,
+"sumx": -5.571426,
+"reason": "core db2f5486b405d600 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 734,
+"sumx": -3.428573,
+"reason": "core db2f5486b405d600 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 750,
+"sumx": -4.8,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 751,
+"sumx": -5.571426,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 752,
+"sumx": -3.428573,
+"reason": "core c3f064255a46d387 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 767,
+"sumx": -5.333333,
+"reason": "core 9121669b1e4782d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 770,
+"sumx": -3.818183,
+"reason": "core 9121669b1e4782d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 772,
+"sumx": -5.44,
+"reason": "core cd9816dd122aafab not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 777,
+"sumx": -5.333333,
+"reason": "core 70fd6910a460bad7 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 782,
+"sumx": -5.44,
+"reason": "core dbc95bd6bf1e9a12 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 787,
+"sumx": -5.333333,
+"reason": "core 9121669b1e4782d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 790,
+"sumx": -3.818183,
+"reason": "core 9121669b1e4782d8 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 792,
+"sumx": -5.44,
+"reason": "core cd9816dd122aafab not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 796,
+"sumx": -4.8,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 797,
+"sumx": -5.571426,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 798,
+"sumx": -3.428573,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 814,
+"sumx": -4.8,
+"reason": "core e72e31d53bb699d5 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 815,
+"sumx": -5.571426,
+"reason": "core e72e31d53bb699d5 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 816,
+"sumx": -3.428573,
+"reason": "core e72e31d53bb699d5 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 832,
+"sumx": -4.8,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 833,
+"sumx": -5.571426,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 834,
+"sumx": -3.428573,
+"reason": "core 7e794f7e88183a4b not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 850,
+"sumx": -4.8,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 851,
+"sumx": -5.571426,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 14,
+"cc": 14,
+"cell": 852,
+"sumx": -3.428573,
+"reason": "core de56f95b51aed0c4 not certified over Q(m) (dim None)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 0,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 1,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 2,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 3,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 4,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 5,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 6,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 7,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 127,
+"cc": 88,
+"cell": 8,
+"sumx": -16.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 95,
+"sumx": 0.0,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 114,
+"sumx": -0.999999,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 115,
+"sumx": -1.2,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 116,
+"sumx": 0.0,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 137,
+"sumx": 0.0,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 156,
+"sumx": -0.999999,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 157,
+"sumx": -1.125,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 158,
+"sumx": 0.0,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 177,
+"sumx": -0.999999,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 178,
+"sumx": -1.2,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 179,
+"sumx": 0.0,
+"reason": "core 222620c9d6e75412 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 385,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 386,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 394,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 395,
+"sumx": -1.2,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 396,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 403,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 404,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 420,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 421,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 429,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 430,
+"sumx": -1.2,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 431,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 438,
+"sumx": -0.999999,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 439,
+"sumx": 0.0,
+"reason": "core 92b58f976979e470 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 469,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 470,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 478,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 479,
+"sumx": -1.2,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 480,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 487,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 488,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 602,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 603,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 611,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 612,
+"sumx": -1.2,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 613,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 620,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 621,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 623,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 624,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 632,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 633,
+"sumx": -1.2,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 634,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 641,
+"sumx": -0.999999,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 642,
+"sumx": 0.0,
+"reason": "core e341dcfea344394c not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 681,
+"sumx": -0.999999,
+"reason": "core 296e7a6ee6dcdd08 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 682,
+"sumx": -1.2,
+"reason": "core 296e7a6ee6dcdd08 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 683,
+"sumx": 0.0,
+"reason": "core 296e7a6ee6dcdd08 not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 707,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 708,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 716,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 717,
+"sumx": -1.2,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 718,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 725,
+"sumx": -0.999999,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 149,
+"cc": 19,
+"cell": 726,
+"sumx": 0.0,
+"reason": "core e9b1dd2e805523cc not certified over Q(m) (dim None)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 5,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 11,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 17,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 23,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 29,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 35,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 41,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 47,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 147,
+"cc": 94,
+"cell": 53,
+"sumx": -12.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 3,
+"sumx": -0.0,
+"reason": "core 57e1c9f72ff5f2c5 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 13,
+"sumx": -0.0,
+"reason": "core search timed out (no core)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 14,
+"sumx": -0.0,
+"reason": "core 9c3195d928d7455b not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 23,
+"sumx": -0.0,
+"reason": "core 873d2f570859dc66 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 29,
+"sumx": -0.0,
+"reason": "core 873d2f570859dc66 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 35,
+"sumx": -0.0,
+"reason": "core 57e1c9f72ff5f2c5 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 47,
+"sumx": -0.0,
+"reason": "core 5e24ad1f653915b0 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 53,
+"sumx": -0.0,
+"reason": "core 8858b4379712ec7c not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 59,
+"sumx": -0.0,
+"reason": "core 3b25fff330ed71a7 not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 65,
+"sumx": -0.0,
+"reason": "core 8858b4379712ec7c not certified over Q(m) (dim None)"
+},
+{
+"class": 143,
+"cc": 66,
+"cell": 71,
+"sumx": -0.0,
+"reason": "core 5e24ad1f653915b0 not certified over Q(m) (dim None)"
+}
+]

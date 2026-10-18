@@ -1,0 +1,76 @@
+cells whose only cell-level lemmas are among W3 and EQ2: 74
+(10, 0) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 1) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 2) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 3) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 4) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 5) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 6) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 7) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(10, 8) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m1*m4 - m2*m5', '-m1*m3', 'm2*m3'], True, 24, -4096000000000000) some polynomial nonzero: True
+(15, 0) witnesses 2 first: ('EQ2', 'z', (2, 3, 4), ['m3', 'm4'], True, 6, -11529) some polynomial nonzero: True
+(15, 1) witnesses 2 first: ('EQ2', 'z', (2, 3, 4), ['m3', 'm4'], True, 6, -11529) some polynomial nonzero: True
+(15, 30) witnesses 2 first: ('EQ2', 'z', (2, 3, 4), ['m3', 'm4'], True, 6, -11529) some polynomial nonzero: True
+(15, 31) witnesses 2 first: ('EQ2', 'z', (2, 3, 4), ['m3', 'm4'], True, 6, -11529) some polynomial nonzero: True
+(23, 156) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m0*m4 - m1*m5', '-m0*m3 + m2*m5', 'm1*m3 - m2*m4'], True, 24, -16390160963076096) some polynomial nonzero: True
+(25, 56) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['-m0*m1 - m0*m4', 'm0*m3 - m2*m5', 'm1*m2 + m2*m4'], True, 24, -308865843496448000) some polynomial nonzero: True
+(25, 57) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m0*m4 - m1*m5', '-m0*m3 + m2*m5', 'm1*m3 - m2*m4'], True, 24, -16390160963076096) some polynomial nonzero: True
+(25, 58) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['m0*m4 - m1*m5', '-m0*m2 - m0*m3', 'm1*m2 + m1*m3'], True, 24, -5489031744000000) some polynomial nonzero: True
+(25, 59) witnesses 1 first: ('W3', 'w', (3, 4, 5), ['-m0*m1 - m1*m5', 'm0*m2 + m2*m5', 'm1*m3 - m2*m4'], True, 24, -616237331042312000) some polynomial nonzero: True
+(31, 0) witnesses 4 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(31, 1) witnesses 4 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(31, 4) witnesses 2 first: ('EQ2', 'w', (5, 1, 4), ['m1', 'm4'], True, 6, -15561) some polynomial nonzero: True
+(31, 7) witnesses 4 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(31, 25) witnesses 2 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(31, 34) witnesses 2 first: ('EQ2', 'w', (5, 1, 4), ['m1', 'm4'], True, 6, -15561) some polynomial nonzero: True
+(31, 37) witnesses 4 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(31, 46) witnesses 2 first: ('EQ2', 'z', (5, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(56, 33) witnesses 1 first: ('W3', 'w', (1, 4, 5), ['-m0*m4 + m2*m5 + m3*m5', 'm0*m1', '-m1*m2 - m1*m3'], True, 24, -4438980848952936000) some polynomial nonzero: True
+(56, 34) witnesses 1 first: ('W3', 'w', (1, 4, 5), ['-m0*m4 + m2*m5 + m3*m5', 'm0*m1', '-m1*m2 - m1*m3'], True, 24, -4438980848952936000) some polynomial nonzero: True
+(132, 42) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(132, 43) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(132, 44) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(132, 60) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(132, 61) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(132, 62) witnesses 2 first: ('EQ2', 'z', (1, 2, 3), ['m2', 'm3'], True, 6, -3367) some polynomial nonzero: True
+(143, 0) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 6) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 7) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 8) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 19) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 20) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 26) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 32) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 38) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 39) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 40) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 41) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 42) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 43) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 44) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 50) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 56) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 62) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 68) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 74) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 75) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(143, 76) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 0) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 1) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 2) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 8) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 14) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 20) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 26) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 32) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 38) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 44) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 50) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 56) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 57) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 58) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 59) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 60) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 61) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+(147, 62) witnesses 2 first: ('EQ2', 'w', (5, 0, 4), ['m0', 'm4'], True, 6, -15624) some polynomial nonzero: True
+all cells have a witness with a nonzero polynomial: True

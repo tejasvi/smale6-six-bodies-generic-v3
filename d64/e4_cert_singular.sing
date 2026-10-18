@@ -1,0 +1,73 @@
+// Certificate (checker 2, independent of the Python code) for Lemma E of DERIVATION.md.
+// Exact computation over Q(w), w^2 + w + 1 = 0, at mu0 = (3,5,7,11).
+// (a) For each of the 729 cube-root patterns e_kl in {0,1,2}: the homogeneous ideal
+//       Q_jk = q_j^2 A_k - q_k^2 A_j (j<k),  R = sum mu_k q_k^3,   A_k = sum_{l != k} w^{e_kl} mu_l q_l
+//     has affine dimension 0 (only the origin), i.e. no zero in P^3.
+// (b) For each of the 64 antisymmetric sign patterns s_kl: the forms
+//       G_k = sum_{l != k} s_kl mu_l prod_{j != k,l} (x_k - x_j)^2   (x_1 = 0; variables x_2, x_3, x_4)
+//     generate an ideal of affine dimension 0, i.e. no zero in P^2.
+// Run: Singular -q e4_cert_singular.sing   (prints PASS/FAIL counts)
+option(redSB);
+ring R = (0,w), (q1,q2,q3,q4), dp;
+minpoly = w^2+w+1;
+list mu = 3,5,7,11;
+matrix Pi[4][4];
+int k; int l; int j; int a; int nfail = 0; int npass = 0;
+intvec e;
+// pairs order: 12,13,14,23,24,34
+int i1; int i2; int i3; int i4; int i5; int i6;
+ideal qv = q1,q2,q3,q4;
+for (i1=0; i1<=2; i1++) { for (i2=0; i2<=2; i2++) { for (i3=0; i3<=2; i3++) {
+for (i4=0; i4<=2; i4++) { for (i5=0; i5<=2; i5++) { for (i6=0; i6<=2; i6++) {
+  intvec ex = i1,i2,i3,i4,i5,i6;
+  // exponent matrix
+  intmat E[4][4];
+  E[1,2]=i1; E[2,1]=i1; E[1,3]=i2; E[3,1]=i2; E[1,4]=i3; E[4,1]=i3;
+  E[2,3]=i4; E[3,2]=i4; E[2,4]=i5; E[4,2]=i5; E[3,4]=i6; E[4,3]=i6;
+  ideal A;
+  for (k=1; k<=4; k++) {
+    poly s = 0;
+    for (l=1; l<=4; l++) { if (l != k) { s = s + w^(E[k,l]) * mu[l] * qv[l]; } }
+    A[k] = s; kill s;
+  }
+  ideal I;
+  int c = 1;
+  for (j=1; j<=4; j++) { for (k=j+1; k<=4; k++) { I[c] = qv[j]^2*A[k] - qv[k]^2*A[j]; c++; } }
+  I[c] = mu[1]*q1^3 + mu[2]*q2^3 + mu[3]*q3^3 + mu[4]*q4^3;
+  ideal G = std(I);
+  if (dim(G) == 0) { npass++; } else { nfail++; "FAIL noncollinear pattern"; ex; }
+  kill ex; kill E; kill A; kill I; kill c; kill G;
+}}}}}}
+"noncollinear (729 patterns over Q(w)): pass", npass, "fail", nfail;
+int nfail1 = nfail;
+
+ring S = 0, (x2,x3,x4), dp;
+// mu (a list of integers) is ring-independent and still defined
+ideal X = 0, x2, x3, x4;   // X[1] = x_1 = 0
+if ((ncols(X) != 4) || (X[1] != 0)) { "ERROR: X"; quit; }
+nfail = 0; npass = 0;
+int b1; int b2; int b3; int b4; int b5; int b6;
+for (b1=0; b1<=1; b1++) { for (b2=0; b2<=1; b2++) { for (b3=0; b3<=1; b3++) {
+for (b4=0; b4<=1; b4++) { for (b5=0; b5<=1; b5++) { for (b6=0; b6<=1; b6++) {
+  intmat Sg[4][4];
+  Sg[1,2]=1-2*b1; Sg[1,3]=1-2*b2; Sg[1,4]=1-2*b3; Sg[2,3]=1-2*b4; Sg[2,4]=1-2*b5; Sg[3,4]=1-2*b6;
+  for (k=1; k<=4; k++) { for (l=1; l<k; l++) { Sg[k,l] = -Sg[l,k]; } }
+  ideal I;
+  for (k=1; k<=4; k++) {
+    poly G = 0;
+    for (l=1; l<=4; l++) {
+      if (l != k) {
+        poly t = Sg[k,l]*mu[l];
+        for (j=1; j<=4; j++) { if ((j != k) && (j != l)) { t = t*(X[k]-X[j])^2; } }
+        G = G + t; kill t;
+      }
+    }
+    I[k] = G; kill G;
+  }
+  ideal GB = std(I);
+  if (dim(GB) == 0) { npass++; } else { nfail++; "FAIL collinear pattern"; b1,b2,b3,b4,b5,b6; }
+  kill Sg; kill I; kill GB;
+}}}}}}
+"collinear (64 patterns over Q): pass", npass, "fail", nfail;
+if ((nfail1 == 0) && (nfail == 0)) { "VERDICT: PASS"; } else { "VERDICT: FAIL"; }
+quit;

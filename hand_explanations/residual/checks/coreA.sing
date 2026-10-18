@@ -1,0 +1,17 @@
+// No-label family A (core level): colour y = CC colour (positions of a, b, s; centre m_a Xa + m_b Xb + m_s Xs = 0),
+// colour x: s in the O-child (coordinate 0), centre m_a Ya + m_b Yb = 0. Core relations: both centres, D on three
+// sides, x-equation of a (position), x-equation of s (balance), y-equation of a (position).
+LIB "elim.lib";
+ring R = 0, (Pab,Pas,Pbs,Xa,Xb,Xs,Ya,Yb, ma,mb,ms), dp;
+ideal I =
+  Pab^2*(Xa-Xb)*(Ya-Yb)-1, Pas^2*(Xa-Xs)*Ya-1, Pbs^2*(Xb-Xs)*Yb-1,
+  ma*Ya + mb*Yb,
+  ma*Xa + mb*Xb + ms*Xs,
+  Ya - ms*Pas^3*Ya - mb*Pab^3*(Ya-Yb),
+  ma*Pas^3*(0-Ya) + mb*Pbs^3*(0-Yb),
+  Xa - ms*Pas^3*(Xa-Xs) - mb*Pab^3*(Xa-Xb);
+I = sat(I, ideal(Xa*Xb*Xs*(Xa-Xb)*(Xa-Xs)*(Xb-Xs)*Ya*Yb*(Ya-Yb)));
+ideal E = eliminate(I, Pab*Pas*Pbs*Xa*Xb*Xs*Ya*Yb);
+print("family A core: elimination ideal with " + string(size(E)) + " generator(s)");
+int i; for (i = 1; i <= size(E); i++) { print(factorize(E[i])); }
+quit;

@@ -1,0 +1,20 @@
+ring r = 0,(zbc,wab,wbc,Pab,Pbc,Pac,A),dp;
+int ma=4; int mb=4; int mc=1;
+poly zab = 1; poly zac = zab + zbc; poly wac = wab + wbc;
+ideal K2 = mb*Pab^3*wab + mc*Pac^3*wac, -ma*Pab^3*wab + mc*Pbc^3*wbc;
+ideal K3 = Pab^2*zab*wab-1, Pbc^2*zbc*wbc-1, Pac^2*zac*wac-1;
+ideal K4 = ma*wac + mb*wbc;
+ideal K1 = A - (mb*Pab^3*zab + mc*Pac^3*zac), A - (-ma*Pab^3*zab + mc*Pbc^3*zbc);
+ideal I = K2 + K3 + K4;
+ideal G = std(I); print("K2+K3+K4: dim " + string(dim(G)) + " vdim " + string(vdim(G)));
+ideal I2 = K2 + K3 + K4 + K1;
+ideal G2 = std(I2); print("with K1 (A free): dim " + string(dim(G2)) + " unit " + string(G2[1]==1));
+ideal I3 = I2 + ideal(A-1);
+ideal G3 = std(I3); print("with K1, A=1: dim " + string(dim(G3)) + " unit " + string(G3[1]==1));
+// the difference of the two K1 right-hand sides
+poly dd = (mb*Pab^3*zab + mc*Pac^3*zac) - (-ma*Pab^3*zab + mc*Pbc^3*zbc);
+ideal I4 = I + ideal(dd);
+ideal G4 = std(I4); print("K2+K3+K4 + RHS equal: dim " + string(dim(G4)) + " unit " + string(G4[1]==1));
+ideal I5 = I + ideal(mb*Pab^3*zab + mc*Pac^3*zac);
+ideal G5 = std(I5); print("K2+K3+K4 + RHS=0: dim " + string(dim(G5)) + " unit " + string(G5[1]==1));
+quit;

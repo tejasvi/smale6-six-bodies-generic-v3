@@ -1,0 +1,27 @@
+{
+ "mu0": [
+  1,
+  1,
+  1,
+  1
+ ],
+ "p": 2147483629,
+ "w_mod_p": 882503254,
+ "noncollinear": {
+  "patterns": 729,
+  "fail": [],
+  "full_rank_degree_histogram": {
+   "7": 729
+  }
+ },
+ "collinear": {
+  "patterns": 64,
+  "fail": [],
+  "full_rank_degree_histogram": {
+   "8": 64
+  }
+ },
+ "seconds": 3.67,
+ "verdict": "PASS"
+}
+exit=0

@@ -1,0 +1,5 @@
+{"kind": "kc", "n": 4788, "krawczyk_ok": 4788, "omitted_eq_contains_0": 4788, "torque_pass": 4788, "min_torque_rel": 1.4741831490857877e-06, "min_torque_rel_uniform_patterns": 1.4741831490857877e-06, "n_below_1e-4": 36, "n_below_1e-5": 30, "max_absY4": 49641.247506175605, "near_pairs_float_lt_1e-6": 0, "not_separated": 0, "min_supdist_pairs_with_first_coord_within_1e-9": 2.7809040389525306, "max_box_radius_used": 1.4040947988386496e-53}
+
+real	0m0.452s
+user	0m0.297s
+sys	0m0.063s

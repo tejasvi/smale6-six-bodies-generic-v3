@@ -1,0 +1,49 @@
+LIB "elim.lib";
+// ---------------- W3: y-coordinates of a,b,c (relative to the O-child) = t*(ea,eb,ec); x: three children, Yc = 0
+ring R = 0, (Pab,Pbc,Pca,Ya,Yb,t, ma,mb,mc,ea,eb,ec), dp;
+poly yab = t*(ea-eb); poly ybc = t*(eb-ec); poly yca = t*(ec-ea);
+poly xab = Ya-Yb; poly xbc = Yb; poly xca = -Ya;
+ideal D = Pab^2*yab*xab-1, Pbc^2*ybc*xbc-1, Pca^2*yca*xca-1;
+poly bal_a = mb*Pab^3*yab - mc*Pca^3*yca;
+poly bal_b = -ma*Pab^3*yab + mc*Pbc^3*ybc;
+ideal I = D, bal_a, bal_b;
+ideal S = sat(I, ideal(Pab*Pbc*Pca*Ya*Yb*(Ya-Yb)*t*(ea-eb)*(eb-ec)*(ec-ea)*ma*mb*mc));
+ideal E = eliminate(S, Pab*Pbc*Pca*Ya*Yb*t);
+poly u1 = mc^2*(ea-eb); poly u2 = ma^2*(eb-ec); poly u3 = mb^2*(ec-ea);
+poly HW = (u1*u2+u2*u3+u3*u1)^3 - 27*(u1*u2*u3)^2;
+print("W3: gens " + string(size(E)) + "; E subset <HW>: " + string(size(reduce(E, std(ideal(HW)))) == 0) + "; HW in E: " + string(reduce(HW, std(E)) == 0));
+// balance at a and c instead of a and b (the two balanced vertices may be any two)
+ideal I2 = D, bal_a, ma*Pca^3*yca - mb*Pbc^3*ybc;
+ideal S2 = sat(I2, ideal(Pab*Pbc*Pca*Ya*Yb*(Ya-Yb)*t*(ea-eb)*(eb-ec)*(ec-ea)*ma*mb*mc));
+ideal E2 = eliminate(S2, Pab*Pbc*Pca*Ya*Yb*t);
+print("W3 (bal a,c): E2 subset <HW>: " + string(size(reduce(E2, std(ideal(HW)))) == 0) + "; HW in E2: " + string(reduce(HW, std(E2)) == 0));
+kill R;
+// ---------------- EQ2: y: s in O-child at v, a,b in children with coordinates Ya,Yb; x: same with Xa,Xb
+ring R = 0, (Psa,Psb,Pab,Xa,Xb,Ya,Yb, ma,mb,ms,MA,MB), dp;
+// separations: yhat_sa = -Ya, yhat_sb = -Yb, yhat_ab = Ya-Yb, same in x
+ideal D = Psa^2*Xa*Ya-1, Psb^2*Xb*Yb-1, Pab^2*(Xa-Xb)*(Ya-Yb)-1;
+poly cen = MA*Ya + MB*Yb;
+poly ybal_s = ma*Psa^3*(-Ya) + mb*Psb^3*(-Yb);
+poly ya = Ya - ms*Psa^3*Ya - mb*Pab^3*(Ya-Yb);
+poly xa = Xa - ms*Psa^3*Xa - mb*Pab^3*(Xa-Xb);
+ideal I = D, cen, ybal_s, ya, xa;
+ideal S = sat(I, ideal(Psa*Psb*Pab*Xa*Xb*(Xa-Xb)*Ya*Yb*(Ya-Yb)*ma*mb*ms*MA*MB));
+ideal E = eliminate(S, Psa*Psb*Pab*Xa*Xb*Ya*Yb);
+print("EQ2: gens " + string(size(E))); print(E);
+poly H = ma^2*MA^4 - mb^2*MB^4;
+print("EQ2: E subset <H>: " + string(size(reduce(E, std(ideal(H)))) == 0) + "; H in E: " + string(reduce(H, std(E)) == 0));
+kill R;
+// ---------------- TQ
+ring R = 0, (P11,P12,P21,P22,X1,X2,Y1,Y2, n1,n2,M1,M2), dp;   // n_i = m_{k_i}, M_j = m_{l_j}; P_ij = P_{k_i l_j}
+// yhat_{k l} = -Y_l (k in O-child of the y-root), xhat_{k l} = X_k (l in O-child of xbar)
+ideal D = P11^2*(-Y1)*X1-1, P12^2*(-Y2)*X1-1, P21^2*(-Y1)*X2-1, P22^2*(-Y2)*X2-1;
+poly cy = M1*Y1 + M2*Y2;
+poly cx = n1*X1 + n2*X2;
+// torque T_{l1,l2}: minimal terms delta^3 y_l x_k, coefficient m_l m_k
+poly tq = M1*n1*P11^3*Y1*X1 + M2*n1*P12^3*Y2*X1 + M1*n2*P21^3*Y1*X2 + M2*n2*P22^3*Y2*X2;
+ideal I = D, cy, cx, tq;
+ideal S = sat(I, ideal(P11*P12*P21*P22*X1*X2*Y1*Y2*(X1-X2)*(Y1-Y2)*n1*n2*M1*M2));
+ideal E = eliminate(S, P11*P12*P21*P22*X1*X2*Y1*Y2);
+print("TQ: gens " + string(size(E)));
+print(factorize(E[1]));
+quit;

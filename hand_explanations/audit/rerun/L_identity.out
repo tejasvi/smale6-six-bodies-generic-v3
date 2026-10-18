@@ -1,0 +1,5 @@
+norm == (A^3-B^3-C^3)^3 - 27 A^3B^3C^3: False
+(A^3-B^3-C^3)^3 - 27A^3B^3C^3 == -H_L: True
+t^4 - t^3 + 2t + 1 minimum on t>0: [] real roots of q: []
+reverse quartic real positive roots: []
+prod_{i,j}(x + w^i y + w^j z) == (x^3+y^3+z^3)^3 - 27 x^3y^3z^3: True

@@ -1,0 +1,31 @@
+exact values at m = [1, 2, 7]
+  L_eq  deg  2 mult 1  terms   6  negative coeffs   3  value 3.100000e+01
+  L_eq  deg 12 mult 1  terms  91  negative coeffs   0  value 3.045976e+10
+  L_eq  deg  1 mult 2  terms   3  negative coeffs   0  value 1.000000e+01
+  L01   deg 28 mult 1  terms 433  negative coeffs 194  value 2.483837e+24
+  L01   deg  1 mult 4  terms   3  negative coeffs   0  value 1.000000e+01
+  L10   deg 28 mult 1  terms 433  negative coeffs 194  value 1.177147e+24
+  L10   deg  1 mult 4  terms   3  negative coeffs   0  value 1.000000e+01
+  L11   deg 28 mult 1  terms 433  negative coeffs 194  value 7.085663e+22
+  L11   deg  1 mult 4  terms   3  negative coeffs   0  value 1.000000e+01
+  Cppp  deg 36 mult 1  terms 565  negative coeffs 276  value 4.205878e+30
+  Cppp  deg  1 mult 8  terms   3  negative coeffs   0  value 1.000000e+01
+  Cppm  deg 36 mult 1  terms 565  negative coeffs 276  value 4.237143e+30
+  Cppm  deg  1 mult 8  terms   3  negative coeffs   0  value 1.000000e+01
+  Cpmm  deg 36 mult 1  terms 565  negative coeffs 276  value 3.886089e+30
+  Cpmm  deg  1 mult 8  terms   3  negative coeffs   0  value 1.000000e+01
+  Cpmp  deg  2 mult 1  terms   6  negative coeffs   3  value 3.100000e+01
+  Cpmp  deg 12 mult 1  terms  91  negative coeffs   0  value 3.045976e+10
+  Cpmp  deg 22 mult 1  terms 264  negative coeffs 117  value 4.072047e+18
+  Cpmp  deg  1 mult 8  terms   3  negative coeffs   0  value 1.000000e+01
+P_93 nonzero at [1, 2, 7] : True
+positive zero sets (sign changes on a 400-grid of the simplex):
+  L_eq  deg  2: grid points +79401 / -0, sign changes 0 (L5 vanishes only at equal masses)
+  L_eq  deg 12: grid points +79401 / -0, sign changes 0 -> none found
+  L01   deg 28: grid points +79401 / -0, sign changes 0 -> none found
+  L10   deg 28: grid points +79401 / -0, sign changes 0 -> none found
+  L11   deg 28: grid points +79401 / -0, sign changes 0 -> none found
+  Cppp  deg 36: grid points +79401 / -0, sign changes 0 -> none found
+  Cppm  deg 36: grid points +79401 / -0, sign changes 0 -> none found
+  Cpmm  deg 36: grid points +79401 / -0, sign changes 0 -> none found
+  Cpmp  deg 22: grid points +79401 / -0, sign changes 0 -> none found

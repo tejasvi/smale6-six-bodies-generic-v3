@@ -1,0 +1,31 @@
+R1 (w-centre, w-bal a,b): elimination ideal has 1 generator(s)
+[1]:
+   _[1]=-1
+   _[2]=-ma^3*mb^3+ma^4*ms^2+4*ma^3*mb*ms^2+6*ma^2*mb^2*ms^2+4*ma*mb^3*ms^2+mb^4*ms^2
+   _[3]=ma^6*mb^6-2*ma^7*mb^3*ms^2+ma^6*mb^4*ms^2+6*ma^5*mb^5*ms^2+ma^4*mb^6*ms^2-2*ma^3*mb^7*ms^2+ma^8*ms^4-ma^7*mb*ms^4+ma^6*mb^2*ms^4+2*ma^5*mb^3*ms^4-2*ma^4*mb^4*ms^4+2*ma^3*mb^5*ms^4+ma^2*mb^6*ms^4-ma*mb^7*ms^4+mb^8*ms^4
+[2]:
+   1,1,1
+  E subset <H>: 1;  H in E: 1
+R1-variant (w-centre, w-bal a, U_T): elimination ideal has 1 generator(s)
+[1]:
+   _[1]=-1
+   _[2]=-ma^3*mb^3+ma^4*ms^2+4*ma^3*mb*ms^2+6*ma^2*mb^2*ms^2+4*ma*mb^3*ms^2+mb^4*ms^2
+   _[3]=ma^6*mb^6-2*ma^7*mb^3*ms^2+ma^6*mb^4*ms^2+6*ma^5*mb^5*ms^2+ma^4*mb^6*ms^2-2*ma^3*mb^7*ms^2+ma^8*ms^4-ma^7*mb*ms^4+ma^6*mb^2*ms^4+2*ma^5*mb^3*ms^4-2*ma^4*mb^4*ms^4+2*ma^3*mb^5*ms^4+ma^2*mb^6*ms^4-ma*mb^7*ms^4+mb^8*ms^4
+[2]:
+   1,1,1
+  E subset <H>: 1;  H in E: 1
+R5 (w-centre, z-bal a, U_T): elimination ideal has 1 generator(s)
+[1]:
+   _[1]=-1
+   _[2]=-ma^5*mb^5+ma^8*ms^2+3*ma^7*mb*ms^2+3*ma^6*mb^2*ms^2+ma^5*mb^3*ms^2+ma^3*mb^5*ms^2+3*ma^2*mb^6*ms^2+3*ma*mb^7*ms^2+mb^8*ms^2
+[2]:
+   1,1
+  E subset <H>: 1;  H in E: 1
+R6 (w-centre, w-bal s, z-bal a): elimination ideal has 1 generator(s)
+[1]:
+   _[1]=-1
+   _[2]=-ma*mb^5+ma^4*ms^2+4*ma^3*mb*ms^2+6*ma^2*mb^2*ms^2+4*ma*mb^3*ms^2+mb^4*ms^2
+   _[3]=ma^2*mb^10-2*ma^5*mb^5*ms^2-5*ma^4*mb^6*ms^2-3*ma^3*mb^7*ms^2+ma^2*mb^8*ms^2+ma*mb^9*ms^2+ma^8*ms^4+5*ma^7*mb*ms^4+10*ma^6*mb^2*ms^4+11*ma^5*mb^3*ms^4+10*ma^4*mb^4*ms^4+11*ma^3*mb^5*ms^4+10*ma^2*mb^6*ms^4+5*ma*mb^7*ms^4+mb^8*ms^4
+[2]:
+   1,1,1
+  E subset <H>: 1;  H in E: 1

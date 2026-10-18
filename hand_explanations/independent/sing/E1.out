@@ -1,0 +1,16 @@
+case 1 (w-balance at 1=a / 0=c): elim gens 1
+ma^8*mb^8-4*ma^8*mb^6*mc^2-4*ma^6*mb^8*mc^2+6*ma^8*mb^4*mc^4-124*ma^6*mb^6*mc^4+6*ma^4*mb^8*mc^4-4*ma^8*mb^2*mc^6-124*ma^6*mb^4*mc^6-124*ma^4*mb^6*mc^6-4*ma^2*mb^8*mc^6+ma^8*mc^8-4*ma^6*mb^2*mc^8+6*ma^4*mb^4*mc^8-4*ma^2*mb^6*mc^8+mb^8*mc^8
+E in <H>: 1
+H in E: 1
+case 2 (w-balance at 0=a / 0=c): elim gens 1
+ma^8*mb^8-4*ma^8*mb^6*mc^2-4*ma^6*mb^8*mc^2+6*ma^8*mb^4*mc^4-124*ma^6*mb^6*mc^4+6*ma^4*mb^8*mc^4-4*ma^8*mb^2*mc^6-124*ma^6*mb^4*mc^6-124*ma^4*mb^6*mc^6-4*ma^2*mb^8*mc^6+ma^8*mc^8-4*ma^6*mb^2*mc^8+6*ma^4*mb^4*mc^8-4*ma^2*mb^6*mc^8+mb^8*mc^8
+E in <H>: 1
+H in E: 1
+[1]:
+   _[1]=1
+   _[2]=ma^2*mb^2-2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[3]=ma^2*mb^2+2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2-2*ma*mb*mc^2+mb^2*mc^2
+   _[4]=ma^2*mb^2+2*ma^2*mb*mc-2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+   _[5]=ma^2*mb^2-2*ma^2*mb*mc+2*ma*mb^2*mc+ma^2*mc^2+2*ma*mb*mc^2+mb^2*mc^2
+[2]:
+   1,1,1,1,1

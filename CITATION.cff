@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these programs or data, please cite the paper."
+title: "Supplementary material for \"Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean\""
+authors:
+  - family-names: Tomar
+    given-names: Tejasvi Singh
+    affiliation: Independent researcher
+    orcid: "https://orcid.org/0000-0003-4668-3639"
+doi: 10.5281/zenodo.23451291
+version: "3"
+repository-code: "https://github.com/tejasvi/smale6-six-bodies-generic-v3"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "Smale's sixth problem for six bodies in the plane: finiteness of central configurations for generic masses, with a proof formalized in Lean"
+  authors:
+    - family-names: Tomar
+      given-names: Tejasvi Singh
+      affiliation: Independent researcher
+      orcid: "https://orcid.org/0000-0003-4668-3639"
+  doi: 10.5281/zenodo.23451290
+  year: 2026

@@ -1,0 +1,13 @@
+ta,pab,pac,pbc,pbd,pcd,ca
+1073741789
+-2*ta*pab^3+2*ta*pac^3+2*pab^3+6*pac^3+4,
+2*ta*pab^3+6*ta*pbc^3+4*ta*pbd^3-2*pab^3+2*pbc^3,
+-ta*pac^3-3*ta*pbc^3-2*ta*pcd^3-3*pac^3-pbc^3-2*pcd^3,
+-2*ta*pbd^3+2*ta*pcd^3+2*pcd^3-2,
+4*ta^2*ca-4*ta^2+2*ta*pab-8*ta*pac+8*ta*ca-8*ta+6*pab+8*pac-12*ca+12,
+-12*ta^3*ca+6*ta^2*pab+8*ta^2*pbc+12*ta^2*pbd+8*ta^2*ca+2*ta*pab-8*ta*pbc-8*ta*pbd+4*ta*ca-4*pbd,
+3*ta^3*ca+3*ta^2*pac+ta^2*pbc+6*ta^2*pcd+13*ta^2*ca+4*ta*pac+4*ta*pbc+20*ta*pcd+13*ta*ca+pac+3*pbc+6*pcd+3*ca,
+2*ta^2*pab^2*pac^2-6*ta^2*pab^2*pbc^2-3*ta^2*pac^2*pbc^2+4*ta*pab^2*pac^2+4*ta*pab^2*pbc^2-10*ta*pac^2*pbc^2-6*pab^2*pac^2+2*pab^2*pbc^2-3*pac^2*pbc^2,
+-4*ta^2*pab^2*pbd^2+4*ta*pab^2*pbd^2+4*ta*pab^2-4*ta*pbd^2-4*pab^2,
+-ta^2*pac^2*pcd^2-4*ta*pac^2*pcd^2-2*ta*pac^2+2*ta*pcd^2-3*pac^2*pcd^2-6*pac^2+2*pcd^2,
+-6*ta^2*pbc^2*pbd^2-3*ta^2*pbc^2*pcd^2+2*ta^2*pbd^2*pcd^2-2*ta*pbc^2*pbd^2-4*ta*pbc^2*pcd^2+2*ta*pbd^2*pcd^2-pbc^2*pcd^2

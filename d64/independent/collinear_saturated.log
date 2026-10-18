@@ -1,0 +1,9 @@
+masses 5 2 11 3 : collinear patterns with a projective zero: 16 ; after saturating out xi_k = xi_l: 0
+masses 1 1 1 2 : collinear patterns with a projective zero: 36 ; after saturating out xi_k = xi_l: 0
+masses 1 2 3 4 : collinear patterns with a projective zero: 28 ; after saturating out xi_k = xi_l: 0
+masses 2 3 5 7 : collinear patterns with a projective zero: 28 ; after saturating out xi_k = xi_l: 0
+masses 3 5 7 11 : collinear patterns with a projective zero: 0 ; after saturating out xi_k = xi_l: 0
+
+real	0m0.207s
+user	0m0.151s
+sys	0m0.006s

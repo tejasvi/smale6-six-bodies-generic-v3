@@ -1,0 +1,18 @@
+mu=(1, 2, 7) lag: d=2, lc=1, radius 2^-127
+mu=(1, 2, 7) N01: d=4, lc=1, radius 2^-61
+mu=(1, 2, 7) N10: d=4, lc=1, radius 2^-61
+mu=(1, 2, 7) N11: d=4, lc=1, radius 2^-61
+mu=(1, 2, 7) Q(1, 1, 1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 7) Q(1, 1, -1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 7) Q(1, -1, -1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 7) Q(1, -1, 1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 7): min over the disks of the lower bound of rho: 0.764107938541 at N11 disk 0, t ~ -0.473561 + 0.444772 i; upper bound of rho on that disk 0.764107938541
+mu=(1, 2, 8) lag: d=2, lc=1, radius 2^-127
+mu=(1, 2, 8) N01: d=4, lc=1, radius 2^-61
+mu=(1, 2, 8) N10: d=4, lc=1, radius 2^-61
+mu=(1, 2, 8) N11: d=4, lc=1, radius 2^-61
+mu=(1, 2, 8) Q(1, 1, 1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 8) Q(1, 1, -1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 8) Q(1, -1, -1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 8) Q(1, -1, 1): d=5, lc=3, radius 2^-48
+mu=(1, 2, 8): min over the disks of the lower bound of rho: 0.799035844529 at N11 disk 0, t ~ -0.473561 + 0.444772 i; upper bound of rho on that disk 0.799035844529

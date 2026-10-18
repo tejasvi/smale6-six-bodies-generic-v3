@@ -1,0 +1,2 @@
+'Lean6.Special.D88.TropK.kc_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Lean6.Special.D88.TropK.n4_torus_gamma' depends on axioms: [propext, Classical.choice, Quot.sound]
